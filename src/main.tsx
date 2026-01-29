@@ -1,13 +1,23 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
+
+// Import fonts first
+import '@fontsource/inter'; // 400 weight
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+
+// Then CSS
 import './index.css'
+
+// Then components
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter >
+    <BrowserRouter>
       <App />
-    </ BrowserRouter >
+    </BrowserRouter>
   </StrictMode>,
 )
