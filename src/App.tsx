@@ -9,22 +9,26 @@ import TermsAndConditions from './pages/Legal/TermsAndConditions'
 import PrivacyAndPolicy from './pages/Legal/PrivacyAndPolicy'
 import NotFound from './pages/NotFound/NotFound'
 import ContactUs from './pages/Contact/ContactUs'
+import BlogIndividual from './pages/Blogs/BlogIndividual/BlogIndividual'
 
 function App() {
 
   return (
-     <Routes>
+  <Routes>
       <Route element={<MainLayout />}>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<Aboutus/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<Aboutus />} />
         <Route path="/courses" element={<AllCourses />} />
-        <Route path="/blogs" element={<AllBlogs/>} />
-        <Route path='/contact' element={<ContactUs />} />
+        <Route path="/blogs" element={<AllBlogs />} />
+        
+        <Route path="/blogs/:slug" element={<BlogIndividual />} />
+
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/terms" element={<TermsAndConditions />} />
-        <Route path="/privacy" element={<PrivacyAndPolicy/>} />
+        <Route path="/privacy" element={<PrivacyAndPolicy />} />
       </Route>
 
-      {/* 404 Route */}
+      {/* 404 */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   )

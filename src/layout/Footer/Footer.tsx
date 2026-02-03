@@ -122,7 +122,7 @@ const Footer = () => {
 
             <div className="space-y-3 text-sm text-white/70">
               <p>Phone: +123 456 7890</p>
-              <p>Email: support@learnnix.com</p>
+              <p>Email: support@proximsoft.com</p>
               <p>
                 Address:
                 <br />
@@ -138,8 +138,11 @@ const Footer = () => {
         <div className="mt-16 flex flex-col md:flex-row items-center justify-between gap-6">
 
           <p className="text-xs text-white/60">
-            © 2024 proximsoft |<Link  to={'/terms'}>Terms & Conditions </Link>| <Link to={'/privacy'}>Privacy & Policy</Link>
+            © {new Date().getFullYear()} proximsoft |{" "}
+            <Link to="/terms">Terms & Conditions</Link> |{" "}
+            <Link to="/privacy">Privacy & Policy</Link>
           </p>
+
 
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4">
