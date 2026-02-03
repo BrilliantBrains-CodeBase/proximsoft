@@ -14,9 +14,12 @@ import './index.css'
 // Then components
 import App from './App.tsx'
 
+import ScrollToTop from './layout/Scroll/ScrollToTop.tsx';
+
 createRoot(document.getElementById('root')!).render(
   // <StrictMode>
     <BrowserRouter>
+     <ScrollToTop />
       <App />
     </BrowserRouter>
   // </StrictMode>,
