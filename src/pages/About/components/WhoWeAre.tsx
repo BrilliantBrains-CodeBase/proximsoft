@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 const WhoWeAre = () => {
   return (
-    <section className="bg-[#f8fafc] py-16">
+    <section className="bg-white py-16">
       <div className="mx-auto max-w-7xl px-4">
         <div
           className="
-            rounded-2xl bg-white p-6 shadow-sm
+            rounded-2xl bg-[#f8fafc] p-6 shadow-sm
             md:p-10
           "
         >
