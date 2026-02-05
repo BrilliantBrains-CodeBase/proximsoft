@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X, ArrowUpRight } from "lucide-react";
 
+import { courseNavItems } from "../../data/navbar/courseNav";
+
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [coursesOpen, setCoursesOpen] = useState(false);
@@ -57,12 +59,11 @@ const Navbar = () => {
                      <DropdownItem to="/courses">
                       All Courses
                     </DropdownItem>
-                    <DropdownItem to="/courses/frontend">
-                      Frontend Development
-                    </DropdownItem>
-                    <DropdownItem to="/courses/backend">
-                      Backend Development
-                    </DropdownItem>
+                    {courseNavItems.map(item => (
+                      <DropdownItem key={item.to} to={item.to}>
+                        {item.label}
+                      </DropdownItem>
+                    ))}
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -151,18 +152,11 @@ const Navbar = () => {
                       >
                         All Courses
                       </MobileItem>
-                      <MobileItem
-                        to="/courses/frontend"
-                        onClick={() => setMobileOpen(false)}
-                      >
-                        Frontend Development
-                      </MobileItem>
-                      <MobileItem
-                        to="/courses/backend"
-                        onClick={() => setMobileOpen(false)}
-                      >
-                        Backend Development
-                      </MobileItem>
+                      {courseNavItems.map(item => (
+                          <MobileItem key={item.to} to={item.to} onClick={() => setMobileOpen(false)}>
+                            {item.label}
+                          </MobileItem>
+                        ))}
                     </motion.div>
                   )}
                 </AnimatePresence>
