@@ -1,0 +1,117 @@
+{
+  "course_details": {
+    "course_id": "",
+    "course_uid": "",
+    "course_title": "",
+    "course_subtitle": "",
+    "course_slug": "",
+    "course_thumbnail": "assets/images/courses/course-thumb-01.jpg",
+    "course_short_description": "",
+    "course_long_description": "",
+    "about_course": [],
+    "course_status": "draft", 
+    "difficulty_level": "Intermediate",
+    "batch_type": "Live",
+    "course_priority": "medium",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "",
+      "category_title": "",
+      "category_url": ""
+    }
+  },
+  "course_structure": {
+    "course_timeline": "",
+    "total_duration": "",
+    "weekly_commitment_duration": "",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "",
+    "is_shareable": true,
+    "certificate_image_url": ""
+  },
+  "learning_content": {
+    "prerequisites": [],
+    "key_learnings": [],
+    "ideal_candidates": [],
+    "skills_gained": {
+      "core_skills": [],
+      "supporting_skills": []
+    },
+    "tools_and_technologies": {
+      "primary": [],
+      "secondary": []
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "0%",
+      "student_completion_rate": "0%",
+      "placement_rate": "0%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 0,
+    "has_capstone_project": true,
+    "total_capstone_projects": 0,
+    "project_description": ""
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 0,
+      "total_lectures": 0
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "",
+        "module_duration": "",
+        "topics": []
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 0.0,
+    "total_reviews": 0,
+    "total_students_enrolled": 0
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "",
+      "answer": ""
+    }
+  ],
+  "target_audience": [],
+  "metadata": {
+    "course_date": "",
+    "latest_update_date": ""
+  },
+  "seo_metadata": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_url": ""
+  }
+}

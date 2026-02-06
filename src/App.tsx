@@ -10,6 +10,7 @@ import PrivacyAndPolicy from './pages/Legal/PrivacyAndPolicy'
 import NotFound from './pages/NotFound/NotFound'
 import ContactUs from './pages/Contact/ContactUs'
 import BlogIndividual from './pages/Blogs/BlogIndividual/BlogIndividual'
+import CourseIndividual from './pages/Courses/CourseIndividualPage/CourseIndividual'
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Aboutus />} />
         <Route path="/courses" element={<AllCourses />} />
+
+        <Route path='/courses/:category-slug/:course-slug' element={<CourseIndividual />}/>
         <Route path="/blogs" element={<AllBlogs />} />
         
         <Route path="/blogs/:slug" element={<BlogIndividual />} />
