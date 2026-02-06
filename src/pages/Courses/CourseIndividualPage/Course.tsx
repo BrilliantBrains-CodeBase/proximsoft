@@ -2,7 +2,7 @@ import type { CourseData } from "../../../types/course"; // Adjust path as neede
 import Breadcrumbs from "./components/Breadcrumbs";
 import CourseHero from "./components/CourseHero";
 import CourseContentNavigation from "./components/CourseContentNavigation";
-import CourseDurationAndStructure from "./components/CourseDurationAndStructure";
+// import CourseDurationAndStructure from "./components/CourseDurationAndStructure";
 import CourseCurriculum from "./components/CourseCurriculum";
 import ToolsTechnologies from "./components/ToolsTechnologies";
 import CourseSkills from "./components/CourseSkills";
