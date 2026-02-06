@@ -1,7 +1,11 @@
+import CTASection from "../../../layout/CTA/CTASection"
+import AllCoursesSection from "./components/AllCoursesSection"
+
 const AllCourses = () => {
   return (
     <div>
-      <h1>All courses</h1>
+      <AllCoursesSection />
+      <CTASection />
     </div>
   )
 }

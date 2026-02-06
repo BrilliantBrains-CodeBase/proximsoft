@@ -83,6 +83,35 @@ export const courseCategories: CourseCategory[] = [
     courseCount: 80,
     isActive: true
   },
+  // Add these to your export const courseCategories: CourseCategory[] array
+{
+  uid: "cat-salesforce-005",
+  categoryId: "CAT_SALESFORCE",
+  slug: "salesforce",
+  title: "Salesforce",
+  metaTitle: "Salesforce CRM Training | Proximsoft",
+  metaDescription: "Master Salesforce administration and development with our comprehensive training.",
+  metaUrl: "/courses/salesforce",
+  coverImage: "/images/category/coursecover.avif",
+  sequence: 7,
+  priority: "medium",
+  courseCount: 35,
+  isActive: true
+},
+{
+  uid: "cat-sap-006",
+  categoryId: "CAT_SAP",
+  slug: "sap",
+  title: "SAP",
+  metaTitle: "SAP ERP Modules & Certification | Proximsoft",
+  metaDescription: "Learn SAP ERP modules including FICO, MM, and SD from industry experts.",
+  metaUrl: "/courses/sap",
+  coverImage: "/images/category/coursecover.avif",
+  sequence: 8,
+  priority: "medium",
+  courseCount: 28,
+  isActive: true
+},
   {
     uid: "cat-dev-007",
     categoryId: "CAT_DEV",
