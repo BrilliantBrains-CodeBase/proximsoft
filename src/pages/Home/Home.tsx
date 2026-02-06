@@ -1,4 +1,6 @@
+import { testimonials } from "../../data/testimonials/testimonials"
 import CTASection from "../../layout/CTA/CTASection"
+import TestimonialSection from "../../layout/Testimonials/TestimonialSection"
 import CourseCategoriesSection from "./components/CourseCategoriesSection"
 import FaqSection from "./components/FaqSection"
 import StatsCTASection from "./components/StatsCTASection"
@@ -10,6 +12,7 @@ const Home = () => {
       <CourseCategoriesSection />
       <WhyTrustUsSection />
       <StatsCTASection />
+      <TestimonialSection testimonials={testimonials}/>
       <FaqSection />
       <CTASection />
     </div>
