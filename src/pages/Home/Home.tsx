@@ -8,11 +8,13 @@ import WhyTrustUsSection from "./components/WhyTrustUsSection"
 
 const Home = () => {
   return (
-    <div className="mt-22 bg-white">
+    <div className="">
       <CourseCategoriesSection />
       <WhyTrustUsSection />
       <StatsCTASection />
-      <TestimonialSection testimonials={testimonials}/>
+      <div className="relative z-10 bg-white">
+        <TestimonialSection testimonials={testimonials}/>
+      </div>
       <FaqSection />
       <CTASection />
     </div>

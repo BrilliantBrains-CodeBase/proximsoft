@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white pt-20 pb-8">
+    <footer className="bg-black text-white pt-20 pb-8 z-50">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* TOP CTA SECTION */}

@@ -1,6 +1,10 @@
 import { useRef } from "react";
-import { motion } from "framer-motion";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import type { Swiper as SwiperType } from "swiper";
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
+
+// CSS imports moved to global CSS file
 
 export interface TestimonialData {
   id: string;
@@ -20,18 +24,7 @@ interface TestimonialSectionProps {
 }
 
 const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
-  const scrollRef = useRef<HTMLDivElement>(null);
-
-  const scroll = (direction: "left" | "right") => {
-    if (!scrollRef.current) return;
-
-    const scrollAmount = scrollRef.current.offsetWidth * 0.8;
-
-    scrollRef.current.scrollBy({
-      left: direction === "left" ? -scrollAmount : scrollAmount,
-      behavior: "smooth",
-    });
-  };
+  const swiperRef = useRef<SwiperType | undefined>(undefined);
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-16">
@@ -44,14 +37,14 @@ const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
         {/* Navigation arrows - hidden on mobile */}
         <div className="hidden md:flex gap-2">
           <button
-            onClick={() => scroll("left")}
+            onClick={() => swiperRef.current?.slidePrev()}
             className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 transition"
             aria-label="Previous testimonials"
           >
             <ChevronLeft size={20} className="text-gray-700" />
           </button>
           <button
-            onClick={() => scroll("right")}
+            onClick={() => swiperRef.current?.slideNext()}
             className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 transition"
             aria-label="Next testimonials"
           >
@@ -60,11 +53,34 @@ const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
         </div>
       </div>
 
-      {/* Carousel */}
-      <div
-        ref={scrollRef}
-        className="flex gap-5 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4
-                   [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+      {/* Swiper Carousel */}
+      <Swiper
+        modules={[Navigation, Pagination, Autoplay]}
+        onBeforeInit={(swiper) => {
+          swiperRef.current = swiper;
+        }}
+        spaceBetween={20}
+        slidesPerView={1.2}
+        breakpoints={{
+          640: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        }}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        loop={testimonials.length > 4}
+        className="testimonial-swiper"
       >
         {testimonials.map(
           ({
@@ -79,16 +95,8 @@ const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
             logo,
             stat,
           }) => (
-            <motion.div
-              key={id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5 }}
-              className="snap-start shrink-0
-                         w-[80vw] sm:w-[70vw] md:w-[calc(50%-10px)] lg:w-[calc(25%-15px)]"
-            >
-              <div className="h-full flex flex-col p-6 md:p-7 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-shadow duration-300">
+            <SwiperSlide key={id}>
+              <div className="h-[350px] flex flex-col p-6 md:p-7 rounded-xl border border-gray-200 bg-white shadow-md hover:shadow-lg transition-shadow duration-300 my-4">
                 {/* Quote Icon */}
                 <Quote
                   size={24}
@@ -97,7 +105,7 @@ const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
                 />
 
                 {/* Quote Text */}
-                <p className="text-gray-700 leading-relaxed mb-6 flex-grow text-[15px]">
+                <p className="text-gray-700 leading-tight mb-6 flex-grow text-sm">
                   {quote.split(highlight || "").map((part, i, arr) => (
                     <span key={i}>
                       {part}
@@ -118,9 +126,7 @@ const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
                       alt="Company logo"
                       className="h-6 mb-2 object-contain"
                     />
-                    {stat && (
-                      <p className="text-sm text-gray-500">{stat}</p>
-                    )}
+                    {stat && <p className="text-sm text-gray-500">{stat}</p>}
                   </div>
                 )}
 
@@ -135,7 +141,7 @@ const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
                     <p className="font-semibold text-gray-900 text-[15px]">
                       {author}
                     </p>
-                    <p className="text-[13px] text-gray-600 leading-snug">
+                    <p className="text-xs text-gray-600 leading-snug">
                       {role}
                     </p>
                   </div>
@@ -143,17 +149,32 @@ const TestimonialSection = ({ testimonials }: TestimonialSectionProps) => {
 
                 {/* Link */}
                 
-                <a  href={linkUrl}
+                <a href={linkUrl}
                   className="text-[#3B8EEA] font-semibold text-[15px] inline-flex items-center gap-1 hover:underline"
                 >
                   {linkText}
                   <span className="text-xl">›</span>
                 </a>
               </div>
-            </motion.div>
+            </SwiperSlide>
           )
         )}
-      </div>
+      </Swiper>
+
+      {/* Custom CSS to hide scrollbar completely
+      <style jsx global>{`
+        .testimonial-swiper {
+          overflow: visible !important;
+        }
+        
+        .testimonial-swiper .swiper-wrapper {
+          padding-bottom: 10px;
+        }
+
+        .testimonial-swiper .swiper-slide {
+          height: auto;
+        }
+      `}</style> */}
     </section>
   );
 };
