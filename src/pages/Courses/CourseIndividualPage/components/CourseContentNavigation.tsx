@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LucideChevronDown, LucideChevronUp, LucideCheckCircle2 } from 'lucide-react';
+import { LucideChevronDown, LucideCheckCircle2 } from 'lucide-react';
 import type { LearningContent, CourseDetails } from '../../../../types/course';
 
 interface CourseContentProps {
