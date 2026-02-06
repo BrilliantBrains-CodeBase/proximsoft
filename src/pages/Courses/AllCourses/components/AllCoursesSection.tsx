@@ -110,7 +110,7 @@ const AllCoursesSection = () => {
                 className="group cursor-pointer flex flex-col items-center text-center"
                 onClick={() => navigate(course.metaUrl)}
               >
-                <div className="relative w-full aspect-[4/3] rounded-[2.5rem] overflow-hidden mb-6 shadow-sm">
+                <div className="relative h-52 w-full aspect-[4/3] rounded-[2.5rem] overflow-hidden mb-6 shadow-sm">
                   <img
                     src={course.coverImage}
                     alt={course.title}
