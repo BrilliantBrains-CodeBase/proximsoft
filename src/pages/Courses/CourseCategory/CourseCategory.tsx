@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo , useEffect } from 'react';
 import { useParams, useSearchParams } from 'react-router-dom';
 import { courses } from '../../../data/courses/course';
 import { courseCategories } from '../../../data/categories/courseCategories'; 
@@ -8,12 +8,19 @@ import Breadcrumb from './components/BreadCrumb';
 import useMeta from '../../../hooks/useMeta';
 import CTASection from '../../../layout/CTA/CTASection';
 
-const COURSES_PER_PAGE = 9;
+const COURSES_PER_PAGE = 6;
 
 const CourseCategory = () => {
   const { "course-category-slug": categorySlug } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
   const currentPage = parseInt(searchParams.get('page') || '1');
+
+  useEffect(() => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+}, [currentPage]);
 
   // 1. Find the current category data for SEO and Header
   const currentCategory = useMemo(() => {
@@ -42,7 +49,6 @@ const CourseCategory = () => {
 
   const handlePageChange = (page: number) => {
     setSearchParams({ page: page.toString() });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // 5. 404 Guard
