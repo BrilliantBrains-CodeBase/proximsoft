@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header
       className="fixed top-0 left-0 w-full z-50
-      bg-gradient-to-r from-[#3B8EEA] to-[#2E78CC]
+      bg-[#2E78CC]
       "
     >
       <div className="max-w-7xl mx-auto px-4">
