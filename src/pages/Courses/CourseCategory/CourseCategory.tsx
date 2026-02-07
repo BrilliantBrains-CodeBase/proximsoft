@@ -61,7 +61,7 @@ const CourseCategory = () => {
   }
 
   return (
-    <div className="min-h-screen bg-white pt-16 mt-6 pb-24 px-6">
+    <div className="min-h-screen bg-white pt-16 mt-6  px-6">
       <div className="max-w-6xl mx-auto">
         
         <Breadcrumb categoryName={currentCategory.title} />

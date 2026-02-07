@@ -7,7 +7,7 @@ const CourseCategoriesSection = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-20">
+    <section className="max-w-7xl mx-auto px-4 py-8">
       {/* Header */}
       <div className="text-center mb-14">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -19,11 +19,12 @@ const CourseCategoriesSection = () => {
         </p>
       </div>
 
-      {/* Grid */}
+      {/* Grid - Strictly Sliced to 6 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {courseCategories
           .filter(cat => cat.isActive)
           .sort((a, b) => a.sequence - b.sequence)
+          .slice(0, 6)
           .map(category => (
             <motion.div
               key={category.uid}
@@ -60,9 +61,10 @@ const CourseCategoriesSection = () => {
             </motion.div>
           ))}
       </div>
+
       <div className="flex justify-center w-full mt-12">
         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.96 }}>
-            <Link
+          <Link
             to="/courses"
             className="
                 px-8 py-3 rounded-full
@@ -72,12 +74,11 @@ const CourseCategoriesSection = () => {
                 hover:bg-[#2f7fd6]
                 transition-all duration-300
             "
-            >
+          >
             View All
-            </Link>
+          </Link>
         </motion.div>
-        </div>
-
+      </div>
     </section>
   );
 };

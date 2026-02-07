@@ -68,7 +68,7 @@ const Hero = () => {
         </p>
 
         {/* Search Input */}
-        <div className="relative w-full max-w-xl mb-4" ref={dropdownRef}>
+        <div className="relative w-full max-w-md mb-4" ref={dropdownRef}>
           <div className="relative group">
             <Search className="absolute left-5 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
             <input 
