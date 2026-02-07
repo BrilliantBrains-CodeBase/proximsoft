@@ -6,8 +6,15 @@ import FaqSection from "./components/FaqSection"
 import Hero from "./components/Hero"
 import StatsCTASection from "./components/StatsCTASection"
 import WhyTrustUsSection from "./components/WhyTrustUsSection"
+import useMeta from "../../hooks/useMeta" // Adjust path as needed
 
 const Home = () => {
+  // Setup SEO metadata for the Landing Page
+  useMeta({
+    title: "Proximsoft | Empower Your Future with Expert-Led Courses",
+    description: "Join thousands of learners gaining real-world skills in AI, Cloud Computing, Software Development, and more. Start your journey with Proximsoft today.",
+  });
+
   return (
     <div className="">
       <Hero />
