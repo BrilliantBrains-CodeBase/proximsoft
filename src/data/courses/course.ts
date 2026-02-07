@@ -254,7 +254,7 @@ export const courses: CourseData[] =[
     "latest_update_date": "2024-06-01"
   },
   "seo_metadata": {
-    "meta_title": "Agentic AI Course: Build Autonomous AI Agents with LLMs & RAG",
+    "meta_title": "Agentic AI Course: Build Autonomous AI Agents with LLMs & RAG | Proximsoft",
     "meta_description": "Master Agentic AI engineering. Learn to build autonomous agents using LangChain, LlamaIndex, and Python. Designed for software and AI engineers.",
     "meta_url": "/courses/artificial-intelligence/agentic-ai-course"
   }

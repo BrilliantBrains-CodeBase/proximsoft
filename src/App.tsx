@@ -11,6 +11,7 @@ import NotFound from './pages/NotFound/NotFound'
 import ContactUs from './pages/Contact/ContactUs'
 import BlogIndividual from './pages/Blogs/BlogIndividual/BlogIndividual'
 import CourseIndividual from './pages/Courses/CourseIndividualPage/CourseIndividual'
+import CourseCategory from './pages/Courses/CourseCategory/CourseCategory'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Aboutus />} />
         <Route path="/courses" element={<AllCourses />} />
-
+        <Route path="/courses/:course-category-slug" element={<CourseCategory />} />
         <Route path='/courses/:category-slug/:course-slug' element={<CourseIndividual />}/>
         <Route path="/blogs" element={<AllBlogs />} />
         
