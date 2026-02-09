@@ -40,12 +40,13 @@ const Hero = () => {
   return (
     <section className="relative w-full h-[100vh]  overflow-hidden bg-[#2E78CC] flex flex-col pt-16 text-white">
       
-      {/* 1. Background Circles - Anchored to Bottom behind the image */}
-      <div className="absolute inset-x-0 bottom-0 flex items-center justify-center pointer-events-none translate-y-[20%] z-0">
-        <div className="absolute w-[1000px] h-[1000px] rounded-full bg-white/5 border border-white/10" />
-        <div className="absolute w-[800px] h-[800px] rounded-full bg-white/5 border border-white/10" />
-        <div className="absolute w-[600px] h-[600px] rounded-full bg-white/10" />
-        <div className="absolute w-[400px] h-[400px] rounded-full bg-white/20" />
+   {/* 1. Background Circles - Optimized to prevent aliasing artifacts */}
+      <div className="absolute inset-x-0 bottom-0 flex items-center justify-center pointer-events-none translate-y-[70%] z-0">
+        {/* Adding 'will-change-transform' and 'backface-visibility' helps browsers render circles cleaner */}
+        <div className="absolute w-[1000px] h-[1000px] rounded-full bg-white/5 blur-3xl will-change-transform" />
+        <div className="absolute w-[800px] h-[800px] rounded-full bg-white/5 border border-white/10 will-change-transform" />
+        <div className="absolute w-[600px] h-[600px] rounded-full bg-white/10 will-change-transform" />
+        <div className="absolute w-[400px] h-[400px] rounded-full bg-white/20 will-change-transform" />
       </div>
 
       {/* 2. Top Content: Heading & Search */}
@@ -55,16 +56,17 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           className="bg-white/10 backdrop-blur-md border border-white/20 px-3 py-1 rounded-full flex items-center gap-2 mb-4"
         >
-          <span className="text-xs font-bold tracking-wide uppercase">🎓 Top Expert Guidance</span>
+          <span className="text-xs font-bold tracking-wide uppercase">🎓 Learn from industry experts</span>
         </motion.div>
 
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-black tracking-tight leading-[1.1] mb-4">
-          Learn Anywhere, Anytime <br />
-          <span className="text-white/90 text-3xl md:text-5xl">Empower Your Future</span>
+          Learn Online. Build Skills.<br />
+          <span className="text-white/90 text-3xl md:text-5xl"> Grow Your Career.</span>
         </h1>
 
         <p className="max-w-lg text-sm md:text-base text-white/80 mb-6 leading-relaxed">
-          Join thousands of learners gaining new skills and advancing careers—one lesson at a time.
+          A modern online learning platform offering affordable online courses, practical training programs, and career focused certifications.
+
         </p>
 
         {/* Search Input */}
@@ -120,14 +122,14 @@ const Hero = () => {
           viewport={{ once: true }}
           className="bg-white p-5 rounded-[2rem] shadow-2xl text-slate-900 text-left w-52 hidden lg:block mb-16"
         >
-          <h3 className="text-3xl font-black mb-1">5.0</h3>
+          <h3 className="text-3xl font-black mb-1">4.8</h3>
           <div className="flex gap-0.5 mb-2">
             {[...Array(5)].map((_, i) => (
               <Star key={i} size={14} className="fill-yellow-400 text-yellow-400" />
             ))}
           </div>
           <p className="text-[10px] font-bold text-slate-400 leading-tight uppercase tracking-tighter">
-            Trusted by students worldwide for excellence
+            Trusted by learners worldwide for quality online education, flexible learning, and real career outcomes.
           </p>
         </motion.div>
 
@@ -159,7 +161,7 @@ const Hero = () => {
           </div>
           <h3 className="text-3xl font-black mb-0.5">60k+</h3>
           <p className="text-[10px] font-bold text-slate-400 leading-tight uppercase tracking-tighter">
-            Learners growing with top-tier mentors
+            Learners growing with top-tier mentors and certifications
           </p>
         </motion.div>
 

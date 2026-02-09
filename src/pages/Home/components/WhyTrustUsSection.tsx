@@ -41,9 +41,9 @@ const WhyTrustUsSection = () => {
             Why Thousands of Learners Trust Us
           </h2>
           <p className="text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Join a growing community of learners gaining real skills through expert-led,
+            A trusted online learning platform where learners gain real world skills through expert guidance, 
             <br className="hidden md:block" />
-            high-quality courses — built with care, trust, and transparency.
+           flexible learning, and career focused online training programs.
           </p>
         </motion.div>
 
@@ -81,7 +81,7 @@ const WhyTrustUsSection = () => {
                   Expert Trainers
                 </h3>
                 <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                  Learn from real industry professionals with years of experience and practical knowledge.
+                  Learn from experienced industry professionals who bring practical insights, real projects, and up to date knowledge into every course.
                 </p>
               </div>
             </motion.div>
@@ -108,7 +108,7 @@ const WhyTrustUsSection = () => {
                 Global Community
               </h3>
               <p className="text-sm md:text-base text-white/90 leading-relaxed">
-                Connect, share, and grow with learners from around the world.
+                Join a worldwide network of learners to collaborate, exchange ideas, and grow together through shared goals and peer driven learning.
               </p>
             </div>
           </motion.div>
@@ -128,7 +128,7 @@ const WhyTrustUsSection = () => {
                   Flexible Learning Experience
                 </h3>
                 <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                  Learn anytime, anywhere — at your own pace.
+                  Study online at your own pace, learn from home, and access course content anytime with full control over your learning journey.
                 </p>
               </div>
             </motion.div>

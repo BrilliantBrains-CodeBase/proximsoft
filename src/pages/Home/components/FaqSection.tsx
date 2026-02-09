@@ -11,32 +11,41 @@ export interface FAQItem {
 export const faqs: FAQItem[] = [
   {
     id: 1,
-    question: "Do I need any prior experience before starting a course?",
+    question: "What are the best online courses for career growth?",
     answer:
-      "Our expert-led courses focus on real-world skills and are designed for beginners as well as professionals. You’ll also get lifetime access and community support."
+      "Courses in web development, digital marketing, data analytics, AI, and business management offer strong career outcomes."
   },
   {
     id: 2,
-    question: "How long will I have access to the course materials after enrolling?",
+    question: "Do online courses really help in getting a job?",
     answer:
-      "You’ll have lifetime access to all course materials, including future updates."
+      "Yes. Skill based online training programs with projects and certifications improve employability and interview readiness."
   },
   {
     id: 3,
-    question:
-      "Are the certificates you provide recognized or useful for career advancement?",
+    question: "Are online course certificates valid for jobs?",
     answer:
-      "Yes, our certificates are industry-aligned and help strengthen your resume and professional credibility."
+      "Industry relevant online courses with certificates are widely accepted by employers when backed by practical skills."
   },
   {
     id: 4,
-    question:
-      "Can I interact with instructors or get support during the course?",
+    question: "Can I learn online while working full time?",
     answer:
-      "Absolutely. You’ll have access to instructor guidance, doubt-clearing sessions, and community discussions."
+      "Yes. All courses are designed for flexible, self paced learning so you can study online at your convenience."
+  },
+  {
+    id: 5,
+    question: "Which online learning platform is best for beginners?",
+    answer:
+      "Platforms offering structured learning paths, beginner friendly content, and expert support are ideal for beginners."
+  },
+  {
+    id: 6,
+    question: "Do you provide job placement support after course completion?",
+    answer:
+      "Selected programs include resume guidance, interview preparation, and job placement assistance."
   }
 ];
-
 
 const FaqSection = () => {
   const [openId, setOpenId] = useState<number | null>(1);
