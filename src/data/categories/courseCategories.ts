@@ -65,7 +65,7 @@ export const courseCategories: CourseCategory[] = [
     coverImage: "/images/category/coursecover.avif",
     sequence: 3,
     priority: "high",
-    courseCount: 52,
+    courseCount: 13,
     isActive: true
   },
   {
@@ -80,7 +80,7 @@ export const courseCategories: CourseCategory[] = [
     coverImage: "/images/category/coursecover.avif",
     sequence: 4,
     priority: "medium",
-    courseCount: 80,
+    courseCount: 6,
     isActive: true
   },
   // Add these to your export const courseCategories: CourseCategory[] array
