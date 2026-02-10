@@ -4081,5 +4081,1504 @@ export const courses: CourseData[] =[
     "meta_url": "/courses/cloud-computing/devops-with-azure-course"
   }
 },
+{
+  "course_details": {
+    "course_id": "CRS-AWS-DE-016",
+    "course_uid": "uid-aws-data-engineering-pro",
+    "course_title": "AWS Data Engineering Course",
+    "course_subtitle": "Design, Build & Optimize Scalable Data Pipelines on Amazon Web Services",
+    "course_slug": "aws-data-engineering-course",
+    "course_thumbnail": "assets/images/courses/aws-data-engineering.jpg",
+    "course_short_description": "Master the AWS data engineering lifecycle. Build scalable pipelines, data lakes, and warehouses using S3, Glue, Redshift, and Athena.",
+    "course_long_description": "This AWS Data Engineering course is designed to help professionals build scalable, secure, and high-performance data pipelines on Amazon Web Services. The program focuses on the complete data engineering lifecycle—from data ingestion and transformation to storage, orchestration, analytics, and optimization using AWS-native services.",
+    "about_course": [
+      "Focuses on the complete data engineering lifecycle using AWS-native services.",
+      "Teaches how modern cloud data platforms are designed and operated in real enterprise environments.",
+      "Hands-on experience with Amazon S3, AWS Glue, Amazon Redshift, and Amazon Athena.",
+      "Prepares learners to build production-ready pipelines for analytics, BI, and AI workloads."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "Production-first mindset",
+      "Syllabus Available",
+      "Flexible learning schedule"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/aws-data-engineering",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "AWS Data Engineering Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/aws-de-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Strong understanding of SQL",
+      "Basic database concepts",
+      "Prior cloud exposure is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design AWS-based data architectures ",
+      "Build scalable and secure data pipelines using AWS Glue",
+      "Transform and optimize data for cloud-native analytics",
+      "Serve data for BI tools like Power BI and Tableau"
+    ],
+    "ideal_candidates": [
+      "Aspiring AWS Data Engineers",
+      "Data Analysts transitioning into cloud data engineering",
+      "SQL and BI professionals moving to AWS",
+      "Software Engineers working with data pipelines"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "AWS Data Engineering",
+        "Cloud Data Pipelines",
+        "Data Warehousing"
+      ],
+      "supporting_skills": [
+        "Data Lake Architecture",
+        "SQL Optimization",
+        "Orchestration & Workflow Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Amazon S3",
+        "AWS Glue",
+        "Amazon Redshift"
+      ],
+      "secondary": [
+        "Amazon Athena",
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "AWS Data Engineer",
+      "Cloud Data Engineer",
+      "Analytics Engineer",
+      "BI Data Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: AWS Data Engineering Pipeline. Build a solution to ingest raw data into S3, transform using AWS Glue, store in Redshift, and serve to BI tools for reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to AWS Data Engineering",
+        "module_duration": "Week 1",
+        "topics": ["Role of a Data Engineer", "AWS data ecosystem", "Modern cloud architectures"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Storage on AWS",
+        "module_duration": "Week 2",
+        "topics": ["Amazon S3 fundamentals", "Data partitioning", "Lifecycle management"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Ingestion on AWS",
+        "module_duration": "Week 3",
+        "topics": ["Batch ingestion concepts", "AWS Glue Crawlers", "Source integration"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Transformation with AWS Glue",
+        "module_duration": "Week 4",
+        "topics": ["AWS Glue ETL jobs", "PySpark overview", "Best practices"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Data Warehousing with Amazon Redshift",
+        "module_duration": "Week 5",
+        "topics": ["Redshift architecture", "Loading data from S3", "Performance optimization"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Querying Data with Amazon Athena",
+        "module_duration": "Week 6",
+        "topics": ["Serverless SQL with Athena", "S3 Data Querying", "Optimization"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Orchestration & Workflow Management",
+        "module_duration": "Week 7",
+        "topics": ["AWS Glue workflows", "Scheduling and triggers", "Error handling"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Security, Governance & Cost Optimization",
+        "module_duration": "Week 8",
+        "topics": ["IAM for data engineers", "Security best practices", "Cost strategies"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & BI Integration",
+        "module_duration": "Week 9",
+        "topics": ["BI tool integration", "Data preparation", "Reporting best practices"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["End-to-end solution", "Business use cases", "Final presentation"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 1250,
+    "total_students_enrolled": 8500
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is AWS Data Engineering?",
+      "answer": "AWS Data Engineering involves designing and managing data pipelines on Amazon Web Services using tools like S3, Glue, Redshift, and Athena."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this AWS Data Engineering course beginner-friendly?",
+      "answer": "This course is best suited for learners with basic SQL and data knowledge. It is designed at an intermediate level."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need prior AWS experience to take this course?",
+      "answer": "Prior AWS experience is helpful but not mandatory. Core AWS concepts are introduced as part of the course."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools are covered in this AWS Data Engineering course?",
+      "answer": "The course covers Amazon S3, AWS Glue, Amazon Redshift, Amazon Athena, and BI tool integration."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include hands-on projects?",
+      "answer": "Yes. The course includes multiple labs and one end-to-end capstone project."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Engineers",
+    "Data Analysts",
+    "SQL Professionals",
+    "Software Engineers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "AWS Data Engineering Course: Build Scalable Data Pipelines | Proximsoft",
+    "meta_description": "Learn AWS Data Engineering. Master Amazon S3, AWS Glue, Redshift, and Athena to build end-to-end cloud data pipelines for enterprise analytics.",
+    "meta_url": "/courses/data-analytics/aws-data-engineering-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-AZ-DE-017",
+    "course_uid": "uid-azure-data-engineering-pro",
+    "course_title": "Azure Data Engineering Course",
+    "course_subtitle": "Design, Build & Optimize Scalable Data Pipelines on Microsoft Azure",
+    "course_slug": "azure-data-engineering-course",
+    "course_thumbnail": "assets/images/courses/azure-data-engineering.jpg",
+    "course_short_description": "Master the Azure-native data lifecycle. Learn to build scalable pipelines, data lakes, and warehouses using Data Factory, Synapse Analytics, and Spark.",
+    "course_long_description": "This Azure Data Engineering course is designed to help professionals build scalable, secure, and high-performance data pipelines on Microsoft Azure. The program focuses on the complete data engineering lifecycle including data ingestion, transformation, storage, orchestration, analytics, and optimization using Azure-native services.",
+    "about_course": [
+      "Focuses on the complete data engineering lifecycle using Azure-native services.",
+      "Emphasizes real-world cloud data engineering practices used in enterprise environments.",
+      "Hands-on experience with Azure Data Factory, Azure Data Lake Storage Gen2, and Azure Synapse Analytics.",
+      "Prepares learners to design production-ready platforms that support analytics, BI, and AI workloads."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 2,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "Production-first mindset",
+      "Syllabus Available",
+      "Flexible learning schedule"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/azure-data-engineering",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Azure Data Engineering Professional Certificate (DP-203 Aligned)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/azure-de-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Strong understanding of SQL",
+      "Basic knowledge of databases and data concepts",
+      "Prior cloud exposure is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design Azure-based data architectures ",
+      "Build scalable data pipelines using Azure Data Factory",
+      "Transform and store data efficiently using mapping data flows and Synapse",
+      "Serve analytics-ready data to Power BI for business intelligence"
+    ],
+    "ideal_candidates": [
+      "Aspiring Azure Data Engineers",
+      "Data Analysts moving into engineering roles",
+      "SQL and BI professionals upgrading to cloud platforms",
+      "Software Engineers working with data pipelines"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Azure Data Engineering",
+        "Cloud Data Pipelines",
+        "Data Warehousing"
+      ],
+      "supporting_skills": [
+        "Data Lake Architecture",
+        "Data Modeling",
+        "Pipeline Orchestration & Monitoring"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Azure Data Factory",
+        "Azure Data Lake Storage Gen2",
+        "Azure Synapse Analytics"
+      ],
+      "secondary": [
+        "Power BI",
+        "Azure Databricks",
+        "Apache Spark"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Azure Data Engineer",
+      "Cloud Data Engineer",
+      "Analytics Engineer",
+      "BI Data Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Azure Data Engineering Pipeline. Build a solution to ingest raw data using ADF, transform with Azure-native services, store in a Synapse warehouse, and expose to Power BI."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Azure Data Engineering",
+        "module_duration": "Week 1",
+        "topics": ["Role of a Data Engineer", "Azure data ecosystem overview", "Modern cloud data architectures"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Azure Data Storage Fundamentals",
+        "module_duration": "Week 2",
+        "topics": ["Azure Data Lake Storage Gen2", "Blob Storage concepts", "Data organization and partitioning"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Ingestion with Azure Data Factory",
+        "module_duration": "Week 3",
+        "topics": ["Azure Data Factory architecture", "Linked services and datasets", "Batch ingestion pipelines"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Transformation Techniques",
+        "module_duration": "Week 4",
+        "topics": ["Mapping data flows", "ELT vs ETL in Azure", "Transformation best practices"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Azure Synapse Analytics",
+        "module_duration": "Week 5",
+        "topics": ["Dedicated vs serverless SQL pools", "Data warehousing concepts", "Querying data lake using Synapse"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Processing with Spark (Overview)",
+        "module_duration": "Week 6",
+        "topics": ["Spark basics for data engineers", "Azure Synapse Spark pools", "Introduction to Databricks concepts"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Data Orchestration & Monitoring",
+        "module_duration": "Week 7",
+        "topics": ["Pipeline scheduling", "Triggers and dependencies", "Monitoring and error handling"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Security, Governance & Optimization",
+        "module_duration": "Week 8",
+        "topics": ["Data security and access control", "Cost optimization strategies", "Performance tuning"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & BI Integration",
+        "module_duration": "Week 9",
+        "topics": ["Power BI integration", "Serving data for analytics", "Reporting best practices"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["End-to-end Azure data solution", "Real-world business case", "Final presentation"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 1100,
+    "total_students_enrolled": 7800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Azure Data Engineering?",
+      "answer": "Azure Data Engineering involves building and managing data pipelines on Microsoft Azure using services like Azure Data Factory, Data Lake, and Synapse Analytics."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this Azure Data Engineering course beginner-friendly?",
+      "answer": "The course is designed at an intermediate level and is best suited for learners with basic SQL and data knowledge."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need prior Azure experience to take this course?",
+      "answer": "Prior Azure experience is helpful but not mandatory. Core Azure concepts are covered during the course."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools are covered in this Azure Data Engineering course?",
+      "answer": "The course covers Azure Data Factory, Azure Data Lake Storage Gen2, Azure Synapse Analytics, Spark concepts, and Power BI integration."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include hands-on projects?",
+      "answer": "Yes. The course includes multiple hands-on labs and one end-to-end capstone project."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Engineers",
+    "Data Analysts",
+    "SQL Professionals",
+    "Software Engineers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Azure Data Engineering Course: Master Cloud Data Pipelines | Proximsoft",
+    "meta_description": "Learn Azure Data Engineering. Master Azure Data Factory, Synapse Analytics, and Data Lake Storage to build production-ready cloud data platforms.",
+    "meta_url": "/courses/data-analytics/azure-data-engineering-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-BD-018",
+    "course_uid": "uid-big-data-engineering-hadoop-spark",
+    "course_title": "Big Data Engineering Course (Hadoop & Spark)",
+    "course_subtitle": "Process, Analyze & Scale Big Data Using Hadoop Ecosystem and Apache Spark",
+    "course_slug": "big-data-engineering-hadoop-spark-course",
+    "course_thumbnail": "assets/images/courses/big-data-hadoop-spark.jpg",
+    "course_short_description": "Master massive-scale data processing. Learn to design and build scalable big data pipelines using Hadoop, HDFS, and Apache Spark.",
+    "course_long_description": "This Big Data Engineering course is designed to teach professionals how to process, store, and analyze massive datasets using the Hadoop ecosystem and Apache Spark. The program focuses on distributed data processing, scalable storage, and high-performance analytics using industry-standard big data tools. You will learn how large-scale data systems are architected and how data flows through distributed pipelines.",
+    "about_course": [
+      "Teaches processing, storage, and analysis of massive datasets using distributed systems.",
+      "Focuses on big data engineering fundamentals and scalable system architecture.",
+      "Deep dive into Hadoop ecosystem tools including HDFS and MapReduce.",
+      "Master high-performance analytics using Spark, Spark SQL, and PySpark."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 3,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Distributed data processing focus",
+      "Production-first mindset",
+      "Real-world architecture design",
+      "Syllabus Available",
+      "Hands-on labs across modules"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/big-data-engineering",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Big Data Engineering Professional (Hadoop & Spark)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/big-data-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SQL and databases",
+      "Familiarity with data processing concepts",
+      "Prior programming exposure (Python or Java is helpful)"
+    ],
+    "key_learnings": [
+      "Understand and design distributed big data architectures ",
+      "Build scalable data pipelines using HDFS and Apache Spark",
+      "Process large-scale structured and unstructured datasets efficiently",
+      "Optimize performance for distributed systems through partitioning and caching"
+    ],
+    "ideal_candidates": [
+      "Aspiring Big Data Engineers",
+      "Data Engineers and Analytics Engineers",
+      "Software Engineers working with large datasets",
+      "Data Analysts moving into big data roles",
+      "Professionals working with Hadoop or Spark platforms"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Big Data Engineering",
+        "Hadoop Ecosystem",
+        "Apache Spark"
+      ],
+      "supporting_skills": [
+        "Distributed Data Processing",
+        "Data Pipeline Design",
+        "Performance Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Apache Hadoop",
+        "HDFS",
+        "Apache Spark"
+      ],
+      "secondary": [
+        "Spark SQL",
+        "PySpark",
+        "MapReduce",
+        "YARN"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Big Data Engineer",
+      "Data Engineer",
+      "Analytics Engineer",
+      "Hadoop Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Big Data Engineering Pipeline. Design a real-world pipeline that stores data in HDFS, processes large-scale datasets using Spark, and applies transformations for analytics-ready outputs."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Big Data",
+        "module_duration": "Week 1",
+        "topics": ["What is Big Data?", "Characteristics and challenges", "Architecture overview"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Hadoop Ecosystem Overview",
+        "module_duration": "Week 2",
+        "topics": ["Hadoop architecture", "HDFS concepts", "YARN and MapReduce overview"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "HDFS – Distributed Storage",
+        "module_duration": "Week 3",
+        "topics": ["Blocks and replication", "Fault tolerance", "Working with HDFS commands"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "MapReduce Fundamentals",
+        "module_duration": "Week 4",
+        "topics": ["Programming model", "Map and Reduce phases", "Batch processing use cases"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Apache Spark Fundamentals",
+        "module_duration": "Week 5",
+        "topics": ["Spark architecture", "RDDs, DataFrames, and Datasets", "Execution model"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Spark SQL & Data Processing",
+        "module_duration": "Week 6",
+        "topics": ["Spark SQL basics", "Structured data handling", "Query optimization"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "PySpark for Big Data Processing",
+        "module_duration": "Week 7",
+        "topics": ["PySpark fundamentals", "Data transformations", "Building scalable pipelines"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Big Data Analytics & Optimization",
+        "module_duration": "Week 8",
+        "topics": ["Performance tuning in Spark", "Partitioning strategies", "Caching and Persistence"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Big Data Pipeline Design",
+        "module_duration": "Week 9",
+        "topics": ["End-to-end workflows", "Batch processing design", "Integration with analytics"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["Real-world big data solution", "Processing massive datasets", "Final assessment"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.7,
+    "total_reviews": 1400,
+    "total_students_enrolled": 9200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Big Data Engineering?",
+      "answer": "Big Data Engineering involves designing and managing systems that process large-scale datasets using distributed technologies like Hadoop and Apache Spark."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between Hadoop and Spark?",
+      "answer": "Hadoop focuses on distributed storage (HDFS) and batch processing (MapReduce), while Spark enables fast, in-memory data processing and analytics."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is Spark replacing Hadoop?",
+      "answer": "Spark complements Hadoop. Spark often uses HDFS for storage while providing faster data processing capabilities compared to MapReduce."
+    },
+    {
+      "faq_id": 4,
+      "question": "Do I need coding knowledge for this course?",
+      "answer": "Basic programming knowledge is helpful, especially Python for PySpark, but the course focuses on practical implementation."
+    },
+    {
+      "faq_id": 5,
+      "question": "What tools are covered in this course?",
+      "answer": "The course covers Hadoop, HDFS, MapReduce, Apache Spark, Spark SQL, and PySpark."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Big Data Engineers",
+    "Data Engineers",
+    "Software Engineers",
+    "Data Analysts"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Big Data Engineering Course: Hadoop & Spark Training | Proximsoft",
+    "meta_description": "Master Big Data Engineering. Learn Apache Hadoop, HDFS, and Apache Spark to process and analyze massive datasets at enterprise scale.",
+    "meta_url": "/courses/data-analytics/big-data-engineering-hadoop-spark-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-MSBI-019",
+    "course_uid": "uid-sql-bi-msbi-enterprise",
+    "course_title": "SQL BI / MSBI (Microsoft Business Intelligence) Course",
+    "course_subtitle": "Build Enterprise-Grade BI Solutions using SQL Server & Microsoft BI Stack",
+    "course_slug": "sql-bi-msbi-course",
+    "course_thumbnail": "assets/images/courses/msbi-thumbnail.jpg",
+    "course_short_description": "Master end-to-end Microsoft BI. Learn to design data warehouses, build ETL pipelines with SSIS, create analytical models with SSAS, and deliver SSRS reports.",
+    "course_long_description": "This SQL BI / MSBI course is designed to help professionals build end-to-end enterprise Business Intelligence solutions using the Microsoft BI stack. The course focuses on designing data warehouses, building ETL pipelines, creating analytical models, and delivering enterprise-level reports using SQL Server, SSIS, SSAS, and SSRS.",
+    "about_course": [
+      "Teaches end-to-end enterprise BI solutions using the Microsoft stack (SSIS, SSAS, SSRS).",
+      "Focuses on transforming raw transactional data into structured, optimized data warehouses.",
+      "Emphasis on practical implementation for production environments rather than pure theory.",
+      "Covers multidimensional and tabular data modeling along with enterprise reporting."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 4,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "Enterprise Data Warehousing focus",
+      "Syllabus Available",
+      "Flexible learning schedule"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sql-bi-msbi",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Microsoft Business Intelligence (MSBI) Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/msbi-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic knowledge of SQL",
+      "Understanding of databases and tables",
+      "Familiarity with writing basic SQL queries"
+    ],
+    "key_learnings": [
+      "Design enterprise data warehouses using Star and Snowflake schemas",
+      "Build and optimize reliable ETL pipelines using SSIS",
+      "Create high-performance analytical cubes and semantic models with SSAS",
+      "Develop and deploy complex enterprise reports and dashboards using SSRS"
+    ],
+    "ideal_candidates": [
+      "Aspiring BI and Data Warehouse Developers",
+      "SQL Developers transitioning into BI roles",
+      "Data Analysts working with Microsoft tools",
+      "IT professionals involved in reporting and analytics"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Microsoft BI (MSBI)",
+        "SQL BI and Data Warehousing",
+        "ETL Development"
+      ],
+      "supporting_skills": [
+        "BI Architecture",
+        "Data Modeling",
+        "Enterprise Reporting"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SQL Server",
+        "SSIS",
+        "SSAS",
+        "SSRS"
+      ],
+      "secondary": [
+        "Visual Studio (SSDT)",
+        "Power BI (Integration)",
+        "T-SQL"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "MSBI Developer",
+      "BI Developer",
+      "Data Warehouse Developer",
+      "SQL BI Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise MSBI Solution. Build a complete end-to-end system including an optimized Data Warehouse in SQL Server, ETL pipelines with SSIS, an analytical model in SSAS, and a suite of SSRS reports."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Business Intelligence & MSBI",
+        "module_duration": "Week 1",
+        "topics": ["BI concepts and architecture", "MSBI ecosystem overview", "OLTP vs OLAP"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SQL Server Fundamentals for BI",
+        "module_duration": "Week 2",
+        "topics": ["Architecture", "Advanced SELECT queries", "Indexing for performance"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Warehousing Concepts",
+        "module_duration": "Week 3",
+        "topics": ["Fact and dimension tables", "Star and Snowflake schemas", "Data warehouse design"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "ETL with SSIS (Integration Services)",
+        "module_duration": "Week 4",
+        "topics": ["SSIS architecture", "Data flow vs Control flow", "Transformations and errors"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced SSIS & Optimization",
+        "module_duration": "Week 5",
+        "topics": ["Incremental data loads", "Logging and custom tasks", "Performance tuning"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Modeling with SSAS (Analysis Services)",
+        "module_duration": "Week 6",
+        "topics": ["Multidimensional vs Tabular models", "Cube design", "Measures and KPIs"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Advanced SSAS & DAX",
+        "module_duration": "Week 7",
+        "topics": ["Calculations and hierarchies", "DAX basics", "Model optimization"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Reporting with SSRS (Reporting Services)",
+        "module_duration": "Week 8",
+        "topics": ["Report types and datasets", "Parameters and expressions", "Deployment"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security, Deployment & Best Practices",
+        "module_duration": "Week 9",
+        "topics": ["Role-based security", "BI deployment lifecycle", "Enterprise best practices"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["End-to-end implementation", "ETL orchestration", "Reporting solution"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 1100,
+    "total_students_enrolled": 7200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SQL BI / MSBI?",
+      "answer": "SQL BI / MSBI refers to Microsoft Business Intelligence technologies used to build data warehouses, ETL pipelines, analytical models, and enterprise reports using SQL Server."
+    },
+    {
+      "faq_id": 2,
+      "question": "How is MSBI different from Power BI?",
+      "answer": "MSBI focuses on backend BI systems like data warehouses and cubes (SSIS/SSAS), while Power BI is primarily a visualization and reporting tool."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SQL required for MSBI?",
+      "answer": "Yes. Strong SQL knowledge is essential for data warehousing, ETL, and analytical queries in MSBI."
+    },
+    {
+      "faq_id": 4,
+      "question": "What careers can MSBI skills lead to?",
+      "answer": "Roles include MSBI Developer, BI Developer, Data Warehouse Developer, and SQL BI Engineer."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is MSBI still relevant in modern data platforms?",
+      "answer": "Yes. MSBI is still heavily used in enterprises for governed BI and structured corporate reporting."
+    }
+  ],
+  "target_audience": [
+    "Aspiring BI Developers",
+    "SQL Developers",
+    "Data Analysts",
+    "IT Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SQL BI / MSBI Course: Build Enterprise BI Solutions | Proximsoft",
+    "meta_description": "Master Microsoft Business Intelligence. Learn to design data warehouses, build SSIS pipelines, create SSAS models, and deploy SSRS reports.",
+    "meta_url": "/courses/data-analytics/sql-bi-msbi-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-DA-020",
+    "course_uid": "uid-data-analytics-business-insights",
+    "course_title": "Data Analytics Course",
+    "course_subtitle": "Analyze, Visualize & Transform Data into Actionable Business Insights",
+    "course_slug": "data-analytics-course",
+    "course_thumbnail": "assets/images/courses/data-analytics-thumb.jpg",
+    "course_short_description": "Turn raw data into meaningful business insights. Master Excel, SQL, Python, and Power BI/Tableau through hands-on, real-world projects.",
+    "course_long_description": "This Data Analytics course is designed to help learners turn raw data into meaningful business insights using industry-standard tools and real-world datasets. The program covers the complete analytics lifecycle—from data collection and cleaning to analysis, visualization, and reporting. Unlike theory-heavy programs, this course focuses on practical analytics skills used in modern business environments.",
+    "about_course": [
+      "Designed to help learners turn raw data into meaningful business insights using industry-standard tools.",
+      "Covers the complete analytics lifecycle including collection, cleaning, visualization, and reporting.",
+      "Focuses on practical skills used in business environments rather than purely academic theory.",
+      "Enables learners to independently analyze data and create interactive dashboards to support decision-making."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 5,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/data-analytics",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Data Analytics Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/data-analytics-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer skills",
+      "Interest in working with data and numbers",
+      "No prior analytics experience required"
+    ],
+    "key_learnings": [
+      "Analyze datasets using Excel, SQL, and Python",
+      "Build interactive dashboards and reports using Power BI or Tableau",
+      "Identify business trends and key performance indicators (KPIs)",
+      "Communicate data-driven findings effectively to stakeholders"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Analysts",
+      "Business Analysts and MIS professionals",
+      "Students and fresh graduates",
+      "Professionals transitioning into analytics roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Data Analytics",
+        "Business Analytics",
+        "Data Visualization"
+      ],
+      "supporting_skills": [
+        "SQL Querying",
+        "Python Basics for Analytics",
+        "Business Reporting"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Microsoft Excel",
+        "SQL",
+        "Power BI",
+        "Tableau"
+      ],
+      "secondary": [
+        "Python (Pandas, NumPy)",
+        "Matplotlib",
+        "Seaborn"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Data Analyst",
+      "Business Analyst",
+      "Reporting Analyst",
+      "Junior BI Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "90%",
+      "placement_rate": "85%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Data Analytics Business Case. Build a real-world solution that cleans raw data, performs analysis using SQL/Python, and creates interactive dashboards to present actionable insights."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Data Analytics",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is data analytics?",
+          "Types of analytics (Descriptive, Diagnostic, Predictive)",
+          "Analytics lifecycle"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Excel for Data Analysis",
+        "module_duration": "Week 2",
+        "topics": [
+          "Data cleaning and formatting",
+          "Formulas and functions",
+          "Pivot tables and charts"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SQL for Data Analysis",
+        "module_duration": "Week 3",
+        "topics": [
+          "Database fundamentals",
+          "Writing SQL queries",
+          "Joins, subqueries, and aggregations"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Cleaning & Preparation",
+        "module_duration": "Week 4",
+        "topics": [
+          "Handling missing values",
+          "Data transformation techniques",
+          "Data quality checks"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Python for Data Analysis (Basics)",
+        "module_duration": "Week 5",
+        "topics": [
+          "Python fundamentals for analytics",
+          "NumPy and Pandas",
+          "Data manipulation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Visualization",
+        "module_duration": "Week 6",
+        "topics": [
+          "Data visualization principles",
+          "Charts and dashboards",
+          "Storytelling with data"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Business Analytics & KPIs",
+        "module_duration": "Week 7",
+        "topics": [
+          "Business metrics and KPIs",
+          "Analytical thinking",
+          "Case-based analysis"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Power BI / Tableau Fundamentals",
+        "module_duration": "Week 8",
+        "topics": [
+          "Connecting to data sources",
+          "Dashboard creation",
+          "Interactive visualizations"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics Best Practices & Reporting",
+        "module_duration": "Week 9",
+        "topics": [
+          "Insight communication",
+          "Reporting standards",
+          "Stakeholder-ready dashboards"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end analytics project",
+          "Dashboard and insights presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1850,
+    "total_students_enrolled": 12000
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Data Analytics course?",
+      "answer": "A Data Analytics course teaches how to collect, clean, analyze, and visualize data to generate business insights using tools like Excel, SQL, Python, and BI platforms."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this Data Analytics course beginner-friendly?",
+      "answer": "Yes. The course starts from fundamentals and gradually builds toward real-world analytics projects."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need coding knowledge to learn data analytics?",
+      "answer": "Basic coding helps, but the course starts with Excel and SQL and introduces Python at a beginner level."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools will I learn in this course?",
+      "answer": "You will learn Excel, SQL, Python basics, and Power BI or Tableau for dashboards and reporting."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include real-world projects?",
+      "answer": "Yes. The course includes hands-on labs and a real-world capstone project."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Analysts",
+    "Business Analysts",
+    "MIS Professionals",
+    "Fresh Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Data Analytics Course: Master Business Insights | Proximsoft",
+    "meta_description": "Learn Data Analytics from scratch. Master Excel, SQL, Python, and Power BI to transform raw data into actionable business insights.",
+    "meta_url": "/courses/data-analytics/data-analytics-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-DE-FUND-021",
+    "course_uid": "uid-data-engineering-fundamentals",
+    "course_title": "Data Engineering Fundamentals Course",
+    "course_subtitle": "Build Strong Foundations in Data Pipelines, Warehousing & Modern Data Platforms",
+    "course_slug": "data-engineering-fundamentals-course",
+    "course_thumbnail": "assets/images/courses/de-fundamentals-thumb.jpg",
+    "course_short_description": "Master the core concepts of data engineering. Learn how data is ingested, transformed, and stored using ETL/ELT pipelines and modern data architectures.",
+    "course_long_description": "The Data Engineering Fundamentals course is designed to help learners understand how modern data engineering systems are built from the ground up. This program focuses on the core concepts that power analytics, business intelligence, and data-driven applications. You’ll learn how data is ingested, transformed, stored, and served using ETL and ELT pipelines and data warehousing principles.",
+    "about_course": [
+      "Designed to help learners understand modern data engineering systems from the ground up.",
+      "Focuses on core concepts like ingestion, transformation, storage, and analytics serving.",
+      "Teaches both ETL and ELT pipeline approaches used in real-world analytics systems.",
+      "Prepares learners for advanced platforms like Snowflake, Databricks, and Microsoft Fabric."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 6,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/de-fundamentals",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Data Engineering Fundamentals Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/de-fundamentals-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SQL",
+      "Familiarity with data concepts",
+      "No prior data engineering experience is required"
+    ],
+    "key_learnings": [
+      "Understand how raw data becomes analytics-ready ",
+      "Design reliable ETL and ELT pipelines",
+      "Build scalable data warehouses using Star Schema principles",
+      "Prepare data for analytics, BI, and downstream AI use cases"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Engineers",
+      "Data Analysts transitioning into engineering roles",
+      "Software Engineers working with data systems",
+      "Students entering data and analytics careers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Data Engineering Fundamentals",
+        "ETL and ELT Concepts",
+        "Data Pipelines"
+      ],
+      "supporting_skills": [
+        "SQL Transformations",
+        "Data Warehousing",
+        "Pipeline Design"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SQL",
+        "Data Warehousing Concepts",
+        "Data Pipeline Concepts"
+      ],
+      "secondary": [
+        "Cloud Storage Concepts",
+        "Snowflake (Concepts)",
+        "Databricks (Concepts)",
+        "Microsoft Fabric (Overview)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Junior Data Engineer",
+      "Analytics Engineer",
+      "Data Engineer (Entry Level)",
+      "BI Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Data Engineering Foundation Pipeline. You will build a real-world solution that ingests raw business data, applies SQL transformations, stores it in a data warehouse, and prepares analytics-ready datasets."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Data Engineering",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is data engineering?",
+          "Data engineering vs data analytics",
+          "Modern data architecture overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Sources & Ingestion",
+        "module_duration": "Week 2",
+        "topics": [
+          "Structured vs semi-structured data",
+          "Batch vs streaming ingestion",
+          "Data ingestion patterns"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "ETL & ELT Concepts",
+        "module_duration": "Week 3",
+        "topics": [
+          "ETL vs ELT approaches ",
+          "Data transformation basics",
+          "Pipeline design principles"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SQL for Data Engineering",
+        "module_duration": "Week 4",
+        "topics": [
+          "Advanced SQL concepts",
+          "Transformations using SQL",
+          "Performance considerations"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Data Warehousing Fundamentals",
+        "module_duration": "Week 5",
+        "topics": [
+          "OLTP vs OLAP systems",
+          "Fact and dimension tables",
+          "Star schema design "
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Pipelines & Orchestration",
+        "module_duration": "Week 6",
+        "topics": [
+          "Pipeline components",
+          "Scheduling and dependencies",
+          "Error handling concepts"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Cloud Data Platforms Overview",
+        "module_duration": "Week 7",
+        "topics": [
+          "Cloud data architectures",
+          "Snowflake, Databricks, BigQuery overview",
+          "Lakehouse concepts"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Data Quality, Security & Governance",
+        "module_duration": "Week 8",
+        "topics": [
+          "Data validation techniques",
+          "Access control and security",
+          "Data governance basics"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Performance & Cost Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Query optimization strategies",
+          "Storage and compute optimization",
+          "Pipeline monitoring"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end data engineering pipeline",
+          "Real-world business data use case"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1200,
+    "total_students_enrolled": 9500
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Data Engineering Fundamentals?",
+      "answer": "Data Engineering Fundamentals covers the core concepts of building data pipelines, ETL processes, SQL transformations, and data warehouses used in modern analytics systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this course suitable for beginners?",
+      "answer": "Yes. This course is designed for beginners and professionals transitioning into data engineering roles."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need prior cloud experience?",
+      "answer": "No. Cloud concepts are introduced at a high level and do not require prior experience."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the difference between data engineering and data analytics?",
+      "answer": "Data engineering focuses on building data pipelines and infrastructure, while data analytics focuses on analyzing and visualizing prepared data."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SQL required for data engineering?",
+      "answer": "Yes. SQL is a core skill for data transformations and data warehousing in data engineering."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Engineers",
+    "Data Analysts",
+    "Software Engineers",
+    "Students"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Data Engineering Fundamentals Course | Learn Data Pipelines",
+    "meta_description": "Build a strong foundation in data engineering. Learn ETL/ELT, data warehousing, SQL transformations, and pipeline orchestration from scratch.",
+    "meta_url": "/courses/data-analytics/data-engineering-fundamentals-course"
+  }
+},
 
 ]
