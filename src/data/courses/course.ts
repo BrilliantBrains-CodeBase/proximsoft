@@ -4081,5 +4081,5190 @@ export const courses: CourseData[] =[
     "meta_url": "/courses/cloud-computing/devops-with-azure-course"
   }
 },
+{
+  "course_details": {
+    "course_id": "CRS-AWS-DE-016",
+    "course_uid": "uid-aws-data-engineering-pro",
+    "course_title": "AWS Data Engineering Course",
+    "course_subtitle": "Design, Build & Optimize Scalable Data Pipelines on Amazon Web Services",
+    "course_slug": "aws-data-engineering-course",
+    "course_thumbnail": "assets/images/courses/aws-data-engineering.jpg",
+    "course_short_description": "Master the AWS data engineering lifecycle. Build scalable pipelines, data lakes, and warehouses using S3, Glue, Redshift, and Athena.",
+    "course_long_description": "This AWS Data Engineering course is designed to help professionals build scalable, secure, and high-performance data pipelines on Amazon Web Services. The program focuses on the complete data engineering lifecycle—from data ingestion and transformation to storage, orchestration, analytics, and optimization using AWS-native services.",
+    "about_course": [
+      "Focuses on the complete data engineering lifecycle using AWS-native services.",
+      "Teaches how modern cloud data platforms are designed and operated in real enterprise environments.",
+      "Hands-on experience with Amazon S3, AWS Glue, Amazon Redshift, and Amazon Athena.",
+      "Prepares learners to build production-ready pipelines for analytics, BI, and AI workloads."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "Production-first mindset",
+      "Syllabus Available",
+      "Flexible learning schedule"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/aws-data-engineering",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "AWS Data Engineering Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/aws-de-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Strong understanding of SQL",
+      "Basic database concepts",
+      "Prior cloud exposure is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design AWS-based data architectures ",
+      "Build scalable and secure data pipelines using AWS Glue",
+      "Transform and optimize data for cloud-native analytics",
+      "Serve data for BI tools like Power BI and Tableau"
+    ],
+    "ideal_candidates": [
+      "Aspiring AWS Data Engineers",
+      "Data Analysts transitioning into cloud data engineering",
+      "SQL and BI professionals moving to AWS",
+      "Software Engineers working with data pipelines"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "AWS Data Engineering",
+        "Cloud Data Pipelines",
+        "Data Warehousing"
+      ],
+      "supporting_skills": [
+        "Data Lake Architecture",
+        "SQL Optimization",
+        "Orchestration & Workflow Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Amazon S3",
+        "AWS Glue",
+        "Amazon Redshift"
+      ],
+      "secondary": [
+        "Amazon Athena",
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "AWS Data Engineer",
+      "Cloud Data Engineer",
+      "Analytics Engineer",
+      "BI Data Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: AWS Data Engineering Pipeline. Build a solution to ingest raw data into S3, transform using AWS Glue, store in Redshift, and serve to BI tools for reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to AWS Data Engineering",
+        "module_duration": "Week 1",
+        "topics": ["Role of a Data Engineer", "AWS data ecosystem", "Modern cloud architectures"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Storage on AWS",
+        "module_duration": "Week 2",
+        "topics": ["Amazon S3 fundamentals", "Data partitioning", "Lifecycle management"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Ingestion on AWS",
+        "module_duration": "Week 3",
+        "topics": ["Batch ingestion concepts", "AWS Glue Crawlers", "Source integration"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Transformation with AWS Glue",
+        "module_duration": "Week 4",
+        "topics": ["AWS Glue ETL jobs", "PySpark overview", "Best practices"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Data Warehousing with Amazon Redshift",
+        "module_duration": "Week 5",
+        "topics": ["Redshift architecture", "Loading data from S3", "Performance optimization"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Querying Data with Amazon Athena",
+        "module_duration": "Week 6",
+        "topics": ["Serverless SQL with Athena", "S3 Data Querying", "Optimization"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Orchestration & Workflow Management",
+        "module_duration": "Week 7",
+        "topics": ["AWS Glue workflows", "Scheduling and triggers", "Error handling"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Security, Governance & Cost Optimization",
+        "module_duration": "Week 8",
+        "topics": ["IAM for data engineers", "Security best practices", "Cost strategies"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & BI Integration",
+        "module_duration": "Week 9",
+        "topics": ["BI tool integration", "Data preparation", "Reporting best practices"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["End-to-end solution", "Business use cases", "Final presentation"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 1250,
+    "total_students_enrolled": 8500
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is AWS Data Engineering?",
+      "answer": "AWS Data Engineering involves designing and managing data pipelines on Amazon Web Services using tools like S3, Glue, Redshift, and Athena."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this AWS Data Engineering course beginner-friendly?",
+      "answer": "This course is best suited for learners with basic SQL and data knowledge. It is designed at an intermediate level."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need prior AWS experience to take this course?",
+      "answer": "Prior AWS experience is helpful but not mandatory. Core AWS concepts are introduced as part of the course."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools are covered in this AWS Data Engineering course?",
+      "answer": "The course covers Amazon S3, AWS Glue, Amazon Redshift, Amazon Athena, and BI tool integration."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include hands-on projects?",
+      "answer": "Yes. The course includes multiple labs and one end-to-end capstone project."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Engineers",
+    "Data Analysts",
+    "SQL Professionals",
+    "Software Engineers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "AWS Data Engineering Course: Build Scalable Data Pipelines | Proximsoft",
+    "meta_description": "Learn AWS Data Engineering. Master Amazon S3, AWS Glue, Redshift, and Athena to build end-to-end cloud data pipelines for enterprise analytics.",
+    "meta_url": "/courses/data-analytics/aws-data-engineering-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-AZ-DE-017",
+    "course_uid": "uid-azure-data-engineering-pro",
+    "course_title": "Azure Data Engineering Course",
+    "course_subtitle": "Design, Build & Optimize Scalable Data Pipelines on Microsoft Azure",
+    "course_slug": "azure-data-engineering-course",
+    "course_thumbnail": "assets/images/courses/azure-data-engineering.jpg",
+    "course_short_description": "Master the Azure-native data lifecycle. Learn to build scalable pipelines, data lakes, and warehouses using Data Factory, Synapse Analytics, and Spark.",
+    "course_long_description": "This Azure Data Engineering course is designed to help professionals build scalable, secure, and high-performance data pipelines on Microsoft Azure. The program focuses on the complete data engineering lifecycle including data ingestion, transformation, storage, orchestration, analytics, and optimization using Azure-native services.",
+    "about_course": [
+      "Focuses on the complete data engineering lifecycle using Azure-native services.",
+      "Emphasizes real-world cloud data engineering practices used in enterprise environments.",
+      "Hands-on experience with Azure Data Factory, Azure Data Lake Storage Gen2, and Azure Synapse Analytics.",
+      "Prepares learners to design production-ready platforms that support analytics, BI, and AI workloads."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 2,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "Production-first mindset",
+      "Syllabus Available",
+      "Flexible learning schedule"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/azure-data-engineering",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Azure Data Engineering Professional Certificate (DP-203 Aligned)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/azure-de-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Strong understanding of SQL",
+      "Basic knowledge of databases and data concepts",
+      "Prior cloud exposure is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design Azure-based data architectures ",
+      "Build scalable data pipelines using Azure Data Factory",
+      "Transform and store data efficiently using mapping data flows and Synapse",
+      "Serve analytics-ready data to Power BI for business intelligence"
+    ],
+    "ideal_candidates": [
+      "Aspiring Azure Data Engineers",
+      "Data Analysts moving into engineering roles",
+      "SQL and BI professionals upgrading to cloud platforms",
+      "Software Engineers working with data pipelines"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Azure Data Engineering",
+        "Cloud Data Pipelines",
+        "Data Warehousing"
+      ],
+      "supporting_skills": [
+        "Data Lake Architecture",
+        "Data Modeling",
+        "Pipeline Orchestration & Monitoring"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Azure Data Factory",
+        "Azure Data Lake Storage Gen2",
+        "Azure Synapse Analytics"
+      ],
+      "secondary": [
+        "Power BI",
+        "Azure Databricks",
+        "Apache Spark"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Azure Data Engineer",
+      "Cloud Data Engineer",
+      "Analytics Engineer",
+      "BI Data Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Azure Data Engineering Pipeline. Build a solution to ingest raw data using ADF, transform with Azure-native services, store in a Synapse warehouse, and expose to Power BI."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Azure Data Engineering",
+        "module_duration": "Week 1",
+        "topics": ["Role of a Data Engineer", "Azure data ecosystem overview", "Modern cloud data architectures"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Azure Data Storage Fundamentals",
+        "module_duration": "Week 2",
+        "topics": ["Azure Data Lake Storage Gen2", "Blob Storage concepts", "Data organization and partitioning"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Ingestion with Azure Data Factory",
+        "module_duration": "Week 3",
+        "topics": ["Azure Data Factory architecture", "Linked services and datasets", "Batch ingestion pipelines"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Transformation Techniques",
+        "module_duration": "Week 4",
+        "topics": ["Mapping data flows", "ELT vs ETL in Azure", "Transformation best practices"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Azure Synapse Analytics",
+        "module_duration": "Week 5",
+        "topics": ["Dedicated vs serverless SQL pools", "Data warehousing concepts", "Querying data lake using Synapse"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Processing with Spark (Overview)",
+        "module_duration": "Week 6",
+        "topics": ["Spark basics for data engineers", "Azure Synapse Spark pools", "Introduction to Databricks concepts"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Data Orchestration & Monitoring",
+        "module_duration": "Week 7",
+        "topics": ["Pipeline scheduling", "Triggers and dependencies", "Monitoring and error handling"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Security, Governance & Optimization",
+        "module_duration": "Week 8",
+        "topics": ["Data security and access control", "Cost optimization strategies", "Performance tuning"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & BI Integration",
+        "module_duration": "Week 9",
+        "topics": ["Power BI integration", "Serving data for analytics", "Reporting best practices"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["End-to-end Azure data solution", "Real-world business case", "Final presentation"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 1100,
+    "total_students_enrolled": 7800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Azure Data Engineering?",
+      "answer": "Azure Data Engineering involves building and managing data pipelines on Microsoft Azure using services like Azure Data Factory, Data Lake, and Synapse Analytics."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this Azure Data Engineering course beginner-friendly?",
+      "answer": "The course is designed at an intermediate level and is best suited for learners with basic SQL and data knowledge."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need prior Azure experience to take this course?",
+      "answer": "Prior Azure experience is helpful but not mandatory. Core Azure concepts are covered during the course."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools are covered in this Azure Data Engineering course?",
+      "answer": "The course covers Azure Data Factory, Azure Data Lake Storage Gen2, Azure Synapse Analytics, Spark concepts, and Power BI integration."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include hands-on projects?",
+      "answer": "Yes. The course includes multiple hands-on labs and one end-to-end capstone project."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Engineers",
+    "Data Analysts",
+    "SQL Professionals",
+    "Software Engineers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Azure Data Engineering Course: Master Cloud Data Pipelines | Proximsoft",
+    "meta_description": "Learn Azure Data Engineering. Master Azure Data Factory, Synapse Analytics, and Data Lake Storage to build production-ready cloud data platforms.",
+    "meta_url": "/courses/data-analytics/azure-data-engineering-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-BD-018",
+    "course_uid": "uid-big-data-engineering-hadoop-spark",
+    "course_title": "Big Data Engineering Course (Hadoop & Spark)",
+    "course_subtitle": "Process, Analyze & Scale Big Data Using Hadoop Ecosystem and Apache Spark",
+    "course_slug": "big-data-engineering-hadoop-spark-course",
+    "course_thumbnail": "assets/images/courses/big-data-hadoop-spark.jpg",
+    "course_short_description": "Master massive-scale data processing. Learn to design and build scalable big data pipelines using Hadoop, HDFS, and Apache Spark.",
+    "course_long_description": "This Big Data Engineering course is designed to teach professionals how to process, store, and analyze massive datasets using the Hadoop ecosystem and Apache Spark. The program focuses on distributed data processing, scalable storage, and high-performance analytics using industry-standard big data tools. You will learn how large-scale data systems are architected and how data flows through distributed pipelines.",
+    "about_course": [
+      "Teaches processing, storage, and analysis of massive datasets using distributed systems.",
+      "Focuses on big data engineering fundamentals and scalable system architecture.",
+      "Deep dive into Hadoop ecosystem tools including HDFS and MapReduce.",
+      "Master high-performance analytics using Spark, Spark SQL, and PySpark."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 3,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Distributed data processing focus",
+      "Production-first mindset",
+      "Real-world architecture design",
+      "Syllabus Available",
+      "Hands-on labs across modules"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/big-data-engineering",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Big Data Engineering Professional (Hadoop & Spark)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/big-data-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SQL and databases",
+      "Familiarity with data processing concepts",
+      "Prior programming exposure (Python or Java is helpful)"
+    ],
+    "key_learnings": [
+      "Understand and design distributed big data architectures ",
+      "Build scalable data pipelines using HDFS and Apache Spark",
+      "Process large-scale structured and unstructured datasets efficiently",
+      "Optimize performance for distributed systems through partitioning and caching"
+    ],
+    "ideal_candidates": [
+      "Aspiring Big Data Engineers",
+      "Data Engineers and Analytics Engineers",
+      "Software Engineers working with large datasets",
+      "Data Analysts moving into big data roles",
+      "Professionals working with Hadoop or Spark platforms"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Big Data Engineering",
+        "Hadoop Ecosystem",
+        "Apache Spark"
+      ],
+      "supporting_skills": [
+        "Distributed Data Processing",
+        "Data Pipeline Design",
+        "Performance Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Apache Hadoop",
+        "HDFS",
+        "Apache Spark"
+      ],
+      "secondary": [
+        "Spark SQL",
+        "PySpark",
+        "MapReduce",
+        "YARN"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Big Data Engineer",
+      "Data Engineer",
+      "Analytics Engineer",
+      "Hadoop Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Big Data Engineering Pipeline. Design a real-world pipeline that stores data in HDFS, processes large-scale datasets using Spark, and applies transformations for analytics-ready outputs."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Big Data",
+        "module_duration": "Week 1",
+        "topics": ["What is Big Data?", "Characteristics and challenges", "Architecture overview"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Hadoop Ecosystem Overview",
+        "module_duration": "Week 2",
+        "topics": ["Hadoop architecture", "HDFS concepts", "YARN and MapReduce overview"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "HDFS – Distributed Storage",
+        "module_duration": "Week 3",
+        "topics": ["Blocks and replication", "Fault tolerance", "Working with HDFS commands"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "MapReduce Fundamentals",
+        "module_duration": "Week 4",
+        "topics": ["Programming model", "Map and Reduce phases", "Batch processing use cases"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Apache Spark Fundamentals",
+        "module_duration": "Week 5",
+        "topics": ["Spark architecture", "RDDs, DataFrames, and Datasets", "Execution model"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Spark SQL & Data Processing",
+        "module_duration": "Week 6",
+        "topics": ["Spark SQL basics", "Structured data handling", "Query optimization"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "PySpark for Big Data Processing",
+        "module_duration": "Week 7",
+        "topics": ["PySpark fundamentals", "Data transformations", "Building scalable pipelines"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Big Data Analytics & Optimization",
+        "module_duration": "Week 8",
+        "topics": ["Performance tuning in Spark", "Partitioning strategies", "Caching and Persistence"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Big Data Pipeline Design",
+        "module_duration": "Week 9",
+        "topics": ["End-to-end workflows", "Batch processing design", "Integration with analytics"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["Real-world big data solution", "Processing massive datasets", "Final assessment"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.7,
+    "total_reviews": 1400,
+    "total_students_enrolled": 9200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Big Data Engineering?",
+      "answer": "Big Data Engineering involves designing and managing systems that process large-scale datasets using distributed technologies like Hadoop and Apache Spark."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between Hadoop and Spark?",
+      "answer": "Hadoop focuses on distributed storage (HDFS) and batch processing (MapReduce), while Spark enables fast, in-memory data processing and analytics."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is Spark replacing Hadoop?",
+      "answer": "Spark complements Hadoop. Spark often uses HDFS for storage while providing faster data processing capabilities compared to MapReduce."
+    },
+    {
+      "faq_id": 4,
+      "question": "Do I need coding knowledge for this course?",
+      "answer": "Basic programming knowledge is helpful, especially Python for PySpark, but the course focuses on practical implementation."
+    },
+    {
+      "faq_id": 5,
+      "question": "What tools are covered in this course?",
+      "answer": "The course covers Hadoop, HDFS, MapReduce, Apache Spark, Spark SQL, and PySpark."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Big Data Engineers",
+    "Data Engineers",
+    "Software Engineers",
+    "Data Analysts"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Big Data Engineering Course: Hadoop & Spark Training | Proximsoft",
+    "meta_description": "Master Big Data Engineering. Learn Apache Hadoop, HDFS, and Apache Spark to process and analyze massive datasets at enterprise scale.",
+    "meta_url": "/courses/data-analytics/big-data-engineering-hadoop-spark-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-MSBI-019",
+    "course_uid": "uid-sql-bi-msbi-enterprise",
+    "course_title": "SQL BI / MSBI (Microsoft Business Intelligence) Course",
+    "course_subtitle": "Build Enterprise-Grade BI Solutions using SQL Server & Microsoft BI Stack",
+    "course_slug": "sql-bi-msbi-course",
+    "course_thumbnail": "assets/images/courses/msbi-thumbnail.jpg",
+    "course_short_description": "Master end-to-end Microsoft BI. Learn to design data warehouses, build ETL pipelines with SSIS, create analytical models with SSAS, and deliver SSRS reports.",
+    "course_long_description": "This SQL BI / MSBI course is designed to help professionals build end-to-end enterprise Business Intelligence solutions using the Microsoft BI stack. The course focuses on designing data warehouses, building ETL pipelines, creating analytical models, and delivering enterprise-level reports using SQL Server, SSIS, SSAS, and SSRS.",
+    "about_course": [
+      "Teaches end-to-end enterprise BI solutions using the Microsoft stack (SSIS, SSAS, SSRS).",
+      "Focuses on transforming raw transactional data into structured, optimized data warehouses.",
+      "Emphasis on practical implementation for production environments rather than pure theory.",
+      "Covers multidimensional and tabular data modeling along with enterprise reporting."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 4,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80-100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "Enterprise Data Warehousing focus",
+      "Syllabus Available",
+      "Flexible learning schedule"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sql-bi-msbi",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Microsoft Business Intelligence (MSBI) Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/msbi-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic knowledge of SQL",
+      "Understanding of databases and tables",
+      "Familiarity with writing basic SQL queries"
+    ],
+    "key_learnings": [
+      "Design enterprise data warehouses using Star and Snowflake schemas",
+      "Build and optimize reliable ETL pipelines using SSIS",
+      "Create high-performance analytical cubes and semantic models with SSAS",
+      "Develop and deploy complex enterprise reports and dashboards using SSRS"
+    ],
+    "ideal_candidates": [
+      "Aspiring BI and Data Warehouse Developers",
+      "SQL Developers transitioning into BI roles",
+      "Data Analysts working with Microsoft tools",
+      "IT professionals involved in reporting and analytics"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Microsoft BI (MSBI)",
+        "SQL BI and Data Warehousing",
+        "ETL Development"
+      ],
+      "supporting_skills": [
+        "BI Architecture",
+        "Data Modeling",
+        "Enterprise Reporting"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SQL Server",
+        "SSIS",
+        "SSAS",
+        "SSRS"
+      ],
+      "secondary": [
+        "Visual Studio (SSDT)",
+        "Power BI (Integration)",
+        "T-SQL"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "MSBI Developer",
+      "BI Developer",
+      "Data Warehouse Developer",
+      "SQL BI Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "High",
+      "student_completion_rate": "N/A",
+      "placement_rate": "N/A"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise MSBI Solution. Build a complete end-to-end system including an optimized Data Warehouse in SQL Server, ETL pipelines with SSIS, an analytical model in SSAS, and a suite of SSRS reports."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Business Intelligence & MSBI",
+        "module_duration": "Week 1",
+        "topics": ["BI concepts and architecture", "MSBI ecosystem overview", "OLTP vs OLAP"]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SQL Server Fundamentals for BI",
+        "module_duration": "Week 2",
+        "topics": ["Architecture", "Advanced SELECT queries", "Indexing for performance"]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Warehousing Concepts",
+        "module_duration": "Week 3",
+        "topics": ["Fact and dimension tables", "Star and Snowflake schemas", "Data warehouse design"]
+      },
+      {
+        "module_number": 4,
+        "module_name": "ETL with SSIS (Integration Services)",
+        "module_duration": "Week 4",
+        "topics": ["SSIS architecture", "Data flow vs Control flow", "Transformations and errors"]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced SSIS & Optimization",
+        "module_duration": "Week 5",
+        "topics": ["Incremental data loads", "Logging and custom tasks", "Performance tuning"]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Modeling with SSAS (Analysis Services)",
+        "module_duration": "Week 6",
+        "topics": ["Multidimensional vs Tabular models", "Cube design", "Measures and KPIs"]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Advanced SSAS & DAX",
+        "module_duration": "Week 7",
+        "topics": ["Calculations and hierarchies", "DAX basics", "Model optimization"]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Reporting with SSRS (Reporting Services)",
+        "module_duration": "Week 8",
+        "topics": ["Report types and datasets", "Parameters and expressions", "Deployment"]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security, Deployment & Best Practices",
+        "module_duration": "Week 9",
+        "topics": ["Role-based security", "BI deployment lifecycle", "Enterprise best practices"]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": ["End-to-end implementation", "ETL orchestration", "Reporting solution"]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 1100,
+    "total_students_enrolled": 7200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SQL BI / MSBI?",
+      "answer": "SQL BI / MSBI refers to Microsoft Business Intelligence technologies used to build data warehouses, ETL pipelines, analytical models, and enterprise reports using SQL Server."
+    },
+    {
+      "faq_id": 2,
+      "question": "How is MSBI different from Power BI?",
+      "answer": "MSBI focuses on backend BI systems like data warehouses and cubes (SSIS/SSAS), while Power BI is primarily a visualization and reporting tool."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SQL required for MSBI?",
+      "answer": "Yes. Strong SQL knowledge is essential for data warehousing, ETL, and analytical queries in MSBI."
+    },
+    {
+      "faq_id": 4,
+      "question": "What careers can MSBI skills lead to?",
+      "answer": "Roles include MSBI Developer, BI Developer, Data Warehouse Developer, and SQL BI Engineer."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is MSBI still relevant in modern data platforms?",
+      "answer": "Yes. MSBI is still heavily used in enterprises for governed BI and structured corporate reporting."
+    }
+  ],
+  "target_audience": [
+    "Aspiring BI Developers",
+    "SQL Developers",
+    "Data Analysts",
+    "IT Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SQL BI / MSBI Course: Build Enterprise BI Solutions | Proximsoft",
+    "meta_description": "Master Microsoft Business Intelligence. Learn to design data warehouses, build SSIS pipelines, create SSAS models, and deploy SSRS reports.",
+    "meta_url": "/courses/data-analytics/sql-bi-msbi-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-DA-020",
+    "course_uid": "uid-data-analytics-business-insights",
+    "course_title": "Data Analytics Course",
+    "course_subtitle": "Analyze, Visualize & Transform Data into Actionable Business Insights",
+    "course_slug": "data-analytics-course",
+    "course_thumbnail": "assets/images/courses/data-analytics-thumb.jpg",
+    "course_short_description": "Turn raw data into meaningful business insights. Master Excel, SQL, Python, and Power BI/Tableau through hands-on, real-world projects.",
+    "course_long_description": "This Data Analytics course is designed to help learners turn raw data into meaningful business insights using industry-standard tools and real-world datasets. The program covers the complete analytics lifecycle—from data collection and cleaning to analysis, visualization, and reporting. Unlike theory-heavy programs, this course focuses on practical analytics skills used in modern business environments.",
+    "about_course": [
+      "Designed to help learners turn raw data into meaningful business insights using industry-standard tools.",
+      "Covers the complete analytics lifecycle including collection, cleaning, visualization, and reporting.",
+      "Focuses on practical skills used in business environments rather than purely academic theory.",
+      "Enables learners to independently analyze data and create interactive dashboards to support decision-making."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 5,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/data-analytics",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Data Analytics Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/data-analytics-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer skills",
+      "Interest in working with data and numbers",
+      "No prior analytics experience required"
+    ],
+    "key_learnings": [
+      "Analyze datasets using Excel, SQL, and Python",
+      "Build interactive dashboards and reports using Power BI or Tableau",
+      "Identify business trends and key performance indicators (KPIs)",
+      "Communicate data-driven findings effectively to stakeholders"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Analysts",
+      "Business Analysts and MIS professionals",
+      "Students and fresh graduates",
+      "Professionals transitioning into analytics roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Data Analytics",
+        "Business Analytics",
+        "Data Visualization"
+      ],
+      "supporting_skills": [
+        "SQL Querying",
+        "Python Basics for Analytics",
+        "Business Reporting"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Microsoft Excel",
+        "SQL",
+        "Power BI",
+        "Tableau"
+      ],
+      "secondary": [
+        "Python (Pandas, NumPy)",
+        "Matplotlib",
+        "Seaborn"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Data Analyst",
+      "Business Analyst",
+      "Reporting Analyst",
+      "Junior BI Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "90%",
+      "placement_rate": "85%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Data Analytics Business Case. Build a real-world solution that cleans raw data, performs analysis using SQL/Python, and creates interactive dashboards to present actionable insights."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Data Analytics",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is data analytics?",
+          "Types of analytics (Descriptive, Diagnostic, Predictive)",
+          "Analytics lifecycle"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Excel for Data Analysis",
+        "module_duration": "Week 2",
+        "topics": [
+          "Data cleaning and formatting",
+          "Formulas and functions",
+          "Pivot tables and charts"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SQL for Data Analysis",
+        "module_duration": "Week 3",
+        "topics": [
+          "Database fundamentals",
+          "Writing SQL queries",
+          "Joins, subqueries, and aggregations"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Cleaning & Preparation",
+        "module_duration": "Week 4",
+        "topics": [
+          "Handling missing values",
+          "Data transformation techniques",
+          "Data quality checks"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Python for Data Analysis (Basics)",
+        "module_duration": "Week 5",
+        "topics": [
+          "Python fundamentals for analytics",
+          "NumPy and Pandas",
+          "Data manipulation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Visualization",
+        "module_duration": "Week 6",
+        "topics": [
+          "Data visualization principles",
+          "Charts and dashboards",
+          "Storytelling with data"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Business Analytics & KPIs",
+        "module_duration": "Week 7",
+        "topics": [
+          "Business metrics and KPIs",
+          "Analytical thinking",
+          "Case-based analysis"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Power BI / Tableau Fundamentals",
+        "module_duration": "Week 8",
+        "topics": [
+          "Connecting to data sources",
+          "Dashboard creation",
+          "Interactive visualizations"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics Best Practices & Reporting",
+        "module_duration": "Week 9",
+        "topics": [
+          "Insight communication",
+          "Reporting standards",
+          "Stakeholder-ready dashboards"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end analytics project",
+          "Dashboard and insights presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1850,
+    "total_students_enrolled": 12000
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Data Analytics course?",
+      "answer": "A Data Analytics course teaches how to collect, clean, analyze, and visualize data to generate business insights using tools like Excel, SQL, Python, and BI platforms."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this Data Analytics course beginner-friendly?",
+      "answer": "Yes. The course starts from fundamentals and gradually builds toward real-world analytics projects."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need coding knowledge to learn data analytics?",
+      "answer": "Basic coding helps, but the course starts with Excel and SQL and introduces Python at a beginner level."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools will I learn in this course?",
+      "answer": "You will learn Excel, SQL, Python basics, and Power BI or Tableau for dashboards and reporting."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include real-world projects?",
+      "answer": "Yes. The course includes hands-on labs and a real-world capstone project."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Analysts",
+    "Business Analysts",
+    "MIS Professionals",
+    "Fresh Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Data Analytics Course: Master Business Insights | Proximsoft",
+    "meta_description": "Learn Data Analytics from scratch. Master Excel, SQL, Python, and Power BI to transform raw data into actionable business insights.",
+    "meta_url": "/courses/data-analytics/data-analytics-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-DE-FUND-021",
+    "course_uid": "uid-data-engineering-fundamentals",
+    "course_title": "Data Engineering Fundamentals Course",
+    "course_subtitle": "Build Strong Foundations in Data Pipelines, Warehousing & Modern Data Platforms",
+    "course_slug": "data-engineering-fundamentals-course",
+    "course_thumbnail": "assets/images/courses/de-fundamentals-thumb.jpg",
+    "course_short_description": "Master the core concepts of data engineering. Learn how data is ingested, transformed, and stored using ETL/ELT pipelines and modern data architectures.",
+    "course_long_description": "The Data Engineering Fundamentals course is designed to help learners understand how modern data engineering systems are built from the ground up. This program focuses on the core concepts that power analytics, business intelligence, and data-driven applications. You’ll learn how data is ingested, transformed, stored, and served using ETL and ELT pipelines and data warehousing principles.",
+    "about_course": [
+      "Designed to help learners understand modern data engineering systems from the ground up.",
+      "Focuses on core concepts like ingestion, transformation, storage, and analytics serving.",
+      "Teaches both ETL and ELT pipeline approaches used in real-world analytics systems.",
+      "Prepares learners for advanced platforms like Snowflake, Databricks, and Microsoft Fabric."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 6,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/de-fundamentals",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Data Engineering Fundamentals Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/de-fundamentals-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SQL",
+      "Familiarity with data concepts",
+      "No prior data engineering experience is required"
+    ],
+    "key_learnings": [
+      "Understand how raw data becomes analytics-ready ",
+      "Design reliable ETL and ELT pipelines",
+      "Build scalable data warehouses using Star Schema principles",
+      "Prepare data for analytics, BI, and downstream AI use cases"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Engineers",
+      "Data Analysts transitioning into engineering roles",
+      "Software Engineers working with data systems",
+      "Students entering data and analytics careers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Data Engineering Fundamentals",
+        "ETL and ELT Concepts",
+        "Data Pipelines"
+      ],
+      "supporting_skills": [
+        "SQL Transformations",
+        "Data Warehousing",
+        "Pipeline Design"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SQL",
+        "Data Warehousing Concepts",
+        "Data Pipeline Concepts"
+      ],
+      "secondary": [
+        "Cloud Storage Concepts",
+        "Snowflake (Concepts)",
+        "Databricks (Concepts)",
+        "Microsoft Fabric (Overview)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Junior Data Engineer",
+      "Analytics Engineer",
+      "Data Engineer (Entry Level)",
+      "BI Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Data Engineering Foundation Pipeline. You will build a real-world solution that ingests raw business data, applies SQL transformations, stores it in a data warehouse, and prepares analytics-ready datasets."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Data Engineering",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is data engineering?",
+          "Data engineering vs data analytics",
+          "Modern data architecture overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Sources & Ingestion",
+        "module_duration": "Week 2",
+        "topics": [
+          "Structured vs semi-structured data",
+          "Batch vs streaming ingestion",
+          "Data ingestion patterns"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "ETL & ELT Concepts",
+        "module_duration": "Week 3",
+        "topics": [
+          "ETL vs ELT approaches ",
+          "Data transformation basics",
+          "Pipeline design principles"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SQL for Data Engineering",
+        "module_duration": "Week 4",
+        "topics": [
+          "Advanced SQL concepts",
+          "Transformations using SQL",
+          "Performance considerations"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Data Warehousing Fundamentals",
+        "module_duration": "Week 5",
+        "topics": [
+          "OLTP vs OLAP systems",
+          "Fact and dimension tables",
+          "Star schema design "
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Pipelines & Orchestration",
+        "module_duration": "Week 6",
+        "topics": [
+          "Pipeline components",
+          "Scheduling and dependencies",
+          "Error handling concepts"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Cloud Data Platforms Overview",
+        "module_duration": "Week 7",
+        "topics": [
+          "Cloud data architectures",
+          "Snowflake, Databricks, BigQuery overview",
+          "Lakehouse concepts"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Data Quality, Security & Governance",
+        "module_duration": "Week 8",
+        "topics": [
+          "Data validation techniques",
+          "Access control and security",
+          "Data governance basics"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Performance & Cost Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Query optimization strategies",
+          "Storage and compute optimization",
+          "Pipeline monitoring"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end data engineering pipeline",
+          "Real-world business data use case"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1200,
+    "total_students_enrolled": 9500
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Data Engineering Fundamentals?",
+      "answer": "Data Engineering Fundamentals covers the core concepts of building data pipelines, ETL processes, SQL transformations, and data warehouses used in modern analytics systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this course suitable for beginners?",
+      "answer": "Yes. This course is designed for beginners and professionals transitioning into data engineering roles."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need prior cloud experience?",
+      "answer": "No. Cloud concepts are introduced at a high level and do not require prior experience."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the difference between data engineering and data analytics?",
+      "answer": "Data engineering focuses on building data pipelines and infrastructure, while data analytics focuses on analyzing and visualizing prepared data."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SQL required for data engineering?",
+      "answer": "Yes. SQL is a core skill for data transformations and data warehousing in data engineering."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Engineers",
+    "Data Analysts",
+    "Software Engineers",
+    "Students"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Data Engineering Fundamentals Course | Learn Data Pipelines",
+    "meta_description": "Build a strong foundation in data engineering. Learn ETL/ELT, data warehousing, SQL transformations, and pipeline orchestration from scratch.",
+    "meta_url": "/courses/data-analytics/data-engineering-fundamentals-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-ETL-022",
+    "course_uid": "uid-etl-data-pipelines-pro",
+    "course_title": "ETL & Data Pipelines Course",
+    "course_subtitle": "Design, Build & Manage Reliable ETL Pipelines for Modern Data Platforms",
+    "course_slug": "etl-data-pipelines-course",
+    "course_thumbnail": "assets/images/courses/etl-pipelines-thumb.jpg",
+    "course_short_description": "Master the core of data engineering. Learn to build reliable ETL and ELT pipelines that move, transform, and orchestrate data at scale.",
+    "course_long_description": "The ETL & Data Pipelines course is designed to teach professionals how to design, build, and manage reliable data pipelines that move data from source systems to analytics platforms. This program dives into the engineering side of data movement—how data is ingested, transformed, validated, orchestrated, and monitored across enterprise systems.",
+    "about_course": [
+      "Teaches the design and management of reliable data pipelines from source to analytics.",
+      "Focuses on Extract, Transform, Load (ETL) and ELT concepts for modern data engineering.",
+      "Covers critical engineering aspects: ingestion, transformation, orchestration, and monitoring.",
+      "Enables learners to support analytics, business intelligence, and downstream AI workloads."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 7,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/etl-data-pipelines",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "ETL & Data Pipeline Engineering Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/etl-pipelines-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SQL",
+      "Familiarity with databases and tables",
+      "Basic knowledge of data concepts"
+    ],
+    "key_learnings": [
+      "Design reliable ETL and ELT pipelines ",
+      "Apply SQL-based transformations for data cleaning and business logic",
+      "Orchestrate and monitor automated data workflows with retries and error handling",
+      "Build production-ready data pipelines for enterprise-scale environments"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Engineers",
+      "Data Analysts transitioning into engineering roles",
+      "SQL Developers working with data systems",
+      "BI professionals working with data pipelines"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "ETL & ELT Pipelines",
+        "Data Pipeline Engineering",
+        "Data Transformation"
+      ],
+      "supporting_skills": [
+        "SQL Optimization",
+        "Workflow Orchestration",
+        "Data Quality Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SQL",
+        "ETL Concepts",
+        "Data Pipeline Design"
+      ],
+      "secondary": [
+        "Workflow Orchestration Tools (Concepts)",
+        "Cloud Data Pipeline Patterns",
+        "Data Validation Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Data Engineer",
+      "Analytics Engineer",
+      "BI Engineer",
+      "ETL Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End ETL Data Pipeline. Build a real-world pipeline that extracts data from multiple sources, applies transformations using SQL, loads it into an analytics system, and implements logging and monitoring."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to ETL & Data Pipelines",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is ETL and ELT?",
+          "Role of data pipelines in analytics",
+          "Modern data pipeline architectures "
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Sources & Extraction",
+        "module_duration": "Week 2",
+        "topics": [
+          "Structured and unstructured sources",
+          "Database extraction techniques",
+          "File-based and API-based ingestion"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Transformation Concepts",
+        "module_duration": "Week 3",
+        "topics": [
+          "Data cleaning and normalization",
+          "Business logic transformations",
+          "Handling data quality issues"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SQL-Based Transformations",
+        "module_duration": "Week 4",
+        "topics": [
+          "SQL transformations for ETL",
+          "Joins, aggregations, and validations",
+          "Performance considerations"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "ETL Pipeline Design",
+        "module_duration": "Week 5",
+        "topics": [
+          "Pipeline components and flow",
+          "Incremental vs full loads",
+          "Idempotent pipeline design"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Orchestration & Scheduling",
+        "module_duration": "Week 6",
+        "topics": [
+          "Workflow orchestration concepts",
+          "Scheduling and dependencies",
+          "Handling retries and failures"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Data Validation & Quality Checks",
+        "module_duration": "Week 7",
+        "topics": [
+          "Data completeness and accuracy",
+          "Schema validation",
+          "Logging and audit trails"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Monitoring & Performance Optimization",
+        "module_duration": "Week 8",
+        "topics": [
+          "Pipeline monitoring strategies",
+          "Performance bottlenecks",
+          "Cost and resource optimization"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Cloud-Based ETL Pipelines (Concepts)",
+        "module_duration": "Week 9",
+        "topics": [
+          "ETL in cloud platforms",
+          "Batch pipelines in modern data stacks",
+          "Overview of cloud ETL tools"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end ETL pipeline development",
+          "Real-world data engineering use case"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1150,
+    "total_students_enrolled": 8800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is an ETL & Data Pipelines course?",
+      "answer": "An ETL & Data Pipelines course teaches how to design, build, and manage data pipelines that extract, transform, and load data for analytics and reporting."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between ETL and ELT?",
+      "answer": "ETL transforms data before loading it into the target system, while ELT loads raw data first and performs transformations within the data platform."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SQL important for ETL pipelines?",
+      "answer": "Yes. SQL is a core skill for transformations, validations, and analytics-ready data preparation within a pipeline."
+    },
+    {
+      "faq_id": 4,
+      "question": "Can this course help me transition to Data Engineering?",
+      "answer": "Absolutely. Data analysts and SQL developers can use this course to build the specialized engineering skills needed for Data Engineering roles."
+    },
+    {
+      "faq_id": 5,
+      "question": "Will I learn about orchestration?",
+      "answer": "Yes. The course covers orchestration concepts, scheduling, and handling automated workflow dependencies."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Engineers",
+    "Data Analysts",
+    "SQL Developers",
+    "BI Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "ETL & Data Pipelines Course | Build Reliable Data Workflows",
+    "meta_description": "Learn to design and manage enterprise-grade ETL and ELT pipelines. Master data ingestion, transformation, orchestration, and monitoring for modern analytics platforms.",
+    "meta_url": "/courses/data-analytics/etl-data-pipelines-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-FABRIC-023",
+    "course_uid": "uid-microsoft-fabric-unified-analytics",
+    "course_title": "Microsoft Fabric Course",
+    "course_subtitle": "Unified Analytics with Data Engineering, BI & AI on Microsoft Fabric",
+    "course_slug": "microsoft-fabric-course",
+    "course_thumbnail": "assets/images/courses/microsoft-fabric-thumb.jpg",
+    "course_short_description": "Master Microsoft's unified analytics platform. Learn to integrate data engineering, BI, and AI workflows through OneLake and Fabric workloads.",
+    "course_long_description": "The Microsoft Fabric course is designed to help professionals build end-to-end analytics solutions using Microsoft’s unified analytics platform. This program focuses on how data engineering, data integration, data science, real-time analytics, and business intelligence come together inside a single platform powered by Microsoft Fabric and OneLake.",
+    "about_course": [
+      "Designed to help professionals build end-to-end analytics solutions using a unified platform.",
+      "Focuses on the integration of data engineering, data science, and BI inside Microsoft Fabric.",
+      "Teaches modern lakehouse-based analytics architectures with seamless Power BI integration.",
+      "Enables learners to design and manage complete analytics systems for real-world enterprise environments."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 8,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/microsoft-fabric",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Microsoft Fabric Analytics Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/fabric-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of data and analytics concepts",
+      "Familiarity with SQL or Power BI is helpful",
+      "No prior Microsoft Fabric experience is required"
+    ],
+    "key_learnings": [
+      "Understand Microsoft Fabric architecture and the OneLake concept ",
+      "Build unified analytics solutions integrating engineering, BI, and AI workflows",
+      "Implement real-time and batch analytics solutions using Fabric workloads",
+      "Deliver Power BI insights directly using Direct Lake mode from OneLake"
+    ],
+    "ideal_candidates": [
+      "Data Analysts and BI Professionals",
+      "Data Engineers",
+      "Power BI Developers",
+      "Analytics and Cloud Professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Microsoft Fabric",
+        "Unified Analytics Platforms",
+        "Data Engineering on Fabric"
+      ],
+      "supporting_skills": [
+        "Lakehouse Architecture",
+        "Spark and SQL",
+        "BI Integration",
+        "Real-time Analytics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Microsoft Fabric",
+        "OneLake",
+        "Power BI"
+      ],
+      "secondary": [
+        "Spark",
+        "SQL",
+        "Delta Lake",
+        "Notebooks"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Fabric Data Engineer",
+      "Analytics Engineer",
+      "BI Engineer",
+      "Data Platform Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "97%",
+      "student_completion_rate": "95%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Microsoft Fabric Unified Analytics Solution. You will build a real-world solution that ingests data into OneLake, builds lakehouse-based analytics, and creates Power BI dashboards directly from Fabric workloads."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Microsoft Fabric",
+        "module_duration": "Week 1",
+        "topics": [
+          "Microsoft Fabric overview",
+          "Fabric architecture and workloads",
+          "OneLake concept "
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Ingestion & Integration",
+        "module_duration": "Week 2",
+        "topics": [
+          "Data ingestion patterns",
+          "Fabric data pipelines",
+          "Connecting multiple data sources"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Lakehouse & OneLake",
+        "module_duration": "Week 3",
+        "topics": [
+          "Lakehouse architecture ",
+          "Delta tables",
+          "Managing data in OneLake"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Engineering with Fabric",
+        "module_duration": "Week 4",
+        "topics": [
+          "Spark basics in Fabric",
+          "Data transformations",
+          "Notebooks and pipelines"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Data Warehousing in Fabric",
+        "module_duration": "Week 5",
+        "topics": [
+          "Fabric data warehouse",
+          "SQL analytics endpoint",
+          "Performance considerations"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Real-Time Analytics",
+        "module_duration": "Week 6",
+        "topics": [
+          "Event streams",
+          "KQL basics",
+          "Real-time dashboards"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Data Science & AI Workloads",
+        "module_duration": "Week 7",
+        "topics": [
+          "Data science in Fabric",
+          "Machine learning overview",
+          "Model experimentation basics"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Power BI in Microsoft Fabric",
+        "module_duration": "Week 8",
+        "topics": [
+          "Semantic models",
+          "Direct Lake mode",
+          "Power BI integration "
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security, Governance & Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Access control and security",
+          "Cost management",
+          "Monitoring and optimization"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end Microsoft Fabric analytics solution",
+          "Real-world enterprise use case"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1100,
+    "total_students_enrolled": 7800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Microsoft Fabric?",
+      "answer": "Microsoft Fabric is a unified analytics platform that combines data engineering, data integration, data science, real-time analytics, and business intelligence in a single environment."
+    },
+    {
+      "faq_id": 2,
+      "question": "How is Microsoft Fabric different from Power BI?",
+      "answer": "Power BI focuses on visualization, while Microsoft Fabric provides an end-to-end analytics platform including storage, engineering, warehousing, and BI."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is OneLake in Microsoft Fabric?",
+      "answer": "OneLake is the unified data lake in Microsoft Fabric that stores data for all Fabric workloads, acting like 'OneDrive for data'."
+    },
+    {
+      "faq_id": 4,
+      "question": "Does this course include hands-on projects?",
+      "answer": "Yes. The course includes multiple hands-on labs and a real-world capstone project using the Fabric environment."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is Microsoft Fabric a future-proof skill?",
+      "answer": "Yes. Microsoft Fabric is positioned as the primary strategic analytics platform in the Microsoft ecosystem, integrating all modern data roles."
+    }
+  ],
+  "target_audience": [
+    "Data Analysts",
+    "Data Engineers",
+    "BI Professionals",
+    "Analytics Managers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Microsoft Fabric Course: Unified Analytics Training | Proximsoft",
+    "meta_description": "Master Microsoft Fabric. Learn to unify data engineering, BI, and AI workflows using OneLake, Spark, and Power BI in this hands-on enterprise course.",
+    "meta_url": "/courses/data-analytics/microsoft-fabric-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-PWR-APPS-024",
+    "course_uid": "uid-microsoft-power-apps-lowcode",
+    "course_title": "Microsoft Power Apps Course",
+    "course_subtitle": "Build Low-Code Business Applications Using Microsoft Power Platform",
+    "course_slug": "microsoft-power-apps-course",
+    "course_thumbnail": "assets/images/courses/power-apps-thumb.jpg",
+    "course_short_description": "Master low-code application development. Learn to build, secure, and deploy enterprise-grade business apps using Power Apps, Dataverse, and M365.",
+    "course_long_description": "This Microsoft Power Apps course is designed to teach professionals how to build scalable, low-code business applications using the Microsoft Power Platform. The program focuses on creating real-world enterprise applications using Power Apps, Dataverse, SharePoint, and Microsoft 365 integrations, without requiring traditional software development skills.",
+    "about_course": [
+      "Teaches scalable, low-code business application development using Microsoft Power Platform.",
+      "Focuses on real-world enterprise apps using Dataverse, SharePoint, and Microsoft 365.",
+      "Emphasizes business logic, data modeling, security, governance, and deployment.",
+      "Prepares learners to build production-ready solutions that integrate with existing enterprise systems."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 9,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/microsoft-power-apps",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Microsoft Power Apps App Maker Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/power-apps-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer knowledge",
+      "Familiarity with Microsoft 365 tools (helpful, not mandatory)",
+      "No prior coding experience required"
+    ],
+    "key_learnings": [
+      "Build low-code Canvas and Model-Driven business applications ",
+      "Integrate Power Apps with enterprise data sources like SharePoint and SQL",
+      "Apply security, roles, and governance best practices for app management",
+      "Design complex logic using Power Fx formulas and conditional statements"
+    ],
+    "ideal_candidates": [
+      "Business Analysts",
+      "IT Professionals & Administrators",
+      "Power Platform beginners",
+      "Professionals automating business processes",
+      "Teams building internal enterprise applications"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Microsoft Power Apps",
+        "Low-Code Application Development",
+        "Business App Design"
+      ],
+      "supporting_skills": [
+        "Power Fx formulas",
+        "Dataverse data modeling",
+        "Business process automation"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Microsoft Power Apps",
+        "Power Fx",
+        "Microsoft Dataverse"
+      ],
+      "secondary": [
+        "SharePoint",
+        "Microsoft 365",
+        "Power Automate (overview)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Power Apps Developer",
+      "Power Platform Consultant",
+      "Business Application Developer",
+      "Low-Code Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "86%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Power Apps Business Application. Design and implement a real-world solution that automates a complex workflow, integrates with Dataverse/SharePoint, and implements role-based security."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Microsoft Power Platform",
+        "module_duration": "Week 1",
+        "topics": [
+          "Power Platform overview",
+          "Power Apps use cases",
+          "Platform architecture "
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Power Apps Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Types of Power Apps (Canvas vs Model-Driven)",
+          "Environment setup",
+          "App building basics"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Canvas Apps Development",
+        "module_duration": "Week 3",
+        "topics": [
+          "Canvas app components",
+          "Controls and layouts",
+          "Navigation and UX design"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Sources & Integration",
+        "module_duration": "Week 4",
+        "topics": [
+          "SharePoint integration",
+          "Excel and SQL connections",
+          "Dataverse fundamentals "
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Formulas & Logic in Power Apps",
+        "module_duration": "Week 5",
+        "topics": [
+          "Power Fx basics",
+          "Conditional logic",
+          "Data validation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Model-Driven Apps",
+        "module_duration": "Week 6",
+        "topics": [
+          "Model-driven app concepts",
+          "Tables, forms, and views",
+          "Business rules"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Security & Governance",
+        "module_duration": "Week 7",
+        "topics": [
+          "Roles and permissions",
+          "Data Loss Prevention (DLP)",
+          "Environment management"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integrations & Automation Overview",
+        "module_duration": "Week 8",
+        "topics": [
+          "Power Automate integration ",
+          "Trigger-based workflows",
+          "Automation scenarios"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Deployment & Best Practices",
+        "module_duration": "Week 9",
+        "topics": [
+          "Testing and debugging",
+          "Publishing and sharing apps",
+          "Performance optimization"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end Power Apps solution",
+          "Real-world enterprise use case presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 950,
+    "total_students_enrolled": 6800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Microsoft Power Apps course?",
+      "answer": "A Microsoft Power Apps course teaches how to design, build, secure, and deploy low-code business applications using Microsoft Power Platform, Dataverse, and Microsoft 365 integrations."
+    },
+    {
+      "faq_id": 2,
+      "question": "Do I need coding experience to learn Power Apps?",
+      "answer": "No. Power Apps is a low-code platform. This course is designed for learners without traditional programming backgrounds."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is Dataverse in Power Apps?",
+      "answer": "Dataverse is Microsoft’s secure data platform used to store, manage, and model data for Power Apps and other Power Platform services."
+    },
+    {
+      "faq_id": 4,
+      "question": "Can I build mobile apps with Power Apps?",
+      "answer": "Yes. Power Apps allows you to build responsive applications that work seamlessly on web browsers, tablets, and mobile devices."
+    },
+    {
+      "faq_id": 5,
+      "question": "How does it help with digital transformation?",
+      "answer": "It allows organizations to rapidly build custom tools to replace legacy paper processes or Excel-based tracking without high development costs."
+    }
+  ],
+  "target_audience": [
+    "Business Analysts",
+    "IT Administrators",
+    "Project Managers",
+    "Operational Teams",
+    "Low-Code Enthusiasts"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Microsoft Power Apps Course | Build Business Apps Without Coding",
+    "meta_description": "Master Microsoft Power Apps. Learn to build low-code enterprise applications, integrate data sources, and automate business processes with Power Platform.",
+    "meta_url": "/courses/data-analytics/microsoft-power-apps-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-PWRBI-025",
+    "course_uid": "uid-power-bi-beginner-advanced",
+    "course_title": "Power BI Course (Beginner to Advanced)",
+    "course_subtitle": "Master Data Visualization, DAX & Business Intelligence with Power BI",
+    "course_slug": "power-bi-course",
+    "course_thumbnail": "assets/images/courses/power-bi-thumb.jpg",
+    "course_short_description": "Transform raw data into actionable insights. Master data modeling, DAX, and interactive dashboarding using Microsoft Power BI.",
+    "course_long_description": "This Power BI course is designed to help learners transform raw data into actionable business insights using Microsoft Power BI. The program takes you from fundamentals to advanced data modeling, DAX calculations, and enterprise BI reporting workflows, focusing on end-to-end solutions from ingestion to governance.",
+    "about_course": [
+      "Takes learners from Power BI fundamentals to advanced data modeling and DAX calculations.",
+      "Focuses on end-to-end business intelligence solutions including data ingestion and transformation.",
+      "Teaches enterprise-level BI reporting workflows, sharing, and governance.",
+      "Designed around practical BI skills used by professional data analysts to drive business decisions."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Advanced",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 10,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/power-bi-mastery",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Power BI Data Analyst Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/power-bi-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer literacy",
+      "Familiarity with Excel (helpful but not mandatory)",
+      "Interest in data analysis and visualization"
+    ],
+    "key_learnings": [
+      "Build professional Power BI dashboards from scratch",
+      "Perform complex data modeling and star schema transformations",
+      "Write advanced DAX calculations for business analytics",
+      "Publish, share, and secure BI reports using Power BI Service"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Analysts",
+      "Business Analysts & MIS professionals",
+      "Working professionals handling reports",
+      "Students entering analytics roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Power BI",
+        "Data Visualization",
+        "Business Intelligence Reporting"
+      ],
+      "supporting_skills": [
+        "DAX & Data Modeling",
+        "Data Storytelling",
+        "BI Performance Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Microsoft Power BI Desktop",
+        "Power BI Service",
+        "DAX"
+      ],
+      "secondary": [
+        "Power Query",
+        "Excel",
+        "SQL (optional)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Reporting Analyst",
+      "Power BI Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Power BI Business Dashboard. Build a real-world dashboard that cleans raw business data, applies data modeling best practices, uses advanced DAX measures, and delivers interactive insights."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to BI & Power BI",
+        "module_duration": "Week 1",
+        "topics": [
+          "Business intelligence concepts",
+          "Power BI Desktop overview",
+          "Data sources & connectors"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Loading & Transformation",
+        "module_duration": "Week 2",
+        "topics": [
+          "Power Query fundamentals",
+          "Cleaning & transforming data",
+          "Data shaping best practices"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Modeling Fundamentals",
+        "module_duration": "Week 3",
+        "topics": [
+          "Relationships & cardinality",
+          "Star schema concepts",
+          "Model optimization techniques"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "DAX Basics",
+        "module_duration": "Week 4",
+        "topics": [
+          "Calculated columns vs measures",
+          "Common DAX functions",
+          "Aggregations & logical functions"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced DAX",
+        "module_duration": "Week 5",
+        "topics": [
+          "Time intelligence functions",
+          "CALCULATE & filter context",
+          "Performance optimization"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Visualization Essentials",
+        "module_duration": "Week 6",
+        "topics": [
+          "Charts, tables & KPIs",
+          "Choosing the right visuals",
+          "Data storytelling"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Interactive Dashboards & Reports",
+        "module_duration": "Week 7",
+        "topics": [
+          "Filters, slicers & drill-through",
+          "Tooltips & bookmarks",
+          "UX best practices"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Power BI Service & Sharing",
+        "module_duration": "Week 8",
+        "topics": [
+          "Publishing reports",
+          "Dashboards & apps",
+          "Workspace management"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Advanced Features & Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Incremental refresh",
+          "Row-level security (RLS)",
+          "Performance analyzer"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end business dashboard",
+          "Real-world analytics use case"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 2100,
+    "total_students_enrolled": 15000
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Power BI course?",
+      "answer": "A Power BI course teaches how to analyze data, create dashboards, write DAX formulas, and build business intelligence reports using Microsoft Power BI."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is Power BI suitable for beginners?",
+      "answer": "Yes. This Power BI course starts from basic concepts and gradually progresses to advanced dashboarding and analytics."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is DAX in Power BI?",
+      "answer": "DAX (Data Analysis Expressions) is a formula language used in Power BI to create calculations, measures, and advanced analytics."
+    },
+    {
+      "faq_id": 4,
+      "question": "Will I work on real-world projects?",
+      "answer": "Yes. The course includes hands-on labs and a capstone project based on real business data."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Analysts",
+    "Business Analysts",
+    "MIS Professionals",
+    "Fresh Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Power BI Course: Master Data Visualization & DAX | Proximsoft",
+    "meta_description": "Master Microsoft Power BI. Learn data modeling, advanced DAX, and professional dashboard design through hands-on labs and real-world BI projects.",
+    "meta_url": "/courses/data-analytics/power-bi-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SNOW-026",
+    "course_uid": "uid-snowflake-data-platform-cloud",
+    "course_title": "Snowflake Data Platform Course",
+    "course_subtitle": "Cloud Data Warehousing & Analytics with Snowflake",
+    "course_slug": "snowflake-data-platform-course",
+    "course_thumbnail": "assets/images/courses/snowflake-thumb.jpg",
+    "course_short_description": "Master the world's leading cloud data platform. Learn to build scalable data warehouses, optimize compute costs, and manage secure data sharing.",
+    "course_long_description": "This Snowflake Data Platform course is designed to help learners build modern, cloud-native data warehouses and analytics solutions using Snowflake. The course focuses on how organizations store, process, and analyze large volumes of data using Snowflake’s unique separation of compute and storage architecture.",
+    "about_course": [
+      "Designed for building modern, cloud-native data warehouses using Snowflake's unique architecture.",
+      "Focuses on the separation of compute and storage for high-performance data processing.",
+      "Covers data loading, SQL-based transformations, performance optimization, and security.",
+      "Emphasizes real-world Snowflake implementations used by enterprise analytics teams."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 11,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/snowflake-data-platform",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Snowflake Pro Core Certification Readiness",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/snowflake-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Working knowledge of SQL",
+      "Understanding of relational databases",
+      "Basic familiarity with cloud concepts (helpful, not mandatory)"
+    ],
+    "key_learnings": [
+      "Understand Snowflake architecture and separation of storage/compute ",
+      "Load and transform large datasets efficiently using COPY and SQL",
+      "Optimize query performance and warehouse costs through scaling and caching",
+      "Implement secure data sharing, Time Travel, and robust data governance"
+    ],
+    "ideal_candidates": [
+      "Data Engineers",
+      "Data Analysts & BI Professionals",
+      "SQL Developers",
+      "Cloud & Analytics Professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Snowflake Data Platform",
+        "Cloud Data Warehousing",
+        "SQL Analytics"
+      ],
+      "supporting_skills": [
+        "Performance Optimization",
+        "Secure Data Sharing",
+        "BI Integration",
+        "Semi-structured Data Handling"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Snowflake",
+        "SQL"
+      ],
+      "secondary": [
+        "AWS S3",
+        "Azure Blob Storage",
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Snowflake Developer",
+      "Data Engineer",
+      "Analytics Engineer",
+      "BI Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "97%",
+      "student_completion_rate": "95%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Snowflake Analytics Platform. Build an end-to-end solution that ingests data from cloud storage, transforms it using SQL, optimizes warehouse sizing, and implements Time Travel and security policies."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 29
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Snowflake",
+        "module_duration": "Week 1",
+        "topics": [
+          "Snowflake overview & use cases",
+          "Cloud data warehousing concepts",
+          "Snowflake editions & architecture"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Snowflake Architecture Deep Dive",
+        "module_duration": "Week 2",
+        "topics": [
+          "Virtual warehouses",
+          "Databases, schemas & tables",
+          "Separation of storage, compute & services"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Loading & Ingestion",
+        "module_duration": "Week 3",
+        "topics": [
+          "Loading data from cloud storage",
+          "COPY command & stages",
+          "File formats & ingestion best practices"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Transformation & SQL Analytics",
+        "module_duration": "Week 4",
+        "topics": [
+          "Advanced SQL in Snowflake",
+          "Views & materialized views",
+          "Data transformation patterns"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Performance Optimization",
+        "module_duration": "Week 5",
+        "topics": [
+          "Query performance tuning",
+          "Warehouse sizing & scaling",
+          "Caching & clustering"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Security & Data Governance",
+        "module_duration": "Week 6",
+        "topics": [
+          "Roles & access control",
+          "Data masking & row access policies",
+          "Secure data sharing"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Semi-Structured Data Handling",
+        "module_duration": "Week 7",
+        "topics": [
+          "Working with JSON, AVRO & PARQUET",
+          "VARIANT data type",
+          "Flattening semi-structured data"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Snowflake & BI Integration",
+        "module_duration": "Week 8",
+        "topics": [
+          "Integrating Power BI & Tableau",
+          "Query optimization for BI",
+          "Analytics reporting workflows"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Advanced Snowflake Features",
+        "module_duration": "Week 9",
+        "topics": [
+          "Secure data sharing",
+          "Time travel & fail-safe",
+          "Streams & tasks"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end Snowflake analytics solution",
+          "Real-world enterprise use case"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1100,
+    "total_students_enrolled": 8200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Snowflake Data Platform?",
+      "answer": "Snowflake is a cloud-native data platform used for data warehousing, analytics, and secure data sharing with independent compute and storage."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SQL important for Snowflake?",
+      "answer": "Yes. SQL is the primary language used for querying, transforming, and analyzing data in Snowflake."
+    },
+    {
+      "faq_id": 3,
+      "question": "Can Snowflake handle semi-structured data?",
+      "answer": "Yes. Snowflake supports JSON, AVRO, PARQUET, and other semi-structured data formats using its unique VARIANT data type."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is Snowflake Time Travel?",
+      "answer": "Time Travel allows you to access data as it existed at any point in the past within a defined retention period, helping with data recovery and auditing."
+    },
+    {
+      "faq_id": 5,
+      "question": "Will I work on real-world projects?",
+      "answer": "Yes. The course includes hands-on labs and a capstone project based on real enterprise analytics scenarios."
+    }
+  ],
+  "target_audience": [
+    "Data Engineers",
+    "Data Analysts",
+    "SQL Developers",
+    "Analytics Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Snowflake Data Platform Course | Cloud Data Warehousing",
+    "meta_description": "Master Snowflake for enterprise analytics. Learn cloud data warehousing, performance tuning, data sharing, and semi-structured data handling.",
+    "meta_url": "/courses/data-analytics/snowflake-data-platform-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SQL-DA-027",
+    "course_uid": "uid-sql-for-data-analytics-mastery",
+    "course_title": "SQL for Data Analytics Course",
+    "course_subtitle": "Master SQL to Analyze, Query & Transform Data for Business Insights",
+    "course_slug": "sql-for-data-analytics-course",
+    "course_thumbnail": "assets/images/courses/sql-analytics-thumb.jpg",
+    "course_short_description": "Master the most essential skill for data professionals. Learn to query large datasets, perform complex joins, and use window functions for business insights.",
+    "course_long_description": "This SQL for Data Analytics course is designed to help learners use SQL as a core tool for data analysis, reporting, and business decision-making. Unlike database administration-focused training, this program is tailored specifically for analytics use cases, emphasizing real-world SQL usage daily in BI and data teams.",
+    "about_course": [
+      "Tailored specifically for analytics use cases rather than database administration.",
+      "Teaches how to query large datasets and transform raw data into actionable insights.",
+      "Focuses on real-world SQL usage including complex joins, subqueries, and window functions.",
+      "Designed to help you answer real business questions through data querying and reporting."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 12,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sql-for-data-analytics",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SQL for Data Analytics Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sql-analytics-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer skills",
+      "Interest in data analysis and reporting",
+      "No prior SQL or coding experience is required"
+    ],
+    "key_learnings": [
+      "Write efficient SQL queries for complex data analysis ",
+      "Analyze data relationships using multiple types of Joins",
+      "Apply Window Functions for advanced insights like ranking and running totals",
+      "Prepare and optimize datasets specifically for BI tools and reporting"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Analysts",
+      "Business & MIS Analysts",
+      "Data Science beginners",
+      "Professionals working with data and reports"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SQL Analytics",
+        "Data Querying",
+        "Business Reporting"
+      ],
+      "supporting_skills": [
+        "Query Optimization",
+        "Analytical Thinking",
+        "Data Preparation for BI"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SQL",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "secondary": [
+        "SQL Editors",
+        "Database Clients",
+        "T-SQL / PL-SQL concepts"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Data Analyst",
+      "Business Analyst",
+      "Reporting Analyst",
+      "Junior Data Scientist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 8,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SQL Analytics & Reporting. Build a real-world solution that queries large datasets, applies complex logic with window functions, and generates actionable business reports."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 8,
+      "total_lectures": 24
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "SQL & Database Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is SQL?",
+          "Databases, tables & schemas",
+          "Basic SELECT queries"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Filtering, Sorting & Functions",
+        "module_duration": "Week 2",
+        "topics": [
+          "WHERE, ORDER BY clauses",
+          "Built-in SQL functions",
+          "Handling NULL values"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Aggregations & Grouping",
+        "module_duration": "Week 3",
+        "topics": [
+          "COUNT, SUM, AVG",
+          "GROUP BY & HAVING",
+          "Business metrics analysis"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Joins & Relationships",
+        "module_duration": "Week 4",
+        "topics": [
+          "INNER, LEFT, RIGHT joins ",
+          "Multi-table queries",
+          "Real-world join scenarios"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Subqueries & CTEs",
+        "module_duration": "Week 5",
+        "topics": [
+          "Nested queries",
+          "Common Table Expressions (CTEs)",
+          "Query readability & optimization"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Window Functions for Analytics",
+        "module_duration": "Week 6",
+        "topics": [
+          "OVER & PARTITION BY",
+          "Ranking & running totals",
+          "Time-based analysis"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "SQL for Reporting & Dashboards",
+        "module_duration": "Week 7",
+        "topics": [
+          "Query optimization for reports",
+          "Preparing data for BI tools",
+          "SQL best practices"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end SQL analytics project",
+          "Business reporting use case",
+          "Final insights presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1500,
+    "total_students_enrolled": 11000
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SQL for Data Analytics?",
+      "answer": "SQL for Data Analytics focuses on using SQL to analyze data, generate reports, and support business decision-making rather than database administration."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SQL required for data analyst jobs?",
+      "answer": "Yes. SQL is one of the most important and foundational skills for data analyst and business analyst roles."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need programming knowledge to learn SQL?",
+      "answer": "No prior programming experience is required to learn SQL; it is an intuitive, English-like language for data querying."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is a window function in SQL?",
+      "answer": "Window functions perform calculations across rows related to the current row, commonly used for complex trend analysis and ranking."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SQL used with Power BI and Tableau?",
+      "answer": "Yes. SQL is commonly used to prepare, clean, and query data before it is visualized in major BI tools."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Analysts",
+    "Business Analysts",
+    "MIS Professionals",
+    "Students"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SQL for Data Analytics Course | Master Data Querying",
+    "meta_description": "Learn SQL for data analysis. Master Joins, Aggregations, Subqueries, and Window Functions to transform raw data into actionable business insights.",
+    "meta_url": "/courses/data-analytics/sql-for-data-analytics-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-TAB-028",
+    "course_uid": "uid-tableau-mastery-beginner-advanced",
+    "course_title": "Tableau Course (Beginner to Advanced)",
+    "course_subtitle": "Build Interactive Dashboards & Data Stories with Tableau",
+    "course_slug": "tableau-course",
+    "course_thumbnail": "assets/images/courses/tableau-thumb.jpg",
+    "course_short_description": "Master end-to-end data visualization. Learn to build enterprise-ready dashboards, perform visual analytics, and master data storytelling with Tableau.",
+    "course_long_description": "This Tableau course is designed to help learners visualize, analyze, and communicate data effectively using Tableau. The program starts from fundamentals and progresses to advanced visual analytics, calculated fields, parameters, and performance optimization, focusing on how analysts turn raw data into interactive dashboards that support real business decisions.",
+    "about_course": [
+      "Starts from Tableau fundamentals and progresses to advanced visual analytics and data storytelling.",
+      "Focuses on end-to-end usage—from connecting and preparing data to building enterprise dashboards.",
+      "Teaches practical skills for designing dashboards that are visually strong and analytically sound.",
+      "Emphasis on real-world business intelligence reporting and secure sharing of insights."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Advanced",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 13,
+    "course_category": {
+      "category_id": "CAT_DATA",
+      "category_title": "Data Analytics",
+      "category_url": "/courses/data-analytics"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/tableau-mastery",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Tableau Desktop Specialist Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/tableau-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer knowledge",
+      "Familiarity with Excel or data concepts (helpful, not mandatory)",
+      "Interest in data visualization and analytics"
+    ],
+    "key_learnings": [
+      "Build complex interactive dashboards with Tableau ",
+      "Apply advanced visualization techniques using Sets, Parameters, and LOD expressions",
+      "Design business-focused data stories to communicate insights to executives",
+      "Optimize dashboard performance for large enterprise datasets"
+    ],
+    "ideal_candidates": [
+      "Aspiring Data Analysts",
+      "Business Intelligence Professionals",
+      "MIS & Reporting Analysts",
+      "Working professionals working with data"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Tableau",
+        "Data Visualization",
+        "Business Intelligence Reporting"
+      ],
+      "supporting_skills": [
+        "Data Storytelling",
+        "Analytical Thinking",
+        "Dashboard Performance Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "secondary": [
+        "Excel",
+        "CSV Sources",
+        "SQL (for data preparation)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Reporting Analyst",
+      "Tableau Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 10,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Tableau Business Dashboard. You will build a professional dashboard that connects to real-world business data, utilizes calculated fields and parameters, and delivers clear actionable insights for decision-makers."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Data Visualization & Tableau",
+        "module_duration": "Week 1",
+        "topics": [
+          "BI and data visualization concepts",
+          "Tableau Desktop overview",
+          "Connecting to data sources"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Data Connections & Preparation",
+        "module_duration": "Week 2",
+        "topics": [
+          "Connecting to files and databases",
+          "Data types, joins, and unions",
+          "Data preparation basics"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Building Basic Visualizations",
+        "module_duration": "Week 3",
+        "topics": [
+          "Charts, graphs, and tables",
+          "Dimensions vs measures ",
+          "Filters and sorting"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Calculated Fields & Analytics",
+        "module_duration": "Week 4",
+        "topics": [
+          "Calculated fields",
+          "Table calculations",
+          "Quick table calculations"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced Visual Analytics",
+        "module_duration": "Week 5",
+        "topics": [
+          "Parameters and sets",
+          "Advanced chart types",
+          "Reference lines and bands"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Dashboards & Interactivity",
+        "module_duration": "Week 6",
+        "topics": [
+          "Dashboard design principles",
+          "Actions and filters ",
+          "User interaction techniques"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Data Storytelling with Tableau",
+        "module_duration": "Week 7",
+        "topics": [
+          "Creating stories",
+          "Storytelling best practices",
+          "Business-focused dashboards"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Performance Optimization",
+        "module_duration": "Week 8",
+        "topics": [
+          "Extracts vs live connections",
+          "Dashboard performance tuning",
+          "Best practices"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Tableau Server & Sharing",
+        "module_duration": "Week 9",
+        "topics": [
+          "Publishing dashboards",
+          "Tableau Cloud basics",
+          "User access and permissions"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end Tableau dashboard project",
+          "Real-world business analytics use case",
+          "Insights presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1250,
+    "total_students_enrolled": 8900
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Tableau course?",
+      "answer": "A Tableau course teaches how to visualize data, build dashboards, and create business intelligence reports using Tableau."
+    },
+    {
+      "faq_id": 2,
+      "question": "Do I need coding to learn Tableau?",
+      "answer": "No coding is required. Basic SQL is optional for data preparation but not mandatory for using Tableau's visualization features."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is data storytelling in Tableau?",
+      "answer": "Data storytelling combines visuals, context, and insights into a sequenced narrative to communicate findings clearly to business users."
+    },
+    {
+      "faq_id": 4,
+      "question": "Can Tableau handle large datasets?",
+      "answer": "Yes. Tableau can work with large datasets effectively using Data Extracts, live connection optimizations, and performance tuning techniques."
+    },
+    {
+      "faq_id": 5,
+      "question": "Will I work on real-world projects?",
+      "answer": "Yes. The course includes multiple hands-on exercises and a capstone dashboard project based on real business requirements."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Data Analysts",
+    "BI Professionals",
+    "Reporting Analysts",
+    "MIS Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Tableau Course: Master Data Visualization & Dashboards | Proximsoft",
+    "meta_description": "Learn Tableau from beginner to advanced. Master data visualization, calculated fields, dashboard design, and data storytelling through real-world projects.",
+    "meta_url": "/courses/data-analytics/tableau-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-AGBA-029",
+    "course_uid": "uid-agile-business-analyst-pro",
+    "course_title": "Agile Business Analyst Course",
+    "course_subtitle": "Agile BA, Scrum Practices & Requirements Management in Agile Projects",
+    "course_slug": "agile-business-analyst-course",
+    "course_thumbnail": "assets/images/courses/agile-ba-thumb.jpg",
+    "course_short_description": "Bridge the gap between business needs and Agile delivery. Learn to write user stories, manage backlogs, and collaborate effectively within Scrum teams.",
+    "course_long_description": "This Agile Business Analyst course is designed to help professionals perform the Business Analyst role effectively within Agile and Scrum environments. Unlike traditional programs, this course focuses on iterative delivery models—working closely with Product Owners, Scrum Masters, and developers to translate business needs into actionable user stories.",
+    "about_course": [
+      "Designed to help BAs operate effectively in fast-moving Agile and Scrum delivery models.",
+      "Teaches how to translate complex business needs into high-quality user stories.",
+      "Focuses on practical backlog refinement, sprint planning support, and Agile UAT.",
+      "Emphasizes collaboration across Scrum roles including developers, QA, and Product Owners."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "CAT_MGMT",
+      "category_title": "Management",
+      "category_url": "/courses/management"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "5-6 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/agile-business-analyst",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Agile Business Analyst Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/agile-ba-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of business requirements",
+      "Familiarity with software or IT environments",
+      "No prior Agile experience required"
+    ],
+    "key_learnings": [
+      "Work effectively as a BA in Agile and Scrum teams ",
+      "Write clear, high-quality user stories and acceptance criteria",
+      "Manage and refine product backlogs using prioritization techniques",
+      "Support sprint execution and lead User Acceptance Testing (UAT) activities"
+    ],
+    "ideal_candidates": [
+      "Business Analysts working in Agile projects",
+      "QA professionals transitioning into BA roles",
+      "Product & Functional Analysts",
+      "Professionals working with Scrum or Agile teams"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Agile Business Analysis",
+        "Scrum Practices",
+        "Requirements Management"
+      ],
+      "supporting_skills": [
+        "Stakeholder Collaboration",
+        "Backlog Grooming",
+        "Agile Documentation",
+        "JIRA/Confluence Proficiency"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "JIRA",
+        "Confluence"
+      ],
+      "secondary": [
+        "Scrum Framework",
+        "Wireframing Tools",
+        "Mockup Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Agile Business Analyst",
+      "Scrum Business Analyst",
+      "Functional Analyst",
+      "Junior Product Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Agile Business Analysis Project. You will work on a simulated Agile project writing user stories, managing a product backlog in JIRA, and supporting a full sprint lifecycle including UAT."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 29
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Agile Fundamentals for Business Analysts",
+        "module_duration": "Week 1",
+        "topics": [
+          "Agile manifesto & principles",
+          "Agile vs Waterfall",
+          "Role of BA in Agile teams"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Scrum Framework Deep Dive",
+        "module_duration": "Week 2",
+        "topics": [
+          "Scrum roles, events & artifacts",
+          "BA vs Product Owner responsibilities",
+          "Working with Scrum teams"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "User Stories & Acceptance Criteria",
+        "module_duration": "Week 3",
+        "topics": [
+          "Writing effective user stories",
+          "INVEST principles ",
+          "Acceptance criteria & definition of done"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Backlog Management & Grooming",
+        "module_duration": "Week 4",
+        "topics": [
+          "Product backlog creation",
+          "Prioritization techniques",
+          "Backlog refinement sessions"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Agile Requirements Modeling",
+        "module_duration": "Week 5",
+        "topics": [
+          "Use cases & story mapping ",
+          "Wireframes & mockups",
+          "Lightweight Agile documentation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Sprint Planning & Execution",
+        "module_duration": "Week 6",
+        "topics": [
+          "Supporting sprint planning",
+          "Sprint reviews & retrospectives",
+          "BA responsibilities during sprints"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Stakeholder Collaboration",
+        "module_duration": "Week 7",
+        "topics": [
+          "Stakeholder identification",
+          "Agile communication techniques",
+          "Managing change in Agile projects"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Agile Testing & UAT",
+        "module_duration": "Week 8",
+        "topics": [
+          "BA role in Agile testing",
+          "UAT planning & execution",
+          "Collaboration with QA teams"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Agile Tools & Metrics",
+        "module_duration": "Week 8",
+        "topics": [
+          "JIRA & Confluence usage ",
+          "Agile metrics & KPIs",
+          "Progress tracking & reporting"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end Agile BA project",
+          "Final project presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 850,
+    "total_students_enrolled": 5400
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is an Agile Business Analyst?",
+      "answer": "An Agile Business Analyst works within Scrum or Agile teams to translate business needs into user stories, manage backlogs, and support sprint delivery."
+    },
+    {
+      "faq_id": 2,
+      "question": "How is Agile BA different from traditional BA?",
+      "answer": "Agile BAs focus on iterative delivery, continuous collaboration, and lightweight documentation instead of heavy, upfront requirements documents."
+    },
+    {
+      "faq_id": 3,
+      "question": "What tools are used by Agile Business Analysts?",
+      "answer": "Common tools include JIRA for task management, Confluence for documentation, and various wireframing tools like Figma or Balsamiq."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is this course suitable for QA professionals?",
+      "answer": "Yes. QA professionals often have a deep understanding of product logic, making them excellent candidates for transitioning into Agile BA roles."
+    },
+    {
+      "faq_id": 5,
+      "question": "Do I need coding knowledge?",
+      "answer": "No coding knowledge is required. The focus is on business logic, requirement translation, and project orchestration."
+    }
+  ],
+  "target_audience": [
+    "Business Analysts",
+    "QA Professionals",
+    "Product Analysts",
+    "Scrum Team Members"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Agile Business Analyst Course | Scrum BA Training | Proximsoft",
+    "meta_description": "Master the role of a Business Analyst in Agile and Scrum teams. Learn to write user stories, manage backlogs in JIRA, and lead Agile delivery projects.",
+    "meta_url": "/courses/management/agile-business-analyst-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-BAPMP-030",
+    "course_uid": "uid-business-analyst-with-pmp-expert",
+    "course_title": "Business Analyst with PMP Course",
+    "course_subtitle": "Business Analysis & Project Management (PMP-Oriented) for IT Projects",
+    "course_slug": "business-analyst-with-pmp-course",
+    "course_thumbnail": "assets/images/courses/ba-pmp-thumb.jpg",
+    "course_short_description": "Combine business analysis expertise with PMP-aligned project management. Master requirements elicitation, scope control, and risk management in enterprise IT projects.",
+    "course_long_description": "The Business Analyst with PMP course is designed for professionals who want to combine business analysis expertise with PMP-aligned project management practices used in IT and enterprise projects. This program focuses on how Business Analysts operate within structured project environments governed by PMI® standards, teaching requirement elicitation, BRD/FRD preparation, stakeholder communication, and delivery frameworks.",
+    "about_course": [
+      "Combines BA expertise with PMP-aligned project management practices for enterprise environments.",
+      "Teaches how requirements and project execution work together in real-world IT delivery.",
+      "Aligned with PMI® standards for scope control, risk management, and process groups.",
+      "Covers Agile, Waterfall, and hybrid models to prepare for leadership in digital transformation."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 2,
+    "course_category": {
+      "category_id": "CAT_MGMT",
+      "category_title": "Management",
+      "category_url": "/courses/management"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "5-6 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/ba-with-pmp",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Business Analysis & Project Management Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/ba-pmp-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of business requirements",
+      "Familiarity with IT or software projects",
+      "Prior BA, QA, or PM exposure is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Perform BA roles within PMP-aligned projects",
+      "Manage scope, requirements, and stakeholders effectively",
+      "Understand PMP process groups and knowledge areas",
+      "Support structured and successful project delivery"
+    ],
+    "ideal_candidates": [
+      "Business Analysts aiming for leadership roles",
+      "Project Coordinators & Associate Project Managers",
+      "QA or Technical professionals transitioning into BA–PM roles",
+      "Professionals planning PMP certification in the future"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Business Analysis",
+        "PMP-Aligned Project Management",
+        "Requirements & Scope Management"
+      ],
+      "supporting_skills": [
+        "Stakeholder Communication",
+        "Risk & Quality Management",
+        "Delivery Governance"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "JIRA",
+        "Confluence"
+      ],
+      "secondary": [
+        "MS Project (overview)",
+        "Agile / Scrum Frameworks",
+        "BA & PM templates"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Business Analyst",
+      "Business Systems Analyst",
+      "Project Coordinator",
+      "Associate Project Manager"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: BA with PMP Project Simulation. You will manage a real-world IT project simulation involving elicitation, documentation, risk planning, and progress tracking."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "BA & PMP Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "Role of Business Analyst vs Project Manager",
+          "PMI® project lifecycle",
+          "How BA activities fit into PMP framework"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Business Analysis Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Requirement elicitation techniques",
+          "Functional & non-functional requirements",
+          "BA deliverables and documentation"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Scope & Requirements Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Scope definition and control",
+          "Work Breakdown Structure (WBS) basics",
+          "Requirement Traceability Matrix (RTM)"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Stakeholder & Communication Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Stakeholder identification and analysis",
+          "Communication planning",
+          "Managing expectations and conflicts"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Schedule & Cost Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "Project scheduling concepts",
+          "Estimation techniques",
+          "Budgeting and cost control basics"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Risk & Quality Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Risk identification and mitigation",
+          "Quality planning and assurance",
+          "Change and issue management"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Agile & Waterfall Delivery Models",
+        "module_duration": "Week 7",
+        "topics": [
+          "Waterfall delivery approach",
+          "Agile & Scrum overview",
+          "Hybrid project models"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "PMP Knowledge Areas & Process Groups",
+        "module_duration": "Week 8",
+        "topics": [
+          "Initiating, Planning, Executing",
+          "Monitoring & Controlling",
+          "Closing process group"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Tools, Documentation & Governance",
+        "module_duration": "Week 8",
+        "topics": [
+          "JIRA & Confluence usage",
+          "BA and PM templates",
+          "Reporting and dashboards"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end BA + PM project",
+          "Requirements and planning execution",
+          "Final delivery tracking"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 600,
+    "total_students_enrolled": 4200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Business Analyst with PMP course?",
+      "answer": "It is a course that combines business analysis practices with PMP-aligned project management concepts for IT projects."
+    },
+    {
+      "faq_id": 2,
+      "question": "Does this course replace PMP certification training?",
+      "answer": "No. This course is PMP-aligned but does not replace official PMP certification preparation."
+    },
+    {
+      "faq_id": 3,
+      "question": "Who should take a BA with PMP course?",
+      "answer": "Business Analysts, Project Coordinators, QA professionals, and those planning PMP certification."
+    },
+    {
+      "faq_id": 4,
+      "question": "What skills will I learn in this course?",
+      "answer": "You’ll learn requirements management, stakeholder communication, scope control, and PMP process awareness."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is Agile covered in this course?",
+      "answer": "Yes. The course covers Agile, Waterfall, and hybrid delivery models."
+    },
+    {
+      "faq_id": 6,
+      "question": "What tools are used in this course?",
+      "answer": "Tools include JIRA, Confluence, MS Project (overview), and BA/PM templates."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is this course suitable for beginners?",
+      "answer": "It is best suited for professionals with basic BA or IT project exposure."
+    },
+    {
+      "faq_id": 8,
+      "question": "Will I work on real-world projects?",
+      "answer": "Yes. The capstone project simulates an end-to-end BA + PM project lifecycle."
+    },
+    {
+      "faq_id": 9,
+      "question": "What jobs can I apply for after this course?",
+      "answer": "Roles include Business Analyst, Project Coordinator, Associate Project Manager, and Systems Analyst."
+    },
+    {
+      "faq_id": 10,
+      "question": "How does PMP knowledge help Business Analysts?",
+      "answer": "PMP knowledge helps BAs align requirements with scope, schedule, risk, and delivery constraints."
+    }
+  ],
+  "target_audience": [
+    "Business Analysts",
+    "Project Coordinators",
+    "QA Professionals",
+    "IT Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Business Analyst with PMP Course | BA & PM Certification | Proximsoft",
+    "meta_description": "Advance your career by combining Business Analysis with PMP-aligned project management. Master requirements, scope, and stakeholder management for IT projects.",
+    "meta_url": "/courses/management/business-analyst-with-pmp-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-DBA-031",
+    "course_uid": "uid-data-business-analyst-insights",
+    "course_title": "Data Business Analyst Course",
+    "course_subtitle": "Business Analysis, Data Analytics & Insights for Decision Making",
+    "course_slug": "data-business-analyst-course",
+    "course_thumbnail": "assets/images/courses/data-ba-thumb.jpg",
+    "course_short_description": "Combine business analysis with data analytics. Learn to translate business requirements into data questions and drive decisions using SQL, Excel, and Power BI.",
+    "course_long_description": "The Data Business Analyst course is designed to help professionals combine business analysis skills with data analytics techniques to drive informed decision-making in organizations. This program focuses on how business requirements are translated into data questions, analyzed using SQL and Excel, and communicated through dashboards and insights using Power BI or Tableau.",
+    "about_course": [
+      "Combines core business analysis skills with modern data analytics techniques.",
+      "Focuses on translating business requirements into technical data questions.",
+      "Teaches data analysis using SQL and Excel followed by visualization in Power BI or Tableau.",
+      "Emphasizes the business context behind data to act as a bridge between business and analytics teams."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 3,
+    "course_category": {
+      "category_id": "CAT_MGMT",
+      "category_title": "Management",
+      "category_url": "/courses/management"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "5 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/data-business-analyst",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Data Business Analyst Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/data-ba-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer skills",
+      "Interest in data and business problem-solving",
+      "Prior Excel knowledge is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Translate business requirements into data-driven insights",
+      "Analyze business data using SQL and Excel",
+      "Build interactive dashboards for management decision-making",
+      "Communicate complex data insights clearly to non-technical stakeholders"
+    ],
+    "ideal_candidates": [
+      "IT Business Analysts moving into data-focused roles",
+      "Data Analysts seeking stronger business context",
+      "Reporting & MIS professionals",
+      "Freshers interested in analytics and business roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Data Business Analysis",
+        "Business Analytics",
+        "Insight Generation"
+      ],
+      "supporting_skills": [
+        "SQL Querying",
+        "Excel-Based Analysis",
+        "Data Visualization & Storytelling"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SQL",
+        "MS Excel"
+      ],
+      "secondary": [
+        "Power BI",
+        "Tableau",
+        "JIRA",
+        "Confluence"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Data Business Analyst",
+      "Business Intelligence Analyst",
+      "Reporting Analyst",
+      "Functional Data Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Data Business Analysis Project. You will work on a real-world business scenario: understanding requirements, analyzing data with SQL/Excel, and presenting dashboard-driven insights."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 29
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Data Business Analysis",
+        "module_duration": "Week 1",
+        "topics": [
+          "Role of a Data Business Analyst",
+          "BA vs Data Analyst vs BI Analyst",
+          "Analytics lifecycle"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Business Requirements & KPIs",
+        "module_duration": "Week 2",
+        "topics": [
+          "Requirement elicitation techniques",
+          "Business metrics and KPIs",
+          "Translating business needs into data questions"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Fundamentals",
+        "module_duration": "Week 3",
+        "topics": [
+          "Types of data",
+          "Data sources",
+          "Data quality and governance basics"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SQL for Business Analysis",
+        "module_duration": "Week 4",
+        "topics": [
+          "SQL fundamentals",
+          "Data querying and filtering",
+          "Business-focused SQL use cases"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Excel for Data Analysis",
+        "module_duration": "Week 5",
+        "topics": [
+          "Data cleaning and transformation",
+          "Pivot tables and formulas",
+          "Business reporting with Excel"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Data Visualization",
+        "module_duration": "Week 6",
+        "topics": [
+          "Dashboard design principles",
+          "Power BI / Tableau basics",
+          "Storytelling with data"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Business Process & Data Mapping",
+        "module_duration": "Week 7",
+        "topics": [
+          "Business process flows",
+          "Data mapping techniques",
+          "Impact analysis"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Agile Analytics & Stakeholder Communication",
+        "module_duration": "Week 8",
+        "topics": [
+          "Agile analytics concepts",
+          "Communicating insights effectively",
+          "Stakeholder presentations"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Tools, Documentation & Best Practices",
+        "module_duration": "Week 8",
+        "topics": [
+          "JIRA and Confluence usage",
+          "BA documentation standards",
+          "Data analysis best practices"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end data business analysis project",
+          "Insights presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 520,
+    "total_students_enrolled": 3800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Data Business Analyst?",
+      "answer": "A Data Business Analyst combines business analysis skills with data analytics to turn business requirements into actionable insights."
+    },
+    {
+      "faq_id": 2,
+      "question": "How is a Data Business Analyst different from a Data Analyst?",
+      "answer": "A Data Business Analyst focuses more on business context, KPIs, and stakeholder communication, while Data Analysts focus more on technical analysis."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need programming skills for this course?",
+      "answer": "No advanced programming is required. The course focuses on SQL and Excel for analytics."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools will I learn in this course?",
+      "answer": "You’ll work with SQL, Excel, Power BI or Tableau, and BA collaboration tools like JIRA."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is this course suitable for freshers?",
+      "answer": "Yes. The course is beginner-friendly and designed for freshers and career switchers."
+    },
+    {
+      "faq_id": 6,
+      "question": "Will I learn dashboard creation?",
+      "answer": "Yes. Dashboard building using Power BI or Tableau is a key part of the curriculum."
+    },
+    {
+      "faq_id": 7,
+      "question": "Does this course include real-world projects?",
+      "answer": "Yes. The capstone project simulates an end-to-end data business analysis workflow."
+    },
+    {
+      "faq_id": 8,
+      "question": "What jobs can I apply for after completing this course?",
+      "answer": "You can apply for Data Business Analyst, BI Analyst, Reporting Analyst, and similar roles."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is business analysis important for data roles?",
+      "answer": "Yes. Understanding business requirements is critical for delivering meaningful analytics and insights."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is Data Business Analyst a growing role?",
+      "answer": "Yes. As organizations rely more on data-driven decisions, the demand for Data Business Analysts continues to grow."
+    }
+  ],
+  "target_audience": [
+    "IT Business Analysts",
+    "Data Analysts",
+    "MIS Professionals",
+    "Fresh Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Data Business Analyst Course | Business Analytics Training | Proximsoft",
+    "meta_description": "Master Data Business Analysis. Learn to define KPIs, analyze data using SQL and Excel, and communicate business insights via Power BI dashboards.",
+    "meta_url": "/courses/management/data-business-analyst-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-ITBA-032",
+    "course_uid": "uid-it-business-analyst-pro",
+    "course_title": "IT Business Analyst Course",
+    "course_subtitle": "Business Analysis, Requirements Engineering & Stakeholder Management for IT Projects",
+    "course_slug": "it-business-analyst-course",
+    "course_thumbnail": "assets/images/courses/it-ba-thumb.jpg",
+    "course_short_description": "Bridge the gap between business and technology. Master requirement gathering, documentation (BRD/FRD), and process modeling for enterprise IT projects.",
+    "course_long_description": "This IT Business Analyst course is designed to help professionals build end-to-end business analysis skills required to bridge the gap between business stakeholders and technical teams in IT projects. The course focuses on requirements elicitation, documentation (BRD/FRD), process modeling, Agile and Waterfall practices, stakeholder communication, and data-driven decision making.",
+    "about_course": [
+      "Designed to help professionals bridge the gap between business stakeholders and technical teams.",
+      "Focuses on requirements elicitation, documentation (BRD/FRD), and process modeling.",
+      "Teaches both Agile and Waterfall practices aligned with real IT delivery environments.",
+      "Practical and role-oriented training involving software systems and digital transformation initiatives."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible, Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 4,
+    "course_category": {
+      "category_id": "CAT_MGMT",
+      "category_title": "Management",
+      "category_url": "/courses/management"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/it-business-analyst",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "IT Business Analyst Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/it-ba-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer knowledge",
+      "Interest in business processes and problem-solving",
+      "Willingness to communicate and document requirements",
+      "No coding or technical experience is mandatory"
+    ],
+    "key_learnings": [
+      "Gather and document business requirements effectively using BRD and FRD standards",
+      "Analyze and model business processes using BPMN fundamentals",
+      "Communicate with both technical and non-technical stakeholders confidently",
+      "Support UAT, change management, and Agile delivery teams"
+    ],
+    "ideal_candidates": [
+      "Fresh graduates & non-technical professionals",
+      "QA, support, operations, and reporting professionals",
+      "Data & MIS professionals moving into BA roles",
+      "Professionals transitioning into IT Business Analyst roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Business Analysis",
+        "Requirements Engineering",
+        "Stakeholder Management"
+      ],
+      "supporting_skills": [
+        "Process Modeling",
+        "Agile Business Analysis",
+        "Data Interpretation for Business",
+        "UAT Planning"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "JIRA",
+        "Confluence"
+      ],
+      "secondary": [
+        "MS Excel",
+        "SQL (Basics)",
+        "BPMN Modeling Tools",
+        "Wireframing Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "IT Business Analyst",
+      "Business Systems Analyst",
+      "Functional Analyst",
+      "Junior Product Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: IT Business Analysis Case Study. You will work on a complete IT project scenario: stakeholder gathering, BRD/FRD documentation, process modeling, user stories, and UAT planning."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 29
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Business Analysis",
+        "module_duration": "Week 1",
+        "topics": [
+          "Role of an IT Business Analyst",
+          "BA vs PM vs QA roles",
+          "IT project lifecycle overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Business Process Modeling",
+        "module_duration": "Week 2",
+        "topics": [
+          "AS-IS and TO-BE processes",
+          "BPMN fundamentals",
+          "Process improvement techniques"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Requirement Elicitation Techniques",
+        "module_duration": "Week 3",
+        "topics": [
+          "Stakeholder interviews",
+          "Workshops and brainstorming",
+          "Use cases and user stories"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Requirement Documentation",
+        "module_duration": "Week 4",
+        "topics": [
+          "BRD and FRD preparation",
+          "Functional vs non-functional requirements",
+          "Acceptance criteria"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Stakeholder & Communication Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "Stakeholder identification and analysis",
+          "Communication planning",
+          "Conflict resolution"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Agile Business Analysis",
+        "module_duration": "Week 6",
+        "topics": [
+          "Agile and Scrum fundamentals",
+          "BA role in Agile teams",
+          "Backlog grooming and user stories"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Data Analysis for Business Analysts",
+        "module_duration": "Week 7",
+        "topics": [
+          "Excel for business analysis",
+          "SQL basics",
+          "Interpreting data for decision making"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Tools & Documentation Standards",
+        "module_duration": "Week 8",
+        "topics": [
+          "JIRA and Confluence usage",
+          "Wireframes and mockups",
+          "BA templates and best practices"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "UAT & Change Management",
+        "module_duration": "Week 8",
+        "topics": [
+          "User Acceptance Testing (UAT)",
+          "Change requests and impact analysis",
+          "Release and deployment support"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end IT Business Analysis project",
+          "Final documentation and UAT support"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1100,
+    "total_students_enrolled": 7200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What does an IT Business Analyst do?",
+      "answer": "An IT Business Analyst gathers, analyzes, and documents business requirements, communicates with stakeholders, and ensures IT solutions meet business objectives."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is IT Business Analyst a technical role?",
+      "answer": "No. IT Business Analysts focus more on requirements, communication, and process understanding rather than coding."
+    },
+    {
+      "faq_id": 3,
+      "question": "Can non-technical professionals become IT Business Analysts?",
+      "answer": "Yes. This course is designed specifically for beginners and non-technical professionals transitioning into BA roles."
+    },
+    {
+      "faq_id": 4,
+      "question": "What skills are required to become an IT Business Analyst?",
+      "answer": "Key skills include requirement gathering, documentation, stakeholder communication, process modeling, and basic data analysis."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SQL required for IT Business Analysts?",
+      "answer": "Basic SQL is useful but not mandatory. This course covers SQL fundamentals required for analysis and reporting."
+    },
+    {
+      "faq_id": 6,
+      "question": "How is IT Business Analysis different from Data Analysis?",
+      "answer": "IT Business Analysis focuses on requirements and processes, while Data Analysis focuses on interpreting datasets and metrics."
+    },
+    {
+      "faq_id": 7,
+      "question": "Does this course cover Agile Business Analysis?",
+      "answer": "Yes. The course includes Agile BA practices, Scrum fundamentals, and user story creation."
+    },
+    {
+      "faq_id": 8,
+      "question": "What tools do IT Business Analysts commonly use?",
+      "answer": "Common tools include JIRA, Confluence, Excel, SQL, and BPMN modeling tools."
+    },
+    {
+      "faq_id": 9,
+      "question": "What jobs can I get after this course?",
+      "answer": "You can apply for IT Business Analyst, Business Systems Analyst, or Functional Analyst roles."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is this course suitable for fresh graduates?",
+      "answer": "Yes. The course starts from basics and includes hands-on projects suitable for freshers."
+    }
+  ],
+  "target_audience": [
+    "Fresh Graduates",
+    "Non-technical professionals",
+    "QA/Support Professionals",
+    "MIS professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "IT Business Analyst Course | Requirements & BA Training | Proximsoft",
+    "meta_description": "Master the role of an IT Business Analyst. Learn requirement gathering, BRD/FRD documentation, Agile BA, and stakeholder management for IT projects.",
+    "meta_url": "/courses/management/it-business-analyst-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-MGMT-033",
+    "course_uid": "uid-project-management-it-delivery",
+    "course_title": "Project Management Course",
+    "course_subtitle": "IT Project Management, Agile & Waterfall Methodologies for Successful Delivery",
+    "course_slug": "project-management-course",
+    "course_thumbnail": "assets/images/courses/project-management-thumb.jpg",
+    "course_short_description": "Master end-to-end IT project management. Learn to plan, execute, and deliver projects using Agile, Scrum, and Waterfall methodologies with tools like JIRA.",
+    "course_long_description": "This Project Management course is designed to help learners master end-to-end IT project management skills, covering planning, execution, monitoring, and successful delivery of real-world projects. This program focuses on practical project execution—combining Agile, Scrum, and Waterfall methodologies with hands-on tools and real delivery scenarios.",
+    "about_course": [
+      "Covers the end-to-end IT project lifecycle from initiation to successful delivery.",
+      "Integrates Agile, Scrum, and Waterfall methodologies for a holistic management approach.",
+      "Focuses on practical execution using industry-standard tools like JIRA and MS Project.",
+      "Emphasizes leadership, stakeholder communication, and risk control in enterprise settings."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 5,
+    "course_category": {
+      "category_id": "CAT_MGMT",
+      "category_title": "Management",
+      "category_url": "/courses/management"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "5-6 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/project-management",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "IT Project Management Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/pm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of IT or business workflows",
+      "Interest in leadership and coordination",
+      "Strong communication skills",
+      "No prior project management experience required"
+    ],
+    "key_learnings": [
+      "Plan and manage IT projects effectively using structured frameworks",
+      "Apply Agile, Scrum, and Waterfall methodologies to real-world delivery",
+      "Manage project risks, scope, and stakeholder expectations",
+      "Track project progress using industry-standard reporting and dashboards"
+    ],
+    "ideal_candidates": [
+      "Aspiring Project Managers",
+      "Business Analysts & Agile BAs",
+      "QA Leads / Tech Leads moving into management",
+      "Professionals managing IT projects",
+      "Freshers aiming for coordination roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Project Management",
+        "Agile & Waterfall Methodologies",
+        "Stakeholder Communication"
+      ],
+      "supporting_skills": [
+        "Risk Management",
+        "Scheduling & Cost Control",
+        "Reporting & Delivery Tracking"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "JIRA",
+        "MS Project"
+      ],
+      "secondary": [
+        "Agile & Scrum Frameworks",
+        "Waterfall Methodology",
+        "Project Templates"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "IT Project Manager (Junior)",
+      "Project Coordinator",
+      "Scrum Project Manager",
+      "Delivery Manager (Entry-Level)"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End IT Project Delivery. Manage a complete project lifecycle including scope planning, risk management, and delivery reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Project Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "What project management really means",
+          "Role of a Project Manager",
+          "Project lifecycle & methodologies"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Project Initiation & Scope Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Project charter creation",
+          "Scope definition",
+          "Work Breakdown Structure (WBS)"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Schedule & Cost Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Project scheduling techniques",
+          "Effort estimation methods",
+          "Budgeting & cost control"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Risk & Quality Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Risk identification & mitigation",
+          "Quality planning",
+          "Issue tracking"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Stakeholder & Communication Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "Stakeholder analysis",
+          "Communication planning",
+          "Conflict resolution"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Waterfall Project Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Waterfall lifecycle",
+          "Documentation & governance",
+          "When to use Waterfall"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Agile & Scrum Project Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Agile principles",
+          "Scrum roles & ceremonies",
+          "Project Manager vs Scrum Master"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Project Tools & Reporting",
+        "module_duration": "Week 8",
+        "topics": [
+          "JIRA fundamentals",
+          "MS Project overview",
+          "Status reporting & dashboards"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Project Monitoring & Control",
+        "module_duration": "Week 8",
+        "topics": [
+          "Tracking progress",
+          "Change management",
+          "Project closure & retrospectives"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end IT project delivery",
+          "Planning to execution workflow",
+          "Project delivery reporting"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 750,
+    "total_students_enrolled": 4800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Project Management course?",
+      "answer": "A Project Management course teaches how to plan, execute, monitor, and deliver projects using structured frameworks like Agile, Scrum, and Waterfall."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is this course suitable for beginners?",
+      "answer": "Yes. This course starts from fundamentals and gradually covers real-world project execution."
+    },
+    {
+      "faq_id": 3,
+      "question": "What methodologies are covered in this course?",
+      "answer": "Agile, Scrum, and Waterfall project management methodologies are all covered."
+    },
+    {
+      "faq_id": 4,
+      "question": "Will I learn Agile and Scrum in this course?",
+      "answer": "Yes. The course includes Agile principles, Scrum roles, ceremonies, and practical execution."
+    },
+    {
+      "faq_id": 5,
+      "question": "What tools will I learn?",
+      "answer": "You’ll work with tools like JIRA and MS Project used in real IT projects."
+    },
+    {
+      "faq_id": 6,
+      "question": "Do I need prior project management experience?",
+      "answer": "No prior experience is required."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is this course useful for Business Analysts?",
+      "answer": "Yes. Business Analysts benefit greatly from understanding project execution and delivery frameworks."
+    },
+    {
+      "faq_id": 8,
+      "question": "Does this course include real-world projects?",
+      "answer": "Yes. A full capstone project simulates real IT project delivery."
+    },
+    {
+      "faq_id": 9,
+      "question": "What jobs can I apply for after this course?",
+      "answer": "Junior Project Manager, Project Coordinator, Scrum Project Manager, or Delivery roles."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is this course aligned with real IT industry practices?",
+      "answer": "Yes. The curriculum is designed around real enterprise project environments."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Project Managers",
+    "Business Analysts",
+    "QA Leads",
+    "Tech Leads"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "IT Project Management Course | Agile & Waterfall | Proximsoft",
+    "meta_description": "Master end-to-end IT project delivery. Learn Agile, Scrum, and Waterfall methodologies using JIRA and MS Project in a hands-on, enterprise-focused course.",
+    "meta_url": "/courses/management/project-management-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SCM-034",
+    "course_uid": "uid-scrum-master-agile-leadership",
+    "course_title": "Scrum Master Course",
+    "course_subtitle": "Agile Scrum Framework, Facilitation & Team Leadership",
+    "course_slug": "scrum-master-course",
+    "course_thumbnail": "assets/images/courses/scrum-master-thumb.jpg",
+    "course_short_description": "Lead high-performing Agile teams. Master the Scrum framework, facilitate ceremonies, and remove impediments to drive continuous delivery.",
+    "course_long_description": "The Scrum Master course is designed to help professionals understand, apply, and lead Agile Scrum practices in real-world project environments. This program goes beyond theory to focus on how Scrum actually works inside teams—covering Agile mindset, Scrum roles, ceremonies, artifacts, backlog management, and facilitation techniques.",
+    "about_course": [
+      "Provides hands-on exposure to supporting product teams and removing impediments.",
+      "Teaches practical Scrum implementation used in modern IT, product, and business teams.",
+      "Covers critical facilitation techniques for Scrum ceremonies and continuous improvement.",
+      "Prepares learners for industry-standard certifications such as CSM®, PSM®, and SAFe®."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 6,
+    "course_category": {
+      "category_id": "CAT_MGMT",
+      "category_title": "Management",
+      "category_url": "/courses/management"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/scrum-master",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Scrum Master Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/scrum-master-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "No mandatory technical prerequisites",
+      "Basic understanding of software development concepts recommended",
+      "Interest in Agile methodologies"
+    ],
+    "key_learnings": [
+      "Apply Scrum framework in real project environments",
+      "Facilitate Agile ceremonies effectively including Sprint Planning and Retrospectives",
+      "Coach and support Agile teams as a servant leader",
+      "Remove technical and process impediments to improve team delivery"
+    ],
+    "ideal_candidates": [
+      "Aspiring Scrum Masters",
+      "Project Managers transitioning to Agile",
+      "Business Analysts working in Agile projects",
+      "QA Engineers & Developers seeking leadership roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Agile Scrum Framework",
+        "Scrum Facilitation",
+        "Servant Leadership"
+      ],
+      "supporting_skills": [
+        "Agile Metrics & Reporting",
+        "Team Coaching",
+        "Conflict Resolution"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "JIRA",
+        "Agile Boards"
+      ],
+      "secondary": [
+        "Confluence",
+        "Planning Poker",
+        "Burndown/Burnup Charts"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Scrum Master",
+      "Agile Project Coordinator",
+      "Junior Agile Coach",
+      "Delivery Manager (Agile)"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Scrum Implementation. Facilitate Scrum ceremonies, manage backlog and sprints in JIRA, and track Agile metrics to deliver working increments."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Agile & Scrum Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "Agile values & principles",
+          "Agile vs Waterfall",
+          "Introduction to Scrum framework"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Scrum Roles & Responsibilities",
+        "module_duration": "Week 2",
+        "topics": [
+          "Scrum Master role",
+          "Product Owner role",
+          "Development Team responsibilities"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Scrum Events (Ceremonies)",
+        "module_duration": "Week 3",
+        "topics": [
+          "Sprint planning",
+          "Daily Scrum",
+          "Sprint review & retrospective"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Scrum Artifacts",
+        "module_duration": "Week 4",
+        "topics": [
+          "Product backlog",
+          "Sprint backlog",
+          "Increment & Definition of Done"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Backlog & Estimation Techniques",
+        "module_duration": "Week 5",
+        "topics": [
+          "User stories & acceptance criteria",
+          "Story points",
+          "Planning poker"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Scrum Master Skills & Facilitation",
+        "module_duration": "Week 6",
+        "topics": [
+          "Servant leadership",
+          "Coaching Agile teams",
+          "Conflict resolution techniques"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Agile Metrics & Reporting",
+        "module_duration": "Week 7",
+        "topics": [
+          "Burndown & burnup charts",
+          "Velocity tracking",
+          "Sprint metrics"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Scaling Scrum & Agile Frameworks",
+        "module_duration": "Week 8",
+        "topics": [
+          "Scrum of Scrums",
+          "SAFe overview",
+          "LeSS & Nexus"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Tools & Real-World Scrum Implementation",
+        "module_duration": "Week 8",
+        "topics": [
+          "JIRA boards",
+          "Sprint tracking",
+          "Agile dashboards & reports"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end Scrum implementation",
+          "Sprint planning and execution",
+          "Final Sprint Review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1150,
+    "total_students_enrolled": 9200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Scrum Master course?",
+      "answer": "A Scrum Master course teaches Agile Scrum principles, roles, ceremonies, artifacts, and real-world Scrum implementation to help professionals lead Agile teams effectively."
+    },
+    {
+      "faq_id": 2,
+      "question": "Who should take a Scrum Master course?",
+      "answer": "This course is ideal for project managers, business analysts, developers, QA professionals, and anyone transitioning into Agile or Scrum roles."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need prior Agile experience to become a Scrum Master?",
+      "answer": "No. This course starts from Agile fundamentals and gradually covers advanced Scrum practices."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is this course suitable for Scrum Master certification preparation?",
+      "answer": "Yes. The course prepares learners for certifications such as CSM®, PSM®, and SAFe® Scrum Master."
+    },
+    {
+      "faq_id": 5,
+      "question": "What tools are used in Scrum Master training?",
+      "answer": "You’ll work with tools like JIRA, Agile boards, and reporting dashboards commonly used in Scrum teams."
+    },
+    {
+      "faq_id": 6,
+      "question": "What skills does a Scrum Master need?",
+      "answer": "Key skills include facilitation, servant leadership, Agile coaching, conflict resolution, and Scrum process management."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is the role of a Scrum Master in Agile projects?",
+      "answer": "A Scrum Master facilitates Scrum ceremonies, removes impediments, supports teams, and ensures Agile principles are followed."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can non-technical professionals become Scrum Masters?",
+      "answer": "Yes. Scrum Masters focus on process and team facilitation, not coding."
+    },
+    {
+      "faq_id": 9,
+      "question": "How long does it take to learn Scrum Master skills?",
+      "answer": "This course is designed to be completed in about 8 weeks with hands-on practice."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career opportunities are available after Scrum Master training?",
+      "answer": "Common roles include Scrum Master, Agile Coach (Junior), Delivery Manager, and Agile Project Coordinator."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Scrum Masters",
+    "Project Managers",
+    "QA/Developers",
+    "IT Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Scrum Master Course | Agile Leadership Training | Proximsoft",
+    "meta_description": "Master the Scrum framework and Agile leadership. Learn to facilitate ceremonies, manage backlogs in JIRA, and prepare for CSM/PSM certifications.",
+    "meta_url": "/courses/management/scrum-master-course"
+  }
+},
 
 ]

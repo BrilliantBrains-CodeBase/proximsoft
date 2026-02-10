@@ -14,8 +14,7 @@ const CourseCategoriesSection = () => {
           Explore Our Top Course Categories
         </h2>
         <p className="mt-3 text-gray-500 max-w-2xl mx-auto">
-          Discover a wide range of learning paths — from technology to
-          leadership and business growth.
+          Choose from expertly curated online courses designed to help you study online, build practical skills, and move forward in your career with confidence.
         </p>
       </div>
 

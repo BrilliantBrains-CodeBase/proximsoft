@@ -6,7 +6,10 @@ import FaqSection from "./components/FaqSection"
 import Hero from "./components/Hero"
 import StatsCTASection from "./components/StatsCTASection"
 import WhyTrustUsSection from "./components/WhyTrustUsSection"
-import useMeta from "../../hooks/useMeta" // Adjust path as needed
+import useMeta from "../../hooks/useMeta" 
+import FutureReadySection from "./components/FutureReadySection"
+import CareerSupportSection from "./components/CareerSupportSection"
+import SuccessStories from "./components/SuccessStories"
 
 const Home = () => {
   // Setup SEO metadata for the Landing Page
@@ -21,6 +24,9 @@ const Home = () => {
       <CourseCategoriesSection />
       <WhyTrustUsSection />
       <StatsCTASection />
+      <FutureReadySection />
+      <SuccessStories />
+      <CareerSupportSection />
       <div className="relative z-10 bg-white">
         <TestimonialSection testimonials={testimonials}/>
       </div>
