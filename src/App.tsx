@@ -12,10 +12,13 @@ import ContactUs from './pages/Contact/ContactUs'
 import BlogIndividual from './pages/Blogs/BlogIndividual/BlogIndividual'
 import CourseIndividual from './pages/Courses/CourseIndividualPage/CourseIndividual'
 import CourseCategory from './pages/Courses/CourseCategory/CourseCategory'
+import { FreeDemoProvider } from './context/FreeDemoContext'
+import FreeDemoModal from './layout/Demo/FreeDemoModal'
 
 function App() {
 
   return (
+  <FreeDemoProvider>
   <Routes>
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
@@ -35,6 +38,8 @@ function App() {
       {/* 404 */}
       <Route path="*" element={<NotFound />} />
     </Routes>
+    <FreeDemoModal />
+  </FreeDemoProvider>    
   )
 }
 

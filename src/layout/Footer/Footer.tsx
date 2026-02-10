@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   ArrowUpRight,
@@ -7,8 +7,19 @@ import {
   Linkedin,
   Instagram,
 } from "lucide-react";
+import { useFreeDemo } from "../../context/FreeDemoContext";
+import { courseCategories } from "../../data/categories/courseCategories";
 
 const Footer = () => {
+  const { openDemo } = useFreeDemo();
+  const navigate = useNavigate();
+
+  // Pick top 5 featured or highest priority categories for the footer
+  const popularCategories = courseCategories
+    .filter(cat => cat.isActive)
+    .sort((a, b) => a.sequence - b.sequence)
+    .slice(0, 5);
+
   return (
     <footer className="bg-black text-white pt-20 pb-8 z-50">
       <div className="max-w-7xl mx-auto px-6">
@@ -27,21 +38,23 @@ const Footer = () => {
 
           <div className="flex items-center gap-4">
             <motion.button
+              onClick={() => navigate('/contact')}
               whileHover={{ scale: 1.05 }}
               className="px-6 py-3 rounded-full
                 border border-white/40
-                text-sm font-medium"
+                text-sm font-medium transition-colors hover:bg-white/10"
             >
               Contact Us
             </motion.button>
 
             <motion.button
+              onClick={openDemo}
               whileHover="hover"
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-3
                 bg-[#2E78CC] text-white
                 px-5 py-2 rounded-full
-                font-medium"
+                font-medium shadow-lg"
             >
               Free Demo Class
               <motion.span
@@ -69,28 +82,26 @@ const Footer = () => {
               alt="Proximsoft"
               className="h-10 mb-6"
             />
-
             <p className="text-sm text-white/70 mb-4">
               Subscribe our newsletter for Update
             </p>
-
-            <div className="flex items-center bg-white/10 rounded-full overflow-hidden">
+            <div className="flex items-center bg-white/10 rounded-full overflow-hidden focus-within:ring-1 focus-within:ring-[#3B8EEA]">
               <input
                 type="email"
                 placeholder="Enter your email..."
                 className="bg-transparent px-4 py-2 text-sm outline-none w-full"
               />
               <button
-                className="bg-[#3B8EEA] px-5 py-2 text-sm font-medium whitespace-nowrap hover:cursor-pointer"
+                className="bg-[#3B8EEA] px-5 py-2 text-sm font-medium whitespace-nowrap hover:bg-[#2563b5] transition-colors"
               >
-                Subscribe Now
+                Subscribe
               </button>
             </div>
           </div>
 
           {/* QUICK LINKS */}
           <div>
-            <h4 className="text-sm font-semibold mb-4">Quick Link</h4>
+            <h4 className="text-sm font-semibold mb-4 text-[#3B8EEA]">Quick Link</h4>
             <ul className="flex flex-col space-y-3 text-sm text-white/70">
               <FooterLink to="/">Home</FooterLink>
               <FooterLink to="/about">About Us</FooterLink>
@@ -100,56 +111,69 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* CATEGORIES */}
+          {/* DYNAMIC POPULAR CATEGORIES */}
           <div>
-            <h4 className="text-sm font-semibold mb-4">
+            <h4 className="text-sm font-semibold mb-4 text-[#3B8EEA]">
               Popular Categories
             </h4>
-            <ul className="space-y-3 text-sm text-white/70">
-              <li>UI/UX Design</li>
-              <li>Web Development</li>
-              <li>Digital Marketing</li>
-              <li>Business Consulting</li>
-              <li>Language Learning</li>
+            <ul className="flex flex-col space-y-3 text-sm text-white/70">
+              {popularCategories.map((cat) => (
+                <li key={cat.uid}>
+                  <Link 
+                    to={`/courses/${cat.slug}`} 
+                    className="hover:text-white transition-colors"
+                  >
+                    {cat.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
           {/* CONTACT INFO */}
           <div>
-            <h4 className="text-sm font-semibold mb-4">
+            <h4 className="text-sm font-semibold mb-4 text-[#3B8EEA]">
               Contact Information
             </h4>
-
             <div className="space-y-3 text-sm text-white/70">
-              <p>Phone: +123 456 7890</p>
-              <p>Email: support@proximsoft.com</p>
-              <p>
-                Address:
-                <br />
-                1901 Thornridge Cir.
-                <br />
-                Shiloh, Hawaii 81063
+              <p className="flex flex-col">
+                <span className="text-xs text-white/40 mb-1">Phone</span>
+                +1 (908) 312 4519
+              </p>
+              <p className="flex flex-col">
+                <span className="text-xs text-white/40 mb-1">Email</span>
+                careers@proximsoft.com
+              </p>
+              <p className="flex flex-col">
+                <span className="text-xs text-white/40 mb-1">Address</span>
+                3600 NJ-66 #150, Tinton Falls, NJ
               </p>
             </div>
           </div>
         </div>
 
         {/* BOTTOM BAR */}
-        <div className="mt-16 flex flex-col md:flex-row items-center justify-between gap-6">
-
-          <p className="text-xs text-white/60">
-            © {new Date().getFullYear()} proximsoft |{" "}
-            <Link to="/terms">Terms & Conditions</Link> |{" "}
-            <Link to="/privacy">Privacy & Policy</Link>
+        <div className="mt-16 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+          <p className="text-xs text-white/60 text-center md:text-left">
+            © {new Date().getFullYear()} Proximsoft |{" "}
+            <Link to="/terms" className="hover:text-white underline decoration-white/20 underline-offset-4">Terms & Conditions</Link> |{" "}
+            <Link to="/privacy" className="hover:text-white underline decoration-white/20 underline-offset-4">Privacy & Policy</Link>
           </p>
 
-
-          {/* SOCIAL ICONS */}
+          {/* SOCIAL ICONS WITH UPDATED LINKS */}
           <div className="flex items-center gap-4">
-            <SocialIcon><Facebook size={16} /></SocialIcon>
-            <SocialIcon><Twitter size={16} /></SocialIcon>
-            <SocialIcon><Linkedin size={16} /></SocialIcon>
-            <SocialIcon><Instagram size={16} /></SocialIcon>
+            <SocialIcon href="https://www.facebook.com/proximsoft">
+              <Facebook size={16} />
+            </SocialIcon>
+            <SocialIcon href="#"> {/* Add Twitter if needed */}
+              <Twitter size={16} />
+            </SocialIcon>
+            <SocialIcon href="https://www.linkedin.com/company/proximsoft/">
+              <Linkedin size={16} />
+            </SocialIcon>
+            <SocialIcon href="https://www.instagram.com/proximsoft/">
+              <Instagram size={16} />
+            </SocialIcon>
           </div>
         </div>
 
@@ -158,27 +182,32 @@ const Footer = () => {
   );
 };
 
-export default Footer;
-
 /* ---------------- HELPERS ---------------- */
 
 const FooterLink = ({ to, children }: any) => (
   <NavLink
     to={to}
-    className="hover:text-white transition"
+    className={({ isActive }) => 
+      `transition-colors hover:text-white ${isActive ? "text-white font-medium" : ""}`
+    }
   >
     {children}
   </NavLink>
 );
 
-const SocialIcon = ({ children }: any) => (
+const SocialIcon = ({ children, href }: any) => (
   <motion.a
-    whileHover={{ scale: 1.15 }}
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.15, backgroundColor: "#2E78CC" }}
+    whileTap={{ scale: 0.9 }}
     className="w-9 h-9 rounded-full
-      bg-[#3B8EEA]
-      flex items-center justify-center"
-    href="#"
+      bg-white/10 text-white
+      flex items-center justify-center transition-colors"
   >
     {children}
   </motion.a>
 );
+
+export default Footer;

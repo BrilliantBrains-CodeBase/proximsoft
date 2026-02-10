@@ -4,11 +4,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X, ArrowUpRight } from "lucide-react";
 
 import { courseNavItems } from "../../data/navbar/courseNav";
+import { useFreeDemo } from "../../context/FreeDemoContext";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [coursesOpen, setCoursesOpen] = useState(false);
   const [mobileCoursesOpen, setMobileCoursesOpen] = useState(false);
+
+  const { openDemo } = useFreeDemo();
 
   return (
     <header
@@ -78,6 +81,7 @@ const Navbar = () => {
           <motion.button
             whileHover="hover"
             whileTap={{ scale: 0.96 }}
+            onClick={openDemo}
             className="hidden md:flex items-center gap-3
               bg-white text-[#2E78CC]
               px-4 py-2 rounded-full
@@ -178,6 +182,7 @@ const Navbar = () => {
               {/* MOBILE CTA */}
               <div className="p-4">
                 <button
+                  onClick={openDemo}
                   className="w-full flex items-center justify-center gap-3
                     bg-white text-[#2E78CC]
                     py-3 rounded-xl font-semibold"
