@@ -11,6 +11,7 @@ import FaqSection from "./components/FaqSection";
 import TestimonialSection from "../../../layout/Testimonials/TestimonialSection";
 import { testimonials } from "../../../data/testimonials/testimonials";
 import ProjectsPracticalLearning from "./components/ProjectsPracticalLearning";
+import Educationsection from "./components/Educationsection";
 
 
 interface CourseProps {
@@ -62,6 +63,8 @@ const Course: React.FC<CourseProps> = ({ course }) => {
       <CourseSkills skills={course.learning_content.skills_gained} />
 
       <CareerRelevance outcomes={course.career_outcomes} />
+
+      <Educationsection />
 
       <TestimonialSection testimonials={testimonials}/>
 
