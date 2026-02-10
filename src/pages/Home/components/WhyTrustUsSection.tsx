@@ -62,7 +62,7 @@ const WhyTrustUsSection = () => {
               className="rounded-3xl overflow-hidden w-full aspect-4/3"
             >
               <img
-                src="/images/home/trustcard1.png"
+                src="/images/home/trustcard11.png"
                 alt="Expert trainer in online session"
                 className="w-full h-full object-cover"
               />
@@ -93,11 +93,11 @@ const WhyTrustUsSection = () => {
             className="lg:flex-1 rounded-3xl overflow-hidden relative min-h-[500px] lg:min-h-full"
           >
             <img
-              src="/images/home/trustcard2.jpg"
+              src="/images/home/trustcard33.png"
               alt="Global learning community background"
               className="absolute inset-0 w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/50 to-gray-900/20" />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/95 via-gray-900/50 to-gray-900/20" />
 
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-500 shadow-lg mb-4">
@@ -138,7 +138,7 @@ const WhyTrustUsSection = () => {
               className="rounded-3xl overflow-hidden w-full aspect-[4/3]"
             >
               <img
-                src="/images/home/trustcard3.jpg"
+                src="/images/home/trustcard22.png"
                 alt="Student learning flexibly with headphones"
                 className="w-full h-full object-cover"
               />

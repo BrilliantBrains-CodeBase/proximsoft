@@ -14,6 +14,9 @@ import CourseIndividual from './pages/Courses/CourseIndividualPage/CourseIndivid
 import CourseCategory from './pages/Courses/CourseCategory/CourseCategory'
 import { FreeDemoProvider } from './context/FreeDemoContext'
 import FreeDemoModal from './layout/Demo/FreeDemoModal'
+import FloatingWhatsapp from './layout/Whatsapp/FloatingWhatsapp'
+import ThankYou from './pages/Thankyou/ThankYou'
+
 
 function App() {
 
@@ -35,10 +38,13 @@ function App() {
         <Route path="/privacy" element={<PrivacyAndPolicy />} />
       </Route>
 
+      <Route path='thank-you' element={<ThankYou />} />
+
       {/* 404 */}
       <Route path="*" element={<NotFound />} />
     </Routes>
     <FreeDemoModal />
+    <FloatingWhatsapp />
   </FreeDemoProvider>    
   )
 }
