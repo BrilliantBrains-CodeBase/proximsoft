@@ -33,21 +33,21 @@ const LeadForm = () => {
   };
 
   return (
-    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#3b82f6] rounded-[2.5rem] p-8 md:p-14 overflow-hidden shadow-2xl">
+    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#3b82f6] rounded-[2.5rem] p-8 md:p-14 overflow-hidden shadow-2xl my-12">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         
         {/* LEFT - FORM */}
         <div className="z-10">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-[#0f172a] leading-tight mb-4">
+          <h1 className="text-4xl md:text-4xl font-extrabold text-[#0f172a] leading-tight mb-4">
             Start Your Learning <br /> Journey Today
           </h1>
 
-          <p className="text-[#1e293b] text-lg opacity-90 mb-8 max-w-sm">
+          <p className="text-[#1e293b] text-ms opacity-90 mb-8 max-w-sm">
             Fill in your details and our advisors will help you choose
             the right course for your goals.
           </p>
 
-          <form onSubmit={handleSubmit} className="space-y-5 max-w-md">
+          <form onSubmit={handleSubmit} className="space-y-2 max-w-md">
             {/* Full Name */}
             <div>
               <label className="block text-slate-900 font-semibold mb-2 text-sm">
@@ -142,7 +142,7 @@ const LeadForm = () => {
             transition={{ duration: 0.6 }}
             className="absolute left-0 lg:-left-16 top-1/2 -translate-y-1/2 w-full max-w-[420px]"
           >
-            <div className="bg-white/95 backdrop-blur-md p-6 rounded-[2.5rem] shadow-2xl grid grid-cols-2 gap-5 border border-white/40">
+            <div className="bg-white/95 backdrop-blur-md px-6 py-12 rounded-[2.5rem] shadow-2xl grid grid-cols-2 gap-5 border border-white/40">
               
               {/* Stat 1 */}
               <div className="bg-white p-5 rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-md transition">
