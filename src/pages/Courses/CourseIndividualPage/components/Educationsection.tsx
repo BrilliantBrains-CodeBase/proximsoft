@@ -10,7 +10,7 @@ interface StatItem {
 
 interface CompanyItem {
   name: string;
-  logo: React.ReactNode;
+  logoUrl: string;
 }
 
 /* ─────────────────────────────────────────────────────────
@@ -31,82 +31,6 @@ const PersonIcon = ({ size = 20, color = "#fff" }: { size?: number; color?: stri
 );
 
 /* ─────────────────────────────────────────────────────────
-   MNC LOGO SVGs
-───────────────────────────────────────────────────────── */
-const GoogleLogo = () => (
-  <svg width="88" height="34" viewBox="0 0 88 34">
-    <text x="0" y="28" fontFamily="sans-serif" fontSize="27" fontWeight="800">
-      <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan>
-      <tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan>
-      <tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan>
-    </text>
-  </svg>
-);
-
-const MicrosoftLogo = () => (
-  <svg width="130" height="32" viewBox="0 0 130 32">
-    <rect x="0" y="2" width="13" height="13" fill="#F25022" />
-    <rect x="14" y="2" width="13" height="13" fill="#7FBA00" />
-    <rect x="0" y="16" width="13" height="13" fill="#00A4EF" />
-    <rect x="14" y="16" width="13" height="13" fill="#FFB900" />
-    <text x="32" y="24" fontFamily="sans-serif" fontSize="16" fontWeight="700" fill="#333">Microsoft</text>
-  </svg>
-);
-
-const AmazonLogo = () => (
-  <svg width="95" height="36" viewBox="0 0 95 36">
-    <text x="0" y="22" fontFamily="sans-serif" fontSize="21" fontWeight="800" fill="#222">amazon</text>
-    <path d="M5 29 Q32 39 62 29" stroke="#FF9900" strokeWidth="2.5" fill="none" strokeLinecap="round" />
-    <polygon points="59,25 66,29 59,33" fill="#FF9900" />
-  </svg>
-);
-
-const MetaLogo = () => (
-  <svg width="105" height="32" viewBox="0 0 105 32">
-    <text x="0" y="25" fontFamily="sans-serif" fontSize="22" fontWeight="800" fill="#0866FF">Meta</text>
-    <path d="M65 16 C65 10 68.5 6 72 6 C75.5 6 79 10 79 16 C79 22 75.5 26 72 26 C68.5 26 65 22 65 16Z" fill="none" stroke="#0866FF" strokeWidth="2.5" />
-    <path d="M68.5 16 C68.5 10 70 6 72 6 C74 6 75.5 10 75.5 16 C75.5 22 74 26 72 26 C70 26 68.5 22 68.5 16Z" fill="none" stroke="#0866FF" strokeWidth="1.8" />
-  </svg>
-);
-
-const NetflixLogo = () => (
-  <svg width="100" height="32" viewBox="0 0 100 32">
-    <text x="0" y="26" fontFamily="sans-serif" fontSize="23" fontWeight="900" fill="#E50914" letterSpacing="1">NETFLIX</text>
-  </svg>
-);
-
-const IBMLogo = () => (
-  <svg width="72" height="32" viewBox="0 0 72 32">
-    <text x="0" y="26" fontFamily="sans-serif" fontSize="28" fontWeight="900" fill="#006699" letterSpacing="3">IBM</text>
-  </svg>
-);
-
-const TCSLogo = () => (
-  <svg width="60" height="32" viewBox="0 0 60 32">
-    <text x="0" y="26" fontFamily="sans-serif" fontSize="22" fontWeight="800" fill="#005073">TCS</text>
-  </svg>
-);
-
-const InfosysLogo = () => (
-  <svg width="88" height="32" viewBox="0 0 88 32">
-    <text x="0" y="26" fontFamily="sans-serif" fontSize="18" fontWeight="800" fill="#007CC3">Infosys</text>
-  </svg>
-);
-
-const WiproLogo = () => (
-  <svg width="80" height="32" viewBox="0 0 80 32">
-    <text x="0" y="26" fontFamily="sans-serif" fontSize="22" fontWeight="800" fill="#802FDE">Wipro</text>
-  </svg>
-);
-
-const AdobeLogo = () => (
-  <svg width="90" height="32" viewBox="0 0 90 32">
-    <polygon points="0,28 14,4 28,28" fill="#FA0F00" />
-    <text x="33" y="26" fontFamily="sans-serif" fontSize="18" fontWeight="800" fill="#FA0F00">Adobe</text>
-  </svg>
-);
-
-/* ─────────────────────────────────────────────────────────
    DATA
 ───────────────────────────────────────────────────────── */
 const STATS: StatItem[] = [
@@ -115,17 +39,18 @@ const STATS: StatItem[] = [
   { value: "50k+",  label: "Students Placed" },
 ];
 
+// Real company logos using reliable CDN sources
 const COMPANIES: CompanyItem[] = [
-  { name: "Wipro",     logo: <WiproLogo /> },
-  { name: "Adobe",     logo: <AdobeLogo /> },
-  { name: "Google",    logo: <GoogleLogo /> },
-  { name: "Microsoft", logo: <MicrosoftLogo /> },
-  { name: "Amazon",    logo: <AmazonLogo /> },
-  { name: "Meta",      logo: <MetaLogo /> },
-  { name: "Netflix",   logo: <NetflixLogo /> },
-  { name: "IBM",       logo: <IBMLogo /> },
-  { name: "TCS",       logo: <TCSLogo /> },
-  { name: "Infosys",   logo: <InfosysLogo /> },
+  { name: "Google", logoUrl: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" },
+  { name: "Microsoft", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
+  { name: "Amazon", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+  { name: "Meta", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg" },
+  { name: "Apple", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" },
+  { name: "Netflix", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" },
+  { name: "IBM", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
+  { name: "Intel", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282006-2020%29.svg" },
+  { name: "Adobe", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.svg" },
+  { name: "Oracle", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" },
 ];
 
 /* ─────────────────────────────────────────────────────────
@@ -134,47 +59,47 @@ const COMPANIES: CompanyItem[] = [
 const FloatingBadge = ({ style }: { style?: React.CSSProperties }) => (
   <div style={{
     position: "absolute",
-    width: 112, height: 112, borderRadius: "50%",
-    background: "linear-gradient(135deg,#1e40af 0%,#3b82f6 100%)",
+    width: 120, height: 120, borderRadius: "50%",
+    background: "linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)",
     display: "flex", flexDirection: "column",
-    alignItems: "center", justifyContent: "center", gap: 3,
-    boxShadow: "0 8px 32px rgba(37,99,235,0.45)",
-    border: "3px solid rgba(255,255,255,0.45)",
+    alignItems: "center", justifyContent: "center", gap: 4,
+    boxShadow: "0 12px 40px rgba(37, 99, 235, 0.5)",
+    border: "4px solid rgba(255, 255, 255, 0.5)",
     zIndex: 5, ...style,
   }}>
-    <PersonIcon size={20} />
-    <span style={{ color: "#fff", fontWeight: 800, fontSize: 12.5, textAlign: "center", lineHeight: 1.2 }}>
+    <PersonIcon size={24} />
+    <span style={{ color: "#fff", fontWeight: 800, fontSize: 14, textAlign: "center", lineHeight: 1.2 }}>
       50k+ Students
     </span>
-    <span style={{ color: "#bfdbfe", fontSize: 9, fontWeight: 600 }}>Successfully Placed</span>
+    <span style={{ color: "#bfdbfe", fontSize: 10, fontWeight: 600 }}>Successfully Placed</span>
   </div>
 );
 
 const StatCard = ({ stat, small = false }: { stat: StatItem; small?: boolean }) => (
   <div className="edu-stat-card" style={{
-    background: "#fff", borderRadius: 14,
-    padding: small ? "11px 13px" : "16px 22px",
-    flex: "1 1 90px", minWidth: small ? 76 : 100,
+    background: "#fff", borderRadius: 16,
+    padding: small ? "14px 16px" : "20px 28px",
+    flex: "1 1 110px", minWidth: small ? 90 : 120,
     textAlign: "center",
-    boxShadow: "0 4px 18px rgba(37,99,235,0.10)",
+    boxShadow: "0 6px 24px rgba(37, 99, 235, 0.12)",
     display: "flex", flexDirection: "column",
-    alignItems: "center", gap: 6,
-    transition: "transform 0.25s ease, box-shadow 0.25s ease",
+    alignItems: "center", gap: 8,
+    transition: "transform 0.3s ease, box-shadow 0.3s ease",
     cursor: "default",
   }}>
-    <GradCapIcon size={small ? 22 : 28} color="#2563eb" />
-    <span style={{ color: "#2563eb", fontWeight: 900, fontSize: small ? 13 : 17 }}>{stat.value}</span>
-    <span style={{ color: "#64748b", fontSize: small ? 9.5 : 11, fontWeight: 700 }}>{stat.label}</span>
+    <GradCapIcon size={small ? 28 : 36} color="#2563eb" />
+    <span style={{ color: "#2563eb", fontWeight: 900, fontSize: small ? 16 : 22 }}>{stat.value}</span>
+    <span style={{ color: "#64748b", fontSize: small ? 11 : 13, fontWeight: 700 }}>{stat.label}</span>
   </div>
 );
 
 const BookDemoBtn = () => (
   <button className="edu-cta-btn" style={{
     background: "#fff", color: "#1e40af",
-    border: "2.5px solid #2563eb", borderRadius: 32,
-    padding: "13px 34px", fontSize: 14, fontWeight: 800,
-    cursor: "pointer", transition: "all 0.25s ease",
-    letterSpacing: 0.3, boxShadow: "0 2px 12px rgba(37,99,235,0.12)",
+    border: "3px solid #2563eb", borderRadius: 40,
+    padding: "16px 42px", fontSize: 16, fontWeight: 800,
+    cursor: "pointer", transition: "all 0.3s ease",
+    letterSpacing: 0.5, boxShadow: "0 4px 16px rgba(37, 99, 235, 0.15)",
     alignSelf: "flex-start",
   }}>
     Book Your Free Demo
@@ -184,7 +109,7 @@ const BookDemoBtn = () => (
 /* ─────────────────────────────────────────────────────────
    MAIN COMPONENT
 ───────────────────────────────────────────────────────── */
-const Educationsection = () => {
+const EducationSection = () => {
   const [visible, setVisible]   = useState<boolean>(false);
   const [isMobile, setIsMobile] = useState<boolean>(false);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -201,7 +126,7 @@ const Educationsection = () => {
 
   /* entrance */
   useEffect(() => {
-    const t = setTimeout(() => setVisible(true), 120);
+    const t = setTimeout(() => setVisible(true), 150);
     return () => clearTimeout(t);
   }, []);
 
@@ -209,7 +134,7 @@ const Educationsection = () => {
   useEffect(() => {
     const track = trackRef.current;
     if (!track) return;
-    const speed = 0.55;
+    const speed = 0.6;
     const tick = () => {
       posRef.current += speed;
       const half = track.scrollWidth / 2;
@@ -227,63 +152,63 @@ const Educationsection = () => {
   const PhotoBlock = ({ mobile }: { mobile: boolean }) => (
     <div style={{
       position: "relative", flexShrink: 0,
-      width: mobile ? "100%" : 340,
-      height: mobile ? 290 : 390,
+      width: mobile ? "100%" : 420,
+      height: mobile ? 340 : 480,
     }}>
-      <FloatingBadge style={mobile ? { top: 8, left: 18 } : { top: 16, left: 0 }} />
+      <FloatingBadge style={mobile ? { top: 12, left: 24 } : { top: 24, left: 0 }} />
 
       <div style={{
         position: "absolute", top: 0,
-        right: mobile ? 22 : 0,
-        width: mobile ? 132 : 190,
-        height: mobile ? 210 : 280,
-        borderRadius: 80, overflow: "hidden",
-        boxShadow: "0 10px 36px rgba(37,99,235,0.22)", zIndex: 3,
+        right: mobile ? 28 : 0,
+        width: mobile ? 150 : 230,
+        height: mobile ? 240 : 340,
+        borderRadius: 100, overflow: "hidden",
+        boxShadow: "0 14px 48px rgba(37, 99, 235, 0.25)", zIndex: 3,
       }}>
-        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=80" alt="Student"
+        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500&q=80" alt="Student"
           style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }} />
       </div>
 
       <div style={{
         position: "absolute", bottom: 0,
-        left: mobile ? 22 : 14,
-        width: mobile ? 132 : 180,
-        height: mobile ? 205 : 265,
-        borderRadius: 80, overflow: "hidden",
-        boxShadow: "0 10px 36px rgba(37,99,235,0.22)", zIndex: 3,
+        left: mobile ? 28 : 20,
+        width: mobile ? 150 : 220,
+        height: mobile ? 235 : 320,
+        borderRadius: 100, overflow: "hidden",
+        boxShadow: "0 14px 48px rgba(37, 99, 235, 0.25)", zIndex: 3,
       }}>
-        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Student"
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&q=80" alt="Student"
           style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }} />
       </div>
 
-      <FloatingBadge style={mobile ? { bottom: 0, right: 18 } : { bottom: 0, right: 0 }} />
+      <FloatingBadge style={mobile ? { bottom: 4, right: 24 } : { bottom: 4, right: 0 }} />
     </div>
   );
 
   /* ── Text block ── */
   const TextBlock = ({ mobile }: { mobile: boolean }) => (
     <div style={{
-      flex: 1, display: "flex", flexDirection: "column", gap: 20,
-      padding: mobile ? "26px 22px 40px" : "0 6vw 60px 0",
+      flex: 1, display: "flex", flexDirection: "column", gap: 24,
+      padding: mobile ? "32px 24px 48px" : "0 8vw 0 0",
       opacity: visible ? 1 : 0,
-      transform: visible ? "translateY(0)" : "translateY(24px)",
-      transition: "opacity 0.7s ease, transform 0.7s ease",
+      transform: visible ? "translateY(0)" : "translateY(32px)",
+      transition: "opacity 0.8s ease, transform 0.8s ease",
     }}>
       <h1 style={{
-        color: "#1e3a5f",
-        fontSize: mobile ? 22 : "clamp(26px, 2.6vw, 38px)",
-        fontWeight: 900, lineHeight: 1.25, margin: 0,
+        color: "#1e293b",
+        fontSize: mobile ? 26 : "clamp(32px, 3.2vw, 48px)",
+        fontWeight: 900, lineHeight: 1.2, margin: 0,
       }}>
         Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit?
       </h1>
 
-      <p style={{ color: "#475569", fontSize: 14, lineHeight: 1.8, margin: 0 }}>
+      <p style={{ color: "#475569", fontSize: 16, lineHeight: 1.8, margin: 0 }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
 
-      <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+      <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
         {STATS.map((s, i) => <StatCard key={i} stat={s} small={mobile} />)}
       </div>
 
@@ -295,13 +220,12 @@ const Educationsection = () => {
   return (
     <>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-        /*
-         * ★ FULL-BLEED BREAKOUT
-         * This makes the section ignore any parent max-width / container
-         * and stretch to 100% of the viewport width.
-         */
+        * {
+          box-sizing: border-box;
+        }
+
         .edu-fullbleed {
           width: 100vw !important;
           position: relative;
@@ -309,22 +233,22 @@ const Educationsection = () => {
           right: 50%;
           margin-left: -50vw !important;
           margin-right: -50vw !important;
-          box-sizing: border-box;
         }
 
         .edu-stat-card:hover {
-          transform: translateY(-5px) !important;
-          box-shadow: 0 12px 28px rgba(37,99,235,0.20) !important;
+          transform: translateY(-6px) !important;
+          box-shadow: 0 16px 36px rgba(37, 99, 235, 0.24) !important;
         }
         .edu-cta-btn:hover {
           background: #2563eb !important;
           color: #fff !important;
-          box-shadow: 0 8px 24px rgba(37,99,235,0.32) !important;
+          box-shadow: 0 10px 32px rgba(37, 99, 235, 0.36) !important;
+          transform: translateY(-2px);
         }
         .edu-carousel-track {
           display: flex;
           align-items: center;
-          gap: 56px;
+          gap: 80px;
           width: max-content;
           will-change: transform;
         }
@@ -333,97 +257,129 @@ const Educationsection = () => {
           align-items: center;
           justify-content: center;
           flex-shrink: 0;
-          opacity: 0.75;
-          transition: opacity 0.2s;
+          opacity: 0.7;
+          transition: opacity 0.3s, transform 0.3s;
         }
-        .edu-carousel-item:hover { opacity: 1; }
+        .edu-carousel-item:hover { 
+          opacity: 1;
+          transform: scale(1.05);
+        }
+        .edu-carousel-item img {
+          height: 40px;
+          width: auto;
+          object-fit: contain;
+          filter: grayscale(100%);
+          transition: filter 0.3s;
+        }
+        .edu-carousel-item:hover img {
+          filter: grayscale(0%);
+        }
       `}</style>
 
       {/* ══════════════════════════════════
-          HERO — full bleed
+          HERO SECTION — full bleed
       ══════════════════════════════════ */}
       <section
         className="edu-fullbleed"
         style={{
-          background: "linear-gradient(155deg,#4da3f7 0%,#7ec8fb 28%,#b3d9fd 58%,#deeeff 82%,#f0f8ff 100%)",
-          fontFamily: "'Nunito','Segoe UI',sans-serif",
+          background: "linear-gradient(150deg, #60a5fa 0%, #93c5fd 25%, #bfdbfe 50%, #dbeafe 75%, #eff6ff 100%)",
+          fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
           position: "relative",
-          paddingTop: 48,
+          paddingTop: 140,
+          marginTop: 100,
+          minHeight: isMobile ? "auto" : "800px",
           overflow: "visible",
         }}
       >
-        {/* cap icon */}
+        {/* Larger graduation cap icon */}
         <div style={{
-          position: "absolute", top: -34, left: "50%",
+          position: "absolute", top: -85, left: "50%",
           transform: "translateX(-50%)",
           background: "#fff", borderRadius: "50%",
-          width: 76, height: 76,
+          width: 170, height: 170,
           display: "flex", alignItems: "center", justifyContent: "center",
-          boxShadow: "0 6px 24px rgba(37,99,235,0.20)", zIndex: 10,
+          boxShadow: "0 10px 40px rgba(37, 99, 235, 0.28)", zIndex: 10,
         }}>
-          <GradCapIcon size={42} color="#2563eb" />
+          <GradCapIcon size={100} color="#2563eb" />
         </div>
 
-        {/* Desktop */}
-        {!isMobile && (
-          <div style={{
-            display: "flex", flexDirection: "row",
-            width: "100%", padding: "20px 6vw 0",
-            gap: "5vw", alignItems: "center",
-          }}>
-            <PhotoBlock mobile={false} />
-            <TextBlock  mobile={false} />
-          </div>
-        )}
+        {/* Container for content */}
+        <div style={{
+          maxWidth: "1280px",
+          margin: "0 auto",
+          padding: isMobile ? "0" : "0 40px",
+        }}>
+          {/* Desktop */}
+          {!isMobile && (
+            <div style={{
+              display: "flex", flexDirection: "row",
+              width: "100%", padding: "40px 0 0",
+              gap: "8vw", alignItems: "center",
+              justifyContent: "space-between",
+            }}>
+              <PhotoBlock mobile={false} />
+              <TextBlock  mobile={false} />
+            </div>
+          )}
 
-        {/* Mobile */}
-        {isMobile && (
-          <div style={{ width: "100%", display: "flex", flexDirection: "column" }}>
-            <PhotoBlock mobile={true} />
-            <TextBlock  mobile={true} />
-          </div>
-        )}
+          {/* Mobile */}
+          {isMobile && (
+            <div style={{ width: "100%", display: "flex", flexDirection: "column" }}>
+              <PhotoBlock mobile={true} />
+              <TextBlock  mobile={true} />
+            </div>
+          )}
+        </div>
       </section>
 
       {/* ══════════════════════════════════
-          CAROUSEL — full bleed
+          COMPANIES CAROUSEL — full bleed
       ══════════════════════════════════ */}
       <section
         className="edu-fullbleed"
         style={{
           background: "#fff",
-          fontFamily: "'Nunito','Segoe UI',sans-serif",
-          padding: "38px 0 32px",
+          fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+          padding: "50px 0 42px",
           overflow: "hidden",
         }}
       >
         <h2 style={{
           textAlign: "center", color: "#1e293b",
-          fontSize: isMobile ? 17 : 22,
-          fontWeight: 900, marginBottom: 30, letterSpacing: 0.2,
+          fontSize: isMobile ? 20 : 26,
+          fontWeight: 900, marginBottom: 40, letterSpacing: 0.3,
         }}>
           Companies that hire from us
         </h2>
 
         <div style={{ position: "relative" }}>
+          {/* Fade gradients on edges */}
           <div style={{
             position: "absolute", top: 0, bottom: 0, left: 0,
-            width: 100,
-            background: "linear-gradient(to right,#fff,transparent)",
+            width: 120,
+            background: "linear-gradient(to right, #fff, transparent)",
             zIndex: 2, pointerEvents: "none",
           }} />
           <div style={{
             position: "absolute", top: 0, bottom: 0, right: 0,
-            width: 100,
-            background: "linear-gradient(to left,#fff,transparent)",
+            width: 120,
+            background: "linear-gradient(to left, #fff, transparent)",
             zIndex: 2, pointerEvents: "none",
           }} />
 
-          <div style={{ overflow: "hidden", width: "100%", padding: "8px 0" }}>
+          <div style={{ overflow: "hidden", width: "100%", padding: "12px 0" }}>
             <div ref={trackRef} className="edu-carousel-track">
               {doubled.map((c, i) => (
                 <div key={`${c.name}-${i}`} className="edu-carousel-item">
-                  {c.logo}
+                  <img 
+                    src={c.logoUrl} 
+                    alt={c.name}
+                    onError={(e) => {
+                      // Fallback in case logo doesn't load
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
+                  />
                 </div>
               ))}
             </div>
@@ -434,4 +390,4 @@ const Educationsection = () => {
   );
 };
 
-export default Educationsection;
+export default EducationSection;
