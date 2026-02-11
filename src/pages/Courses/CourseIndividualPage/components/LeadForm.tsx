@@ -107,7 +107,7 @@ const LeadForm = () => {
   };
 
   return (
-    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#93b0df] rounded-[2.5rem] p-8 md:p-14 shadow-2xl my-12">
+    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#93b0df] rounded-[2.5rem] p-8 md:p-14 shadow-2xl my-12 scroll-mt-24" id="lead-form">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
 
         {/* LEFT - FORM */}

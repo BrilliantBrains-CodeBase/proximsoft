@@ -1,6 +1,7 @@
 import React from 'react';
 import { LucideStar, LucideUsers, LucideClock, LucideCheckCircle2, LucideInfo } from 'lucide-react';
 import type { CourseDetails, CourseMetrics, CourseStructure, PricingAndEnrollment } from '../../../../types/course';
+import { useFreeDemo } from '../../../../context/FreeDemoContext';
 
 interface CourseHeroProps {
   details: CourseDetails;
@@ -10,6 +11,8 @@ interface CourseHeroProps {
 }
 
 const CourseHero: React.FC<CourseHeroProps> = ({ details, metrics, structure,}) => {
+
+  const {openDemo} =useFreeDemo()
   return (
     <section className="bg-[#f4f9ff] rounded-2xl p-6 lg:p-10 border border-blue-100/50 shadow-sm">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -73,12 +76,21 @@ const CourseHero: React.FC<CourseHeroProps> = ({ details, metrics, structure,}) 
           
           {/* Compact Action Card */}
           <div className="bg-white rounded-xl p-5 shadow-sm border border-slate-100 space-y-3">
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white text-base font-bold py-3 rounded-lg transition-colors shadow-sm active:scale-[0.98]">
+            <button 
+            onClick={() => {
+                    const element = document.getElementById("lead-form");
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white text-base font-bold py-3 rounded-lg transition-colors shadow-sm active:scale-[0.98]">
               Enroll Now
             </button>
             
-            <button className="w-full bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 text-base font-bold py-3 rounded-lg transition-colors active:scale-[0.98]">
-              Enquire
+            <button 
+            onClick={openDemo}
+            className="w-full bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 text-base font-bold py-3 rounded-lg transition-colors active:scale-[0.98]">
+              Book Free Demo
             </button>
             
             <div className="flex items-center justify-center gap-2 py-2 px-3 bg-red-50 rounded-lg border border-red-100">
