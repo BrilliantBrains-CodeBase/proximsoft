@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
+import { useFreeDemo } from "../../../context/FreeDemoContext";
 
 const StatsCTASection = () => {
+
+  const { openDemo } = useFreeDemo();
+
   return (
     <section className="w-full bg-white py-20">
       <div className="mx-auto max-w-6xl px-6">
@@ -18,7 +22,9 @@ const StatsCTASection = () => {
               applicable skills, and more.
             </p>
 
-            <button className="mt-6 rounded-md border border-blue-500 px-6 py-3 text-sm font-medium text-blue-500 hover:bg-blue-50 transition">
+            <button 
+              onClick={openDemo}
+              className="mt-6 rounded-md border border-blue-500 px-6 py-3 text-sm font-medium text-blue-500 hover:bg-blue-50 transition">
               Start Your Free Demo Class
             </button>
           </motion.div>

@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { useFreeDemo } from "../../context/FreeDemoContext";
 
 const CTASection = () => {
+
+  const { openDemo } = useFreeDemo();
   return (
     <section className="relative w-full overflow-hidden bg-gradient-to-b from-blue-50/30 to-white pt-20 md:pt-12 pb-0">
       {/* Concentric Circles Background */}
@@ -46,6 +49,7 @@ const CTASection = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
           whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59, 130, 246, 0.3)" }}
           whileTap={{ scale: 0.98 }}
+          onClick={openDemo}
           className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-blue-500 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-blue-500/30 hover:bg-blue-600 transition-colors duration-200"
         >
           Free Demo Class

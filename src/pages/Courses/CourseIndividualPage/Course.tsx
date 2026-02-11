@@ -12,6 +12,7 @@ import TestimonialSection from "../../../layout/Testimonials/TestimonialSection"
 import { testimonials } from "../../../data/testimonials/testimonials";
 import ProjectsPracticalLearning from "./components/ProjectsPracticalLearning";
 import Educationsection from "./components/Educationsection";
+import LeadForm from "./components/LeadForm";
 
 
 interface CourseProps {
@@ -69,6 +70,8 @@ const Course: React.FC<CourseProps> = ({ course }) => {
       <TestimonialSection testimonials={testimonials}/>
 
       <FaqSection faqs={course.faqs} />
+
+      <LeadForm />
 
 </div>
 
