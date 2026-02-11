@@ -9266,5 +9266,1512 @@ export const courses: CourseData[] =[
     "meta_url": "/courses/management/scrum-master-course"
   }
 },
+{
+  "course_details": {
+    "course_id": "CRS-SFCC-035",
+    "course_uid": "uid-salesforce-commerce-cloud-expert",
+    "course_title": "Salesforce Commerce Cloud Course",
+    "course_subtitle": "Enterprise eCommerce Development & Management with Salesforce Commerce Cloud (SFCC)",
+    "course_slug": "salesforce-commerce-cloud-course",
+    "course_thumbnail": "assets/images/courses/sfcc-thumb.jpg",
+    "course_short_description": "Build and manage enterprise eCommerce storefronts. Master SFRA architecture, ISML, and customization using JavaScript for global retail brands.",
+    "course_long_description": "This Salesforce Commerce Cloud (SFCC) course is designed to help professionals build, customize, and manage enterprise-grade eCommerce applications using Salesforce’s B2C Commerce platform. The course focuses on real-world implementation, covering SFRA architecture, storefront development, product catalogs, checkout flows, and complex third-party integrations.",
+    "about_course": [
+      "Focuses on real-world eCommerce implementation using Salesforce B2C Commerce platform.",
+      "Covers SFRA architecture, storefront development, and product catalog management.",
+      "Practical approach to checkout flows, order management, APIs, and enterprise integrations.",
+      "Prepares learners to work on scalable, high-traffic eCommerce platforms used by global brands."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "CAT_SALESFORCE",
+      "category_title": "Salesforce",
+      "category_url": "/courses/salesforce"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/salesforce-commerce-cloud",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Salesforce B2C Commerce Developer Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sfcc-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic programming knowledge",
+      "JavaScript fundamentals",
+      "HTML & CSS basics",
+      "Prior Salesforce knowledge is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Build enterprise-grade eCommerce storefronts from scratch",
+      "Customize storefront functionality using JavaScript and SFRA architecture [Image of Salesforce Commerce Cloud B2C Architecture]",
+      "Implement complex checkout flows and order management systems",
+      "Integrate third-party services, payments, and shipping APIs"
+    ],
+    "ideal_candidates": [
+      "Salesforce Developers",
+      "Frontend / JavaScript Developers",
+      "eCommerce professionals and consultants",
+      "Developers transitioning into Salesforce Commerce roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Salesforce Commerce Cloud Development",
+        "SFRA Architecture",
+        "eCommerce Storefront Customization"
+      ],
+      "supporting_skills": [
+        "JavaScript for SFCC",
+        "API Integrations",
+        "Performance & Security Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Salesforce Commerce Cloud (SFCC)",
+        "SFRA",
+        "JavaScript"
+      ],
+      "secondary": [
+        "ISML",
+        "OCAPI / SCAPI",
+        "CI/CD Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Salesforce Commerce Cloud Developer",
+      "SFCC Consultant",
+      "eCommerce Developer",
+      "Digital Commerce Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Salesforce Commerce Cloud Storefront. Build a complete eCommerce application including product catalogs, pricing, checkout workflows, and API integrations."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 29
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Commerce Cloud Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "Salesforce Commerce Cloud ecosystem",
+          "B2C Commerce architecture",
+          "Introduction to SFRA"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SFCC Setup & Project Structure",
+        "module_duration": "Week 2",
+        "topics": [
+          "Sandboxes & environments",
+          "Cartridge architecture",
+          "Development workflow"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Catalog & Product Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Products, categories & attributes",
+          "Catalog configuration",
+          "Inventory fundamentals"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Content & Page Designer",
+        "module_duration": "Week 4",
+        "topics": [
+          "Page Designer components",
+          "Content slots & layouts",
+          "CMS integration concepts"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Pricing & Promotions",
+        "module_duration": "Week 5",
+        "topics": [
+          "Price books",
+          "Promotions & discounts",
+          "Coupons & campaigns"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Checkout & Order Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Checkout flows",
+          "Payment methods",
+          "Order lifecycle & management"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Customization with JavaScript",
+        "module_duration": "Week 7",
+        "topics": [
+          "Controllers & scripts",
+          "ISML templates",
+          "Server-side customization"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integrations & APIs",
+        "module_duration": "Week 8",
+        "topics": [
+          "OCAPI & SCAPI",
+          "Payment & shipping integrations",
+          "Third-party system integration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Performance, Security & Deployment",
+        "module_duration": "Week 8",
+        "topics": [
+          "Performance optimization",
+          "Security best practices",
+          "CI/CD & deployment workflows"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end eCommerce storefront",
+          "Final storefront review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 480,
+    "total_students_enrolled": 3200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Salesforce Commerce Cloud?",
+      "answer": "Salesforce Commerce Cloud is an enterprise eCommerce platform used to build scalable, cloud-based B2C online stores."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is Salesforce Commerce Cloud part of Salesforce?",
+      "answer": "Yes. SFCC is Salesforce’s dedicated digital commerce solution for enterprise eCommerce."
+    },
+    {
+      "faq_id": 3,
+      "question": "Who should learn Salesforce Commerce Cloud?",
+      "answer": "Developers, eCommerce professionals, and Salesforce consultants working on digital commerce platforms."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is JavaScript required for SFCC?",
+      "answer": "Yes. JavaScript is the primary language used for SFCC customization and server-side logic."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is SFRA in Salesforce Commerce Cloud?",
+      "answer": "SFRA (Storefront Reference Architecture) is the standard framework used to build SFCC storefronts."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does this course include real-world projects?",
+      "answer": "Yes. The course includes hands-on labs and a full eCommerce capstone project."
+    },
+    {
+      "faq_id": 7,
+      "question": "Can beginners learn Salesforce Commerce Cloud?",
+      "answer": "This course is best suited for learners with basic programming knowledge in JavaScript."
+    },
+    {
+      "faq_id": 8,
+      "question": "What career roles can I get after this course?",
+      "answer": "Common roles include SFCC Developer, SFCC Consultant, eCommerce Developer, and Digital Commerce Engineer."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is Salesforce Commerce Cloud in demand?",
+      "answer": "Yes. Many global brands use SFCC, creating strong demand for skilled professionals to manage high-revenue platforms."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is this course aligned with enterprise use cases?",
+      "answer": "Yes. The curriculum is based on real-world enterprise eCommerce implementations and standard architecture."
+    }
+  ],
+  "target_audience": [
+    "Salesforce Developers",
+    "Frontend Developers",
+    "eCommerce Professionals",
+    "CRM Specialists"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Salesforce Commerce Cloud Course | SFCC Developer Training | Proximsoft",
+    "meta_description": "Master Salesforce Commerce Cloud (SFCC). Learn SFRA architecture, ISML, and JavaScript customization to build enterprise B2C storefronts.",
+    "meta_url": "/courses/salesforce/salesforce-commerce-cloud-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SFMC-036",
+    "course_uid": "uid-salesforce-marketing-cloud-automation",
+    "course_title": "Salesforce Marketing Cloud Course",
+    "course_subtitle": "Digital Marketing Automation & Customer Journey Management with Salesforce",
+    "course_slug": "salesforce-marketing-cloud-course",
+    "course_thumbnail": "assets/images/courses/sfmc-thumb.jpg",
+    "course_short_description": "Master enterprise marketing automation. Learn Journey Builder, Email Studio, and Data Modeling to design personalized customer experiences at scale.",
+    "course_long_description": "This Salesforce Marketing Cloud course is designed to help learners master enterprise-level digital marketing automation and customer journey management using Salesforce’s Marketing Cloud platform. The course focuses on how modern organizations design, automate, personalize, and optimize customer communication across email, mobile, and digital channels.",
+    "about_course": [
+      "Focuses on core Marketing Cloud tools: Email Studio, Journey Builder, and Contact Builder.",
+      "Teaches how to automate and personalize customer communication across multiple digital channels.",
+      "Hands-on experience with Automation Studio and SQL basics for marketers.",
+      "CRM-driven approach to building automated, data-driven marketing journeys used by large organizations."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 2,
+    "course_category": {
+      "category_id": "CAT_SALESFORCE",
+      "category_title": "Salesforce",
+      "category_url": "/courses/salesforce"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "5-7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/salesforce-marketing-cloud",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Salesforce Marketing Cloud Email Specialist & Consultant Readiness",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sfmc-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "No coding background required",
+      "Basic understanding of CRM concepts",
+      "Familiarity with digital marketing fundamentals is helpful"
+    ],
+    "key_learnings": [
+      "Design automated customer journeys using Journey Builder [Image of the Salesforce Marketing Cloud Journey Builder interface showing entry sources and activities]",
+      "Create and manage complex email campaigns in Email Studio",
+      "Model and segment marketing data using Contact Builder",
+      "Personalize communications using AMPscript logic and dynamic content"
+    ],
+    "ideal_candidates": [
+      "Digital marketers & marketing analysts",
+      "Salesforce Admins & CRM professionals",
+      "Marketing automation specialists",
+      "Freshers interested in marketing technology"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Marketing Automation",
+        "Customer Journey Management",
+        "Salesforce Marketing Cloud"
+      ],
+      "supporting_skills": [
+        "Data Modeling for Marketing",
+        "Email Personalization",
+        "Campaign Analytics",
+        "AMPscript Basics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Salesforce Marketing Cloud",
+        "Email Studio",
+        "Journey Builder"
+      ],
+      "secondary": [
+        "Contact Builder",
+        "Automation Studio",
+        "AMPscript"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Salesforce Marketing Cloud Consultant",
+      "Marketing Automation Specialist",
+      "CRM Marketing Analyst",
+      "Digital Marketing Technologist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Marketing Automation Campaign. Design and execute an end-to-end workflow including audience segmentation, multi-step journey automation, and tracking."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Marketing Cloud Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "Salesforce Marketing Cloud ecosystem",
+          "Digital marketing fundamentals",
+          "Platform architecture [Image of Salesforce Marketing Cloud architecture including different Studios and Builders]"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Contact Builder & Data Modeling",
+        "module_duration": "Week 2",
+        "topics": [
+          "Contact model fundamentals",
+          "Data extensions",
+          "Subscriber & profile management"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Email Studio",
+        "module_duration": "Week 3",
+        "topics": [
+          "Email templates & content creation",
+          "Audience segmentation",
+          "Send & tracking options"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Journey Builder",
+        "module_duration": "Week 4",
+        "topics": [
+          "Customer journey design",
+          "Entry sources & activities",
+          "Multi-step automation strategies"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Automation Studio",
+        "module_duration": "Week 5",
+        "topics": [
+          "Scheduled automations",
+          "SQL basics for marketers",
+          "File transfer activities"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Mobile & Personalization",
+        "module_duration": "Week 6",
+        "topics": [
+          "Mobile Studio (SMS overview)",
+          "Personalization concepts",
+          "Dynamic content implementation"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "AMPscript Basics",
+        "module_duration": "Week 7",
+        "topics": [
+          "AMPscript fundamentals",
+          "Personalization logic",
+          "Real-world use cases"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Campaign Analytics & Optimization",
+        "module_duration": "Week 8",
+        "topics": [
+          "Tracking & reporting",
+          "Performance metrics",
+          "Campaign optimization strategies"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security, Compliance & Best Practices",
+        "module_duration": "Week 8",
+        "topics": [
+          "User roles & permissions",
+          "Data privacy & GDPR basics",
+          "Marketing Cloud best practices"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end marketing automation project",
+          "Email + journey-based campaign execution",
+          "Final analytics review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 560,
+    "total_students_enrolled": 4100
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Salesforce Marketing Cloud?",
+      "answer": "Salesforce Marketing Cloud is an enterprise digital marketing platform used to automate, personalize, and manage customer communications across multiple channels like email, mobile, and web."
+    },
+    {
+      "faq_id": 2,
+      "question": "Who should learn Salesforce Marketing Cloud?",
+      "answer": "Digital marketers, CRM professionals, Salesforce admins, and anyone interested in scaling marketing automation for large organizations."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is coding required for Salesforce Marketing Cloud?",
+      "answer": "No. Coding is not mandatory for core functions. This course introduces basic AMPscript specifically for personalization logic."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools are covered in this course?",
+      "answer": "You will master Email Studio, Journey Builder, Contact Builder, Automation Studio, and the basics of AMPscript."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include real-world projects?",
+      "answer": "Yes. The course includes hands-on labs and a real-world marketing automation capstone project simulating enterprise scenarios."
+    },
+    {
+      "faq_id": 6,
+      "question": "Can freshers learn Salesforce Marketing Cloud?",
+      "answer": "Yes. The course starts from fundamentals and is beginner-friendly for those with a basic interest in marketing technology."
+    },
+    {
+      "faq_id": 7,
+      "question": "What jobs can I get after completing this course?",
+      "answer": "Common roles include Marketing Cloud Consultant, Marketing Automation Specialist, CRM Marketing Analyst, or Digital Marketing Technologist."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is Salesforce Marketing Cloud in demand?",
+      "answer": "Yes. Enterprises rely on it to manage large-scale customer engagement, creating high demand for skilled specialists."
+    },
+    {
+      "faq_id": 9,
+      "question": "How long does it take to learn Salesforce Marketing Cloud?",
+      "answer": "This course is structured to be completed in 8 weeks with consistent hands-on practice."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is this course aligned with enterprise marketing use cases?",
+      "answer": "Yes. The curriculum is based on real-world scenarios such as welcome journeys, abandoned cart recovery, and targeted promotions."
+    }
+  ],
+  "target_audience": [
+    "Digital Marketers",
+    "CRM Professionals",
+    "Salesforce Admins",
+    "Fresh Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Salesforce Marketing Cloud Course | Digital Marketing Automation | Proximsoft",
+    "meta_description": "Master Salesforce Marketing Cloud. Learn Journey Builder, Email Studio, and automation to create personalized customer journeys at scale. Beginner-friendly.",
+    "meta_url": "/courses/salesforce/salesforce-marketing-cloud-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SFSC-037",
+    "course_uid": "uid-salesforce-sales-cloud-mastery",
+    "course_title": "Salesforce Sales Cloud Course",
+    "course_subtitle": "Lead-to-Cash Management & Sales Automation using Salesforce Sales Cloud",
+    "course_slug": "salesforce-sales-cloud-course",
+    "course_thumbnail": "assets/images/courses/sales-cloud-thumb.jpg",
+    "course_short_description": "Master the world's #1 CRM for sales. Learn to manage leads, automate sales processes, and build powerful forecasting dashboards for enterprise sales operations.",
+    "course_long_description": "This Salesforce Sales Cloud course is designed to help learners master how modern sales teams use Salesforce to manage leads, close deals efficiently, and gain complete visibility into sales performance. The course focuses on end-to-end lead-to-cash processes, covering lead management, accounts, sales automation, and forecasting.",
+    "about_course": [
+      "Covers end-to-end lead-to-cash processes including lead management and deal closure.",
+      "Focuses on sales automation using Salesforce Flow to drive efficiency.",
+      "Teaches forecasting, pipeline management, and actionable sales reporting.",
+      "Prepares learners for roles as Salesforce Sales Cloud Administrators or Functional Consultants."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 3,
+    "course_category": {
+      "category_id": "CAT_SALESFORCE",
+      "category_title": "Salesforce",
+      "category_url": "/courses/salesforce"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "5-7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/salesforce-sales-cloud",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Salesforce Sales Cloud Consultant Readiness Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sfsc-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "No coding background required",
+      "Basic understanding of Salesforce concepts",
+      "Familiarity with CRM or sales processes is helpful"
+    ],
+    "key_learnings": [
+      "Manage leads, accounts, and opportunities through the full lifecycle",
+      "Automate complex sales workflows using Salesforce Flow",
+      "Build high-impact sales reports and management dashboards",
+      "Optimize sales pipelines and revenue forecasting models"
+    ],
+    "ideal_candidates": [
+      "Salesforce Administrators & Developers",
+      "CRM & Business Analysts",
+      "Sales Operations professionals",
+      "Freshers aiming for Salesforce CRM roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Salesforce Sales Cloud",
+        "CRM & Sales Automation",
+        "Lead-to-Cash Process Management"
+      ],
+      "supporting_skills": [
+        "Sales Reporting & Dashboards",
+        "Workflow Automation",
+        "Data Security & Access Control"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Salesforce Sales Cloud",
+        "Salesforce Flow"
+      ],
+      "secondary": [
+        "Reports & Dashboards",
+        "Email Integration",
+        "Salesforce Mobile App"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Salesforce Sales Cloud Administrator",
+      "Salesforce Sales Consultant",
+      "CRM Analyst",
+      "Salesforce Functional Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Sales Cloud CRM Implementation. Design and implement a complete solution including lead conversion, opportunity automation, and secure sales reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 29
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Sales Cloud",
+        "module_duration": "Week 1",
+        "topics": [
+          "CRM fundamentals",
+          "Salesforce Sales Cloud overview",
+          "Standard sales objects"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Lead Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Lead lifecycle",
+          "Lead assignment rules",
+          "Lead conversion process"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Accounts & Contacts",
+        "module_duration": "Week 3",
+        "topics": [
+          "Account hierarchy",
+          "Contacts and relationships",
+          "Best practices"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Opportunity Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Opportunity lifecycle",
+          "Sales stages and probability",
+          "Products and price books"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Sales Process Automation",
+        "module_duration": "Week 5",
+        "topics": [
+          "Sales processes",
+          "Validation rules",
+          "Workflow rules & Salesforce Flow"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Forecasting & Pipeline Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Sales forecasting models",
+          "Pipeline tracking",
+          "Territory management overview"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Activity & Productivity Tools",
+        "module_duration": "Week 7",
+        "topics": [
+          "Tasks, events, and calendars",
+          "Email integration",
+          "Salesforce mobile app"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Reports & Dashboards",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard and custom reports",
+          "Management dashboards",
+          "Sales analytics"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security & Data Access",
+        "module_duration": "Week 8",
+        "topics": [
+          "Profiles and permission sets",
+          "Sharing rules",
+          "Data visibility and access control"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end Sales Cloud implementation",
+          "Lead-to-opportunity automation workflow"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 680,
+    "total_students_enrolled": 5200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Salesforce Sales Cloud?",
+      "answer": "Salesforce Sales Cloud is a CRM platform used to manage leads, opportunities, sales processes, forecasting, and sales analytics."
+    },
+    {
+      "faq_id": 2,
+      "question": "Who should learn Salesforce Sales Cloud?",
+      "answer": "Salesforce admins, CRM professionals, sales operations teams, and freshers entering Salesforce roles."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is coding required for Salesforce Sales Cloud?",
+      "answer": "No. This course focuses on configuration, automation, and reporting—no coding required."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is lead-to-cash in Salesforce?",
+      "answer": "Lead-to-cash refers to managing the complete sales process from lead capture to deal closure and revenue tracking."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include real-world projects?",
+      "answer": "Yes. A complete end-to-end Sales Cloud capstone project is included."
+    },
+    {
+      "faq_id": 6,
+      "question": "Will I learn Salesforce Flow in this course?",
+      "answer": "Yes. Sales automation using Salesforce Flow is covered."
+    },
+    {
+      "faq_id": 7,
+      "question": "Can freshers learn Salesforce Sales Cloud?",
+      "answer": "Yes. The course is beginner-friendly and starts from fundamentals."
+    },
+    {
+      "faq_id": 8,
+      "question": "What jobs can I apply for after completing this course?",
+      "answer": "Salesforce Sales Cloud Admin, Consultant, CRM Analyst, or Functional Consultant."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is Salesforce Sales Cloud in demand?",
+      "answer": "Yes. It is widely used by sales teams across industries, creating strong job demand."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is this course aligned with enterprise CRM use cases?",
+      "answer": "Yes. The curriculum is based on real-world enterprise Sales Cloud implementations."
+    }
+  ],
+  "target_audience": [
+    "Salesforce Administrators",
+    "CRM Analysts",
+    "Sales Ops Professionals",
+    "Fresh Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Salesforce Sales Cloud Course | Sales Automation Training | Proximsoft",
+    "meta_description": "Master Salesforce Sales Cloud. Learn lead management, opportunity tracking, and sales automation using Salesforce Flow.",
+    "meta_url": "/courses/salesforce/salesforce-sales-cloud-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SFAD-038",
+    "course_uid": "uid-salesforce-administrator-mastery",
+    "course_title": "Salesforce Administrator Course",
+    "course_subtitle": "Salesforce CRM Administration, Configuration & User Management",
+    "course_slug": "salesforce-administrator-course",
+    "course_thumbnail": "assets/images/courses/salesforce-admin-thumb.jpg",
+    "course_short_description": "Master the world's #1 CRM platform. Learn to configure orgs, manage user security, automate workflows, and build high-impact business reports without coding.",
+    "course_long_description": "This Salesforce Administrator course is designed to help learners master Salesforce CRM administration, configuration, and day-to-day management. The course focuses on real-world business scenarios—from setting up users and security to automating workflows and building dashboards that leadership relies on.",
+    "about_course": [
+      "Teaches core Salesforce administration skills that form the backbone of every implementation.",
+      "Focuses on how Salesforce works in real businesses without a coding-heavy approach.",
+      "Covers user management, security models, data governance, and workflow automation.",
+      "Includes hands-on training to maintain CRM health and improve business processes in a live org."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 4,
+    "course_category": {
+      "category_id": "CAT_SALESFORCE",
+      "category_title": "Salesforce",
+      "category_url": "/courses/salesforce"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "56 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/salesforce-administrator",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Salesforce Certified Administrator (ADM-201) Preparation Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/salesforce-admin-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer knowledge",
+      "Familiarity with common business processes (sales, service, operations)",
+      "Willingness to learn CRM workflows",
+      "No coding or development background is required"
+    ],
+    "key_learnings": [
+      "Configure and manage complete Salesforce orgs for business use ",
+      "Implement robust security models using profiles, roles, and permission sets",
+      "Automate repetitive business processes using Salesforce Flow",
+      "Design management-level reports and interactive dashboards"
+    ],
+    "ideal_candidates": [
+      "Freshers and non-technical graduates",
+      "CRM users moving into Admin roles",
+      "Business analysts and operations professionals",
+      "IT professionals transitioning into Salesforce careers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Salesforce CRM Administration",
+        "User & Security Management",
+        "Salesforce Automation (Flows)"
+      ],
+      "supporting_skills": [
+        "Business process mapping",
+        "CRM data management",
+        "Reporting & Analytics",
+        "Change Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Salesforce CRM",
+        "Sales Cloud",
+        "Service Cloud"
+      ],
+      "secondary": [
+        "Salesforce Flow",
+        "Reports & Dashboards",
+        "Data Import & Export Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Salesforce Administrator",
+      "Junior Salesforce Consultant",
+      "CRM Administrator",
+      "Salesforce Support Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "95%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Salesforce CRM Administration. Build a complete setup including user configuration, security models, business process automation (Flows), and executive dashboards."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Salesforce Platform Introduction",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is CRM and why Salesforce is used",
+          "Salesforce ecosystem and cloud offerings",
+          "Salesforce editions and core architecture"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Salesforce Setup & Navigation",
+        "module_duration": "Week 1",
+        "topics": [
+          "Salesforce user interface",
+          "App Launcher and navigation",
+          "Standard vs custom apps"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Model & Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Objects, fields, and relationships ",
+          "Data import and export tools",
+          "Validation rules and data quality"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "User Management & Security",
+        "module_duration": "Week 3",
+        "topics": [
+          "Users, profiles, and roles",
+          "Permission sets and access control",
+          "Sharing rules and security model"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Sales & Service Cloud Basics",
+        "module_duration": "Week 4",
+        "topics": [
+          "Leads, accounts, and contacts",
+          "Opportunities and cases",
+          "Page layouts and record types"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Automation with Salesforce Tools",
+        "module_duration": "Week 5",
+        "topics": [
+          "Workflow rules",
+          "Process Builder fundamentals",
+          "Salesforce Flows for automation "
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Reports & Dashboards",
+        "module_duration": "Week 6",
+        "topics": [
+          "Standard and custom reports",
+          "Report types and filters",
+          "Dashboards for business insights"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Change Management & Deployment",
+        "module_duration": "Week 7",
+        "topics": [
+          "Sandbox environments",
+          "Change sets and deployments",
+          "Release management basics"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Salesforce Admin Best Practices",
+        "module_duration": "Week 8",
+        "topics": [
+          "Data security best practices",
+          "Performance and usability optimization",
+          "Real-world admin problem solving"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end Salesforce Admin implementation",
+          "Automation and security configuration",
+          "Final org review and testing"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1850,
+    "total_students_enrolled": 14200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What does a Salesforce Administrator do?",
+      "answer": "A Salesforce Administrator manages CRM configuration, users, security, automation, and reporting to ensure Salesforce supports business operations effectively."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is Salesforce Administration suitable for non-technical backgrounds?",
+      "answer": "Yes. Salesforce Admin roles do not require coding and are ideal for non-technical professionals, freshers, and business users."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need coding knowledge to learn Salesforce Administration?",
+      "answer": "No. Salesforce Administration focuses on declarative configuration (point-and-click), automation tools, and CRM management rather than programming."
+    },
+    {
+      "faq_id": 4,
+      "question": "What skills are required to become a Salesforce Administrator?",
+      "answer": "Key skills include CRM understanding, user management, data security logic, automation, reporting, and business process knowledge."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is Salesforce Administrator a good career in 2026?",
+      "answer": "Yes. Salesforce Admin roles remain in high demand as more companies adopt and expand their use of Salesforce for sales, service, and operations."
+    },
+    {
+      "faq_id": 6,
+      "question": "Will this course help me prepare for Salesforce Admin certification?",
+      "answer": "Yes. The course covers the core concepts required for the ADM-201 certification while focusing heavily on real-world practical skills."
+    },
+    {
+      "faq_id": 7,
+      "question": "Can freshers get jobs after completing this course?",
+      "answer": "Yes. This course is designed to make freshers job-ready through practical labs and a comprehensive capstone project."
+    },
+    {
+      "faq_id": 8,
+      "question": "What industries hire Salesforce Administrators?",
+      "answer": "Industries like SaaS, Banking, Healthcare, Retail, and Global Consulting firms hire Admins to manage their business data."
+    },
+    {
+      "faq_id": 9,
+      "question": "How long does it take to become a Salesforce Administrator?",
+      "answer": "With this 8-week structured course and consistent practice, most learners are job-ready within 2–3 months."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is Salesforce Administration future-proof?",
+      "answer": "Yes. As the world's leading CRM platform, Salesforce's growth ensures a long-term, future-ready career path for skilled administrators."
+    }
+  ],
+  "target_audience": [
+    "Fresh Graduates",
+    "Non-technical Professionals",
+    "Business Analysts",
+    "IT professionals switching careers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Salesforce Administrator Course | CRM Admin Training | Proximsoft",
+    "meta_description": "Master Salesforce CRM administration. Learn user management, data security, Salesforce Flow, and dashboard creation. Become a job-ready Salesforce Admin.",
+    "meta_url": "/courses/salesforce/salesforce-administrator-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SFDV-039",
+    "course_uid": "uid-salesforce-developer-apex-lwc-pro",
+    "course_title": "Salesforce Developer (Apex & LWC) Course",
+    "course_subtitle": "Build Custom Salesforce Applications using Apex, Triggers & Lightning Web Components",
+    "course_slug": "salesforce-developer-apex-lwc-course",
+    "course_thumbnail": "assets/images/courses/salesforce-dev-thumb.jpg",
+    "course_short_description": "Move beyond configuration. Master Apex programming, triggers, and modern Lightning Web Components (LWC) to build enterprise-grade Salesforce applications.",
+    "course_long_description": "The Salesforce Developer (Apex & LWC) course is designed to help professionals build custom, scalable Salesforce applications using programmatic development. Unlike Admin courses that focus on configuration, this program teaches core development skills including Apex programming, triggers, SOQL/SOSL, asynchronous processing, and Lightning Web Components (LWC).",
+    "about_course": [
+      "Teaches programmatic development to build scalable enterprise Salesforce applications.",
+      "Covers Apex logic, triggers, asynchronous processing, and SOQL/SOSL querying.",
+      "Deep dive into modern UI development using Lightning Web Components (LWC).",
+      "Focuses on production-ready development practices, testing, security, and deployment."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible, Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 5,
+    "course_category": {
+      "category_id": "CAT_SALESFORCE",
+      "category_title": "Salesforce",
+      "category_url": "/courses/salesforce"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/salesforce-developer-apex-lwc",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Salesforce Platform Developer I (PDI) Readiness Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sf-dev-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of Salesforce Admin concepts",
+      "Familiarity with programming fundamentals (any language)",
+      "Knowledge of objects, fields, and permissions is helpful"
+    ],
+    "key_learnings": [
+      "Develop complex business logic using Apex and Triggers ",
+      "Build modern, reactive user interfaces with Lightning Web Components (LWC)",
+      "Implement asynchronous Apex (Batch, Queueable, Scheduled) for large data volumes",
+      "Integrate Salesforce with external systems using REST and SOAP APIs "
+    ],
+    "ideal_candidates": [
+      "Salesforce Administrators transitioning to development",
+      "Java or C# developers moving into the Salesforce ecosystem",
+      "CRM Developers and Technical Consultants"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Salesforce Development",
+        "Apex Programming",
+        "Lightning Web Components (LWC)"
+      ],
+      "supporting_skills": [
+        "SOQL / SOSL querying",
+        "Asynchronous processing",
+        "Salesforce security and integrations",
+        "Git version control"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Salesforce Platform",
+        "Apex",
+        "LWC"
+      ],
+      "secondary": [
+        "SOQL / SOSL",
+        "Salesforce DX",
+        "Git",
+        "VS Code"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Salesforce Developer",
+      "Junior Salesforce Engineer",
+      "Salesforce Technical Consultant",
+      "CRM Application Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Salesforce Application Development. Build a production-grade application featuring custom objects, complex Apex triggers, an LWC-based UI, and REST API integration."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Salesforce Development Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "Salesforce development lifecycle",
+          "Declarative vs programmatic development",
+          "Developer tools and environments"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Apex Programming Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Apex syntax and data types",
+          "Classes, methods, and control structures",
+          "Governor limits and best practices"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Apex Triggers",
+        "module_duration": "Week 3",
+        "topics": [
+          "Trigger syntax and execution context",
+          "Before vs after triggers",
+          "Bulkification and trigger frameworks"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SOQL & SOSL",
+        "module_duration": "Week 3",
+        "topics": [
+          "Querying Salesforce data",
+          "Relationship queries",
+          "Query optimization techniques"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Apex Testing & Debugging",
+        "module_duration": "Week 4",
+        "topics": [
+          "Writing test classes",
+          "Code coverage requirements",
+          "Debug logs and exception handling"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Asynchronous Apex",
+        "module_duration": "Week 5",
+        "topics": [
+          "Future methods and Batch Apex",
+          "Queueable and scheduled Apex",
+          "Handling high-volume data processing"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Lightning Web Components (LWC) Basics",
+        "module_duration": "Week 6",
+        "topics": [
+          "LWC architecture",
+          "HTML, JavaScript, and metadata",
+          "Data binding and event handling"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Advanced LWC Development",
+        "module_duration": "Week 7",
+        "topics": [
+          "Apex–LWC integration",
+          "Lightning Data Service",
+          "Component communication patterns"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integrations & Security",
+        "module_duration": "Week 8",
+        "topics": [
+          "REST and SOAP integrations",
+          "Named credentials",
+          "Sharing rules and security best practices"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end Salesforce application build",
+          "Unit testing and code review",
+          "Deployment-ready solution finalization"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 890,
+    "total_students_enrolled": 6400
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Salesforce Developer course?",
+      "answer": "A Salesforce Developer course teaches how to build custom applications using Apex, triggers, SOQL, Lightning Web Components, and security best practices."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is Apex required to become a Salesforce Developer?",
+      "answer": "Yes. Apex is the primary object-oriented programming language used on the Salesforce platform to implement complex business logic."
+    },
+    {
+      "faq_id": 3,
+      "question": "What are Lightning Web Components (LWC)?",
+      "answer": "LWC is Salesforce's modern UI framework used to build reusable and secure components using standard web technologies like JS, HTML, and CSS."
+    },
+    {
+      "faq_id": 4,
+      "question": "Can a Salesforce Admin become a Salesforce Developer?",
+      "answer": "Absolutely. This course is specifically designed to help Admins bridge the gap between declarative configuration and programmatic development."
+    },
+    {
+      "faq_id": 5,
+      "question": "Do I need Java to learn Salesforce development?",
+      "answer": "No, but it helps. Apex is very similar to Java, so if you have Java experience, you will pick it up very quickly."
+    },
+    {
+      "faq_id": 6,
+      "question": "What projects are included in this course?",
+      "answer": "The course features multiple hands-on labs and a final capstone project where you build a complete custom application using Apex and LWC."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is this course aligned with real-world Salesforce jobs?",
+      "answer": "Yes. We focus on production-ready skills, governor limits, bulkification, and enterprise patterns used in the industry today."
+    },
+    {
+      "faq_id": 8,
+      "question": "What certifications does this course support?",
+      "answer": "It provides the technical foundation for Platform Developer I (PDI) and Platform Developer II (PDII) certifications."
+    },
+    {
+      "faq_id": 9,
+      "question": "How long does it take to become a Salesforce Developer?",
+      "answer": "After completing this 8-week course and our project work, most learners are job-ready within 2-3 months of total practice."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles can I get after this course?",
+      "answer": "You can apply for roles like Salesforce Developer, Technical Consultant, CRM Engineer, or Application Developer."
+    }
+  ],
+  "target_audience": [
+    "Salesforce Admins",
+    "Java/C# Developers",
+    "Technical Consultants",
+    "IT Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "Salesforce Developer Course | Apex & LWC Training | Proximsoft",
+    "meta_description": "Master Salesforce development with Apex and LWC. Learn to build custom apps, triggers, and integrations in this hands-on, project-based course.",
+    "meta_url": "/courses/salesforce/salesforce-developer-apex-lwc-course"
+  }
+},
 
 ]
