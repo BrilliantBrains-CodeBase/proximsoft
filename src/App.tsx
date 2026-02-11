@@ -16,6 +16,7 @@ import { FreeDemoProvider } from './context/FreeDemoContext'
 import FreeDemoModal from './layout/Demo/FreeDemoModal'
 import FloatingWhatsapp from './layout/Whatsapp/FloatingWhatsapp'
 import ThankYou from './pages/Thankyou/ThankYou'
+import EnrollThankYou from './pages/Thankyou/EnrollSuccess'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       </Route>
 
       <Route path='thank-you' element={<ThankYou />} />
+      <Route path='/enrollement-success' element={<EnrollThankYou />} />
 
       {/* 404 */}
       <Route path="*" element={<NotFound />} />

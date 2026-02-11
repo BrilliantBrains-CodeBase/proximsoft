@@ -1,199 +1,197 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 import { motion } from "framer-motion";
-import { Users, Briefcase, Star, Globe} from "lucide-react";
+import { Users, Briefcase, Star, Globe } from "lucide-react";
+import { courses } from "../../../../data/courses/course";
+import { useNavigate } from "react-router-dom";
+
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxqjtqzXWu_-sFS2KdRGYx2rHAnhPukfyyFPJYyOGsT2OGDCyxRERQAoUW7R2bt1LJq/exec";
 
 const LeadForm = () => {
   const currentUrl =
     typeof window !== "undefined" ? window.location.href : "";
 
+  const [country, setCountry] = useState("us");
+  const [phone, setPhone] = useState("");
+
   const [formData, setFormData] = useState({
     fullName: "",
-    mobileNumber: "",
     email: "",
-    courseUrl: currentUrl,
+    message: "",
   });
 
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
+
+  const navigate =useNavigate();
+
+  // 🌍 Detect country by IP
+  useEffect(() => {
+    fetch("https://ipapi.co/json/")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data?.country_code) {
+          setCountry(data.country_code.toLowerCase());
+        }
+      })
+      .catch(() => setCountry("us"));
+  }, []);
+
+  // 🎯 Detect Course from URL
+  const detectedCourse = courses.find((course) =>
+    currentUrl.includes(course.course_details.course_slug)
+  );
+
+  const courseName =
+    detectedCourse?.course_details.course_title || "Unknown Course";
+
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  const validateForm = () => {
+    if (!formData.fullName.trim()) return "Full name is required";
+    if (!formData.email.trim()) return "Email is required";
+    if (!phone) return "Phone number is required";
+
+    const emailRegex = /\S+@\S+\.\S+/;
+    if (!emailRegex.test(formData.email)) return "Invalid email format";
+
+    return "";
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const payload = {
-      ...formData,
-      source_url: currentUrl,
-      timestamp: new Date().toISOString(),
-    };
+    const validationError = validateForm();
+    if (validationError) {
+      setError(validationError);
+      return;
+    }
 
-    console.log("Sending Payload:", payload);
+    setError("");
+    setLoading(true);
+
+    try {
+      const payload = {
+        fullName: formData.fullName,
+        email: formData.email,
+        phone,
+        country,
+        message: formData.message || "",
+        course: courseName,
+        url: currentUrl,
+        timestamp: new Date().toISOString(),
+      };
+
+      await fetch(GOOGLE_SCRIPT_URL, {
+                    method: "POST",
+                    mode: "no-cors",
+                    body: JSON.stringify(payload),
+                  });
+
+      setSuccess(true);
+      setFormData({ fullName: "", email: "", message: "" });
+      setPhone("");
+      navigate('/enrollement-success');
+    } catch (err) {
+      setError("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
-    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#3b82f6] rounded-[2.5rem] p-8 md:p-14 overflow-hidden shadow-2xl my-12">
+    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#3b82f6] rounded-[2.5rem] p-8 md:p-14 shadow-2xl my-12">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
-        
+
         {/* LEFT - FORM */}
-        <div className="z-10">
-          <h1 className="text-4xl md:text-4xl font-extrabold text-[#0f172a] leading-tight mb-4">
-            Start Your Learning <br /> Journey Today
+        <div>
+          <h1 className="text-4xl font-extrabold text-[#0f172a] mb-4">
+            Start Your Learning Journey Today
           </h1>
 
-          <p className="text-[#1e293b] text-ms opacity-90 mb-8 max-w-sm">
-            Fill in your details and our advisors will help you choose
-            the right course for your goals.
-          </p>
+          <form onSubmit={handleSubmit} className="space-y-4 max-w-md">
 
-          <form onSubmit={handleSubmit} className="space-y-2 max-w-md">
-            {/* Full Name */}
-            <div>
-              <label className="block text-slate-900 font-semibold mb-2 text-sm">
-                Full Name
-              </label>
-              <input
-                required
-                type="text"
-                name="fullName"
-                placeholder="Enter your name"
-                onChange={handleInputChange}
-                className="w-full px-5 py-4 rounded-2xl bg-white shadow-sm outline-none focus:ring-2 focus:ring-blue-200 transition"
-              />
-            </div>
+            <input
+              name="fullName"
+              value={formData.fullName}
+              onChange={handleInputChange}
+              placeholder="Full Name"
+              className="w-full px-5 py-4 rounded-2xl bg-white"
+            />
 
-            {/* Mobile */}
-            <div>
-              <label className="block text-slate-900 font-semibold mb-2 text-sm">
-                Mobile Number
-              </label>
-              <input
-                required
-                type="tel"
-                name="mobileNumber"
-                placeholder="Enter mobile number"
-                onChange={handleInputChange}
-                className="w-full px-5 py-4 rounded-2xl bg-white shadow-sm outline-none focus:ring-2 focus:ring-blue-200 transition"
-              />
-            </div>
+            <input
+              name="email"
+              value={formData.email}
+              onChange={handleInputChange}
+              placeholder="Email"
+              className="w-full px-5 py-4 rounded-2xl bg-white"
+            />
 
-            {/* Email */}
-            <div>
-              <label className="block text-slate-900 font-semibold mb-2 text-sm">
-                E-mail Address
-              </label>
-              <input
-                required
-                type="email"
-                name="email"
-                placeholder="Enter email address"
-                onChange={handleInputChange}
-                className="w-full px-5 py-4 rounded-2xl bg-white shadow-sm outline-none focus:ring-2 focus:ring-blue-200 transition"
-              />
-            </div>
+            <PhoneInput
+              country={country}
+              value={phone}
+              onChange={(value) => setPhone(value)}
+              inputStyle={{
+                width: "100%",
+                height: "60px",
+                borderRadius: "1rem",
+              }}
+            />
 
-            {/* Course Ref */}
-            <div>
-              <label className="block text-slate-900 font-semibold mb-2 text-sm">
-                Selected Course
-              </label>
-              <input
-                type="text"
-                value={
-                  currentUrl
-                    .split("/")
-                    .pop()
-                    ?.replace(/-/g, " ")
-                    .toUpperCase() || "COURSE DETECTED"
-                }
-                disabled
-                className="w-full px-5 py-4 rounded-2xl bg-gray-100 text-gray-600 font-semibold cursor-not-allowed text-sm"
-              />
-            </div>
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleInputChange}
+              placeholder="Your Message (Optional)"
+              className="w-full px-5 py-4 rounded-2xl bg-white"
+            />
+
+            {error && <p className="text-red-600 text-sm">{error}</p>}
+            {success && (
+              <p className="text-green-700 text-sm">
+                Lead submitted successfully ✅
+              </p>
+            )}
 
             <motion.button
               whileTap={{ scale: 0.95 }}
               whileHover={{ scale: 1.03 }}
               type="submit"
-              className="mt-4 w-full py-4 bg-white text-blue-600 font-bold rounded-full shadow-lg hover:shadow-xl transition"
+              disabled={loading}
+              className="w-full py-4 bg-white text-blue-600 font-bold rounded-full"
             >
-              Submit Now
+              {loading ? "Submitting..." : "Submit Now"}
             </motion.button>
           </form>
         </div>
 
-        {/* RIGHT - IMAGE + STATIC GRID */}
-        <div className="relative flex justify-center lg:justify-end items-center">
-          
-          {/* Image */}
-          <div className="w-4/5 rounded-[2.5rem] overflow-hidden shadow-2xl">
-            <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&fit=crop"
-              alt="student"
-              className="w-full h-full object-cover"
-            />
+        {/* RIGHT - STATIC GRID */}
+        <div className="relative">
+          <div className="bg-white p-8 rounded-3xl grid grid-cols-2 gap-4 shadow-xl">
+            <Stat icon={<Users />} value="50K+" label="Students" />
+            <Stat icon={<Star />} value="98%" label="Placement" />
+            <Stat icon={<Briefcase />} value="500+" label="Hiring Partners" />
+            <Stat icon={<Globe />} value="30+" label="Countries" />
           </div>
-
-          {/* Stats Card */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            className="absolute left-0 lg:-left-16 top-1/2 -translate-y-1/2 w-full max-w-[420px]"
-          >
-            <div className="bg-white/95 backdrop-blur-md px-6 py-12 rounded-[2.5rem] shadow-2xl grid grid-cols-2 gap-5 border border-white/40">
-              
-              {/* Stat 1 */}
-              <div className="bg-white p-5 rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-md transition">
-                <Users className="w-6 h-6 text-blue-600 mb-3" />
-                <p className="text-lg font-extrabold text-slate-900">
-                  50K+
-                </p>
-                <span className="text-xs font-semibold text-slate-600 uppercase">
-                  Students Enrolled
-                </span>
-              </div>
-
-              {/* Stat 2 */}
-              <div className="bg-white p-5 rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-md transition">
-                <Star className="w-6 h-6 text-blue-600 mb-3" />
-                <p className="text-lg font-extrabold text-slate-900">
-                  98.9%
-                </p>
-                <span className="text-xs font-semibold text-slate-600 uppercase">
-                  Placement Rate
-                </span>
-              </div>
-
-              {/* Stat 3 */}
-              <div className="bg-white p-5 rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-md transition">
-                <Briefcase className="w-6 h-6 text-blue-600 mb-3" />
-                <p className="text-lg font-extrabold text-slate-900">
-                  500+
-                </p>
-                <span className="text-xs font-semibold text-slate-600 uppercase">
-                  Hiring Partners
-                </span>
-              </div>
-
-              {/* Stat 4 */}
-              <div className="bg-white p-5 rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-md transition">
-                <Globe className="w-6 h-6 text-blue-600 mb-3" />
-                <p className="text-lg font-extrabold text-slate-900">
-                  30+
-                </p>
-                <span className="text-xs font-semibold text-slate-600 uppercase">
-                  Countries Reached
-                </span>
-              </div>
-
-            </div>
-          </motion.div>
         </div>
       </div>
     </section>
   );
 };
+
+const Stat = ({ icon, value, label }: any) => (
+  <div className="text-center p-4 bg-slate-50 rounded-xl">
+    <div className="flex justify-center mb-2 text-blue-600">{icon}</div>
+    <p className="font-bold text-lg">{value}</p>
+    <p className="text-xs uppercase text-gray-500">{label}</p>
+  </div>
+);
 
 export default LeadForm;
