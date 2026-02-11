@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { motion } from "framer-motion";
-import { Users, Briefcase, Star, Globe } from "lucide-react";
+import { Users, Briefcase, Star, Globe, GraduationCap } from "lucide-react";
 import { courses } from "../../../../data/courses/course";
 import { useNavigate } from "react-router-dom";
 
@@ -107,14 +107,17 @@ const LeadForm = () => {
   };
 
   return (
-    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#3b82f6] rounded-[2.5rem] p-8 md:p-14 shadow-2xl my-12">
+    <section className="w-full max-w-6xl mx-auto bg-gradient-to-r from-[#60a5fa] to-[#93b0df] rounded-[2.5rem] p-8 md:p-14 shadow-2xl my-12">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
 
         {/* LEFT - FORM */}
         <div>
-          <h1 className="text-4xl font-extrabold text-[#0f172a] mb-4">
-            Start Your Learning Journey Today
+          <h1 className="text-3xl font-bold leading-tight text-[#0f172a] mb-4">
+            Start Your <span className="text-white">Learning Journey <span className="text-yellow-400">Today </span> </span>
           </h1>
+          <p className="text-sm mb-4 leading-tight">
+            Fill in your details and our advisors will help you choose the right course for your goals.
+          </p>
 
           <form onSubmit={handleSubmit} className="space-y-4 max-w-md">
 
@@ -173,14 +176,30 @@ const LeadForm = () => {
         </div>
 
         {/* RIGHT - STATIC GRID */}
-        <div className="relative">
-          <div className="bg-white p-8 rounded-3xl grid grid-cols-2 gap-4 shadow-xl">
-            <Stat icon={<Users />} value="50K+" label="Students" />
-            <Stat icon={<Star />} value="98%" label="Placement" />
-            <Stat icon={<Briefcase />} value="500+" label="Hiring Partners" />
-            <Stat icon={<Globe />} value="30+" label="Countries" />
+
+      <div className="relative flex items-center justify-center min-h-[500px] mt-0 md:mt-10">
+        
+        {/* Background Student Image - Positioned behind and to the right */}
+        <div className="absolute right-10 md:-right-10 md:-top-10 top-10 w-[80%] h-[400px] rounded-3xl overflow-hidden shadow-lg">
+          <img 
+            src="/images/home/trustcard11.png" 
+            alt="Student" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Front Layer Stats - Glassmorphism Container */}
+        <div className="relative z-10 bg-blue-100/60 backdrop-blur-md p-6 rounded-[2.5rem] shadow-2xl w-full max-w-md border border-white/40">
+          <div className="grid grid-cols-2 gap-3">
+            <Stat icon={<GraduationCap className="text-blue-600" />} value="98.9%" label="Placement Rate" />
+            <Stat icon={<Users className="text-blue-600" />} value="50k+" label="Students enrolled" />
+            <Stat icon={<GraduationCap className="text-blue-600" />} value="98.9%" label="Placement Rate" />
+            <Stat icon={<Star className="text-blue-600" />} value="98.9%" label="Placement Rate" />
+            <Stat icon={<Briefcase className="text-blue-600" />} value="98.9%" label="Placement Rate" />
+            <Stat icon={<Globe className="text-blue-600" />} value="98.9%" label="Placement Rate" />
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
