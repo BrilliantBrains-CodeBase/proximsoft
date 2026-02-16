@@ -10774,4 +10774,330 @@ export const courses: CourseData[] =[
   }
 },
 
+{
+  "course_details": {
+    "course_id": "SF-EC-001",
+    "course_uid": "uid-sf-ec-001",
+    "course_title": "SAP SuccessFactors – Employee Central (EC)",
+    "course_subtitle": "Comprehensive SAP SF Employee Central Strategy, Core HR Processes & Cloud HR Management",
+    "course_slug": "sap-successfactors-employee-central",
+    "course_thumbnail": "assets/images/courses/course-thumb-01.jpg",
+    "course_short_description": "Master cloud-based HR management, core HR processes, and enterprise HR system implementation using SAP SuccessFactors.",
+    "course_long_description": "This SAP SuccessFactors Employee Central (EC) course is designed to help professionals master cloud-based HR management. You will learn how to manage core HR processes including employee master data, organizational structures, time-off management, workflows, role-based permissions, reporting, and payroll integrations. The course focuses on real-world HR digital transformation scenarios and enterprise HR system implementation.",
+    "about_course": [
+      "Focuses on implementation and configuration rather than just theory.",
+      "Covers end-to-end HR digital transformation scenarios.",
+      "Prepares students for roles as SAP SF Consultants or HR System Specialists."
+    ],
+    "course_status": "active",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Live",
+    "course_priority": "medium",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "45 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 499.00,
+    "discounted_price": 299.00,
+    "discount_percentage": 40,
+    "discount_code": "PROXIM40",
+    "enrollment_link": "https://proximsoft.com/enroll/sap-sf-ec",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP SuccessFactors Employee Central Professional Certificate",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-ec.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of HR processes",
+      "Knowledge of employee lifecycle management",
+      "Familiarity with SAP HCM or other HRIS systems (helpful but not mandatory)"
+    ],
+    "key_learnings": [
+      "Implement and configure SAP SuccessFactors EC",
+      "Manage core HR lifecycle processes",
+      "Automate HR workflows and approvals",
+      "Configure security and role-based permissions",
+      "Integrate EC with payroll and enterprise systems"
+    ],
+    "ideal_candidates": [
+      "SAP HR / SuccessFactors consultants",
+      "HR managers and HR administrators",
+      "Payroll professionals",
+      "Workforce management specialists",
+      "Project managers handling HR transformation",
+      "Professionals transitioning into SAP SuccessFactors careers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP SuccessFactors EC Configuration",
+        "Employee Data & Organizational Management",
+        "Workflow & Time-Off Management",
+        "HR Analytics & Reporting"
+      ],
+      "supporting_skills": [
+        "Role-Based Permissions",
+        "Payroll Integration",
+        "HR Compliance & Governance"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP SuccessFactors Employee Central (EC)",
+        "SAP HCM / Payroll Integration"
+      ],
+      "secondary": [
+        "HR Analytics & Reporting Tools",
+        "Cloud HRIS Platforms"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP SuccessFactors EC Consultant",
+      "HR System Specialist",
+      "HR Process Analyst",
+      "Payroll & Workforce Management Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 450,
+      "students_internships": 120,
+      "student_success_rate": "94%",
+      "student_completion_rate": "89%",
+      "placement_rate": "85%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP Employee Central Implementation - You will design and implement a complete SAP EC environment including employee master data setup, organizational management, workflow automation, ESS/MSS configuration, reporting dashboards, and payroll integration."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 37
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP SuccessFactors Employee Central",
+        "module_duration": "4 Hours",
+        "topics": [
+          "Overview of SAP SuccessFactors suite",
+          "Cloud HR management concepts",
+          "Role of EC in enterprise HR systems"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Employee Data Management",
+        "module_duration": "4 Hours",
+        "topics": [
+          "Employee master data configuration",
+          "Job, compensation, and personal data",
+          "Data security and privacy controls"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Organizational Management",
+        "module_duration": "4 Hours",
+        "topics": [
+          "Organizational structure setup",
+          "Position and job management",
+          "Reporting hierarchies"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Time Management & Absences",
+        "module_duration": "3 Hours",
+        "topics": [
+          "Time-off and leave configuration",
+          "Holiday calendars and entitlement rules",
+          "Approval workflows"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Workflows & HR Automation",
+        "module_duration": "3 Hours",
+        "topics": [
+          "Workflow creation and configuration",
+          "Notifications and escalations",
+          "Process automation best practices"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Role-Based Permissions & Security",
+        "module_duration": "3 Hours",
+        "topics": [
+          "Role-Based Permissions (RBP)",
+          "Data access control",
+          "Compliance and audit logging"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Employee Self-Service (ESS) & Manager Self-Service (MSS)",
+        "module_duration": "3 Hours",
+        "topics": [
+          "ESS and MSS configuration",
+          "Self-service automation",
+          "Adoption best practices"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Reporting & HR Analytics",
+        "module_duration": "3 Hours",
+        "topics": [
+          "Standard and custom reports",
+          "Workforce dashboards",
+          "HR KPI tracking"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integration with Payroll & Enterprise Systems",
+        "module_duration": "4 Hours",
+        "topics": [
+          "SAP Payroll integration",
+          "S/4HANA integration concepts",
+          "Third-party system connectivity"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Data Governance & Compliance",
+        "module_duration": "3 Hours",
+        "topics": [
+          "GDPR and HR compliance",
+          "Audit trails and validations",
+          "Employee record lifecycle management"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Enterprise Case Studies",
+        "module_duration": "3 Hours",
+        "topics": [
+          "Real-world SAP EC implementations",
+          "Common project challenges",
+          "Process optimization strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "8 Hours",
+        "topics": [
+          "End-to-end SAP SuccessFactors EC implementation",
+          "Organizational structure setup",
+          "Workflow automation",
+          "Reporting and payroll integration"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 842,
+    "total_students_enrolled": 3250
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP SuccessFactors Employee Central?",
+      "answer": "SAP SuccessFactors Employee Central (EC) is a cloud-based core HR system used to manage employee data, organizational structures, time-off, workflows, reporting, and payroll integration."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP SuccessFactors Employee Central a good career?",
+      "answer": "Yes. SAP SF EC consultants are in high demand due to enterprise cloud HR adoption and digital HR transformation initiatives."
+    },
+    {
+      "faq_id": 3,
+      "question": "What skills are required to learn SAP SuccessFactors EC?",
+      "answer": "Basic knowledge of HR processes, employee lifecycle management, and understanding of HR systems or SAP HCM is helpful."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the difference between SAP HCM and SAP SuccessFactors?",
+      "answer": "SAP HCM is an on-premise HR solution, while SAP SuccessFactors is a cloud-based HR platform offering scalability, automation, and modern HR analytics capabilities."
+    },
+    {
+      "faq_id": 5,
+      "question": "How long does it take to learn SAP SuccessFactors EC?",
+      "answer": "Typically 6–8 weeks with consistent weekly practice."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does this course include payroll integration?",
+      "answer": "Yes. The course covers integration concepts with SAP Payroll and enterprise systems."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is this course suitable for HR professionals without technical background?",
+      "answer": "Yes. HR professionals with process knowledge can successfully transition into SAP SF EC roles."
+    },
+    {
+      "faq_id": 8,
+      "question": "What certifications can I pursue after this course?",
+      "answer": "You can prepare for SAP SuccessFactors Employee Central certification exams."
+    },
+    {
+      "faq_id": 9,
+      "question": "What tools are used in SAP SuccessFactors EC implementation?",
+      "answer": "SAP SuccessFactors EC platform, role-based permissions, workflow configuration tools, and integration frameworks."
+    },
+    {
+      "faq_id": 10,
+      "question": "What job roles can I apply for after this course?",
+      "answer": "SAP SuccessFactors EC Consultant, HRIS Specialist, HR Transformation Analyst, or Payroll Integration Consultant."
+    }
+  ],
+  "target_audience": [
+    "SAP HR / SuccessFactors consultants",
+    "HR managers and HR administrators",
+    "Payroll professionals",
+    "Workforce management specialists",
+    "Project managers handling HR transformation",
+    "Professionals transitioning into SAP SuccessFactors careers"
+  ],
+  "metadata": {
+    "course_date": "2024-03-20",
+    "latest_update_date": "2024-11-15"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP SuccessFactors Employee Central (EC) Certification Training",
+    "meta_description": "Master SAP SF Employee Central. Learn core HR, workflows, RBP, and payroll integration in this 8-week comprehensive course.",
+    "meta_url": "/courses/sap/sap-successfactors-employee-central"
+  }
+},
+
 ]
