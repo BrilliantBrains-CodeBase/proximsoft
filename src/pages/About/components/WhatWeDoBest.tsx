@@ -69,10 +69,10 @@ const WhatWeDoBest = () => {
             className="flex items-center justify-center overflow-hidden rounded-xl py-4"
           >
             <img
-              src="/images/aboutus/whatwedobest.webp"
+              src="/images/aboutus/Because outcomes matter.jpg"
               alt="What Proximsoft Does Best"
               className="
-                h-[350px] w-[350px] object-contain 
+                h-[350px] w-[350px] object-cover 
                 transition-transform duration-500
                 hover:scale-105 shadow-md rounded-3xl
               "
