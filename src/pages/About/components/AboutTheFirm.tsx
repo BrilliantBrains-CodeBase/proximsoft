@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AboutTheFirm = () => {
   return (
-    <section className="bg-white py-8 mt-12">
+    <section className="bg-white py-2 mt-10">
       <div className="mx-auto max-w-7xl px-4">
         <div
           className="
@@ -81,12 +81,12 @@ const AboutTheFirm = () => {
           </motion.div>
           
         </div>
-        <div className="w-full">
+        <div className="w-full mx-auto flex justify-center">
             <img
-              src="/images/aboutus/aboutthefirm.avif"
+              src="/images/aboutus/Banner image.png"
               alt="About Proximsoft"
               className="
-                h-[400px] w-full rounded-2xl  object-cover
+                h-[400px] w-[80%] rounded-2xl  object-cover
                 transition-transform duration-500
                 hover:scale-105
               "

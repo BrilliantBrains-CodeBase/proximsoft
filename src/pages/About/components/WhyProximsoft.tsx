@@ -38,7 +38,7 @@ const WhyProximsoft = () => {
             {/* Image */}
             <div className="overflow-hidden rounded-xl mb-4">
               <img
-                src="/images/aboutus/whyproximsoft.avif"
+                src="/images/aboutus/Career-focused IT training, done right.jpg"
                 alt="Why Proximsoft"
                 className="
                   h-[360px] w-[350px] object-cover
