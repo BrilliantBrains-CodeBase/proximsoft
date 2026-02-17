@@ -30,7 +30,7 @@ export const courseCategories: CourseCategory[] = [
     metaDescription:
       "Explore Artificial Intelligence courses covering machine learning, deep learning, and real-world AI applications.",
     metaUrl: "/courses/artificial-intelligence",
-    coverImage: "/images/category/coursecover.avif",
+    coverImage: "/images/category/Artificial intelligence.png",
     sequence: 1,
     priority: "high",
     courseCount: 7,
@@ -47,7 +47,7 @@ export const courseCategories: CourseCategory[] = [
     metaDescription:
       "Learn cloud computing with hands-on AWS, Azure, and Google Cloud training programs.",
     metaUrl: "/courses/cloud-computing",
-    coverImage: "/images/category/coursecover.avif",
+    coverImage: "/images/category/Cloud computing.png",
     sequence: 2,
     priority: "high",
     courseCount: 8,
@@ -62,7 +62,7 @@ export const courseCategories: CourseCategory[] = [
     metaDescription:
       "Build a career in data analytics by mastering SQL, Python, Power BI, and Tableau.",
     metaUrl: "/courses/data-analytics",
-    coverImage: "/images/category/coursecover.avif",
+    coverImage: "/images/category/Data analytics.png",
     sequence: 3,
     priority: "high",
     courseCount: 13,
@@ -77,7 +77,7 @@ export const courseCategories: CourseCategory[] = [
     metaDescription:
       "Advance your leadership skills with management, strategy, and business courses.",
     metaUrl: "/courses/management",
-    coverImage: "/images/category/coursecover.avif",
+    coverImage: "/images/category/Management.png",
     sequence: 4,
     priority: "medium",
     courseCount: 6,
@@ -92,7 +92,7 @@ export const courseCategories: CourseCategory[] = [
   metaTitle: "Salesforce CRM Training | Proximsoft",
   metaDescription: "Master Salesforce administration and development with our comprehensive training.",
   metaUrl: "/courses/salesforce",
-  coverImage: "/images/category/coursecover.avif",
+  coverImage: "/images/category/Salesforce.png",
   sequence: 7,
   priority: "medium",
   courseCount: 35,
@@ -106,7 +106,7 @@ export const courseCategories: CourseCategory[] = [
   metaTitle: "SAP ERP Modules & Certification | Proximsoft",
   metaDescription: "Learn SAP ERP modules including FICO, MM, and SD from industry experts.",
   metaUrl: "/courses/sap",
-  coverImage: "/images/category/coursecover.avif",
+  coverImage: "/images/category/SAP.png",
   sequence: 8,
   priority: "medium",
   courseCount: 28,
@@ -122,7 +122,7 @@ export const courseCategories: CourseCategory[] = [
     metaDescription:
       "Learn modern software development including frontend, backend, and full-stack technologies.",
     metaUrl: "/courses/software-development",
-    coverImage: "/images/category/coursecover.avif",
+    coverImage: "/images/category/Software development.png",
     sequence: 5,
     priority: "high",
     courseCount: 120,
@@ -138,7 +138,7 @@ export const courseCategories: CourseCategory[] = [
     metaDescription:
       "Start your QA career with manual and automation software testing courses.",
     metaUrl: "/courses/software-testing",
-    coverImage: "/images/category/coursecover.avif",
+    coverImage: "/images/category/Software testing.png",
     sequence: 6,
     priority: "medium",
     courseCount: 40,
