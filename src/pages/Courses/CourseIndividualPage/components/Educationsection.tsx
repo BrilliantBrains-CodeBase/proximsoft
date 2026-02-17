@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { useFreeDemo } from "../../../../context/FreeDemoContext";
 
 /* ─────────────────────────────────────────────────────────
    TYPES
@@ -35,8 +36,8 @@ const PersonIcon = ({ size = 20, color = "#fff" }: { size?: number; color?: stri
 ───────────────────────────────────────────────────────── */
 const STATS: StatItem[] = [
   { value: "98.9%", label: "Placement Rate" },
-  { value: "95.4%", label: "Satisfaction" },
-  { value: "50k+",  label: "Students Placed" },
+  { value: "50K+", label: "Students Trained" },
+  { value: "500+",  label: "Hiring Partners" },
 ];
 
 // Real company logos using reliable CDN sources
@@ -71,7 +72,7 @@ const FloatingBadge = ({ style }: { style?: React.CSSProperties }) => (
     <span style={{ color: "#fff", fontWeight: 800, fontSize: 14, textAlign: "center", lineHeight: 1.2 }}>
       50k+ Students
     </span>
-    <span style={{ color: "#bfdbfe", fontSize: 10, fontWeight: 600 }}>Successfully Placed</span>
+    <span style={{ color: "#bfdbfe", fontSize: 10, fontWeight: 600 }}>Successfully Trained</span>
   </div>
 );
 
@@ -93,18 +94,33 @@ const StatCard = ({ stat, small = false }: { stat: StatItem; small?: boolean }) 
   </div>
 );
 
-const BookDemoBtn = () => (
-  <button className="edu-cta-btn" style={{
-    background: "#fff", color: "#1e40af",
-    border: "3px solid #2563eb", borderRadius: 40,
-    padding: "16px 42px", fontSize: 16, fontWeight: 800,
-    cursor: "pointer", transition: "all 0.3s ease",
-    letterSpacing: 0.5, boxShadow: "0 4px 16px rgba(37, 99, 235, 0.15)",
-    alignSelf: "flex-start",
-  }}>
-    Book Your Free Demo
-  </button>
-);
+const BookDemoBtn = () => {
+  const { openDemo } = useFreeDemo();
+
+  return (
+    <button
+      className="edu-cta-btn"
+      onClick={openDemo}
+      style={{
+        background: "#fff",
+        color: "#1e40af",
+        border: "3px solid #2563eb",
+        borderRadius: 40,
+        padding: "16px 42px",
+        fontSize: 16,
+        fontWeight: 800,
+        cursor: "pointer",
+        transition: "all 0.3s ease",
+        letterSpacing: 0.5,
+        boxShadow: "0 4px 16px rgba(37, 99, 235, 0.15)",
+        alignSelf: "flex-start",
+      }}
+    >
+      Book Your Free Demo
+    </button>
+  );
+};
+
 
 /* ─────────────────────────────────────────────────────────
    MAIN COMPONENT
@@ -199,13 +215,11 @@ const EducationSection = () => {
         fontSize: mobile ? 26 : "clamp(32px, 3.2vw, 48px)",
         fontWeight: 900, lineHeight: 1.2, margin: 0,
       }}>
-        Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit?
+        Get Certified. Get Placed. Get Ahead.
       </h1>
 
       <p style={{ color: "#475569", fontSize: 16, lineHeight: 1.8, margin: 0 }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Our programs combine hands-on training, certification guidance, virtual internship exposure, and structured job placement support — so you don’t just complete a course, you step into your next role.
       </p>
 
       <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
