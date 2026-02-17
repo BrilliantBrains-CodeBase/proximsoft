@@ -8,7 +8,7 @@ export const courses: CourseData[] =[
     "course_title": "Agentic AI",
     "course_subtitle": "Design, Build & Deploy Autonomous AI Agents Using LLMs, Tools, and Orchestration Frameworks",
     "course_slug": "agentic-ai",
-    "course_thumbnail": "/images/courses/coursecover.avif",
+    "course_thumbnail": "/images/courses/Aicourses/AgenticAICourse.png",
     "course_short_description": "Learn to build autonomous AI agents that can reason, plan, use tools, and execute multi-step workflows independently.",
     "course_long_description": "This Agentic AI course is designed to teach engineers how to build autonomous AI agents. Unlike traditional LLM training, this program focuses on Agentic AI systems—AI agents that combine Large Language Models, memory, tools, and orchestration frameworks to act independently in real-world environments.",
     "about_course": [
@@ -266,7 +266,7 @@ export const courses: CourseData[] =[
     "course_title": "AI Engineering Course",
     "course_subtitle": "Build, Deploy & Scale Production-Ready AI Systems with GenAI & Cloud Architectures",
     "course_slug": "ai-engineering-course",
-    "course_thumbnail": "/images/courses/coursecover.avif",
+    "course_thumbnail": "/images/courses/Aicourses/AIEngineeringcourse.png",
     "course_short_description": "Master applied AI engineering. Build production-ready systems combining GenAI, RAG, and AI agents with cloud-native architectures.",
     "course_long_description": "This AI Engineering course is designed to teach professionals how to build, deploy, and scale production-ready artificial intelligence systems used in real-world enterprise environments. Unlike traditional machine learning courses that focus heavily on theory or algorithms, this program focuses on applied AI engineering — combining Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), AI agents, and cloud-native architectures.",
     "about_course": [
@@ -599,7 +599,7 @@ export const courses: CourseData[] =[
     "course_title": "AI & Machine Learning (AI ML) Course",
     "course_subtitle": "Build Intelligent Systems Using AI & Machine Learning with Real-World Applications",
     "course_slug": "ai-machine-learning-course",
-    "course_thumbnail": "/images/courses/coursecover.avif",
+    "course_thumbnail": "/images/courses/Aicourses/AIMLcourse.png",
     "course_short_description": "Build a strong foundation in AI and ML. Learn to design, train, and evaluate real-world machine learning models using Python.",
     "course_long_description": "This AI & Machine Learning course is designed to provide strong foundations in artificial intelligence and machine learning with a practical, application-first approach. Unlike purely theoretical courses, this program focuses on building real machine learning models using Python and applying them to real-world problems such as predictive analytics and recommendation systems.",
     "about_course": [
@@ -869,7 +869,7 @@ export const courses: CourseData[] =[
     "course_title": "Data Science with Python Course",
     "course_subtitle": "Analyze Data, Build Insights & Create Data-Driven Solutions Using Python",
     "course_slug": "data-science-with-python-course",
-    "course_thumbnail": "/images/courses/coursecover.avif",
+    "course_thumbnail": "/images/courses/Aicourses/Datasciencewithpython.png",
     "course_short_description": "Master the data science lifecycle. Learn to analyze complex datasets, visualize insights, and build machine learning solutions using Python.",
     "course_long_description": "This Data Science with Python course is designed to teach learners how to analyze data, extract insights, and build data-driven solutions using Python. The course follows the complete data science lifecycle, covering data collection, cleaning, exploratory analysis, visualization, statistics, and machine learning. It focuses on practical implementation using industry-standard Python libraries.",
     "about_course": [
@@ -1140,7 +1140,7 @@ export const courses: CourseData[] =[
     "course_title": "Generative AI (Gen AI) Course",
     "course_subtitle": "Build, Customize & Deploy Generative AI Applications Using LLMs and Modern AI Architectures",
     "course_slug": "generative-ai-course",
-    "course_thumbnail": "/images/courses/generative-ai.avif",
+    "course_thumbnail": "/images/courses/Aicourses/GenerativeAI.png",
     "course_short_description": "Master Generative AI engineering. Build and deploy real-world applications using LLMs, prompt engineering, RAG, and modern AI architectures.",
     "course_long_description": "This Generative AI course is designed to help professionals build, customize, and deploy real-world Generative AI applications using Large Language Models (LLMs) and modern AI architectures. Unlike generic courses, this program emphasizes hands-on implementation of chatbots, copilots, and RAG systems used in enterprise environments.",
     "about_course": [
@@ -1398,7 +1398,7 @@ export const courses: CourseData[] =[
     "course_title": "Machine Learning with Python Course",
     "course_subtitle": "Build Practical Machine Learning Models Using Python for Real-World Applications",
     "course_slug": "machine-learning-with-python-course",
-    "course_thumbnail": "/images/courses/ml-python.avif",
+    "course_thumbnail": "/images/courses/Aicourses/Machinelearningwithpython (1).png",
     "course_short_description": "Learn to build, evaluate, and deploy practical machine learning models. Master supervised and unsupervised learning algorithms using Python and real-world datasets.",
     "course_long_description": "This Machine Learning with Python course is designed to teach learners how to build practical machine learning models using Python and apply them to real-world datasets. Unlike theory-heavy programs, this course follows an application-oriented approach, focusing on implementing algorithms using industry-standard libraries.",
     "about_course": [
@@ -1668,7 +1668,7 @@ export const courses: CourseData[] =[
     "course_title": "Python Programming Course",
     "course_subtitle": "Learn Python from Basics to Advanced with Real-World Applications",
     "course_slug": "python-programming-course",
-    "course_thumbnail": "/images/courses/python-programming.avif",
+    "course_thumbnail": "/images/courses/Aicourses/Pythonprogrammingcourse.png",
     "course_short_description": "Build strong programming foundations. Learn Python from scratch, including OOP, file handling, and APIs, to create clean and efficient applications.",
     "course_long_description": "This Python Programming course is designed to help beginners and professionals build strong programming foundations using Python and apply them to real-world applications. The course covers core Python concepts including variables, control flow, data structures, object-oriented programming, file handling, and exception handling. The focus is on hands-on learning, enabling learners to write clean, efficient, and reusable Python code.",
     "about_course": [
@@ -1937,7 +1937,7 @@ export const courses: CourseData[] =[
     "course_title": "AWS Data Analytics Specialty Course",
     "course_subtitle": "Design, Build & Optimize Scalable Data Analytics Solutions on AWS",
     "course_slug": "aws-data-analytics-specialty-course",
-    "course_thumbnail": "/images/courses/aws-data-analytics.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/AWSDataanalytics.png",
     "course_short_description": "Master the complete AWS analytics lifecycle. Learn to design, build, and secure scalable data lakes and warehouses using S3, Glue, Redshift, and EMR.",
     "course_long_description": "The AWS Data Analytics Specialty course is designed to help professionals design, build, and operate end-to-end data analytics solutions on Amazon Web Services. This course focuses on the complete analytics lifecycle—from data ingestion and storage to processing, querying, visualization, security, and optimization. Learners gain hands-on experience with AWS-native analytics services used in real enterprise data platforms.",
     "about_course": [
@@ -2211,7 +2211,7 @@ export const courses: CourseData[] =[
     "course_title": "AWS DevOps Engineer Course",
     "course_subtitle": "Automate, Deploy & Manage Scalable CI/CD Pipelines on AWS",
     "course_slug": "aws-devops-engineer-course",
-    "course_thumbnail": "/images/courses/aws-devops.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/AWSDevOpsEngineer.png",
     "course_short_description": "Master modern DevOps workflows on AWS. Learn to automate CI/CD pipelines, infrastructure as code, and containerized deployments using EKS and Docker.",
     "course_long_description": "The AWS DevOps Engineer course is designed to help professionals build, automate, and manage modern DevOps workflows on Amazon Web Services. This course focuses on implementing CI/CD pipelines, infrastructure as code, containerization, monitoring, security, and reliability engineering using AWS-native DevOps services and real production scenarios.",
     "about_course": [
@@ -2498,7 +2498,7 @@ export const courses: CourseData[] =[
     "course_title": "AWS Solutions Architect – Associate Course",
     "course_subtitle": "Design, Deploy & Secure Scalable Cloud Architectures on AWS",
     "course_slug": "aws-solutions-architect-associate-course",
-    "course_thumbnail": "/images/courses/aws-solutions-architect.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/AWSSolutionsarchitect.png",
     "course_short_description": "Master the fundamentals of AWS cloud architecture. Learn to design secure, scalable, and cost-optimized solutions while preparing for the SAA-C03 certification.",
     "course_long_description": "The AWS Solutions Architect – Associate course is designed to help you build strong cloud architecture fundamentals and confidently design scalable, secure, and cost-optimized solutions on Amazon Web Services (AWS). This course focuses on architecting applications using core AWS services and blends real-world scenarios with the latest SAA-C03 exam blueprint.",
     "about_course": [
@@ -2786,7 +2786,7 @@ export const courses: CourseData[] =[
     "course_title": "Azure Administrator (AZ-104) Course",
     "course_subtitle": "Manage, Secure & Monitor Microsoft Azure Infrastructure",
     "course_slug": "azure-administrator-az-104-course",
-    "course_thumbnail": "/images/courses/azure-administrator.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/Azureadministrator.png",
     "course_short_description": "Master Microsoft Azure administration. Learn to manage identities, governance, storage, compute, and virtual networks in real enterprise settings.",
     "course_long_description": "The Azure Administrator (AZ-104) course is designed to help IT professionals manage and operate Microsoft Azure environments efficiently in real production settings. This course focuses on day-to-day Azure administration responsibilities including identity management, governance, virtual networking, compute, storage, security, monitoring, and backup.",
     "about_course": [
@@ -3047,7 +3047,7 @@ export const courses: CourseData[] =[
     "course_title": "Azure Data Engineer (DP-203) Course",
     "course_subtitle": "Design, Build & Optimize Modern Data Engineering Solutions on Microsoft Azure",
     "course_slug": "azure-data-engineer-dp-203-course",
-    "course_thumbnail": "/images/courses/azure-data-engineer.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/AzuredataengineerDP203.png",
     "course_short_description": "Master the Azure data lifecycle. Learn to design, build, and operate scalable pipelines using Data Factory, Databricks, and Synapse Analytics.",
     "course_long_description": "The Azure Data Engineer (DP-203) course is designed to help professionals design, build, and operate modern data engineering solutions on Microsoft Azure. This course covers the complete data engineering lifecycle on Azure — from data ingestion and transformation to orchestration, analytics, security, and optimization using production-ready patterns.",
     "about_course": [
@@ -3307,7 +3307,7 @@ export const courses: CourseData[] =[
     "course_title": "Azure Databricks Course",
     "course_subtitle": "Build, Optimize & Scale Big Data and AI Workloads on Azure Databricks",
     "course_slug": "azure-databricks-course",
-    "course_thumbnail": "/images/courses/azure-databricks.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/AzureDatabricks.png",
     "course_short_description": "Master the unified analytics platform. Learn to build, optimize, and scale big data engineering and AI workloads using Apache Spark and Delta Lake on Microsoft Azure.",
     "course_long_description": "The Azure Databricks course is designed to help professionals build, optimize, and scale large-scale data engineering and analytics solutions on Microsoft Azure using Apache Spark. This course focuses on Azure Databricks architecture, big data processing, ETL pipelines, Delta Lake optimization, and integration with Azure data services.",
     "about_course": [
@@ -3566,7 +3566,7 @@ export const courses: CourseData[] =[
     "course_title": "Azure DevOps Engineer (AZ-400) Course",
     "course_subtitle": "Design, Implement & Optimize DevOps Practices on Microsoft Azure",
     "course_slug": "azure-devops-engineer-az-400-course",
-    "course_thumbnail": "/images/courses/azure-devops-az400.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/AzureDevOpsengineerAZ400.png",
     "course_short_description": "Master end-to-end DevOps on Azure. Learn to design CI/CD pipelines, automate infrastructure with IaC, and manage containerized apps using AKS and GitHub Actions.",
     "course_long_description": "The Azure DevOps Engineer (AZ-400) course is designed to help professionals design, implement, and manage end-to-end DevOps practices on Microsoft Azure. This course focuses on building CI/CD pipelines, managing source control, automating infrastructure using Infrastructure as Code (IaC), deploying containerized applications, and implementing monitoring and security using Azure-native DevOps tools.",
     "about_course": [
@@ -3827,7 +3827,7 @@ export const courses: CourseData[] =[
     "course_title": "DevOps with Azure Course",
     "course_subtitle": "Build, Automate & Deploy Scalable Applications Using Azure DevOps Practices",
     "course_slug": "devops-with-azure-course",
-    "course_thumbnail": "/images/courses/devops-with-azure.avif",
+    "course_thumbnail": "/images/courses/CloudComputing/DevOpswithAzure.png",
     "course_short_description": "Bridge the gap between development and operations. Learn to automate the full software lifecycle on Azure using CI/CD pipelines, IaC, and containerization.",
     "course_long_description": "The DevOps with Azure course is designed to help professionals implement modern DevOps practices on Microsoft Azure for building, deploying, and managing cloud-native applications. This course covers the complete DevOps lifecycle on Azure — from source control and CI/CD pipelines to infrastructure automation, containerization, monitoring, and security.",
     "about_course": [
@@ -4088,7 +4088,7 @@ export const courses: CourseData[] =[
     "course_title": "AWS Data Engineering Course",
     "course_subtitle": "Design, Build & Optimize Scalable Data Pipelines on Amazon Web Services",
     "course_slug": "aws-data-engineering-course",
-    "course_thumbnail": "assets/images/courses/aws-data-engineering.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/AWSDataEngineering.png",
     "course_short_description": "Master the AWS data engineering lifecycle. Build scalable pipelines, data lakes, and warehouses using S3, Glue, Redshift, and Athena.",
     "course_long_description": "This AWS Data Engineering course is designed to help professionals build scalable, secure, and high-performance data pipelines on Amazon Web Services. The program focuses on the complete data engineering lifecycle—from data ingestion and transformation to storage, orchestration, analytics, and optimization using AWS-native services.",
     "about_course": [
@@ -4324,7 +4324,7 @@ export const courses: CourseData[] =[
     "course_title": "Azure Data Engineering Course",
     "course_subtitle": "Design, Build & Optimize Scalable Data Pipelines on Microsoft Azure",
     "course_slug": "azure-data-engineering-course",
-    "course_thumbnail": "assets/images/courses/azure-data-engineering.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/AzureDataEngineering.png",
     "course_short_description": "Master the Azure-native data lifecycle. Learn to build scalable pipelines, data lakes, and warehouses using Data Factory, Synapse Analytics, and Spark.",
     "course_long_description": "This Azure Data Engineering course is designed to help professionals build scalable, secure, and high-performance data pipelines on Microsoft Azure. The program focuses on the complete data engineering lifecycle including data ingestion, transformation, storage, orchestration, analytics, and optimization using Azure-native services.",
     "about_course": [
@@ -4560,7 +4560,7 @@ export const courses: CourseData[] =[
     "course_title": "Big Data Engineering Course (Hadoop & Spark)",
     "course_subtitle": "Process, Analyze & Scale Big Data Using Hadoop Ecosystem and Apache Spark",
     "course_slug": "big-data-engineering-hadoop-spark-course",
-    "course_thumbnail": "assets/images/courses/big-data-hadoop-spark.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/Bigdataengineering.png",
     "course_short_description": "Master massive-scale data processing. Learn to design and build scalable big data pipelines using Hadoop, HDFS, and Apache Spark.",
     "course_long_description": "This Big Data Engineering course is designed to teach professionals how to process, store, and analyze massive datasets using the Hadoop ecosystem and Apache Spark. The program focuses on distributed data processing, scalable storage, and high-performance analytics using industry-standard big data tools. You will learn how large-scale data systems are architected and how data flows through distributed pipelines.",
     "about_course": [
@@ -4798,7 +4798,7 @@ export const courses: CourseData[] =[
     "course_title": "SQL BI / MSBI (Microsoft Business Intelligence) Course",
     "course_subtitle": "Build Enterprise-Grade BI Solutions using SQL Server & Microsoft BI Stack",
     "course_slug": "sql-bi-msbi-course",
-    "course_thumbnail": "assets/images/courses/msbi-thumbnail.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/SQLBIMSBI.png",
     "course_short_description": "Master end-to-end Microsoft BI. Learn to design data warehouses, build ETL pipelines with SSIS, create analytical models with SSAS, and deliver SSRS reports.",
     "course_long_description": "This SQL BI / MSBI course is designed to help professionals build end-to-end enterprise Business Intelligence solutions using the Microsoft BI stack. The course focuses on designing data warehouses, building ETL pipelines, creating analytical models, and delivering enterprise-level reports using SQL Server, SSIS, SSAS, and SSRS.",
     "about_course": [
@@ -5035,7 +5035,7 @@ export const courses: CourseData[] =[
     "course_title": "Data Analytics Course",
     "course_subtitle": "Analyze, Visualize & Transform Data into Actionable Business Insights",
     "course_slug": "data-analytics-course",
-    "course_thumbnail": "assets/images/courses/data-analytics-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/Dataanalytics.png",
     "course_short_description": "Turn raw data into meaningful business insights. Master Excel, SQL, Python, and Power BI/Tableau through hands-on, real-world projects.",
     "course_long_description": "This Data Analytics course is designed to help learners turn raw data into meaningful business insights using industry-standard tools and real-world datasets. The program covers the complete analytics lifecycle—from data collection and cleaning to analysis, visualization, and reporting. Unlike theory-heavy programs, this course focuses on practical analytics skills used in modern business environments.",
     "about_course": [
@@ -5311,7 +5311,7 @@ export const courses: CourseData[] =[
     "course_title": "Data Engineering Fundamentals Course",
     "course_subtitle": "Build Strong Foundations in Data Pipelines, Warehousing & Modern Data Platforms",
     "course_slug": "data-engineering-fundamentals-course",
-    "course_thumbnail": "assets/images/courses/de-fundamentals-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/Dataengineeringfundamental.png",
     "course_short_description": "Master the core concepts of data engineering. Learn how data is ingested, transformed, and stored using ETL/ELT pipelines and modern data architectures.",
     "course_long_description": "The Data Engineering Fundamentals course is designed to help learners understand how modern data engineering systems are built from the ground up. This program focuses on the core concepts that power analytics, business intelligence, and data-driven applications. You’ll learn how data is ingested, transformed, stored, and served using ETL and ELT pipelines and data warehousing principles.",
     "about_course": [
@@ -5587,7 +5587,7 @@ export const courses: CourseData[] =[
     "course_title": "ETL & Data Pipelines Course",
     "course_subtitle": "Design, Build & Manage Reliable ETL Pipelines for Modern Data Platforms",
     "course_slug": "etl-data-pipelines-course",
-    "course_thumbnail": "assets/images/courses/etl-pipelines-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/ETLandDataPipeline.png",
     "course_short_description": "Master the core of data engineering. Learn to build reliable ETL and ELT pipelines that move, transform, and orchestrate data at scale.",
     "course_long_description": "The ETL & Data Pipelines course is designed to teach professionals how to design, build, and manage reliable data pipelines that move data from source systems to analytics platforms. This program dives into the engineering side of data movement—how data is ingested, transformed, validated, orchestrated, and monitored across enterprise systems.",
     "about_course": [
@@ -5862,7 +5862,7 @@ export const courses: CourseData[] =[
     "course_title": "Microsoft Fabric Course",
     "course_subtitle": "Unified Analytics with Data Engineering, BI & AI on Microsoft Fabric",
     "course_slug": "microsoft-fabric-course",
-    "course_thumbnail": "assets/images/courses/microsoft-fabric-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/Microsoftfabric.png",
     "course_short_description": "Master Microsoft's unified analytics platform. Learn to integrate data engineering, BI, and AI workflows through OneLake and Fabric workloads.",
     "course_long_description": "The Microsoft Fabric course is designed to help professionals build end-to-end analytics solutions using Microsoft’s unified analytics platform. This program focuses on how data engineering, data integration, data science, real-time analytics, and business intelligence come together inside a single platform powered by Microsoft Fabric and OneLake.",
     "about_course": [
@@ -6139,7 +6139,7 @@ export const courses: CourseData[] =[
     "course_title": "Microsoft Power Apps Course",
     "course_subtitle": "Build Low-Code Business Applications Using Microsoft Power Platform",
     "course_slug": "microsoft-power-apps-course",
-    "course_thumbnail": "assets/images/courses/power-apps-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/MicrosoftPowerApps.png",
     "course_short_description": "Master low-code application development. Learn to build, secure, and deploy enterprise-grade business apps using Power Apps, Dataverse, and M365.",
     "course_long_description": "This Microsoft Power Apps course is designed to teach professionals how to build scalable, low-code business applications using the Microsoft Power Platform. The program focuses on creating real-world enterprise applications using Power Apps, Dataverse, SharePoint, and Microsoft 365 integrations, without requiring traditional software development skills.",
     "about_course": [
@@ -6416,7 +6416,7 @@ export const courses: CourseData[] =[
     "course_title": "Power BI Course (Beginner to Advanced)",
     "course_subtitle": "Master Data Visualization, DAX & Business Intelligence with Power BI",
     "course_slug": "power-bi-course",
-    "course_thumbnail": "assets/images/courses/power-bi-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/PowerBI.png",
     "course_short_description": "Transform raw data into actionable insights. Master data modeling, DAX, and interactive dashboarding using Microsoft Power BI.",
     "course_long_description": "This Power BI course is designed to help learners transform raw data into actionable business insights using Microsoft Power BI. The program takes you from fundamentals to advanced data modeling, DAX calculations, and enterprise BI reporting workflows, focusing on end-to-end solutions from ingestion to governance.",
     "about_course": [
@@ -6686,7 +6686,7 @@ export const courses: CourseData[] =[
     "course_title": "Snowflake Data Platform Course",
     "course_subtitle": "Cloud Data Warehousing & Analytics with Snowflake",
     "course_slug": "snowflake-data-platform-course",
-    "course_thumbnail": "assets/images/courses/snowflake-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/Snowflakedataplatform.png",
     "course_short_description": "Master the world's leading cloud data platform. Learn to build scalable data warehouses, optimize compute costs, and manage secure data sharing.",
     "course_long_description": "This Snowflake Data Platform course is designed to help learners build modern, cloud-native data warehouses and analytics solutions using Snowflake. The course focuses on how organizations store, process, and analyze large volumes of data using Snowflake’s unique separation of compute and storage architecture.",
     "about_course": [
@@ -6962,7 +6962,7 @@ export const courses: CourseData[] =[
     "course_title": "SQL for Data Analytics Course",
     "course_subtitle": "Master SQL to Analyze, Query & Transform Data for Business Insights",
     "course_slug": "sql-for-data-analytics-course",
-    "course_thumbnail": "assets/images/courses/sql-analytics-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/SQLforDataanalytics.png",
     "course_short_description": "Master the most essential skill for data professionals. Learn to query large datasets, perform complex joins, and use window functions for business insights.",
     "course_long_description": "This SQL for Data Analytics course is designed to help learners use SQL as a core tool for data analysis, reporting, and business decision-making. Unlike database administration-focused training, this program is tailored specifically for analytics use cases, emphasizing real-world SQL usage daily in BI and data teams.",
     "about_course": [
@@ -7218,7 +7218,7 @@ export const courses: CourseData[] =[
     "course_title": "Tableau Course (Beginner to Advanced)",
     "course_subtitle": "Build Interactive Dashboards & Data Stories with Tableau",
     "course_slug": "tableau-course",
-    "course_thumbnail": "assets/images/courses/tableau-thumb.jpg",
+    "course_thumbnail": "/images/courses/Dataanalyticscourse/Tableaucourse.png",
     "course_short_description": "Master end-to-end data visualization. Learn to build enterprise-ready dashboards, perform visual analytics, and master data storytelling with Tableau.",
     "course_long_description": "This Tableau course is designed to help learners visualize, analyze, and communicate data effectively using Tableau. The program starts from fundamentals and progresses to advanced visual analytics, calculated fields, parameters, and performance optimization, focusing on how analysts turn raw data into interactive dashboards that support real business decisions.",
     "about_course": [
@@ -7494,7 +7494,7 @@ export const courses: CourseData[] =[
     "course_title": "Agile Business Analyst Course",
     "course_subtitle": "Agile BA, Scrum Practices & Requirements Management in Agile Projects",
     "course_slug": "agile-business-analyst-course",
-    "course_thumbnail": "assets/images/courses/agile-ba-thumb.jpg",
+    "course_thumbnail": "/images/courses/Managementcourse/Agilebusinessanalyst.png",
     "course_short_description": "Bridge the gap between business needs and Agile delivery. Learn to write user stories, manage backlogs, and collaborate effectively within Scrum teams.",
     "course_long_description": "This Agile Business Analyst course is designed to help professionals perform the Business Analyst role effectively within Agile and Scrum environments. Unlike traditional programs, this course focuses on iterative delivery models—working closely with Product Owners, Scrum Masters, and developers to translate business needs into actionable user stories.",
     "about_course": [
@@ -7769,7 +7769,7 @@ export const courses: CourseData[] =[
     "course_title": "Business Analyst with PMP Course",
     "course_subtitle": "Business Analysis & Project Management (PMP-Oriented) for IT Projects",
     "course_slug": "business-analyst-with-pmp-course",
-    "course_thumbnail": "assets/images/courses/ba-pmp-thumb.jpg",
+    "course_thumbnail": "/images/courses/Managementcourse/BusinessanalystwithPMP.png",
     "course_short_description": "Combine business analysis expertise with PMP-aligned project management. Master requirements elicitation, scope control, and risk management in enterprise IT projects.",
     "course_long_description": "The Business Analyst with PMP course is designed for professionals who want to combine business analysis expertise with PMP-aligned project management practices used in IT and enterprise projects. This program focuses on how Business Analysts operate within structured project environments governed by PMI® standards, teaching requirement elicitation, BRD/FRD preparation, stakeholder communication, and delivery frameworks.",
     "about_course": [
@@ -8069,7 +8069,7 @@ export const courses: CourseData[] =[
     "course_title": "Data Business Analyst Course",
     "course_subtitle": "Business Analysis, Data Analytics & Insights for Decision Making",
     "course_slug": "data-business-analyst-course",
-    "course_thumbnail": "assets/images/courses/data-ba-thumb.jpg",
+    "course_thumbnail": "/images/courses/Managementcourse/Databusinessanalyst.png",
     "course_short_description": "Combine business analysis with data analytics. Learn to translate business requirements into data questions and drive decisions using SQL, Excel, and Power BI.",
     "course_long_description": "The Data Business Analyst course is designed to help professionals combine business analysis skills with data analytics techniques to drive informed decision-making in organizations. This program focuses on how business requirements are translated into data questions, analyzed using SQL and Excel, and communicated through dashboards and insights using Power BI or Tableau.",
     "about_course": [
@@ -8369,7 +8369,7 @@ export const courses: CourseData[] =[
     "course_title": "IT Business Analyst Course",
     "course_subtitle": "Business Analysis, Requirements Engineering & Stakeholder Management for IT Projects",
     "course_slug": "it-business-analyst-course",
-    "course_thumbnail": "assets/images/courses/it-ba-thumb.jpg",
+    "course_thumbnail": "/images/courses/Managementcourse/ITBusinessanalyst.png",
     "course_short_description": "Bridge the gap between business and technology. Master requirement gathering, documentation (BRD/FRD), and process modeling for enterprise IT projects.",
     "course_long_description": "This IT Business Analyst course is designed to help professionals build end-to-end business analysis skills required to bridge the gap between business stakeholders and technical teams in IT projects. The course focuses on requirements elicitation, documentation (BRD/FRD), process modeling, Agile and Waterfall practices, stakeholder communication, and data-driven decision making.",
     "about_course": [
@@ -8671,7 +8671,7 @@ export const courses: CourseData[] =[
     "course_title": "Project Management Course",
     "course_subtitle": "IT Project Management, Agile & Waterfall Methodologies for Successful Delivery",
     "course_slug": "project-management-course",
-    "course_thumbnail": "assets/images/courses/project-management-thumb.jpg",
+    "course_thumbnail": "/images/courses/Managementcourse/Projectmanagement.png",
     "course_short_description": "Master end-to-end IT project management. Learn to plan, execute, and deliver projects using Agile, Scrum, and Waterfall methodologies with tools like JIRA.",
     "course_long_description": "This Project Management course is designed to help learners master end-to-end IT project management skills, covering planning, execution, monitoring, and successful delivery of real-world projects. This program focuses on practical project execution—combining Agile, Scrum, and Waterfall methodologies with hands-on tools and real delivery scenarios.",
     "about_course": [
@@ -8973,7 +8973,7 @@ export const courses: CourseData[] =[
     "course_title": "Scrum Master Course",
     "course_subtitle": "Agile Scrum Framework, Facilitation & Team Leadership",
     "course_slug": "scrum-master-course",
-    "course_thumbnail": "assets/images/courses/scrum-master-thumb.jpg",
+    "course_thumbnail": "/images/courses/Managementcourse/Scrummastercourse.png",
     "course_short_description": "Lead high-performing Agile teams. Master the Scrum framework, facilitate ceremonies, and remove impediments to drive continuous delivery.",
     "course_long_description": "The Scrum Master course is designed to help professionals understand, apply, and lead Agile Scrum practices in real-world project environments. This program goes beyond theory to focus on how Scrum actually works inside teams—covering Agile mindset, Scrum roles, ceremonies, artifacts, backlog management, and facilitation techniques.",
     "about_course": [
