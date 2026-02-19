@@ -10773,26 +10773,26 @@ export const courses: CourseData[] =[
     "meta_url": "/courses/salesforce/salesforce-developer-apex-lwc-course"
   }
 },
-
 {
   "course_details": {
-    "course_id": "SF-EC-001",
-    "course_uid": "uid-sf-ec-001",
+    "course_id": "CRS-SAPSF-040",
+    "course_uid": "uid-sap-successfactors-employee-central-pro",
     "course_title": "SAP SuccessFactors – Employee Central (EC)",
     "course_subtitle": "Comprehensive SAP SF Employee Central Strategy, Core HR Processes & Cloud HR Management",
-    "course_slug": "sap-successfactors-employee-central",
-    "course_thumbnail": "assets/images/courses/course-thumb-01.jpg",
-    "course_short_description": "Master cloud-based HR management, core HR processes, and enterprise HR system implementation using SAP SuccessFactors.",
-    "course_long_description": "This SAP SuccessFactors Employee Central (EC) course is designed to help professionals master cloud-based HR management. You will learn how to manage core HR processes including employee master data, organizational structures, time-off management, workflows, role-based permissions, reporting, and payroll integrations. The course focuses on real-world HR digital transformation scenarios and enterprise HR system implementation.",
+    "course_slug": "sap-successfactors-employee-central-course",
+    "course_thumbnail": "assets/images/courses/sap-sf-ec-thumb.jpg",
+    "course_short_description": "Master cloud-based HR management. Learn to configure employee master data, organizational structures, workflows, and payroll integrations in SAP SuccessFactors.",
+    "course_long_description": "This SAP SuccessFactors Employee Central (EC) course is designed to help professionals master cloud-based HR management. You will learn how to manage core HR processes including employee master data, organizational structures, time-off management, workflows, and role-based permissions. The course focuses on real-world HR digital transformation and enterprise system implementation.",
     "about_course": [
-      "Focuses on implementation and configuration rather than just theory.",
-      "Covers end-to-end HR digital transformation scenarios.",
-      "Prepares students for roles as SAP SF Consultants or HR System Specialists."
+      "Master core HR processes and employee master data management in the cloud.",
+      "Learn to automate complex HR workflows, notifications, and approval processes.",
+      "Comprehensive coverage of Role-Based Permissions (RBP) and HR data security.",
+      "Focuses on practical implementation, including payroll integration and S/4HANA connectivity."
     ],
-    "course_status": "active",
+    "course_status": "published",
     "difficulty_level": "Intermediate",
-    "batch_type": "Live",
-    "course_priority": "medium",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
     "course_sequence": 1,
     "course_category": {
       "category_id": "CAT_SAP",
@@ -10802,7 +10802,7 @@ export const courses: CourseData[] =[
   },
   "course_structure": {
     "course_timeline": "6–8 Weeks",
-    "total_duration": "45 Hours",
+    "total_duration": "56 Hours",
     "weekly_commitment_duration": "5–7 Hours",
     "modules_included": true,
     "course_features": [
@@ -10815,77 +10815,75 @@ export const courses: CourseData[] =[
   },
   "pricing_and_enrollment": {
     "currency": "USD",
-    "base_price": 499.00,
-    "discounted_price": 299.00,
-    "discount_percentage": 40,
-    "discount_code": "PROXIM40",
-    "enrollment_link": "https://proximsoft.com/enroll/sap-sf-ec",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-successfactors-ec",
     "is_free": false
   },
   "certification_details": {
     "is_certified": true,
-    "certificate_name": "SAP SuccessFactors Employee Central Professional Certificate",
+    "certificate_name": "SAP Certified Application Associate - SAP SuccessFactors Employee Central",
     "is_shareable": true,
-    "certificate_image_url": "assets/images/certificates/sap-ec.jpg"
+    "certificate_image_url": "assets/images/certificates/sap-sf-ec-cert.jpg"
   },
   "learning_content": {
     "prerequisites": [
       "Basic understanding of HR processes",
       "Knowledge of employee lifecycle management",
-      "Familiarity with SAP HCM or other HRIS systems (helpful but not mandatory)"
+      "Familiarity with SAP HCM or HRIS systems (helpful but not mandatory)"
     ],
     "key_learnings": [
-      "Implement and configure SAP SuccessFactors EC",
-      "Manage core HR lifecycle processes",
-      "Automate HR workflows and approvals",
-      "Configure security and role-based permissions",
-      "Integrate EC with payroll and enterprise systems"
+      "Implement and configure SAP SuccessFactors EC from scratch ",
+      "Manage core HR lifecycle processes and employee master data",
+      "Automate enterprise HR workflows and approval hierarchies",
+      "Configure Role-Based Permissions (RBP) for robust data security"
     ],
     "ideal_candidates": [
-      "SAP HR / SuccessFactors consultants",
-      "HR managers and HR administrators",
-      "Payroll professionals",
-      "Workforce management specialists",
-      "Project managers handling HR transformation",
-      "Professionals transitioning into SAP SuccessFactors careers"
+      "SAP HR / SuccessFactors Consultants",
+      "HR Managers & Administrators",
+      "Payroll Professionals",
+      "Project Managers handling HR transformation"
     ],
     "skills_gained": {
       "core_skills": [
         "SAP SuccessFactors EC Configuration",
-        "Employee Data & Organizational Management",
-        "Workflow & Time-Off Management",
-        "HR Analytics & Reporting"
+        "Organizational Management",
+        "Workflow Automation"
       ],
       "supporting_skills": [
         "Role-Based Permissions",
         "Payroll Integration",
-        "HR Compliance & Governance"
+        "HR Compliance & Governance",
+        "HR Analytics"
       ]
     },
     "tools_and_technologies": {
       "primary": [
         "SAP SuccessFactors Employee Central (EC)",
-        "SAP HCM / Payroll Integration"
+        "Provisioning Tool"
       ],
       "secondary": [
-        "HR Analytics & Reporting Tools",
-        "Cloud HRIS Platforms"
+        "SAP Payroll",
+        "S/4HANA",
+        "HRIS Reporting Tools"
       ]
     }
   },
   "career_outcomes": {
     "career_roles": [
       "SAP SuccessFactors EC Consultant",
-      "HR System Specialist",
+      "HRIS Specialist",
       "HR Process Analyst",
-      "Payroll & Workforce Management Specialist"
+      "Workforce Management Specialist"
     ],
     "outcome_metrics": {
-      "students_placed": 450,
-      "students_internships": 120,
-      "student_success_rate": "94%",
-      "student_completion_rate": "89%",
-      "placement_rate": "85%"
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
     }
   },
   "project_details": {
@@ -10893,18 +10891,18 @@ export const courses: CourseData[] =[
     "total_projects": 1,
     "has_capstone_project": true,
     "total_capstone_projects": 1,
-    "project_description": "Capstone Project: SAP Employee Central Implementation - You will design and implement a complete SAP EC environment including employee master data setup, organizational management, workflow automation, ESS/MSS configuration, reporting dashboards, and payroll integration."
+    "project_description": "Capstone Project: SAP Employee Central Implementation. Design and implement a complete SAP EC environment including master data setup, position management, RBP, and reporting dashboards."
   },
   "curriculum": {
     "summary": {
       "total_modules": 12,
-      "total_lectures": 37
+      "total_lectures": 36
     },
     "modules": [
       {
         "module_number": 1,
         "module_name": "Introduction to SAP SuccessFactors Employee Central",
-        "module_duration": "4 Hours",
+        "module_duration": "Week 1",
         "topics": [
           "Overview of SAP SuccessFactors suite",
           "Cloud HR management concepts",
@@ -10914,7 +10912,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 2,
         "module_name": "Employee Data Management",
-        "module_duration": "4 Hours",
+        "module_duration": "Week 1",
         "topics": [
           "Employee master data configuration",
           "Job, compensation, and personal data",
@@ -10924,9 +10922,9 @@ export const courses: CourseData[] =[
       {
         "module_number": 3,
         "module_name": "Organizational Management",
-        "module_duration": "4 Hours",
+        "module_duration": "Week 2",
         "topics": [
-          "Organizational structure setup",
+          "Organizational structure setup ",
           "Position and job management",
           "Reporting hierarchies"
         ]
@@ -10934,7 +10932,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 4,
         "module_name": "Time Management & Absences",
-        "module_duration": "3 Hours",
+        "module_duration": "Week 2",
         "topics": [
           "Time-off and leave configuration",
           "Holiday calendars and entitlement rules",
@@ -10944,9 +10942,9 @@ export const courses: CourseData[] =[
       {
         "module_number": 5,
         "module_name": "Workflows & HR Automation",
-        "module_duration": "3 Hours",
+        "module_duration": "Week 3",
         "topics": [
-          "Workflow creation and configuration",
+          "Workflow creation and configuration ",
           "Notifications and escalations",
           "Process automation best practices"
         ]
@@ -10954,7 +10952,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 6,
         "module_name": "Role-Based Permissions & Security",
-        "module_duration": "3 Hours",
+        "module_duration": "Week 4",
         "topics": [
           "Role-Based Permissions (RBP)",
           "Data access control",
@@ -10964,7 +10962,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 7,
         "module_name": "Employee Self-Service (ESS) & Manager Self-Service (MSS)",
-        "module_duration": "3 Hours",
+        "module_duration": "Week 5",
         "topics": [
           "ESS and MSS configuration",
           "Self-service automation",
@@ -10974,7 +10972,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 8,
         "module_name": "Reporting & HR Analytics",
-        "module_duration": "3 Hours",
+        "module_duration": "Week 6",
         "topics": [
           "Standard and custom reports",
           "Workforce dashboards",
@@ -10984,7 +10982,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 9,
         "module_name": "Integration with Payroll & Enterprise Systems",
-        "module_duration": "4 Hours",
+        "module_duration": "Week 7",
         "topics": [
           "SAP Payroll integration",
           "S/4HANA integration concepts",
@@ -10994,7 +10992,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 10,
         "module_name": "Data Governance & Compliance",
-        "module_duration": "3 Hours",
+        "module_duration": "Week 7",
         "topics": [
           "GDPR and HR compliance",
           "Audit trails and validations",
@@ -11004,7 +11002,7 @@ export const courses: CourseData[] =[
       {
         "module_number": 11,
         "module_name": "Best Practices & Enterprise Case Studies",
-        "module_duration": "3 Hours",
+        "module_duration": "Week 8",
         "topics": [
           "Real-world SAP EC implementations",
           "Common project challenges",
@@ -11014,20 +11012,19 @@ export const courses: CourseData[] =[
       {
         "module_number": 12,
         "module_name": "Capstone Project",
-        "module_duration": "8 Hours",
+        "module_duration": "Week 8",
         "topics": [
-          "End-to-end SAP SuccessFactors EC implementation",
-          "Organizational structure setup",
-          "Workflow automation",
-          "Reporting and payroll integration"
+          "End-to-end SAP SF EC implementation",
+          "Organizational structure setup and validation",
+          "Workflow and reporting finalization"
         ]
       }
     ]
   },
   "course_metrics": {
     "avg_rating": 4.8,
-    "total_reviews": 842,
-    "total_students_enrolled": 3250
+    "total_reviews": 620,
+    "total_students_enrolled": 4300
   },
   "faqs": [
     {
@@ -11053,50 +11050,12986 @@ export const courses: CourseData[] =[
     {
       "faq_id": 5,
       "question": "How long does it take to learn SAP SuccessFactors EC?",
-      "answer": "Typically 6–8 weeks with consistent weekly practice."
+      "answer": "Typically 6–8 weeks with consistent weekly practice and hands-on laboratory work."
     },
     {
       "faq_id": 6,
       "question": "Does this course include payroll integration?",
-      "answer": "Yes. The course covers integration concepts with SAP Payroll and enterprise systems."
+      "answer": "Yes. The course covers integration concepts with SAP Payroll and enterprise systems like S/4HANA."
     },
     {
       "faq_id": 7,
       "question": "Is this course suitable for HR professionals without technical background?",
-      "answer": "Yes. HR professionals with process knowledge can successfully transition into SAP SF EC roles."
+      "answer": "Yes. HR professionals with process knowledge can successfully transition into SAP SF EC consultant roles."
     },
     {
       "faq_id": 8,
       "question": "What certifications can I pursue after this course?",
-      "answer": "You can prepare for SAP SuccessFactors Employee Central certification exams."
+      "answer": "You can prepare for the SAP Certified Application Associate - SAP SuccessFactors Employee Central certification exam."
     },
     {
       "faq_id": 9,
       "question": "What tools are used in SAP SuccessFactors EC implementation?",
-      "answer": "SAP SuccessFactors EC platform, role-based permissions, workflow configuration tools, and integration frameworks."
+      "answer": "The course uses the SAP SuccessFactors EC platform, provisioning tools, and various configuration frameworks for RBP and Workflows."
     },
     {
       "faq_id": 10,
       "question": "What job roles can I apply for after this course?",
-      "answer": "SAP SuccessFactors EC Consultant, HRIS Specialist, HR Transformation Analyst, or Payroll Integration Consultant."
+      "answer": "Common roles include SAP SuccessFactors EC Consultant, HRIS Specialist, HR Transformation Analyst, or Payroll Integration Consultant."
     }
   ],
   "target_audience": [
-    "SAP HR / SuccessFactors consultants",
-    "HR managers and HR administrators",
-    "Payroll professionals",
-    "Workforce management specialists",
-    "Project managers handling HR transformation",
-    "Professionals transitioning into SAP SuccessFactors careers"
+    "SAP HR Consultants",
+    "HR Managers",
+    "Payroll Professionals",
+    "IT Professionals transitioning to HRIS"
   ],
   "metadata": {
-    "course_date": "2024-03-20",
-    "latest_update_date": "2024-11-15"
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
   },
   "seo_metadata": {
-    "meta_title": "SAP SuccessFactors Employee Central (EC) Certification Training",
-    "meta_description": "Master SAP SF Employee Central. Learn core HR, workflows, RBP, and payroll integration in this 8-week comprehensive course.",
-    "meta_url": "/courses/sap/sap-successfactors-employee-central"
+    "meta_title": "SAP SuccessFactors Employee Central Course | Cloud HR Training",
+    "meta_description": "Learn SAP SuccessFactors EC. Master core HR management, organizational structure, workflows, and security in this comprehensive cloud HR certification course.",
+    "meta_url": "/courses/sap/sap-successfactors-employee-central-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSF-041",
+    "course_uid": "uid-sap-successfactors-recruiting-management-pro",
+    "course_title": "SAP SuccessFactors – Recruiting Management",
+    "course_subtitle": "Comprehensive SAP SF Recruiting Strategy, Talent Acquisition & Hiring Process Automation",
+    "course_slug": "sap-successfactors-recruiting-management-course",
+    "course_thumbnail": "assets/images/courses/sap-sf-recruiting-thumb.jpg",
+    "course_short_description": "Master end-to-end talent acquisition. Learn to configure job requisitions, manage applicant tracking (ATS), and automate interview workflows using SAP SuccessFactors.",
+    "course_long_description": "This SAP SuccessFactors Recruiting course is designed to help professionals master end-to-end talent acquisition and recruitment process automation. The program covers the complete lifecycle including job requisition management, applicant tracking (ATS), interview scheduling, candidate evaluation, offer workflows, and onboarding integration.",
+    "about_course": [
+      "Master end-to-end talent acquisition and recruitment automation using SAP SuccessFactors.",
+      "Learn to configure Applicant Tracking System (ATS) workflows for enterprise environments.",
+      "Comprehensive coverage of interview management, offer workflows, and candidate evaluation.",
+      "Focuses on practical implementation including recruiting analytics and onboarding integration."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 2,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "56 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-successfactors-recruiting",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP SuccessFactors Recruiting",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-sf-recruiting-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of HR lifecycle and recruitment process",
+      "Familiarity with SAP HCM or HRIS systems (preferred)",
+      "Understanding of hiring workflows and candidate management"
+    ],
+    "key_learnings": [
+      "Configure end-to-end Recruiting Management modules ",
+      "Automate complex hiring and approval workflows",
+      "Manage large-scale candidate pipelines using integrated ATS",
+      "Generate data-driven hiring analytics and recruitment KPIs"
+    ],
+    "ideal_candidates": [
+      "SAP SuccessFactors Consultants",
+      "Talent Acquisition & Recruiting Managers",
+      "HRIS Administrators",
+      "SAP HCM Consultants transitioning to cloud"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP SF Recruiting Configuration",
+        "ATS Management",
+        "Offer Workflow Automation"
+      ],
+      "supporting_skills": [
+        "Recruiting Analytics",
+        "Talent Acquisition Strategy",
+        "Onboarding Integration",
+        "Role-Based Permissions"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP SuccessFactors Recruiting Management",
+        "SAP SuccessFactors Onboarding"
+      ],
+      "secondary": [
+        "Recruiting Analytics",
+        "RBP Framework",
+        "ATS Workflow Engine"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP SuccessFactors Recruiting Consultant",
+      "Talent Acquisition Specialist",
+      "HR Process Analyst",
+      "Recruitment Operations Manager"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP SF Recruiting Implementation. Implement a complete solution including job requisition creation, ATS configuration, interview management, and hiring analytics dashboards."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP SuccessFactors Recruiting",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview of SAP SuccessFactors Recruiting Management",
+          "Recruiting Management vs Recruiting Marketing",
+          "Role within SAP HR ecosystem"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Job Requisition Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Creating job requisitions",
+          "Approval workflows",
+          "Job posting configuration"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Candidate Sourcing & Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Managing internal and external candidates",
+          "Candidate database and talent pools",
+          "Multi-channel job posting"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Application Tracking & Screening",
+        "module_duration": "Week 2",
+        "topics": [
+          "Applicant Tracking System (ATS) workflows ",
+          "Candidate screening & shortlisting",
+          "Automated ranking and scoring"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Interview Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Interview scheduling",
+          "Interview templates & kits",
+          "Feedback collection and evaluation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Selection & Offer Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Offer letter configuration",
+          "Approval workflows",
+          "Compensation integration"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Onboarding Integration",
+        "module_duration": "Week 5",
+        "topics": [
+          "Integration with SAP SuccessFactors Onboarding",
+          "Pre-boarding workflows",
+          "Employee record transition"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Recruiting Analytics & Reporting",
+        "module_duration": "Week 6",
+        "topics": [
+          "Hiring dashboards",
+          "KPI tracking",
+          "Candidate pipeline analysis"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security & Role-Based Permissions",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-Based Permissions (RBP)",
+          "Access controls and compliance",
+          "Data governance"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Recruiting Marketing & Candidate Experience",
+        "module_duration": "Week 7",
+        "topics": [
+          "Employer branding strategies",
+          "Candidate engagement tools",
+          "Communication workflows"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Enterprise Case Studies",
+        "module_duration": "Week 8",
+        "topics": [
+          "Real-world SAP SF Recruiting implementations",
+          "Process optimization techniques",
+          "Common implementation pitfalls"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end recruitment solution configuration",
+          "Job requisition to onboarding workflow execution",
+          "Final analytics dashboard review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 430,
+    "total_students_enrolled": 3100
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP SuccessFactors Recruiting?",
+      "answer": "SAP SuccessFactors Recruiting is a cloud-based applicant tracking system (ATS) that helps organizations manage job requisitions, candidate applications, interviews, offer management, and recruitment analytics."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP SuccessFactors Recruiting an ATS system?",
+      "answer": "Yes. SAP SF Recruiting functions as an enterprise-level applicant tracking system (ATS) that automates and manages end-to-end hiring workflows."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between Recruiting Management and Recruiting Marketing?",
+      "answer": "Recruiting Management handles job requisitions, candidate tracking, and hiring workflows. Recruiting Marketing focuses on employer branding, career sites, and candidate engagement strategies."
+    },
+    {
+      "faq_id": 4,
+      "question": "Do I need SAP HCM experience to learn SAP SF Recruiting?",
+      "answer": "Prior SAP HCM knowledge is helpful but not mandatory. Basic understanding of HR recruitment processes is sufficient to begin."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is this course suitable for HR professionals?",
+      "answer": "Yes. HR professionals involved in recruitment and talent acquisition can benefit greatly from this course to understand the automation possibilities."
+    },
+    {
+      "faq_id": 6,
+      "question": "What job roles can I apply for after this course?",
+      "answer": "You can apply for roles such as SAP SuccessFactors Recruiting Consultant, Talent Acquisition Specialist, or HRIS Analyst."
+    },
+    {
+      "faq_id": 7,
+      "question": "How long does it take to learn SAP SuccessFactors Recruiting?",
+      "answer": "Typically 6–8 weeks with structured, instructor-led training and hands-on configuration labs."
+    },
+    {
+      "faq_id": 8,
+      "question": "Does SAP SF Recruiting integrate with onboarding?",
+      "answer": "Yes. It integrates seamlessly with SAP SuccessFactors Onboarding to transition selected candidates into active employee records."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP SuccessFactors Recruiting in demand?",
+      "answer": "Yes. Many enterprises are moving to cloud HR systems, creating a high demand for Recruiting module specialists to manage digital transformation."
+    },
+    {
+      "faq_id": 10,
+      "question": "Does this course prepare me for SAP certification?",
+      "answer": "Yes. The course aligns with SAP SuccessFactors Recruiting certification objectives and focuses on practical implementation scenarios."
+    }
+  ],
+  "target_audience": [
+    "Recruitment Professionals",
+    "Talent Acquisition Managers",
+    "SAP Consultants",
+    "HRIS Administrators"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP SuccessFactors Recruiting Course | ATS & Talent Acquisition Training",
+    "meta_description": "Learn SAP SuccessFactors Recruiting. Master job requisitions, applicant tracking (ATS), interview workflows, and offer management in this expert-led course.",
+    "meta_url": "/courses/sap/sap-successfactors-recruiting-management-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSF-042",
+    "course_uid": "uid-sap-successfactors-onboarding-offboarding-pro",
+    "course_title": "SAP SuccessFactors (SF) Onboarding & Offboarding",
+    "course_subtitle": "Joiner–Mover–Leaver (JML) Lifecycle Automation & Cloud HR Management",
+    "course_slug": "sap-successfactors-onboarding-offboarding-course",
+    "course_thumbnail": "assets/images/courses/sap-sf-on-off-thumb.jpg",
+    "course_short_description": "Master the complete employee lifecycle. Learn to automate pre-onboarding, manage Onboarding 2.0 configuration, and handle exit processes in SAP SuccessFactors.",
+    "course_long_description": "The SAP SuccessFactors (SF) Onboarding & Offboarding course is designed to help professionals automate and manage the complete employee lifecycle—from pre-onboarding to exit processes. This program focuses on Joiner–Mover–Leaver (JML) lifecycle automation, Onboarding 2.0 configuration, workflow management, and integration with Employee Central.",
+    "about_course": [
+      "Master the automation of the complete employee lifecycle: Joiner, Mover, and Leaver (JML).",
+      "Deep dive into Onboarding 2.0 configuration, including business rules and workflow triggers.",
+      "Learn to manage document templates, e-Signatures, and compliance tracking.",
+      "Comprehensive coverage of Offboarding processes and exit management in cloud HR."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 3,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-successfactors-onboarding",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP SuccessFactors Onboarding",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-sf-on-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of HR processes (Hire, Transfer, Termination)",
+      "Familiarity with SAP HCM or ERP systems (helpful but not mandatory)",
+      "No programming knowledge required"
+    ],
+    "key_learnings": [
+      "Configure Onboarding 2.0 programs for enterprise-scale hiring ",
+      "Automate employee lifecycle steps using the Business Rules Framework",
+      "Manage offboarding workflows, termination procedures, and exit compliance",
+      "Seamlessly integrate Onboarding data with SAP SuccessFactors Employee Central"
+    ],
+    "ideal_candidates": [
+      "SAP SuccessFactors Consultants",
+      "HR Professionals & HRIS Analysts",
+      "SAP HCM Functional Consultants",
+      "Freshers entering SAP HR careers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP SuccessFactors Configuration",
+        "Employee Lifecycle Management",
+        "HR Workflow Automation"
+      ],
+      "supporting_skills": [
+        "Business Rules Framework",
+        "Role-Based Permission (RBP) Configuration",
+        "Compliance & Document Management",
+        "HR Analytics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP SuccessFactors Onboarding 2.0",
+        "SAP SuccessFactors Offboarding",
+        "SAP SuccessFactors Employee Central"
+      ],
+      "secondary": [
+        "Business Rules Framework",
+        "Role-Based Permissions (RBP)",
+        "Document Management Service"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP SuccessFactors Consultant",
+      "SF Onboarding Specialist",
+      "HRIS Analyst",
+      "SAP HR Functional Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End JML implementation. Design and implement a complete lifecycle including pre-onboarding automation, document workflows, Employee Central integration, and exit management."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP SuccessFactors",
+        "module_duration": "Week 1",
+        "topics": [
+          "SuccessFactors suite overview",
+          "Employee lifecycle management",
+          "Role of Onboarding & Offboarding in HCM"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Joiner–Mover–Leaver (JML) Process",
+        "module_duration": "Week 1",
+        "topics": [
+          "Employee lifecycle management fundamentals",
+          "Business process mapping",
+          "HR best practices for cloud migration"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SuccessFactors Onboarding Overview",
+        "module_duration": "Week 2",
+        "topics": [
+          "Onboarding 1.0 vs Onboarding 2.0 differences",
+          "Architecture & system components",
+          "Module integration overview"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Onboarding 2.0 Configuration",
+        "module_duration": "Week 2",
+        "topics": [
+          "Program setup",
+          "Participant roles",
+          "Permissions & access management"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Business Rules & Workflow Automation",
+        "module_duration": "Week 3",
+        "topics": [
+          "Rule framework configuration",
+          "Event triggers",
+          "Approval workflows "
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Tasks & Activities Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "New hire onboarding tasks",
+          "Manager & HR administrator workflows",
+          "Checklist automation"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Document Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Document templates",
+          "e-Signature integration",
+          "Compliance forms"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Notifications & Email Templates",
+        "module_duration": "Week 5",
+        "topics": [
+          "Automated alerts",
+          "Reminder triggers",
+          "Custom email configuration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integration with Employee Central",
+        "module_duration": "Week 6",
+        "topics": [
+          "Data flow mapping",
+          "Event-based integration",
+          "Best practices for data consistency"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Offboarding Overview",
+        "module_duration": "Week 7",
+        "topics": [
+          "Offboarding process steps",
+          "Termination workflows",
+          "Exit management basics"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Offboarding Configuration",
+        "module_duration": "Week 7",
+        "topics": [
+          "Program setup",
+          "Role-based tasks",
+          "Compliance tracking"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Security & Role-Based Permissions (RBP)",
+        "module_duration": "Week 8",
+        "topics": [
+          "Role-based access control",
+          "Data privacy management",
+          "Governance best practices"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Reporting & Monitoring",
+        "module_duration": "Week 9",
+        "topics": [
+          "Standard onboarding reports",
+          "Compliance monitoring",
+          "Audit logs"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Troubleshooting & Real-Time Scenarios",
+        "module_duration": "Week 10",
+        "topics": [
+          "Debugging workflows",
+          "Common configuration errors",
+          "Optimization strategies"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end JML implementation",
+          "Automation testing",
+          "Final project review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 320,
+    "total_students_enrolled": 2400
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP SuccessFactors Onboarding?",
+      "answer": "SAP SuccessFactors Onboarding is a cloud-based module that automates the new employee onboarding process, document management, and workflow approvals within SAP HCM systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between onboarding and offboarding?",
+      "answer": "Onboarding manages new employee setup and integration, while offboarding handles exit processes, compliance, and data management when employees leave the organization."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the Joiner–Mover–Leaver (JML) process?",
+      "answer": "JML refers to managing employee lifecycle stages including hiring (Joiner), role transitions (Mover), and termination or exit (Leaver)."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP SuccessFactors part of SAP HCM?",
+      "answer": "Yes. SAP SuccessFactors is SAP’s cloud-based Human Capital Management (HCM) solution."
+    },
+    {
+      "faq_id": 5,
+      "question": "Do I need coding knowledge to learn SAP SuccessFactors?",
+      "answer": "No. Configuration is rule-based and workflow-driven. Coding is not required for standard implementations."
+    },
+    {
+      "faq_id": 6,
+      "question": "What is Onboarding 2.0 in SuccessFactors?",
+      "answer": "Onboarding 2.0 is the modern module that integrates deeply with Employee Central and provides enhanced workflow automation and a better user experience."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is SAP SuccessFactors certification available?",
+      "answer": "Yes. SAP offers certification exams for SuccessFactors modules including Onboarding to validate your expertise."
+    },
+    {
+      "faq_id": 8,
+      "question": "What industries use SAP SuccessFactors?",
+      "answer": "Manufacturing, IT services, healthcare, retail, finance, and global enterprises widely use SAP SuccessFactors for their global HR operations."
+    },
+    {
+      "faq_id": 9,
+      "question": "How long does it take to complete SAP SuccessFactors training?",
+      "answer": "Typically 8–10 weeks with structured learning, instructor-led sessions, and hands-on configuration labs."
+    },
+    {
+      "faq_id": 10,
+      "question": "What job roles can I apply for after this course?",
+      "answer": "You can apply for SAP SuccessFactors Consultant, HRIS Analyst, Onboarding Specialist, and SAP HR Functional Consultant roles."
+    }
+  ],
+  "target_audience": [
+    "HR Professionals",
+    "HRIS Analysts",
+    "SAP HCM Consultants",
+    "Fresh Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP SuccessFactors Onboarding & Offboarding Course | JML Training",
+    "meta_description": "Learn to automate the employee lifecycle in SAP SuccessFactors. Master Onboarding 2.0 configuration, offboarding, and Employee Central integration.",
+    "meta_url": "/courses/sap/sap-successfactors-onboarding-offboarding-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPAI-043",
+    "course_uid": "uid-sap-artificial-intelligence-intelligent-enterprise",
+    "course_title": "SAP Artificial Intelligence (AI) – Intelligent Enterprise Solutions",
+    "course_subtitle": "Comprehensive SAP AI Strategy, Intelligent Applications, and Machine Learning Integration",
+    "course_slug": "sap-ai-intelligent-enterprise-course",
+    "course_thumbnail": "assets/images/courses/sap-ai-thumb.jpg",
+    "course_short_description": "Master SAP's AI and machine learning ecosystem. Learn to implement SAP AI Core, predictive analytics, and conversational AI within SAP S/4HANA and BTP.",
+    "course_long_description": "The SAP Artificial Intelligence (AI) course is designed to help professionals implement intelligent enterprise solutions using SAP’s AI and machine learning ecosystem. This program focuses on SAP AI Core, SAP AI Foundation, intelligent business services, predictive analytics, and AI integration with SAP S/4HANA, SAP CX, and SAP Business Technology Platform (BTP).",
+    "about_course": [
+      "Covers the complete SAP AI portfolio landscape including AI Core and AI Foundation.",
+      "Teaches practical implementation of predictive analytics and forecasting in S/4HANA.",
+      "Hands-on experience with SAP Conversational AI and Intelligent Process Automation (iRPA).",
+      "Focuses on enterprise-scale AI deployment, monitoring, security, and compliance."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 4,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-ai-intelligent-enterprise",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Specialist - SAP AI Implementation",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-ai-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems or SAP S/4HANA",
+      "Familiarity with AI or machine learning fundamentals",
+      "Understanding of enterprise business processes",
+      "Prior AI development experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design and deploy SAP AI Core solutions for enterprise automation ",
+      "Integrate machine learning and predictive insights into SAP S/4HANA workflows",
+      "Build and implement conversational AI bots for HR and customer service",
+      "Monitor AI model performance, drift detection, and enterprise governance"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants (S/4HANA, CX, BTP)",
+      "AI Engineers & Data Scientists in SAP landscapes",
+      "Business Analysts focused on automation",
+      "Digital Transformation Professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Artificial Intelligence Implementation",
+        "Predictive Analytics in SAP",
+        "AI-Driven Process Automation"
+      ],
+      "supporting_skills": [
+        "Conversational AI Development",
+        "Model Monitoring & Governance",
+        "SAP BTP Configuration",
+        "Feature Engineering"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP AI Core",
+        "SAP AI Foundation",
+        "SAP Business Technology Platform (BTP)"
+      ],
+      "secondary": [
+        "SAP S/4HANA",
+        "SAP Conversational AI",
+        "SAP Intelligent RPA",
+        "SAP Analytics Cloud"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP AI Consultant",
+      "SAP Intelligent Enterprise Specialist",
+      "Machine Learning Engineer (SAP)",
+      "Digital Transformation Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP Intelligent Enterprise Solution. Build an end-to-end implementation featuring predictive forecasting, chatbot integration, and model monitoring within an SAP BTP environment."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Artificial Intelligence",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP AI overview and intelligent enterprise vision",
+          "AI in ERP and enterprise automation",
+          "SAP AI portfolio landscape"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP AI Core & AI Foundation",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP AI Core architecture",
+          "AI lifecycle management",
+          "Deployment workflows"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Intelligent Business Services",
+        "module_duration": "Week 2",
+        "topics": [
+          "Prebuilt SAP AI services",
+          "Invoice automation",
+          "HR and customer intelligence use cases"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Machine Learning for SAP",
+        "module_duration": "Week 3",
+        "topics": [
+          "Supervised and unsupervised learning",
+          "Model training and evaluation",
+          "SAP AI Cloud services"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Predictive Analytics & Forecasting",
+        "module_duration": "Week 4",
+        "topics": [
+          "Sales and finance forecasting ",
+          "Supply chain optimization",
+          "Integration with SAP S/4HANA"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Conversational AI & Chatbots",
+        "module_duration": "Week 5",
+        "topics": [
+          "SAP Conversational AI platform",
+          "NLP fundamentals",
+          "HR and customer service bots"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Intelligent Process Automation (RPA + AI)",
+        "module_duration": "Week 6",
+        "topics": [
+          "Combining AI with SAP iRPA",
+          "Smart workflow automation",
+          "Finance and procurement automation"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Computer Vision in SAP",
+        "module_duration": "Week 7",
+        "topics": [
+          "Image recognition use cases",
+          "Manufacturing and quality inspection",
+          "Asset management integration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Natural Language Processing in SAP",
+        "module_duration": "Week 7",
+        "topics": [
+          "Text analytics",
+          "Sentiment analysis",
+          "Knowledge extraction"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Data Preparation & Feature Engineering",
+        "module_duration": "Week 8",
+        "topics": [
+          "Data cleansing and transformation",
+          "Feature selection strategies",
+          "Model performance optimization"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "AI Deployment & Monitoring",
+        "module_duration": "Week 9",
+        "topics": [
+          "Model deployment in SAP",
+          "Performance tracking and drift detection ",
+          "Continuous improvement"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "SAP Application Integration",
+        "module_duration": "Week 9",
+        "topics": [
+          "AI with SAP S/4HANA",
+          "SAP CX integration",
+          "SAP Analytics Cloud integration"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Security & Compliance",
+        "module_duration": "Week 10",
+        "topics": [
+          "AI governance",
+          "Data privacy standards",
+          "Model auditing and compliance"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Enterprise Case Studies",
+        "module_duration": "Week 10",
+        "topics": [
+          "Real SAP AI implementations",
+          "Enterprise transformation patterns",
+          "Industry scenarios"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SAP AI solution",
+          "Predictive or automation-based implementation",
+          "Final deployment and monitoring review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 310,
+    "total_students_enrolled": 1900
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Artificial Intelligence?",
+      "answer": "SAP Artificial Intelligence refers to AI and machine learning capabilities integrated within SAP systems to automate business processes, enhance decision-making, and provide predictive insights."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP AI different from general AI courses?",
+      "answer": "Yes. SAP AI focuses specifically on implementing AI within SAP ecosystems like S/4HANA and BTP, rather than generic data science theory."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need programming skills to learn SAP AI?",
+      "answer": "While basic understanding of AI is helpful, deep programming expertise isn't mandatory; the course focuses on technical configuration and enterprise integration."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is SAP AI Core?",
+      "answer": "SAP AI Core is a service on SAP BTP designed to handle model training, deployment, and the lifecycle management of AI applications at scale."
+    },
+    {
+      "faq_id": 5,
+      "question": "Can SAP AI integrate with SAP S/4HANA?",
+      "answer": "Yes, it integrates natively to enable predictive forecasting and intelligent document processing directly within ERP workflows."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is SAP AI certification available?",
+      "answer": "Yes, SAP provides certifications for intelligent technologies. This course covers the implementation-level expertise required for these certifications."
+    },
+    {
+      "faq_id": 7,
+      "question": "What industries use SAP AI?",
+      "answer": "Manufacturing, retail, finance, and logistics use SAP AI for demand forecasting, supply chain optimization, and automated financial operations."
+    },
+    {
+      "faq_id": 8,
+      "question": "What is the role of AI in SAP digital transformation?",
+      "answer": "AI drives efficiency by automating repetitive tasks (like invoice matching) and providing real-time predictive analytics within SAP modules."
+    },
+    {
+      "faq_id": 9,
+      "question": "Can I become an SAP AI Consultant after this course?",
+      "answer": "Yes. The course prepares you with the configuration and strategy skills needed for SAP AI Consultant and Intelligent Enterprise Specialist roles."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to complete SAP AI training?",
+      "answer": "The course is designed to be completed in 8–10 weeks with a structured, instructor-led approach and hands-on capstone project."
+    }
+  ],
+  "target_audience": [
+    "SAP Consultants",
+    "AI Engineers",
+    "Business Analysts",
+    "Digital Transformation Leaders"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Artificial Intelligence Course | Intelligent Enterprise Solutions",
+    "meta_description": "Master SAP AI Core, machine learning, and predictive analytics. Learn to implement intelligent enterprise solutions in S/4HANA and SAP BTP.",
+    "meta_url": "/courses/sap/sap-artificial-intelligence-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPRPA-044",
+    "course_uid": "uid-sap-intelligent-robotic-process-automation-pro",
+    "course_title": "SAP Intelligent Robotic Process Automation (iRPA) – Automate Enterprise Processes",
+    "course_subtitle": "Comprehensive SAP iRPA Strategy, Bot Development & Automation Lifecycle Management",
+    "course_slug": "sap-intelligent-rpa-automation-course",
+    "course_thumbnail": "assets/images/courses/sap-irpa-thumb.jpg",
+    "course_short_description": "Master enterprise-grade automation. Learn to design, develop, and orchestrate software bots that integrate with SAP S/4HANA, SuccessFactors, and non-SAP apps.",
+    "course_long_description": "The SAP Intelligent Robotic Process Automation (iRPA) course is designed to help professionals automate repetitive enterprise processes using SAP’s intelligent automation platform. This program focuses on end-to-end robotic process automation (RPA), including bot design, orchestration, deployment, and monitoring within SAP landscapes.",
+    "about_course": [
+      "Master the end-to-end RPA lifecycle including bot design, development, and orchestration.",
+      "Learn to build both Attended and Unattended bots for enterprise-scale automation.",
+      "Deep dive into SAP and non-SAP integration (Excel, Email, Web, and API-based).",
+      "Focuses on measurable business outcomes, ROI evaluation, and automation governance."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 5,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "56 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-intelligent-rpa",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Development Associate - SAP Intelligent Robotic Process Automation",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-irpa-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems or enterprise applications",
+      "Familiarity with business process workflows",
+      "Logical thinking and basic scripting concepts",
+      "Prior RPA experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design and develop automation bots using SAP iRPA Desktop Studio and Cloud Factory ",
+      "Implement Attended and Unattended automation for diverse business scenarios",
+      "Integrate SAP S/4HANA and SuccessFactors with automated workflows",
+      "Apply RPA governance, role-based access control, and security best practices"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants seeking automation specialization",
+      "RPA Developers transitioning to SAP ecosystems",
+      "Business Analysts focused on process automation",
+      "Digital transformation and automation leaders"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP iRPA Bot Development",
+        "Enterprise Workflow Automation",
+        "RPA Lifecycle Management"
+      ],
+      "supporting_skills": [
+        "SAP Integration Automation",
+        "Automation Analytics",
+        "Governance & Compliance",
+        "Process Mapping"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Intelligent RPA",
+        "Cloud Factory",
+        "Desktop Studio"
+      ],
+      "secondary": [
+        "SAP S/4HANA",
+        "SAP SuccessFactors",
+        "SAP CX",
+        "API Integrations"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP iRPA Developer",
+      "SAP Automation Consultant",
+      "Digital Transformation Specialist",
+      "Process Automation Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP Automation Implementation. Build a real-world solution covering process design, bot development, orchestration in the Cloud Factory, and ROI reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 39
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Robotic Process Automation",
+        "module_duration": "Week 1",
+        "topics": [
+          "RPA full form and core concepts",
+          "SAP Intelligent RPA overview",
+          "RPA vs traditional automation",
+          "Enterprise automation strategy"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP iRPA Architecture & Components",
+        "module_duration": "Week 1",
+        "topics": [
+          "Control Room, Desktop Studio, Cloud Factory",
+          "Bot lifecycle management",
+          "Attended vs Unattended bots"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Process Analysis & Automation Design",
+        "module_duration": "Week 2",
+        "topics": [
+          "Identifying RPA opportunities",
+          "Process mapping and feasibility analysis ",
+          "Automation ROI evaluation"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Bot Development Fundamentals",
+        "module_duration": "Week 3",
+        "topics": [
+          "SAP iRPA Studio interface",
+          "Creating bots for SAP GUI and web apps",
+          "Recording, scripting, and low-code automation"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced Bot Development",
+        "module_duration": "Week 4",
+        "topics": [
+          "Workflow logic and conditional branching",
+          "Exception handling and retries",
+          "API integration and automation scripts"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Orchestration & Deployment",
+        "module_duration": "Week 5",
+        "topics": [
+          "Publishing bots",
+          "Scheduling and triggering automation ",
+          "Control Room configuration"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Monitoring & Logging",
+        "module_duration": "Week 5",
+        "topics": [
+          "Bot monitoring dashboards",
+          "Performance metrics and analytics",
+          "Error handling and alert systems"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "SAP & Non-SAP Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "SAP S/4HANA automation",
+          "Integration with SuccessFactors and CX",
+          "Excel, email, and web automation",
+          "API-based automation"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security & Governance",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access control",
+          "Credential management",
+          "Compliance and audit trails"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Intelligent Automation & Analytics",
+        "module_duration": "Week 7",
+        "topics": [
+          "Measuring automation ROI",
+          "Performance optimization",
+          "Continuous improvement strategies"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Enterprise Use Cases",
+        "module_duration": "Week 8",
+        "topics": [
+          "Finance automation",
+          "HR onboarding workflows",
+          "Procurement and supply chain automation"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end SAP iRPA implementation",
+          "Real-world business automation scenario",
+          "Deployment, monitoring, and reporting"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 290,
+    "total_students_enrolled": 1500
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Intelligent Robotic Process Automation?",
+      "answer": "SAP Intelligent RPA is an enterprise automation platform that allows organizations to automate repetitive tasks and business processes within SAP and non-SAP systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the full form of RPA?",
+      "answer": "RPA stands for Robotic Process Automation, a technology that uses software bots to emulate human actions to automate structured, rule-based tasks."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP iRPA different from generic RPA tools?",
+      "answer": "Yes. While it can automate non-SAP apps, it is specifically optimized for deep integration with SAP systems like S/4HANA and SuccessFactors."
+    },
+    {
+      "faq_id": 4,
+      "question": "Who can become an SAP iRPA Developer?",
+      "answer": "SAP consultants, business analysts, and developers looking to specialize in enterprise-scale automation within the SAP ecosystem."
+    },
+    {
+      "faq_id": 5,
+      "question": "Do I need programming skills to learn SAP iRPA?",
+      "answer": "A basic understanding of scripting logic is helpful, but the platform provides low-code tools for bot development."
+    },
+    {
+      "faq_id": 6,
+      "question": "What industries use SAP iRPA?",
+      "answer": "Finance, manufacturing, retail, and logistics industries use it to streamline procurement, invoicing, and HR workflows."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is the difference between attended and unattended bots?",
+      "answer": "Attended bots work alongside users on their desktops to assist with tasks, while unattended bots run independently on servers."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can SAP iRPA integrate with non-SAP applications?",
+      "answer": "Yes. It can automate web browsers, Excel, legacy desktop applications, and communicate via APIs with third-party platforms."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP iRPA certification available?",
+      "answer": "Yes. SAP offers professional certifications in automation. This course covers the technical foundation required to prepare for these exams."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to learn SAP iRPA?",
+      "answer": "This instructor-led course is designed to be completed in 6–8 weeks with consistent hands-on laboratory practice."
+    }
+  ],
+  "target_audience": [
+    "SAP Consultants",
+    "RPA Developers",
+    "Business Analysts",
+    "Automation Project Managers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP iRPA Course | Robotic Process Automation Training",
+    "meta_description": "Master SAP Intelligent RPA. Learn bot development, orchestration, and lifecycle management to automate enterprise workflows in SAP S/4HANA.",
+    "meta_url": "/courses/sap/sap-intelligent-rpa-automation-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPIOT-045",
+    "course_uid": "uid-sap-internet-of-things-connected-enterprise",
+    "course_title": "SAP Internet of Things (IoT) – Connected Enterprise Solutions",
+    "course_subtitle": "Comprehensive SAP IoT Strategy, Sensor Integration, and Real-Time Data Analytics",
+    "course_slug": "sap-iot-connected-enterprise-course",
+    "course_thumbnail": "assets/images/courses/sap-iot-thumb.jpg",
+    "course_short_description": "Bridge the gap between physical assets and digital intelligence. Learn to build scalable IoT solutions using SAP BTP, Edge computing, and S/4HANA integration.",
+    "course_long_description": "This SAP Internet of Things (IoT) course is designed to help professionals build connected enterprise solutions using SAP IoT, edge computing, and cloud technologies. You will learn how IoT devices and sensors connect with SAP platforms to capture real-time operational data and transform it into actionable business intelligence.",
+    "about_course": [
+      "Master the integration of IoT devices and sensors with the SAP BTP ecosystem.",
+      "Learn to design secure, scalable IoT architectures including Edge and Cloud components.",
+      "Deep dive into predictive maintenance, asset monitoring, and real-time data analytics.",
+      "Focuses on event-driven automation by connecting IoT triggers to SAP S/4HANA ERP workflows."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Live",
+    "course_priority": "high",
+    "course_sequence": 6,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-iot-connected-enterprise",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Specialist - SAP IoT Implementation",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-iot-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP S/4HANA or SAP enterprise systems",
+      "Familiarity with cloud computing concepts",
+      "Knowledge of IoT devices, sensors, or data analytics is beneficial"
+    ],
+    "key_learnings": [
+      "Design enterprise-grade IoT architectures bridging Edge and Cloud",
+      "Implement remote device management and secure firmware updates",
+      "Build predictive maintenance models based on real-time sensor data",
+      "Automate ERP business workflows using event-driven IoT triggers"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Manufacturing or Logistics",
+      "IoT Engineers and Solution Architects",
+      "Cloud professionals working with SAP BTP",
+      "Data Analysts handling real-time operational data"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP IoT Implementation",
+        "IoT Architecture & Integration",
+        "Edge Computing & Smart Devices"
+      ],
+      "supporting_skills": [
+        "Real-Time Data Analytics",
+        "Predictive Maintenance Modeling",
+        "IoT Security & Compliance",
+        "Event-Driven Automation"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP IoT",
+        "SAP BTP IoT Services",
+        "SAP S/4HANA"
+      ],
+      "secondary": [
+        "SAP Analytics Cloud",
+        "IoT Gateways",
+        "MQTT/HTTP Protocols",
+        "SAP iRPA"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP IoT Consultant",
+      "IoT Solution Architect",
+      "SAP BTP IoT Developer",
+      "Enterprise Automation Architect"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP IoT Implementation. Design a connected enterprise solution including device integration, data ingestion, predictive maintenance, and real-time interactive dashboards."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 14,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP IoT",
+        "module_duration": "Week 1",
+        "topics": [
+          "What is Internet of Things (IoT)?",
+          "SAP IoT portfolio and connected enterprise vision",
+          "Role of IoT in digital transformation"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "IoT Architecture & Components",
+        "module_duration": "Week 1",
+        "topics": [
+          "IoT architecture fundamentals ",
+          "Edge computing vs cloud computing in IoT",
+          "IoT connectivity protocols and platforms"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Device Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Device registration and lifecycle management",
+          "Remote monitoring and firmware updates",
+          "IoT device authentication and security"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Ingestion & Processing",
+        "module_duration": "Week 3",
+        "topics": [
+          "Real-time data collection",
+          "Event streaming and processing",
+          "Data storage strategies"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "SAP IoT Core Services",
+        "module_duration": "Week 4",
+        "topics": [
+          "SAP Leonardo IoT & SAP BTP IoT services",
+          "Integration with SAP S/4HANA",
+          "IoT dashboards and visualization"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Predictive Maintenance & Analytics",
+        "module_duration": "Week 5",
+        "topics": [
+          "IoT data analytics fundamentals ",
+          "Predictive maintenance models",
+          "Asset monitoring dashboards"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "IoT Integration with Business Processes",
+        "module_duration": "Week 6",
+        "topics": [
+          "Connecting IoT events to ERP workflows",
+          "Manufacturing and logistics automation",
+          "Supply chain optimization"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "IoT Security & Compliance",
+        "module_duration": "Week 7",
+        "topics": [
+          "Security of IoT devices and networks",
+          "Data protection and regulatory compliance",
+          "Role-based access control"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Visualization & Reporting",
+        "module_duration": "Week 8",
+        "topics": [
+          "SAP Analytics Cloud dashboards",
+          "Real-time monitoring systems",
+          "KPI tracking"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Edge Computing & Smart Devices",
+        "module_duration": "Week 8",
+        "topics": [
+          "Computing at the edge",
+          "IoT gateways",
+          "Edge AI concepts"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "IoT Application Development",
+        "module_duration": "Week 9",
+        "topics": [
+          "Building IoT-enabled enterprise applications",
+          "SAP Cloud SDK fundamentals",
+          "Event-driven automation"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Integration with SAP AI & Intelligent RPA",
+        "module_duration": "Week 9",
+        "topics": [
+          "AI-driven IoT insights",
+          "Automating processes using SAP iRPA",
+          "Intelligent enterprise use cases"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Best Practices & Industry Case Studies",
+        "module_duration": "Week 10",
+        "topics": [
+          "Smart factory implementations",
+          "Logistics automation",
+          "Connected asset management"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SAP IoT implementation",
+          "Data ingestion and predictive analysis review",
+          "Final workflow automation validation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 240,
+    "total_students_enrolled": 1200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Internet of Things (IoT)?",
+      "answer": "SAP IoT is a platform that connects devices, sensors, and enterprise systems to capture real-time data, enable analytics, and automate business processes within SAP environments."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is IoT in cloud computing?",
+      "answer": "IoT in cloud computing refers to connecting physical devices to cloud platforms where data is processed, analyzed, and integrated into enterprise systems for automation and insights."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the full form of IoT?",
+      "answer": "IoT stands for Internet of Things, which refers to interconnected devices that collect and exchange data over networks."
+    },
+    {
+      "faq_id": 4,
+      "question": "How does SAP IoT integrate with SAP S/4HANA?",
+      "answer": "SAP IoT integrates with SAP S/4HANA by feeding real-time device data into ERP workflows, enabling predictive maintenance, asset management, and automated supply chain operations."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is edge computing in IoT?",
+      "answer": "Edge computing processes data near the device or sensor before sending it to the cloud, reducing latency and improving performance in IoT systems."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is SAP IoT useful for manufacturing?",
+      "answer": "Yes. SAP IoT is widely used in manufacturing for predictive maintenance, smart factory automation, asset monitoring, and supply chain optimization."
+    },
+    {
+      "faq_id": 7,
+      "question": "What are IoT protocols?",
+      "answer": "IoT protocols are communication standards such as MQTT and HTTP that allow devices to transmit data securely to cloud platforms."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can IoT be integrated with SAP AI?",
+      "answer": "Yes. SAP IoT can integrate with SAP AI and machine learning models to enable predictive insights and automated decision-making."
+    },
+    {
+      "faq_id": 9,
+      "question": "What skills are required for SAP IoT?",
+      "answer": "Understanding of IoT architecture, cloud computing, SAP systems, data analytics, and automation tools is helpful."
+    },
+    {
+      "faq_id": 10,
+      "question": "What careers are available after SAP IoT training?",
+      "answer": "You can pursue roles such as SAP IoT Consultant, IoT Architect, Digital Transformation Specialist, and Enterprise Automation Engineer."
+    }
+  ],
+  "target_audience": [
+    "Manufacturing Consultants",
+    "IoT Architects",
+    "BTP Cloud Professionals",
+    "Digital Transformation Specialists"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Internet of Things (IoT) Course | Connected Enterprise Solutions",
+    "meta_description": "Master SAP IoT strategy and sensor integration. Learn predictive maintenance, edge computing, and real-time data analytics for SAP S/4HANA and BTP.",
+    "meta_url": "/courses/sap/sap-internet-of-things-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPOIL-046",
+    "course_uid": "uid-sap-is-oil-gas-industry-solution",
+    "course_title": "SAP IS-Oil & Gas – Industry Solution for Oil & Gas",
+    "course_subtitle": "Comprehensive SAP IS-Oil & Gas Strategy, Upstream, Midstream & Downstream Operations",
+    "course_slug": "sap-is-oil-gas-course",
+    "course_thumbnail": "assets/images/courses/sap-oil-gas-thumb.jpg",
+    "course_short_description": "Master the leading industry solution for the energy sector. Learn Upstream production, Midstream logistics, Downstream refining, and Joint Venture Accounting in SAP S/4HANA.",
+    "course_long_description": "SAP IS-Oil & Gas is an industry-specific SAP solution designed to manage complex operations across the oil and gas value chain. This course trains professionals to configure, implement, and optimize SAP IS-Oil & Gas using SAP S/4HANA and integrated modules like SAP FI/CO, MM, SD, and PM to manage exploration, logistics, and refining.",
+    "about_course": [
+      "Master industry-specific workflows for Upstream, Midstream, and Downstream operations.",
+      "Learn to manage complex Joint Venture Accounting (JVA) and revenue allocation.",
+      "Comprehensive coverage of fuel pricing models, royalties, and excise taxation compliance.",
+      "Integration-focused training with SAP S/4HANA core modules (FI/CO, MM, SD, PM) and IoT."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Instructor-Led / Online",
+    "course_priority": "high",
+    "course_sequence": 7,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-is-oil-gas",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - IS-Oil & Gas",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-oil-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic knowledge of SAP ERP or SAP S/4HANA",
+      "Understanding of oil & gas industry operations",
+      "Familiarity with supply chain or finance processes"
+    ],
+    "key_learnings": [
+      "Configure SAP IS-Oil modules for Upstream, Midstream, and Downstream workflows [Image of SAP IS-Oil and Gas Value Chain Overview]",
+      "Implement Joint Venture Accounting (JVA) for shared production costs",
+      "Optimize fuel pricing models and ensure taxation/HSE compliance",
+      "Deploy real-time operational analytics for energy sector KPIs"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Energy/Utility industries",
+      "Oil & Gas Operations Professionals",
+      "Finance specialists in energy enterprises",
+      "IT Project Managers in ERP transformation"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP IS-Oil Configuration",
+        "Joint Venture Accounting",
+        "Upstream/Downstream Process Mapping"
+      ],
+      "supporting_skills": [
+        "HSE Compliance Management",
+        "Supply Chain Optimization",
+        "Oil & Gas Analytics",
+        "S/4HANA Industry Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP IS-Oil & Gas",
+        "SAP S/4HANA"
+      ],
+      "secondary": [
+        "SAP FI/CO",
+        "SAP MM/SD",
+        "SAP PM",
+        "SAP Analytics Cloud"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP IS-Oil & Gas Consultant",
+      "Energy ERP Consultant",
+      "Upstream / Downstream Process Analyst",
+      "Oil & Gas Digital Transformation Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Design and implement a complete end-to-end SAP IS-Oil & Gas environment covering upstream production, midstream pipeline logistics, downstream refining, accounting, and analytics dashboards."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 14,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP IS-Oil & Gas",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview of industry-specific SAP solutions",
+          "Integration with SAP ECC and SAP S/4HANA",
+          "Energy sector digital transformation"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Upstream Operations",
+        "module_duration": "Week 1",
+        "topics": [
+          "Exploration & production planning [Image of SAP Upstream Exploration and Production Workflow]",
+          "Well management and data capture",
+          "Production allocation and reporting"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Midstream Operations",
+        "module_duration": "Week 2",
+        "topics": [
+          "Pipeline management and scheduling",
+          "Transportation & storage management",
+          "Gas and crude handling"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Downstream Operations",
+        "module_duration": "Week 3",
+        "topics": [
+          "Refining and product processing [Image of SAP Downstream Refining and Distribution process]",
+          "Sales and distribution workflows",
+          "Marketing & order management"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Plant Maintenance & Asset Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Equipment lifecycle tracking",
+          "Preventive & predictive maintenance",
+          "Integration with SAP PM and IoT"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Joint Venture Accounting",
+        "module_duration": "Week 5",
+        "topics": [
+          "Revenue and cost allocation",
+          "Shared production accounting",
+          "SAP FI/CO integration"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Pricing & Taxation",
+        "module_duration": "Week 6",
+        "topics": [
+          "Fuel pricing models",
+          "Royalties and excise compliance",
+          "Integration with SAP SD & MM"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Supply Chain Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "Inventory and warehouse management",
+          "Transportation planning",
+          "End-to-end logistics optimization"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 8",
+        "topics": [
+          "Industry KPIs",
+          "Operational dashboards",
+          "Integration with SAP Analytics Cloud"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Health, Safety & Environment (HSE)",
+        "module_duration": "Week 9",
+        "topics": [
+          "Incident tracking",
+          "Compliance management",
+          "Risk mitigation"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Security & Role Management",
+        "module_duration": "Week 9",
+        "topics": [
+          "Role-based access control",
+          "Audit compliance",
+          "Data governance"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Industry Case Studies",
+        "module_duration": "Week 10",
+        "topics": [
+          "Real-world SAP IS-Oil implementations",
+          "Lessons from global energy enterprises",
+          "Implementation challenges and solutions"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Emerging Technologies",
+        "module_duration": "Week 10",
+        "topics": [
+          "IoT in oil & gas",
+          "AI & predictive maintenance",
+          "Digital twin integration"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end system configuration",
+          "JVA and pricing logic validation",
+          "Final dashboard presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 190,
+    "total_students_enrolled": 1100
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP IS-Oil & Gas?",
+      "answer": "SAP IS-Oil & Gas is an industry-specific SAP solution designed to manage upstream, midstream, and downstream oil and gas operations within SAP ERP and S/4HANA environments."
+    },
+    {
+      "faq_id": 2,
+      "question": "What does SAP IS-Oil cover?",
+      "answer": "It covers exploration, production, pipeline logistics, refining, fuel pricing, joint venture accounting, and regulatory compliance for the energy sector."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP IS-Oil & Gas in demand?",
+      "answer": "Yes. Oil & gas enterprises worldwide require SAP IS-Oil consultants to manage complex operational and financial systems as they undergo digital transformation."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the difference between SAP IS-Oil and SAP S/4HANA?",
+      "answer": "SAP IS-Oil is an industry solution extension layered on top of the standard SAP ERP or S/4HANA to support unique energy-sector business processes."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who can learn SAP IS-Oil & Gas?",
+      "answer": "SAP consultants, energy industry professionals, finance specialists, and IT professionals working in oil & gas or utility companies."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does this course include joint venture accounting?",
+      "answer": "Yes. Joint Venture Accounting (JVA) is a critical module within this course, covering revenue and cost allocation between partners."
+    },
+    {
+      "faq_id": 7,
+      "question": "What industries use SAP IS-Oil?",
+      "answer": "Upstream oil exploration companies, midstream logistics/pipeline firms, downstream refining and marketing enterprises, and integrated energy giants."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP IS-Oil & Gas suitable for beginners?",
+      "answer": "It is an advanced industry solution. It is best suited for professionals who already have a basic understanding of SAP or the oil and gas industry."
+    },
+    {
+      "faq_id": 9,
+      "question": "What tools are integrated with SAP IS-Oil?",
+      "answer": "It integrates with standard SAP modules like FI/CO, MM, SD, and PM, as well as SAP Analytics Cloud and IoT monitoring systems."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles can I pursue after this course?",
+      "answer": "You can target roles such as SAP IS-Oil Consultant, Energy ERP Consultant, Upstream/Downstream Process Analyst, or Energy Digital Transformation Specialist."
+    }
+  ],
+  "target_audience": [
+    "SAP Functional Consultants",
+    "Energy Industry Professionals",
+    "Finance and Accounting Specialists",
+    "Project Managers in Energy Sector"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP IS-Oil & Gas Course | Industry Solution Training | Proximsoft",
+    "meta_description": "Master SAP IS-Oil & Gas. Learn Upstream production, Midstream logistics, Downstream refining, and Joint Venture Accounting in this expert-led S/4HANA course.",
+    "meta_url": "/courses/sap/sap-is-oil-gas-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPRTL-047",
+    "course_uid": "uid-sap-is-retail-merchandise-management",
+    "course_title": "SAP IS-Retail Course",
+    "course_subtitle": "Comprehensive SAP IS-Retail Strategy, Merchandise Management & Store Operations",
+    "course_slug": "sap-is-retail-course",
+    "course_thumbnail": "assets/images/courses/sap-retail-thumb.jpg",
+    "course_short_description": "Master SAP's industry solution for the retail sector. Learn to manage merchandise planning, store operations, omnichannel integration, and real-time inventory control.",
+    "course_long_description": "This SAP IS-Retail course is designed to help professionals master SAP’s Industry Solution for Retail and implement enterprise-grade retail management systems. You will learn to manage end-to-end retail operations, including category management, procurement, pricing, promotions, and supply chain optimization across global retail enterprises.",
+    "about_course": [
+      "Master end-to-end retail operations including merchandise planning and store management.",
+      "Learn to configure pricing strategies, markdown models, and enterprise promotions.",
+      "Comprehensive coverage of POS data integration and real-time sales reconciliation.",
+      "Focuses on omnichannel retail transformation and integration with SAP Commerce Cloud."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 8,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-is-retail",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP S/4HANA Retail",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-retail-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP ERP systems",
+      "Familiarity with retail management processes",
+      "Knowledge of inventory or supply chain management concepts",
+      "Prior SAP MM or SAP SD exposure is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure and manage SAP IS-Retail modules for global retail chains [Image of SAP Retail Architecture and Business Process Integration]",
+      "Implement advanced merchandise and assortment planning strategies",
+      "Optimize store operations, replenishment, and POS data integration",
+      "Enable omnichannel retail workflows and real-time analytics"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Retail or Supply Chain",
+      "Retail Management Professionals",
+      "Inventory and Store Operations Managers",
+      "ERP Implementation Consultants"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP IS-Retail Configuration",
+        "Merchandise & Category Management",
+        "Retail Inventory Optimization"
+      ],
+      "supporting_skills": [
+        "Retail Data Governance",
+        "Demand Forecasting",
+        "Omnichannel Retail Architecture",
+        "POS Systems Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP IS-Retail",
+        "SAP S/4HANA Retail"
+      ],
+      "secondary": [
+        "SAP MM & SD",
+        "SAP Analytics Cloud",
+        "POS Data Management",
+        "SAP Commerce Cloud"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP IS-Retail Consultant",
+      "Retail ERP Consultant",
+      "Merchandise Planning Specialist",
+      "SAP Retail Functional Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP IS-Retail Implementation. Design and configure a complete retail environment including merchandise planning, procurement workflows, pricing, and POS integration."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 14,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP IS-Retail",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP retail architecture overview",
+          "Retail value chain processes",
+          "Integration with SAP S/4HANA Retail"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Merchandise Planning & Assortment Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Assortment planning and allocation",
+          "Product hierarchy and category structures [Image of Retail Product Hierarchy Structure]",
+          "Seasonal and store-specific planning"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Procurement & Vendor Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Purchase order processing",
+          "Vendor master data",
+          "Integration with SAP MM"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Pricing & Promotion Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Pricing strategies and discount models",
+          "Promotion lifecycle management",
+          "POS integration and markdown strategies"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Store Operations & POS Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Store configuration",
+          "POS data integration [Image of POS and SAP ERP Data Synchronization Flow]",
+          "Sales reconciliation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Inventory & Stock Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "Stock monitoring and visibility",
+          "Replenishment strategies",
+          "Inventory optimization techniques"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Supply Chain & Warehouse Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "Retail and warehouse coordination",
+          "Distribution center integration",
+          "Demand forecasting alignment"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Retail Analytics & Reporting",
+        "module_duration": "Week 7",
+        "topics": [
+          "Retail KPIs and dashboards",
+          "Sales and inventory analytics",
+          "Integration with SAP Analytics Cloud"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Omnichannel & E-Retail Integration",
+        "module_duration": "Week 8",
+        "topics": [
+          "Integration with SAP Commerce Cloud",
+          "Online-to-store fulfillment",
+          "Customer experience tracking"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Advanced Retail Features",
+        "module_duration": "Week 8",
+        "topics": [
+          "Loyalty programs",
+          "Planogram and shelf management",
+          "Customer segmentation"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Security & Compliance",
+        "module_duration": "Week 9",
+        "topics": [
+          "Role-based access control",
+          "Data governance",
+          "Audit compliance"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Real-World Retail Case Studies",
+        "module_duration": "Week 9",
+        "topics": [
+          "Implementation architecture",
+          "Store rollout strategy",
+          "Performance optimization"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Retail Data Management & Governance",
+        "module_duration": "Week 10",
+        "topics": [
+          "Master data governance SAP",
+          "Real-time data synchronization",
+          "Data quality management"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SAP IS-Retail implementation",
+          "Merchandise and store operations validation",
+          "Final omnichannel reporting dashboard"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 510,
+    "total_students_enrolled": 3900
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP IS-Retail?",
+      "answer": "SAP IS-Retail is SAP’s industry-specific solution designed to manage end-to-end retail operations including merchandising, procurement, pricing, store operations, and analytics."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between SAP ERP and SAP IS-Retail?",
+      "answer": "SAP ERP provides core enterprise functions, while SAP IS-Retail extends it with retail-specific processes like assortment planning, seasonal promotions, and POS integration."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP IS-Retail in demand?",
+      "answer": "Yes. Retailers globally are migrating to SAP S/4HANA Retail to enable digital transformation and omnichannel experiences, creating a surge in demand for specialists."
+    },
+    {
+      "faq_id": 4,
+      "question": "What are the career opportunities after SAP IS-Retail training?",
+      "answer": "You can target roles such as SAP Retail Consultant, Merchandise Planning Specialist, Retail IT Project Manager, or SAP Functional Consultant."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course include hands-on configuration?",
+      "answer": "Yes. The course features dedicated configuration labs and a complete end-to-end retail implementation capstone project."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is prior SAP experience mandatory?",
+      "answer": "While basic SAP knowledge is helpful, it is not mandatory. Understanding retail business processes is the most important prerequisite."
+    },
+    {
+      "faq_id": 7,
+      "question": "How does SAP IS-Retail support supply chain management?",
+      "answer": "It provides real-time stock visibility across stores and distribution centers, integrating with forecasting modules to automate replenishment."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can SAP IS-Retail integrate with e-commerce platforms?",
+      "answer": "Yes. It is designed to work with SAP Commerce Cloud and other third-party e-commerce systems for omnichannel fulfillment."
+    },
+    {
+      "faq_id": 9,
+      "question": "What industries use SAP IS-Retail?",
+      "answer": "Supermarkets, fashion retailers, department stores, and large e-commerce organizations utilize this module."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is this course aligned with SAP certification?",
+      "answer": "Yes. The curriculum covers the essential concepts required for the SAP S/4HANA Retail implementation certification."
+    }
+  ],
+  "target_audience": [
+    "SAP Consultants",
+    "Retail Managers",
+    "Store Operations Specialists",
+    "ERP Analysts"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP IS-Retail Course | Retail Management Training | Proximsoft",
+    "meta_description": "Master SAP IS-Retail. Learn merchandise planning, store operations, and omnichannel integration in this expert-led certification course.",
+    "meta_url": "/courses/sap/sap-is-retail-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPABAP-048",
+    "course_uid": "uid-sap-abap-development-s4hana-pro",
+    "course_title": "SAP ABAP – Advanced Business Application Programming",
+    "course_subtitle": "End-to-End SAP ABAP Development, Enhancements & S/4HANA Programming",
+    "course_slug": "sap-abap-development-course",
+    "course_thumbnail": "assets/images/courses/sap-abap-thumb.jpg",
+    "course_short_description": "Master the core programming language of SAP. Learn report development, ALV, BAPIs, enhancements, and modern S/4HANA programming including CDS Views and AMDP.",
+    "course_long_description": "The SAP ABAP course is designed to help learners master Advanced Business Application Programming (ABAP) for enterprise SAP environments including SAP ECC and SAP S/4HANA. This course provides end-to-end technical development training covering reports, interfaces, enhancements, forms, object-oriented ABAP, and performance optimization.",
+    "about_course": [
+      "Master end-to-end technical development for SAP ECC and SAP S/4HANA landscapes.",
+      "Learn advanced reporting techniques including ALV Grid, Field Catalogs, and Interactive features.",
+      "Deep dive into the Enhancement Framework, including User Exits, BAdIs, and Customer Exits.",
+      "Modern S/4HANA programming focus covering CDS Views, AMDP, and code push-down techniques."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Advanced",
+    "batch_type": "Flexible, Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 9,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "10 Weeks",
+    "total_duration": "90 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-abap-development",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Development Associate - ABAP with SAP NetWeaver",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-abap-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic programming concepts (variables, loops, conditions)",
+      "Understanding of database fundamentals",
+      "Basic SAP navigation knowledge is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Develop enterprise-grade ABAP reports and interactive ALV interfaces",
+      "Implement custom business logic using the SAP Enhancement Framework ",
+      "Build robust system integrations using BAPIs, IDocs, and RFCs",
+      "Optimize performance for SAP S/4HANA using CDS Views and AMDP "
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP ABAP Developers",
+      "SAP Functional Consultants transitioning to technical roles",
+      "Software Developers entering the SAP ecosystem",
+      "SAP Support professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP ABAP Programming",
+        "ALV & Reporting",
+        "Enhancement Framework",
+        "Interface Development"
+      ],
+      "supporting_skills": [
+        "S/4HANA Programming",
+        "CDS Views & AMDP",
+        "Performance Optimization",
+        "Object-Oriented ABAP"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP ABAP",
+        "SAP GUI",
+        "Eclipse / ABAP Development Tools (ADT)"
+      ],
+      "secondary": [
+        "SAP S/4HANA",
+        "SAP ECC",
+        "SmartForms",
+        "Adobe Forms"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP ABAP Developer",
+      "SAP Technical Consultant",
+      "SAP S/4HANA Developer",
+      "SAP Enhancement & Support Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise ABAP Development Solution. Develop custom reports, implement ALV, create complex enhancements, build IDoc/BAPI interfaces, and optimize performance for S/4HANA."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & ABAP",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP architecture overview ",
+          "ABAP Workbench and development tools",
+          "ABAP Editor and navigation"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "ABAP Data Dictionary",
+        "module_duration": "Week 1",
+        "topics": [
+          "Domains and data elements",
+          "Tables, views, and structures",
+          "Search helps and lock objects"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "ABAP Programming Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Data types and variables",
+          "Control statements",
+          "Internal tables and work areas"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Open SQL & Database Programming",
+        "module_duration": "Week 3",
+        "topics": [
+          "Open SQL queries",
+          "Joins and subqueries",
+          "Performance considerations in database access"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Reports Programming",
+        "module_duration": "Week 4",
+        "topics": [
+          "Classical reports",
+          "Interactive reports",
+          "Selection screens and parameters"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "ALV Reporting",
+        "module_duration": "Week 4",
+        "topics": [
+          "ALV Grid and List display",
+          "Field catalog configuration",
+          "Interactive ALV features"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Object-Oriented ABAP",
+        "module_duration": "Week 5",
+        "topics": [
+          "Classes and objects",
+          "Inheritance and interfaces",
+          "Exception handling"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Modularization Techniques",
+        "module_duration": "Week 6",
+        "topics": [
+          "Function modules",
+          "Subroutines",
+          "Includes and Macros"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Dialog Programming",
+        "module_duration": "Week 7",
+        "topics": [
+          "Module pool programming",
+          "Screen painter and Flow logic",
+          "Table controls"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Enhancements & Exits",
+        "module_duration": "Week 8",
+        "topics": [
+          "User exits and Customer exits",
+          "BAdIs (Business Add-Ins)",
+          "Enhancement Framework implementation"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Forms Development",
+        "module_duration": "Week 8",
+        "topics": [
+          "SAP SmartForms",
+          "Adobe Forms",
+          "Output management configuration"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Interfaces & Integrations",
+        "module_duration": "Week 9",
+        "topics": [
+          "IDoc processing and monitoring",
+          "BAPI usage and implementation",
+          "RFC integration"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "ABAP on SAP S/4HANA",
+        "module_duration": "Week 10",
+        "topics": [
+          "CDS Views",
+          "AMDP (ABAP Managed Database Procedures)",
+          "Code push-down techniques"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Performance Optimization & Debugging",
+        "module_duration": "Week 10",
+        "topics": [
+          "Runtime analysis and SQL tracing",
+          "ABAP Debugger tools",
+          "Optimization strategies"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end development of custom solution",
+          "Enhancement and Interface implementation",
+          "Final performance tuning and testing"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1250,
+    "total_students_enrolled": 9800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP ABAP?",
+      "answer": "SAP ABAP (Advanced Business Application Programming) is the primary programming language used to develop and customize applications within SAP ERP and SAP S/4HANA systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP ABAP still in demand?",
+      "answer": "Yes. SAP ABAP developers are highly demanded for customization, integrations, S/4HANA migrations, and enterprise SAP implementations globally."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between SAP ABAP and SAP FICO?",
+      "answer": "SAP ABAP is a technical programming module used for development, while SAP FICO is a functional module focused on Finance and Controlling business processes."
+    },
+    {
+      "faq_id": 4,
+      "question": "Can beginners learn SAP ABAP?",
+      "answer": "Yes. Beginners with basic programming knowledge can learn SAP ABAP. The course starts with fundamentals before moving to complex enterprise topics."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is ABAP on S/4HANA?",
+      "answer": "ABAP on S/4HANA includes modern development techniques such as CDS Views, AMDP, and code push-down strategies optimized specifically for the SAP HANA in-memory database."
+    },
+    {
+      "faq_id": 6,
+      "question": "What jobs can I get after SAP ABAP training?",
+      "answer": "You can work as an SAP ABAP Developer, SAP Technical Consultant, S/4HANA Developer, or SAP Support Consultant."
+    },
+    {
+      "faq_id": 7,
+      "question": "Does this course prepare for SAP certification?",
+      "answer": "Yes. The course builds strong technical foundations aligned with SAP certification standards and prepares you for the Certified Development Associate exam."
+    }
+  ],
+  "target_audience": [
+    "Aspiring SAP Developers",
+    "Functional Consultants going Technical",
+    "IT Professionals",
+    "Software Engineers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP ABAP Course | SAP Development Training | Proximsoft",
+    "meta_description": "Master SAP ABAP programming. Learn reports, ALV, BAPIs, and S/4HANA concepts like CDS Views and AMDP in this expert-led, project-based course.",
+    "meta_url": "/courses/sap/sap-abap-development-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPHANA-049",
+    "course_uid": "uid-sap-abap-on-s4hana-modern-development",
+    "course_title": "SAP ABAP on S/4HANA Course",
+    "course_subtitle": "Modern ABAP Development for SAP S/4HANA, CDS, AMDP & Performance Optimization",
+    "course_slug": "sap-abap-on-s4hana-course",
+    "course_thumbnail": "assets/images/courses/sap-abap-s4-thumb.jpg",
+    "course_short_description": "Upgrade your technical skills for the future. Master HANA-optimized programming, Core Data Services (CDS), AMDP, and code pushdown techniques for S/4HANA migrations.",
+    "course_long_description": "This SAP ABAP on S/4HANA course is designed for developers and technical consultants who want to build modern ABAP applications aligned with SAP S/4HANA architecture. Unlike classical ABAP, this program focuses on HANA-optimized programming, CDS Views, ABAP Managed Database Procedures (AMDP), and custom code adaptation for S/4HANA migrations.",
+    "about_course": [
+      "Master modern ABAP development focused on SAP HANA in-memory database capabilities.",
+      "Learn to design high-performance data models using Core Data Services (CDS).",
+      "Comprehensive training on code pushdown techniques and AMDP (SQLScript).",
+      "Prepare for enterprise-scale S/4HANA migration projects and custom code adaptation."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 10,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "64 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-abap-on-s4hana",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Development Specialist - ABAP for SAP HANA",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-abap-s4-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Hands-on experience with classical ABAP programming",
+      "Understanding of SAP tables, reports, and enhancements",
+      "Exposure to SAP ECC environments (preferred)"
+    ],
+    "key_learnings": [
+      "Design advanced data models using Core Data Services (CDS) [Image of SAP CDS View Architecture and Annotation Layers]",
+      "Develop high-performance database-level logic using AMDP",
+      "Apply code pushdown strategies to leverage HANA in-memory speed",
+      "Adapt and refactor custom legacy code for S/4HANA migration compatibility"
+    ],
+    "ideal_candidates": [
+      "SAP ABAP Developers upgrading to S/4HANA",
+      "SAP Technical Consultants",
+      "Developers involved in ECC to S/4HANA migration projects",
+      "SAP Support Professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP ABAP on S/4HANA",
+        "CDS Views",
+        "AMDP Development",
+        "Code Pushdown"
+      ],
+      "supporting_skills": [
+        "Performance Optimization",
+        "Custom Code Adaptation",
+        "SQLScript Basics",
+        "Integration & OData"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA",
+        "SAP HANA Database",
+        "ABAP Development Tools (ADT)"
+      ],
+      "secondary": [
+        "CDS Views",
+        "AMDP",
+        "Eclipse IDE",
+        "ATC (ABAP Test Cockpit)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP ABAP on S/4HANA Developer",
+      "SAP Technical Consultant",
+      "S/4HANA Migration Developer",
+      "SAP Application Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: S/4HANA Modern ABAP Application. Build CDS-based data models, develop AMDP procedures, and refactor classical ABAP code into a HANA-optimized enterprise solution."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "SAP S/4HANA Architecture Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP HANA database fundamentals [Image of SAP HANA In-Memory Database Architecture]",
+          "S/4HANA system architecture",
+          "Key differences between ECC and S/4HANA"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "S/4HANA Data Model Simplification",
+        "module_duration": "Week 1",
+        "topics": [
+          "Universal Journal (ACDOCA)",
+          "Simplified table structures",
+          "Impact on custom development"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "HANA-Optimized Open SQL",
+        "module_duration": "Week 2",
+        "topics": [
+          "New Open SQL syntax",
+          "Code refactoring strategies",
+          "Performance best practices"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Core Data Services (CDS) – Foundations",
+        "module_duration": "Week 3",
+        "topics": [
+          "CDS architecture",
+          "Basic CDS views",
+          "Annotations and metadata"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced CDS Development",
+        "module_duration": "Week 4",
+        "topics": [
+          "Associations and joins",
+          "Analytical CDS views",
+          "Authorization handling"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "ABAP Managed Database Procedures (AMDP)",
+        "module_duration": "Week 5",
+        "topics": [
+          "AMDP concepts",
+          "SQLScript basics [Image of ABAP Managed Database Procedure (AMDP) workflow]",
+          "Performance-intensive scenarios"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Code Pushdown Techniques",
+        "module_duration": "Week 6",
+        "topics": [
+          "Pushdown strategy",
+          "Minimizing data transfers",
+          "Real-time processing logic"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Custom Code Adaptation for S/4HANA",
+        "module_duration": "Week 7",
+        "topics": [
+          "Simplification Item Catalog",
+          "Custom code migration tools",
+          "ATC with S/4HANA checks"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Performance Optimization & Debugging",
+        "module_duration": "Week 7",
+        "topics": [
+          "SQL trace and runtime analysis",
+          "Debugging CDS and AMDP",
+          "Optimization strategies"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "S/4HANA Enhancements & Extensions",
+        "module_duration": "Week 8",
+        "topics": [
+          "Enhancement framework",
+          "BAdIs in S/4HANA",
+          "In-app extensibility concepts"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Integration & OData Basics",
+        "module_duration": "Week 8",
+        "topics": [
+          "OData service fundamentals",
+          "API-based development",
+          "Integration architecture"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end S/4HANA ABAP development",
+          "CDS and AMDP implementation",
+          "Optimized enterprise scenario validation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 460,
+    "total_students_enrolled": 3200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP ABAP on S/4HANA?",
+      "answer": "SAP ABAP on S/4HANA is modern ABAP development optimized for the SAP HANA database, including CDS Views, AMDP, and performance-focused programming techniques."
+    },
+    {
+      "faq_id": 2,
+      "question": "How is ABAP on S/4HANA different from classical ABAP?",
+      "answer": "Classical ABAP focuses on application-server processing, while ABAP on S/4HANA emphasizes code pushdown, in-memory optimization, CDS modeling, and HANA-based logic."
+    },
+    {
+      "faq_id": 3,
+      "question": "What are CDS Views in SAP S/4HANA?",
+      "answer": "Core Data Services (CDS) Views are advanced data modeling objects used for reporting, analytics, and optimized database access in S/4HANA."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is AMDP in SAP?",
+      "answer": "ABAP Managed Database Procedures (AMDP) allow developers to write database-level logic using SQLScript for high-performance scenarios."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP ABAP on S/4HANA in demand?",
+      "answer": "Yes. With global S/4HANA migrations increasing, demand for S/4HANA-ready ABAP developers is growing significantly across all major industries."
+    },
+    {
+      "faq_id": 6,
+      "question": "Do I need classical ABAP knowledge first?",
+      "answer": "Yes. Prior hands-on experience with ABAP programming is required before learning S/4HANA development standards."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is code pushdown in SAP HANA?",
+      "answer": "Code pushdown moves processing logic from the application server to the HANA database for better performance and scalability."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can this course help in S/4HANA migration projects?",
+      "answer": "Yes. The course covers custom code adaptation, simplification items, and migration readiness practices essential for transition projects."
+    },
+    {
+      "faq_id": 9,
+      "question": "What tools are used for modern ABAP development?",
+      "answer": "ABAP Development Tools (ADT) in Eclipse, CDS Views, AMDP, and SAP HANA-based optimization tools like ATC are commonly used."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career growth can I expect after this course?",
+      "answer": "You can progress into senior ABAP developer roles, S/4HANA technical consultant roles, or lead migration and optimization projects for enterprise clients."
+    }
+  ],
+  "target_audience": [
+    "SAP ABAP Developers",
+    "Technical Consultants",
+    "Migration Specialists",
+    "Software Engineers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP ABAP on S/4HANA Course | Modern Development Training | Proximsoft",
+    "meta_description": "Master modern ABAP for S/4HANA. Learn CDS Views, AMDP, and code pushdown techniques in this expert-led performance optimization course.",
+    "meta_url": "/courses/sap/sap-abap-on-s4hana-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPBAS-050",
+    "course_uid": "uid-sap-basis-system-administration-pro",
+    "course_title": "SAP Basis – System Administration Course",
+    "course_subtitle": "End-to-End SAP Basis Administration, Monitoring & S/4HANA System Management",
+    "course_slug": "sap-basis-system-administration-course",
+    "course_thumbnail": "assets/images/courses/sap-basis-thumb.jpg",
+    "course_short_description": "Master the technical foundation of SAP. Learn system installation, transport management (TMS), user security, and S/4HANA administration to maintain enterprise SAP landscapes.",
+    "course_long_description": "This SAP Basis – System Administration course is designed to train professionals in managing, monitoring, and maintaining enterprise SAP landscapes including SAP ECC and SAP S/4HANA systems. The course covers system installation, landscape architecture, client administration, user management, and performance tuning.",
+    "about_course": [
+      "Master the technical foundation required to manage stable and secure SAP production environments.",
+      "Learn end-to-end Transport Management (TMS) and Client Administration workflows.",
+      "Comprehensive training on User Administration, Role Management, and Authorization concepts.",
+      "Deep dive into modern S/4HANA architecture and HANA-specific administration tasks."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 11,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-basis-administration",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Technology Associate - System Administration",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-basis-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of operating systems (Linux / Windows)",
+      "Fundamental networking knowledge",
+      "General IT administration concepts",
+      "No prior SAP experience is mandatory"
+    ],
+    "key_learnings": [
+      "Administer enterprise-scale SAP ECC and S/4HANA landscapes ",
+      "Configure and manage the Change and Transport System (TMS)",
+      "Implement robust user security and authorization models",
+      "Perform SAP system monitoring and performance tuning for high uptime"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP Basis Administrators",
+      "System & Network Administrators",
+      "SAP Support Professionals",
+      "IT Infrastructure Engineers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Basis Administration",
+        "SAP System Monitoring",
+        "Transport Management (TMS)"
+      ],
+      "supporting_skills": [
+        "User & Security Management",
+        "S/4HANA Technical Operations",
+        "Kernel & Patch Management",
+        "Backup & Recovery Strategies"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP ECC",
+        "SAP S/4HANA",
+        "SAP GUI"
+      ],
+      "secondary": [
+        "SAP HANA Database",
+        "Linux OS",
+        "SAP HANA Studio",
+        "Software Provisioning Manager (SWPM)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Basis Administrator",
+      "SAP Technical Consultant",
+      "SAP System Administrator",
+      "SAP Support Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise SAP System Administration. Perform a complete system setup, configure transport routes, manage user role security, and conduct a full system performance optimization."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & Basis Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP ERP and S/4HANA overview",
+          "SAP system architecture ",
+          "Role of SAP Basis Administrator"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP Landscape & Architecture",
+        "module_duration": "Week 1",
+        "topics": [
+          "Development, QA, and Production systems",
+          "SAP instances and services",
+          "System sizing fundamentals"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Operating System & Database Basics",
+        "module_duration": "Week 2",
+        "topics": [
+          "OS concepts for SAP",
+          "SAP HANA and database overview",
+          "File system structure"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SAP System Installation",
+        "module_duration": "Week 3",
+        "topics": [
+          "SAP installation lifecycle overview",
+          "Installation tools and prerequisites (SWPM)",
+          "Post-installation configuration"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Client Administration",
+        "module_duration": "Week 3",
+        "topics": [
+          "Client concepts",
+          "Client creation, copy, and deletion",
+          "Client settings management"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "User Administration & Security",
+        "module_duration": "Week 4",
+        "topics": [
+          "User types and roles",
+          "Authorization concepts",
+          "Password policies and security controls"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Transport Management System (TMS)",
+        "module_duration": "Week 5",
+        "topics": [
+          "Transport routes configuration",
+          "Change and transport requests",
+          "Import/export management"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Background Jobs & Spool Administration",
+        "module_duration": "Week 5",
+        "topics": [
+          "Job scheduling and monitoring",
+          "Spool configuration",
+          "Printer setup and management"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "System Monitoring & Performance Tuning",
+        "module_duration": "Week 6",
+        "topics": [
+          "Workload analysis (ST03N)",
+          "System logs and dumps (ST22)",
+          "Performance optimization fundamentals"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "SAP Kernel & Patch Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Kernel upgrades",
+          "Support packages (SPAM/SAINT)",
+          "Patch management strategies"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Backup & Recovery Concepts",
+        "module_duration": "Week 7",
+        "topics": [
+          "Backup strategies",
+          "Recovery planning",
+          "System refresh basics"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "SAP S/4HANA Basis Administration",
+        "module_duration": "Week 8",
+        "topics": [
+          "S/4HANA architecture overview ",
+          "HANA-specific administration",
+          "Simplified data model implications"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "System Refresh, Copy & Migration",
+        "module_duration": "Week 9",
+        "topics": [
+          "System copy methods",
+          "Refresh strategies",
+          "Migration overview"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Troubleshooting & Incident Management",
+        "module_duration": "Week 10",
+        "topics": [
+          "Common SAP Basis issues",
+          "Root cause analysis",
+          "SAP support tools"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SAP landscape management",
+          "System setup and monitoring",
+          "Real-world enterprise support simulation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 1420,
+    "total_students_enrolled": 11500
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Basis?",
+      "answer": "SAP Basis is the technical administration layer of SAP systems responsible for installation, configuration, monitoring, performance optimization, and system maintenance."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP Basis a good career option?",
+      "answer": "Yes. SAP Basis professionals are in steady demand across enterprises that rely on SAP ERP and S/4HANA systems for their business operations."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need coding skills for SAP Basis?",
+      "answer": "No advanced coding is required. Basis is a technical administrative role requiring knowledge of operating systems, databases, and networking."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the difference between SAP Basis and ABAP?",
+      "answer": "SAP Basis focuses on system administration and infrastructure, while ABAP is the programming language used to develop applications on top of that infrastructure."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP Basis relevant for S/4HANA?",
+      "answer": "Yes. SAP Basis skills are essential for managing S/4HANA landscapes, including the administration of the underlying SAP HANA database."
+    },
+    {
+      "faq_id": 6,
+      "question": "What tools are used in SAP Basis administration?",
+      "answer": "Common tools include SAP GUI, SAP HANA Studio, Solution Manager, and various OS-level performance monitoring tools."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is Transport Management System (TMS)?",
+      "answer": "TMS is the tool used by Basis admins to move development and configuration changes across the system landscape (e.g., from Dev to QA to Prod)."
+    },
+    {
+      "faq_id": 8,
+      "question": "What is system refresh in SAP?",
+      "answer": "System refresh is a process of copying production data into a non-production system (like QA or Dev) to ensure testers have up-to-date data."
+    },
+    {
+      "faq_id": 9,
+      "question": "Can beginners learn SAP Basis?",
+      "answer": "Yes. With a basic foundation in IT systems or networking, beginners can transition into SAP Basis through this structured learning path."
+    },
+    {
+      "faq_id": 10,
+      "question": "What job roles can SAP Basis lead to?",
+      "answer": "Common roles include SAP Basis Administrator, SAP Technical Consultant, SAP System Engineer, and SAP Infrastructure Specialist."
+    }
+  ],
+  "target_audience": [
+    "IT Administrators",
+    "Infrastructure Engineers",
+    "SAP Support Teams",
+    "Network Administrators"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Basis Administration Course | SAP System Admin Training | Proximsoft",
+    "meta_description": "Master SAP Basis administration. Learn system installation, TMS, user security, and monitoring for ECC and S/4HANA in this project-based course.",
+    "meta_url": "/courses/sap/sap-basis-system-administration-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPBTP-051",
+    "course_uid": "uid-sap-business-technology-platform-expert",
+    "course_title": "SAP BTP – Business Technology Platform",
+    "course_subtitle": "End-to-End SAP BTP Development, Integration, Extension & Analytics Training",
+    "course_slug": "sap-btp-training-course",
+    "course_thumbnail": "assets/images/courses/sap-btp-thumb.jpg",
+    "course_short_description": "Master SAP's unified cloud platform. Learn to build cloud-native apps, integrate enterprise systems, and extend S/4HANA using Integration Suite, Extension Suite, and SAP Build.",
+    "course_long_description": "This SAP Business Technology Platform (BTP) course is designed to build strong expertise in SAP’s cloud platform for application development, integration, automation, analytics, and enterprise extensions. You will learn end-to-end architecture including Cloud Foundry, ABAP Environment, Integration Suite, and API Management to design enterprise-grade cloud solutions.",
+    "about_course": [
+      "Master the five pillars of SAP BTP: App Development, Integration, Data & Analytics, AI, and Automation.",
+      "Learn to extend SAP S/4HANA and SuccessFactors with side-by-side extensibility patterns.",
+      "Hands-on training with Integration Suite (CPI) to connect SAP and third-party systems.",
+      "Explore low-code/no-code development with SAP Build for rapid business process automation."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 12,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "10 Weeks",
+    "total_duration": "90 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-btp-mastery",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate - SAP Business Technology Platform",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-btp-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems",
+      "Familiarity with business processes",
+      "Programming exposure (ABAP / Java / JavaScript) helpful",
+      "Cloud knowledge is beneficial but not mandatory"
+    ],
+    "key_learnings": [
+      "Design enterprise cloud architectures using SAP BTP foundational services ",
+      "Implement real-time and batch integrations using SAP Integration Suite",
+      "Build side-by-side extensions for SAP S/4HANA using ABAP RAP and CAP models",
+      "Automate complex business workflows using SAP Build Process Automation"
+    ],
+    "ideal_candidates": [
+      "SAP Developers and Technical Consultants",
+      "ABAP / Java Developers transitioning to cloud",
+      "SAP Integration Professionals",
+      "Functional Consultants moving to cloud roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP BTP Architecture",
+        "Cloud Integration (CPI)",
+        "Side-by-Side Extensibility",
+        "API Management"
+      ],
+      "supporting_skills": [
+        "SAP Build (LCNC)",
+        "Event-Driven Design",
+        "Cloud Application Programming Model (CAP)",
+        "Identity Management (IAS/IPS)"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Business Technology Platform",
+        "SAP Integration Suite",
+        "SAP Build"
+      ],
+      "secondary": [
+        "Cloud Foundry",
+        "SAP Datasphere",
+        "Event Mesh",
+        "Business Application Studio (BAS)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP BTP Developer",
+      "Cloud Integration Consultant",
+      "SAP Technical Architect (BTP)",
+      "SAP Cloud Platform Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise SAP BTP Cloud Solution. Design a complete solution including account setup, cloud-native application development in Cloud Foundry, and S/4HANA extension using the Integration Suite."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP BTP",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP BTP overview and architecture",
+          "Value proposition and enterprise use cases",
+          "Platform services overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Account & Subaccount Setup",
+        "module_duration": "Week 1",
+        "topics": [
+          "Global account configuration",
+          "Subaccounts and entitlements",
+          "Regions, quotas, and resource planning"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Security & Identity Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "User and role management",
+          "Identity Authentication Service (IAS)",
+          "Identity Provisioning Service (IPS)"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Cloud Foundry Environment",
+        "module_duration": "Week 3",
+        "topics": [
+          "Cloud Foundry fundamentals",
+          "Orgs and spaces configuration",
+          "Application lifecycle management"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "SAP BTP ABAP Environment",
+        "module_duration": "Week 3",
+        "topics": [
+          "ABAP Cloud concepts",
+          "ABAP RESTful Application Programming Model (RAP) ",
+          "Cloud-ready ABAP development"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "SAP Extension Suite",
+        "module_duration": "Week 4",
+        "topics": [
+          "Side-by-side extensibility patterns",
+          "In-app vs side-by-side extensions",
+          "Extension architecture best practices"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "SAP Integration Suite",
+        "module_duration": "Week 5",
+        "topics": [
+          "Integration architecture overview",
+          "Cloud Integration (CPI) and iFlows ",
+          "Real-time and batch integrations"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "API Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "API lifecycle management",
+          "API security policies and protection",
+          "Monitoring and developer portal"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "SAP Build (Low-Code / No-Code)",
+        "module_duration": "Week 7",
+        "topics": [
+          "SAP Build Apps development",
+          "SAP Build Process Automation",
+          "Workflow design and decision logic"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Event-Driven Architecture",
+        "module_duration": "Week 7",
+        "topics": [
+          "SAP Event Mesh fundamentals",
+          "Messaging and asynchronous integration",
+          "Event-based enterprise design patterns"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Data & Analytics on BTP",
+        "module_duration": "Week 8",
+        "topics": [
+          "SAP Datasphere overview",
+          "SAP Analytics Cloud integration",
+          "Data modeling and governance"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Application Development on BTP",
+        "module_duration": "Week 9",
+        "topics": [
+          "Node.js and Java development on BTP",
+          "Cloud Application Programming Model (CAP)",
+          "Deployment strategies and CI/CD"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Monitoring & Operations",
+        "module_duration": "Week 9",
+        "topics": [
+          "Logging and health monitoring",
+          "Performance tracking tools",
+          "Alerting and lifecycle management"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Integration with SAP S/4HANA & Cloud Apps",
+        "module_duration": "Week 10",
+        "topics": [
+          "S/4HANA connectivity (Cloud Connector)",
+          "SuccessFactors integration scenarios",
+          "Secure data exchange best practices"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end BTP solution development",
+          "Integration and Analytics validation",
+          "Final deployment and project review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 420,
+    "total_students_enrolled": 3600
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP BTP?",
+      "answer": "SAP Business Technology Platform (BTP) is SAP’s unified cloud platform for application development, integration, automation, analytics, and data management."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP BTP in demand?",
+      "answer": "Yes. SAP BTP skills are highly demanded as more enterprises migrate to S/4HANA and adopt digital transformation strategies using SAP cloud technologies."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between SAP BTP and SAP S/4HANA?",
+      "answer": "SAP S/4HANA is the digital core ERP, while SAP BTP is the platform used to extend, integrate, and enhance that core with new capabilities."
+    },
+    {
+      "faq_id": 4,
+      "question": "Do I need ABAP knowledge for SAP BTP?",
+      "answer": "Not mandatory, but knowledge of ABAP (specifically RAP), Java, or JavaScript is very helpful for development-focused roles on the platform."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is SAP Integration Suite?",
+      "answer": "SAP Integration Suite is a core BTP service used for connecting SAP and non-SAP applications using APIs, pre-built adapters, and iFlows."
+    },
+    {
+      "faq_id": 6,
+      "question": "What is SAP Build?",
+      "answer": "SAP Build is a low-code/no-code development suite that allows business users and developers to create apps and automate processes rapidly."
+    },
+    {
+      "faq_id": 7,
+      "question": "Can beginners learn SAP BTP?",
+      "answer": "Professionals with a basic SAP or IT background can successfully learn BTP. The course starts from account setup before moving to complex services."
+    },
+    {
+      "faq_id": 8,
+      "question": "What jobs can I get after SAP BTP training?",
+      "answer": "You can apply for roles such as SAP BTP Developer, Cloud Integration Consultant, BTP Architect, or Extension Consultant."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP BTP related to cloud computing?",
+      "answer": "Yes. SAP BTP is a Platform-as-a-Service (PaaS) offering that runs on hyperscalers like AWS, Azure, and Google Cloud."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is SAP BTP certification valuable?",
+      "answer": "Yes. Certification validates your expertise in SAP’s modern cloud ecosystem and is highly regarded by partners and enterprises during hiring."
+    }
+  ],
+  "target_audience": [
+    "SAP Developers",
+    "Technical Consultants",
+    "Integration Specialists",
+    "Functional Consultants moving to Cloud"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP BTP Course | Business Technology Platform Training | Proximsoft",
+    "meta_description": "Master SAP BTP. Learn Integration Suite, Extension Suite, SAP Build, and cloud development to drive digital transformation. Expert-led training.",
+    "meta_url": "/courses/sap/sap-btp-training-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPBW4-052",
+    "course_uid": "uid-sap-bw4hana-data-warehousing-expert",
+    "course_title": "SAP BW/4HANA – Data Warehousing",
+    "course_subtitle": "Modern SAP Data Warehousing with BW/4HANA Modeling, Data Flows & Analytics",
+    "course_slug": "sap-bw4hana-data-warehousing-course",
+    "course_thumbnail": "assets/images/courses/sap-bw4hana-thumb.jpg",
+    "course_short_description": "Master next-generation data warehousing. Learn BW/4HANA architecture, ADSO modeling, and real-time analytics optimization on SAP HANA.",
+    "course_long_description": "This SAP BW/4HANA course is designed to help professionals build modern enterprise data warehouse solutions. Unlike legacy systems, BW/4HANA is fully optimized for SAP HANA, enabling high-performance modeling, real-time reporting, and scalable analytics architectures aligned with S/4HANA.",
+    "about_course": [
+      "Master BW/4HANA architecture and Eclipse-based modeling tools.",
+      "Learn to design Advanced DataStore Objects (ADSO) and CompositeProviders.",
+      "Comprehensive training on data acquisition from SAP and non-SAP systems.",
+      "Focuses on performance optimization using HANA push-down logic and real-time data flows."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 13,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "10 Weeks",
+    "total_duration": "90 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-bw4hana",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - Reporting, Modeling and Data Acquisition with SAP BW/4HANA",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-bw4hana-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of databases or reporting systems",
+      "Familiarity with business intelligence concepts",
+      "Basic SAP exposure is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design enterprise-grade BW/4HANA data models using ADSOs and CompositeProviders ",
+      "Implement high-performance data acquisition pipelines using ODP and SLT",
+      "Optimize analytical queries using SAP HANA push-down logic",
+      "Integrate BW/4HANA with modern frontend tools like SAP Analytics Cloud"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP BW/4HANA Consultants",
+      "Legacy SAP BW / BI professionals upgrading skills",
+      "Data Warehouse Analysts",
+      "BI professionals working with SAP data"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP BW/4HANA Modeling",
+        "Data Warehousing Architecture",
+        "SAP HANA Optimization"
+      ],
+      "supporting_skills": [
+        "Data Acquisition & ETL",
+        "Enterprise Reporting",
+        "Data Governance",
+        "Performance Tuning"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP BW/4HANA",
+        "SAP HANA",
+        "BW Modeling Tools (Eclipse)"
+      ],
+      "secondary": [
+        "SAP Analytics Cloud",
+        "SAP Data Services",
+        "SLT Replication"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP BW/4HANA Consultant",
+      "SAP BI / Analytics Consultant",
+      "Data Warehouse Analyst",
+      "SAP Reporting Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise SAP Data Warehouse. Build a full BW/4HANA solution covering data extraction, ADSO modeling, Process Chains, and a final reporting layer."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Data Warehousing & SAP BW/4HANA",
+        "module_duration": "Week 1",
+        "topics": [
+          "Data warehouse architecture concepts",
+          "Evolution from SAP BW to BW/4HANA",
+          "Enterprise analytics use cases"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP HANA & BW/4HANA Architecture",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP HANA fundamentals",
+          "BW/4HANA system architecture ",
+          "Simplification and modeling approach"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "BW Modeling Tools (Eclipse-Based)",
+        "module_duration": "Week 2",
+        "topics": [
+          "Eclipse BW Modeling Tools setup",
+          "Object lifecycle management",
+          "Transport and governance concepts"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "InfoObjects & Master Data",
+        "module_duration": "Week 3",
+        "topics": [
+          "InfoObject structure",
+          "Master data modeling",
+          "Attributes and hierarchies"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced DataStore Objects (ADSO)",
+        "module_duration": "Week 4",
+        "topics": [
+          "ADSO types and architecture",
+          "Write-optimized vs reporting ADSOs",
+          "Data loading techniques"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "CompositeProviders",
+        "module_duration": "Week 4",
+        "topics": [
+          "Virtual data modeling ",
+          "Join and union scenarios",
+          "Performance best practices"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Open ODS Views",
+        "module_duration": "Week 5",
+        "topics": [
+          "Integration with non-SAP sources",
+          "External data access",
+          "Virtual data consumption"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Data Acquisition",
+        "module_duration": "Week 6",
+        "topics": [
+          "SAP source system integration",
+          "ODP & SLT extraction",
+          "Flat files and external sources"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Transformations & DTP",
+        "module_duration": "Week 6",
+        "topics": [
+          "Transformation logic",
+          "Data Transfer Processes (DTP)",
+          "Error handling & monitoring"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Process Chains",
+        "module_duration": "Week 7",
+        "topics": [
+          "Process chain design ",
+          "Scheduling and automation",
+          "Monitoring best practices"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Reporting & Analytics Integration",
+        "module_duration": "Week 8",
+        "topics": [
+          "BW Query creation",
+          "Integration with SAP Analytics tools",
+          "Reporting best practices"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Authorization & Security",
+        "module_duration": "Week 8",
+        "topics": [
+          "Analysis authorizations",
+          "Role-based access control",
+          "Data governance"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Performance Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "HANA push-down logic",
+          "Query optimization",
+          "Data volume management"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Migration & Real-Time Scenarios",
+        "module_duration": "Week 10",
+        "topics": [
+          "BW to BW/4HANA migration paths",
+          "Real-time data warehousing",
+          "Enterprise modernization strategy"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end implementation",
+          "Modeling and reporting validation",
+          "Final performance review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 440,
+    "total_students_enrolled": 3100
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP BW/4HANA?",
+      "answer": "SAP BW/4HANA is SAP’s next-generation enterprise data warehousing platform built exclusively for SAP HANA, enabling high-performance data modeling and analytics."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between SAP BW and BW/4HANA?",
+      "answer": "BW/4HANA is optimized for SAP HANA, simplifies modeling by removing legacy objects, and significantly improves performance compared to traditional BW."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP BW/4HANA still relevant in 2026?",
+      "answer": "Yes. Large enterprises continue to use it for high-volume centralized reporting alongside SAP S/4HANA."
+    },
+    {
+      "faq_id": 4,
+      "question": "What skills will I learn in this course?",
+      "answer": "You will learn ADSO modeling, CompositeProviders, data extraction (ODP/SLT), process chains, and HANA optimization."
+    },
+    {
+      "faq_id": 5,
+      "question": "Do I need SAP experience to learn BW/4HANA?",
+      "answer": "Basic SAP knowledge helps, but a strong understanding of database or reporting concepts is the primary requirement."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is this course aligned with SAP certification?",
+      "answer": "Yes, it covers core concepts required for SAP data warehousing certification paths."
+    },
+    {
+      "faq_id": 7,
+      "question": "What tools are used in SAP BW/4HANA development?",
+      "answer": "You will use Eclipse-based BW Modeling Tools, the BW Cockpit, and SAP HANA Studio."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can SAP BW/4HANA integrate with non-SAP systems?",
+      "answer": "Yes, via Open ODS Views, SDI, and various modern data acquisition adapters."
+    },
+    {
+      "faq_id": 9,
+      "question": "What career roles are available after this course?",
+      "answer": "Roles include SAP BW/4HANA Consultant, BI Analyst, and Reporting Specialist."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is SAP BW/4HANA suitable for data engineers?",
+      "answer": "Absolutely. It is a critical skill for engineers managing data landscapes in SAP-centric enterprises."
+    }
+  ],
+  "target_audience": [
+    "Aspiring BW Consultants",
+    "BI Professionals",
+    "Data Warehouse Analysts",
+    "Functional Consultants moving to Analytics"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP BW/4HANA Course | Data Warehousing Training | Proximsoft",
+    "meta_description": "Master SAP BW/4HANA. Learn advanced data modeling, data acquisition, and HANA performance optimization in this project-led certification course.",
+    "meta_url": "/courses/sap/sap-bw4hana-data-warehousing-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPCPI-053",
+    "course_uid": "uid-sap-cloud-platform-integration-developer",
+    "course_title": "SAP CPI – Cloud Platform Integration",
+    "course_subtitle": "End-to-End SAP Cloud Integration (CPI) Development, iFlows & Hybrid Integration Training",
+    "course_slug": "sap-cpi-cloud-integration-course",
+    "course_thumbnail": "assets/images/courses/sap-cpi-thumb.jpg",
+    "course_short_description": "Bridge the cloud gap. Learn to design iFlows, manage APIs, and build secure hybrid integrations using SAP BTP Integration Suite.",
+    "course_long_description": "The SAP CPI course is designed to help professionals build, deploy, and manage enterprise-grade integrations using SAP BTP. It focuses on Cloud Platform Integration (CPI) development, iFlows design, API-based connectivity, and real-time data synchronization across hybrid SAP and non-SAP environments.",
+    "about_course": [
+      "Master the Integration Suite components within the SAP BTP ecosystem.",
+      "Learn to design, configure, and deploy complex integration flows (iFlows).",
+      "Hands-on experience with secure adapters (OData, SFTP, IDoc) and API Management.",
+      "Focuses on real-world hybrid integration patterns and Groovy scripting for advanced logic."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible | Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 14,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-cpi",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate - Integration Associate - SAP Integration Suite",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-cpi-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems (ECC or S/4HANA)",
+      "Knowledge of APIs and web services",
+      "Familiarity with XML and JSON data formats",
+      "Basic understanding of cloud platforms is helpful"
+    ],
+    "key_learnings": [
+      "Design end-to-end integration flows (iFlows) using standard patterns ",
+      "Implement secure API-based connectivity and hybrid integration scenarios",
+      "Apply advanced message mapping and Groovy scripting for complex data transformations",
+      "Monitor and troubleshoot integration performance using Message Monitoring and Log Analysis"
+    ],
+    "ideal_candidates": [
+      "SAP Technical Consultants",
+      "ABAP Developers transitioning to cloud integration",
+      "Middleware Developers and Cloud Engineers",
+      "IT professionals working on S/4HANA migration projects"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP CPI Development",
+        "iFlows Configuration",
+        "Enterprise Integration Architecture"
+      ],
+      "supporting_skills": [
+        "API-Based Connectivity",
+        "Groovy Scripting",
+        "Hybrid Cloud Integration",
+        "Security & Authentication"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Cloud Platform Integration (CPI)",
+        "SAP BTP",
+        "Integration Suite"
+      ],
+      "secondary": [
+        "API Management",
+        "OData Services",
+        "Groovy Scripting",
+        "SOAP & REST APIs"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP CPI Consultant",
+      "SAP Integration Developer",
+      "SAP BTP Integration Specialist",
+      "Cloud Integration Architect"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise SAP Integration Scenario. Build a real-world SAP CPI solution integrating S/4HANA with third-party apps, featuring secure authentication and error handling."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 8,
+      "total_lectures": 25
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP CPI & SAP BTP",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP BTP overview and platform services",
+          "SAP CPI architecture and components",
+          "Cloud integration fundamentals"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Integration Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "SOAP vs REST APIs in SAP context",
+          "IDoc, OData, and RFC integration patterns ",
+          "Messaging protocols (HTTP, SFTP, JMS)"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "iFlows Development",
+        "module_duration": "Week 3",
+        "topics": [
+          "Creating and configuring iFlows",
+          "Content Modifier and Routing logic",
+          "Exception handling in message flows"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Transformation & Mapping",
+        "module_duration": "Week 4",
+        "topics": [
+          "Graphical message mapping ",
+          "XSLT basics and Groovy scripting",
+          "Payload transformations (XML to JSON)"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Adapters & Connectivity",
+        "module_duration": "Week 5",
+        "topics": [
+          "Standard adapters (SFTP, OData, IDoc, SuccessFactors)",
+          "API Management integration",
+          "Third-party system connectivity"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Security & Authentication",
+        "module_duration": "Week 6",
+        "topics": [
+          "OAuth and certificate-based authentication",
+          "Secure parameter handling",
+          "Role-based access control (RBAC)"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Monitoring & Troubleshooting",
+        "module_duration": "Week 7",
+        "topics": [
+          "Message monitoring and log analysis ",
+          "Error handling and performance optimization",
+          "Runtime tracking"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Hybrid & Advanced Integration Scenarios",
+        "module_duration": "Week 8",
+        "topics": [
+          "On-premise integration architecture",
+          "Cloud-to-cloud integration patterns",
+          "SAP S/4HANA integration use cases",
+          "Final capstone project validation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 380,
+    "total_students_enrolled": 2800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP CPI?",
+      "answer": "SAP CPI (Cloud Platform Integration) is a cloud-based middleware solution within SAP BTP that enables seamless communication between SAP and non-SAP systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between SAP CPI and SAP PI/PO?",
+      "answer": "SAP CPI is a cloud-native EiPaaS solution, whereas SAP PI/PO is traditional on-premise middleware. CPI is optimized for hybrid and multi-cloud environments."
+    },
+    {
+      "faq_id": 3,
+      "question": "What are iFlows in SAP CPI?",
+      "answer": "Integration Flows (iFlows) are the graphical pipelines used in CPI to define how messages are routed, transformed, and delivered."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP CPI part of SAP BTP?",
+      "answer": "Yes. It is one of the primary services within the SAP Integration Suite, hosted on SAP Business Technology Platform."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP CPI?",
+      "answer": "It is ideal for SAP technical consultants, ABAP developers, and middleware engineers looking to transition to cloud-based enterprise integration."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does SAP CPI require coding?",
+      "answer": "While it offers graphical tools, advanced scenarios often require Groovy scripting or XSLT mapping for specialized logic."
+    },
+    {
+      "faq_id": 7,
+      "question": "What systems can SAP CPI integrate?",
+      "answer": "It can integrate S/4HANA, SuccessFactors, Ariba, Salesforce, ServiceNow, and virtually any system with an API."
+    },
+    {
+      "faq_id": 8,
+      "question": "What skills are required to become an SAP CPI consultant?",
+      "answer": "A foundation in integration patterns, knowledge of XML/JSON, and an understanding of APIs and cloud architecture are key."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP CPI in demand?",
+      "answer": "Yes. As organizations migrate to S/4HANA Cloud, the demand for cloud integration specialists has reached record highs."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles can SAP CPI lead to?",
+      "answer": "You can pursue roles like SAP CPI Consultant, Integration Architect, or BTP Integration Specialist."
+    }
+  ],
+  "target_audience": [
+    "SAP Technical Consultants",
+    "Middleware Engineers",
+    "ABAP Developers",
+    "Cloud Integration Specialists"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP CPI Course | Cloud Platform Integration Training | Proximsoft",
+    "meta_description": "Master SAP CPI (Cloud Integration). Learn to build iFlows, manage APIs, and integrate SAP S/4HANA with third-party apps in this project-based course.",
+    "meta_url": "/courses/sap/sap-cpi-cloud-integration-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPRAP-054",
+    "course_uid": "uid-sap-rap-restful-programming-pro",
+    "course_title": "SAP RAP – RESTful Application Programming Model",
+    "course_subtitle": "Modern ABAP Development with RAP, CDS, OData & Fiori Elements",
+    "course_slug": "sap-rap-restful-application-programming-course",
+    "course_thumbnail": "assets/images/courses/sap-rap-thumb.jpg",
+    "course_short_description": "Master modern ABAP development. Learn to build cloud-ready enterprise applications using RAP, CDS, and OData for SAP S/4HANA and BTP.",
+    "course_long_description": "This SAP RAP course is designed to teach developers how to build modern, scalable SAP applications using the RESTful Application Programming Model on SAP S/4HANA. Unlike classical ABAP programming, RAP enables clean architecture, service-based development, and Fiori-ready applications using CDS views, OData services, and transactional processing models.",
+    "about_course": [
+      "Master the evolution from classical ABAP to modern service-oriented architecture.",
+      "Learn to design scalable data models using advanced CDS syntax and annotations.",
+      "Implement transactional business objects with both managed and unmanaged behaviors.",
+      "Follow SAP's Clean Core strategy for building upgrade-safe cloud-ready applications."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 15,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-rap",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Professional - Modern ABAP Development (RAP)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-rap-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic knowledge of SAP ABAP programming",
+      "Understanding of SAP system architecture",
+      "Familiarity with database concepts",
+      "Exposure to SAP S/4HANA helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Build modern SAP applications using the RESTful Application Programming Model [Image of SAP RAP Big Picture architecture]",
+      "Design transactional business objects with complex behavior implementations",
+      "Expose secure RESTful APIs via OData services for web and mobile consumption",
+      "Integrate backend RAP logic with SAP Fiori Elements for metadata-driven UI development"
+    ],
+    "ideal_candidates": [
+      "SAP ABAP Developers transitioning to S/4HANA",
+      "SAP Technical Consultants",
+      "SAP Fiori Developers",
+      "Backend Developers working with SAP APIs"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP RAP Development",
+        "CDS Modeling",
+        "OData Service Creation",
+        "Modern ABAP Programming"
+      ],
+      "supporting_skills": [
+        "S/4HANA Extensibility",
+        "Clean Core Architecture",
+        "API Development",
+        "SAP Security & Authorization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP RAP Framework",
+        "ABAP for S/4HANA",
+        "CDS Views"
+      ],
+      "secondary": [
+        "OData Services",
+        "Fiori Elements",
+        "SAP BTP",
+        "ADT (ABAP Development Tools)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP RAP Developer",
+      "SAP S/4HANA Technical Consultant",
+      "SAP ABAP on HANA Developer",
+      "SAP API Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Modern SAP RAP Application. Build a production-ready application including CDS-based data modeling, business logic behavior definitions, OData exposure, and Fiori Elements integration."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 38
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP RAP & S/4HANA Architecture",
+        "module_duration": "Week 1",
+        "topics": [
+          "Evolution from classical ABAP to RAP",
+          "Clean core strategy and principles",
+          "SAP S/4HANA extensibility concepts"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Core Data Services (CDS Views)",
+        "module_duration": "Week 2",
+        "topics": [
+          "CDS syntax and annotations",
+          "Associations & joins in modern modeling",
+          "Analytical and transactional CDS types",
+          "Performance optimization at database layer"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Behavior Definition & Implementation",
+        "module_duration": "Week 3",
+        "topics": [
+          "Managed vs unmanaged scenarios [Image of SAP RAP Managed and Unmanaged implementation flow]",
+          "Business object modeling",
+          "Transaction handling and buffer logic",
+          "Validations and determinations"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "OData Services & RESTful APIs",
+        "module_duration": "Week 4",
+        "topics": [
+          "Service definitions and bindings",
+          "OData V2 and V4 exposure",
+          "API enablement for external systems"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Fiori Elements Integration",
+        "module_duration": "Week 5",
+        "topics": [
+          "List report development",
+          "Object page configuration",
+          "Metadata-driven UI and annotations"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "RAP Transaction Model",
+        "module_duration": "Week 6",
+        "topics": [
+          "Draft handling and state management",
+          "Save sequences and locks",
+          "Authorization checks",
+          "Advanced error handling"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Extensibility & Clean Core Development",
+        "module_duration": "Week 7",
+        "topics": [
+          "In-app extensibility patterns",
+          "Side-by-side extensions on SAP BTP",
+          "Upgrade-safe enhancement techniques",
+          "Developer extensibility basics"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Performance & Optimization",
+        "module_duration": "Week 8",
+        "topics": [
+          "SQL optimization for RAP",
+          "CDS performance tuning",
+          "Debugging RAP applications in ADT"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security & Authorization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Role-based access control",
+          "CDS-based DCL authorization",
+          "Secure API exposure"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "Build a complete SAP RAP business application",
+          "End-to-end integration and testing",
+          "Final solution deployment"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 310,
+    "total_students_enrolled": 1950
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP RAP?",
+      "answer": "SAP RAP (RESTful Application Programming Model) is a modern development framework used to build cloud-ready and service-oriented applications on SAP S/4HANA using ABAP, CDS, and OData."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP RAP replacing classical ABAP?",
+      "answer": "SAP RAP does not replace ABAP but modernizes it. It introduces structured business object modeling, RESTful services, and Fiori-ready architecture for S/4HANA systems."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between RAP and classical ABAP?",
+      "answer": "Classical ABAP focuses on procedural programming and dynpro screens, while RAP focuses on RESTful services, CDS-based modeling, and clean core development."
+    },
+    {
+      "faq_id": 4,
+      "question": "Do I need SAP S/4HANA knowledge for SAP RAP?",
+      "answer": "Basic knowledge of ABAP is required. Exposure to SAP S/4HANA architecture is helpful and is covered during the course."
+    },
+    {
+      "faq_id": 5,
+      "question": "What are CDS views in SAP RAP?",
+      "answer": "CDS views define data models and business logic at the database layer and are essential for building scalable and high-performance SAP applications."
+    },
+    {
+      "faq_id": 6,
+      "question": "How is OData used in SAP RAP?",
+      "answer": "OData services are used to expose business objects as RESTful APIs for Fiori frontends and external integrations."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is SAP RAP required for SAP S/4HANA development?",
+      "answer": "Yes. SAP recommends RAP for all new development and extension scenarios in SAP S/4HANA environments."
+    },
+    {
+      "faq_id": 8,
+      "question": "What careers can I pursue after learning SAP RAP?",
+      "answer": "You can work as an SAP RAP Developer, S/4HANA Technical Consultant, SAP ABAP Developer on HANA, or SAP API Developer."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP RAP suitable for cloud development?",
+      "answer": "Yes. SAP RAP supports clean core principles and cloud-ready architectures aligned with SAP BTP and S/4HANA Cloud."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to learn SAP RAP?",
+      "answer": "With structured training and hands-on practice, SAP RAP can be mastered in 8–10 weeks depending on prior ABAP experience."
+    }
+  ],
+  "target_audience": [
+    "SAP ABAP Developers",
+    "Technical Architects",
+    "Fiori Backend Developers",
+    "Application Consultants"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP RAP Course | Modern ABAP RESTful Programming | Proximsoft",
+    "meta_description": "Learn modern ABAP development with SAP RAP. Master CDS, OData, and Fiori Elements to build enterprise S/4HANA cloud-ready applications.",
+    "meta_url": "/courses/sap/sap-rap-restful-application-programming"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPFUI-055",
+    "course_uid": "uid-sap-fiori-ui5-ux-frontend-pro",
+    "course_title": "SAP Fiori / UI5 – UX & Front-end Development",
+    "course_subtitle": "Design & Build Modern SAP Fiori Applications Using UI5 and UX Best Practices",
+    "course_slug": "sap-fiori-ui5-ux-development-course",
+    "course_thumbnail": "assets/images/courses/sap-fiori-thumb.jpg",
+    "course_short_description": "Master SAP front-end development. Learn to build responsive, role-based Fiori applications using the SAPUI5 JavaScript framework and OData integration.",
+    "course_long_description": "This SAP Fiori / UI5 course is designed to help professionals design, develop, and deploy modern SAP applications. Unlike traditional SAP GUI, Fiori focuses on responsive and intuitive user experiences. This program teaches HTML5, CSS3, JavaScript, UI5 architecture, and SAP BTP deployment strategies.",
+    "about_course": [
+      "Master the SAP Fiori design principles: Role-based, Responsive, Simple, Coherent, and Delightful.",
+      "Learn the SAPUI5 framework from the ground up, including MVC architecture and control libraries.",
+      "Hands-on integration with backend SAP systems using OData services and SAP Gateway.",
+      "Practical deployment and optimization training for SAP Business Technology Platform (BTP)."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Instructor-Led / Flexible",
+    "course_priority": "high",
+    "course_sequence": 16,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "75 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-fiori-ui5",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Development Associate - SAP Fiori Application Developer",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-fiori-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of HTML, CSS, or JavaScript",
+      "Familiarity with programming concepts",
+      "SAP or ERP knowledge (helpful but not mandatory)"
+    ],
+    "key_learnings": [
+      "Build enterprise-grade SAP Fiori applications using MVC architecture ",
+      "Apply Fiori design guidelines for responsive and mobile-enabled UX",
+      "Consume backend SAP data via OData and SAP Gateway integration",
+      "Deploy and manage UI5 applications on SAP BTP and Fiori Launchpad"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP Fiori / UI5 Developers",
+      "SAP ABAP Developers transitioning to front-end",
+      "UI / Front-end Developers entering the SAP ecosystem",
+      "Functional Consultants enhancing their UX skills"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Fiori Development",
+        "SAP UI5 Programming",
+        "OData Integration",
+        "Enterprise UX Development"
+      ],
+      "supporting_skills": [
+        "Front-end Architecture",
+        "Performance Optimization",
+        "SAP Cloud Deployment",
+        "JavaScript & HTML5"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Fiori",
+        "SAP UI5",
+        "JavaScript"
+      ],
+      "secondary": [
+        "OData Services",
+        "SAP BTP",
+        "SAP Gateway",
+        "Business Application Studio (BAS)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Fiori Developer",
+      "SAP UI5 Consultant",
+      "SAP Front-end Developer",
+      "SAP UX Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP Fiori Application Development. Build a full-stack enterprise application utilizing UI5 MVC architecture, OData service consumption, and deployment on SAP BTP."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Fiori & UI5",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP UX strategy overview",
+          "Transactional, Analytical, and Factsheet app types",
+          "UI5 architecture fundamentals"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Web Technologies for UI5",
+        "module_duration": "Week 1",
+        "topics": [
+          "HTML5 semantic structures",
+          "CSS3 flexible layouts and styling",
+          "JavaScript essentials (ES6+)"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SAP UI5 Architecture",
+        "module_duration": "Week 2",
+        "topics": [
+          "The MVC design pattern in SAPUI5",
+          "UI5 control libraries and SDK",
+          "Standard application directory structure"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "UI5 Controls & Layouts",
+        "module_duration": "Week 2",
+        "topics": [
+          "Using standard UI5 control libraries",
+          "Designing responsive layouts with FlexBox and Grid ",
+          "Basic data binding techniques"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Model Binding & Data Handling",
+        "module_duration": "Week 3",
+        "topics": [
+          "JSON and Resource models",
+          "Two-way and one-way data binding",
+          "Creating custom formatter functions"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Routing & Navigation",
+        "module_duration": "Week 4",
+        "topics": [
+          "Manifest.json routing configuration",
+          "Navigation patterns and targets",
+          "Role of Component.js in app initialization"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "SAP Fiori Design Guidelines",
+        "module_duration": "Week 4",
+        "topics": [
+          "Deep dive into Fiori UX principles",
+          "Accessibility and usability standards",
+          "Responsive application design best practices"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Fiori Elements",
+        "module_duration": "Week 5",
+        "topics": [
+          "List Report pattern usage",
+          "Object Page design",
+          "Building analytical apps with Fiori Elements"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "OData Services Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "OData protocol concepts and CRUD operations",
+          "Consuming backend services in UI5",
+          "SAP Gateway integration and metadata exploration"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Custom Controls & Reuse Components",
+        "module_duration": "Week 7",
+        "topics": [
+          "Extending standard controls and creating custom ones",
+          "Using Fragments and reusable libraries",
+          "Component-based development reuse"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "SAP BTP & Deployment",
+        "module_duration": "Week 8",
+        "topics": [
+          "SAP Business Technology Platform overview",
+          "Deployment strategies (On-premise vs Cloud)",
+          "Cloud transport management"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Security & Authorization",
+        "module_duration": "Week 8",
+        "topics": [
+          "Role-based access control (RBAC) in Fiori",
+          "Front-end application security",
+          "Authentication concepts and Single Sign-On (SSO)"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Performance Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "UI5 performance tuning and preload files",
+          "Browser caching and network optimization best practices",
+          "Performance debugging tools"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Testing & Debugging",
+        "module_duration": "Week 10",
+        "topics": [
+          "UI5 testing tools (OPA5, QUnit)",
+          "Browser-based debugging workflows",
+          "Error handling and logging strategies"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end application development",
+          "MVC structure and OData validation",
+          "Final deployment and Fiori Launchpad integration"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 650,
+    "total_students_enrolled": 4800
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Fiori and UI5?",
+      "answer": "SAP Fiori is SAP’s modern UX strategy for role-based applications, and SAP UI5 is the JavaScript framework used to build these responsive, enterprise-grade applications."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP Fiori different from SAP ABAP?",
+      "answer": "Yes. SAP ABAP is primarily used for backend logic and database management, whereas SAP Fiori/UI5 is a front-end technology for user interface design and interaction."
+    },
+    {
+      "faq_id": 3,
+      "question": "What skills are required to learn SAP UI5?",
+      "answer": "A foundational knowledge of HTML, CSS, and JavaScript is highly recommended. While backend SAP knowledge is helpful, it is not a mandatory starting point."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP Fiori in demand?",
+      "answer": "Yes. As the standard UX layer for SAP S/4HANA, skilled UI5 developers are in high demand globally for modernization and migration projects."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is OData in SAP Fiori?",
+      "answer": "OData (Open Data Protocol) is the industry-standard RESTful protocol used to link your UI5 front-end with backend SAP data."
+    },
+    {
+      "faq_id": 6,
+      "question": "Can I learn SAP Fiori without SAP experience?",
+      "answer": "Yes. The course starts from front-end fundamentals. Beginners with web development experience can successfully transition into Fiori/UI5."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is SAP BTP in Fiori development?",
+      "answer": "SAP Business Technology Platform (BTP) provides the cloud infrastructure to deploy, scale, and manage your Fiori applications globally."
+    },
+    {
+      "faq_id": 8,
+      "question": "What careers can SAP Fiori skills lead to?",
+      "answer": "You can pursue roles like SAP UI5 Developer, Front-end Consultant, UX Designer, or SAP BTP Application Developer."
+    }
+  ],
+  "target_audience": [
+    "Front-end Developers",
+    "ABAP Developers upgrading to UI",
+    "UX Designers",
+    "SAP Technical Consultants"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Fiori & UI5 Course | UX Front-end Training | Proximsoft",
+    "meta_description": "Learn SAP Fiori and UI5 development. Master MVC architecture, OData integration, and UX best practices to build responsive enterprise apps for S/4HANA.",
+    "meta_url": "/courses/sap/sap-fiori-ui5-ux-development-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPNW-056",
+    "course_uid": "uid-sap-netweaver-architecture-administration",
+    "course_title": "SAP NetWeaver",
+    "course_subtitle": "SAP NetWeaver Architecture, Application Server, Integration & Administration Training",
+    "course_slug": "sap-netweaver-course",
+    "course_thumbnail": "assets/images/courses/sap-netweaver-thumb.jpg",
+    "course_short_description": "Master the core technology stack of SAP. Learn NetWeaver architecture, ABAP & Java application servers, and enterprise integration fundamentals.",
+    "course_long_description": "This SAP NetWeaver course provides a strong technical foundation in the platform that powers SAP ECC, S/4HANA, BW, and CRM. You will learn how NetWeaver supports application development, integration, and enterprise scalability, covering ICM, SAP Gateway, RFC, and ALE/IDoc.",
+    "about_course": [
+      "Master the technical backbone of SAP systems including ECC and S/4HANA.",
+      "Understand the internal workings of Application Server ABAP and Java stacks.",
+      "Learn essential system communication protocols like RFC, ALE, and IDoc.",
+      "Gain foundational knowledge for SAP Basis, Development, and Integration roles."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible",
+    "course_priority": "high",
+    "course_sequence": 17,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6 Weeks",
+    "total_duration": "40 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-netweaver",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Technology Associate - SAP NetWeaver Portal",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-netweaver-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic IT knowledge",
+      "Understanding of operating systems and networking fundamentals",
+      "Familiarity with SAP concepts helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Analyze SAP NetWeaver three-tier architecture ",
+      "Manage SAP Application Servers (ABAP & Java stacks)",
+      "Configure enterprise communication via RFC, ALE, and IDoc",
+      "Implement security and transport management within the NetWeaver landscape"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP Technical Consultants",
+      "SAP Basis & System Administration professionals",
+      "SAP ABAP & Integration Developers",
+      "IT Infrastructure & Middleware Engineers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP NetWeaver Architecture",
+        "Application Server Management",
+        "SAP Integration Fundamentals"
+      ],
+      "supporting_skills": [
+        "RFC & IDoc Configuration",
+        "System Monitoring",
+        "Transport Management (CTS)",
+        "SAP Security Basics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP NetWeaver",
+        "Application Server ABAP",
+        "Application Server Java"
+      ],
+      "secondary": [
+        "SAP Gateway",
+        "RFC & ALE/IDoc",
+        "SAP GUI",
+        "CTS"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Technical Consultant",
+      "SAP Basis / NetWeaver Administrator",
+      "SAP Integration Support Analyst",
+      "SAP Platform Support Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP NetWeaver Enterprise Scenario. Perform a system architecture walkthrough, set up RFC/IDoc communications, and configure integration points across SAP components."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP NetWeaver",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP NetWeaver overview",
+          "Evolution and role in SAP landscape",
+          "Core NetWeaver components"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP System Architecture",
+        "module_duration": "Week 1",
+        "topics": [
+          "Three-tier architecture model",
+          "Presentation, application, and database layers",
+          "SAP instances and services"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SAP Application Server – ABAP",
+        "module_duration": "Week 2",
+        "topics": [
+          "ABAP application server architecture ",
+          "Dispatcher and work processes",
+          "Memory management basics"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SAP Application Server – Java",
+        "module_duration": "Week 2",
+        "topics": [
+          "Java stack overview",
+          "Java instance architecture",
+          "Use cases and lifecycle"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Internet Communication Manager (ICM)",
+        "module_duration": "Week 3",
+        "topics": [
+          "HTTP/HTTPS processing",
+          "Web protocols in SAP",
+          "Security fundamentals for ICM"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "SAP GUI, Web GUI & Fiori Basics",
+        "module_duration": "Week 3",
+        "topics": [
+          "SAP GUI architecture",
+          "Web-based SAP access methods",
+          "Introduction to SAP Fiori UX"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "RFC Communication",
+        "module_duration": "Week 4",
+        "topics": [
+          "RFC types and communication modes",
+          "Creating RFC destinations (SM59)",
+          "Real-time communication scenarios"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "ALE & IDoc Fundamentals",
+        "module_duration": "Week 4",
+        "topics": [
+          "ALE architecture and distribution",
+          "IDoc structure and segments ",
+          "Message flow and monitoring"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "SAP Gateway & OData",
+        "module_duration": "Week 4",
+        "topics": [
+          "SAP Gateway architecture",
+          "OData services basics",
+          "Integration use cases"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Integration Technologies Overview",
+        "module_duration": "Week 5",
+        "topics": [
+          "SAP PI/PO concepts",
+          "SAP CPI overview",
+          "Middleware positioning"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Security Concepts in NetWeaver",
+        "module_duration": "Week 5",
+        "topics": [
+          "Authentication & authorization",
+          "User and role management",
+          "Secure communication (SNC/SSL)"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Transport & Change Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "CTS architecture and transport requests",
+          "Transport routes and layers",
+          "Change lifecycle management"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Monitoring & Performance Basics",
+        "module_duration": "Week 6",
+        "topics": [
+          "System logs and traces",
+          "Workload monitoring",
+          "Performance analysis tools (ST03N)"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Troubleshooting & Support Tools",
+        "module_duration": "Week 6",
+        "topics": [
+          "Common NetWeaver issues",
+          "Root cause analysis",
+          "SAP support utilities"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 6",
+        "topics": [
+          "System walkthrough",
+          "Communication setup and test",
+          "Integration configuration scenario"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.7,
+    "total_reviews": 560,
+    "total_students_enrolled": 4200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP NetWeaver?",
+      "answer": "SAP NetWeaver is the technical platform that provides the foundation for SAP applications, offering integration, application server, and system management capabilities."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP NetWeaver still relevant with S/4HANA?",
+      "answer": "Yes. It remains the foundation for S/4HANA's application server and continues to support critical integration and platform services."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between SAP NetWeaver and SAP Basis?",
+      "answer": "NetWeaver is the technology platform itself, while Basis refers to the administrative and management tasks performed on that platform."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is SAP NetWeaver used for?",
+      "answer": "It is used for application hosting, system integration via protocols like RFC/IDoc, user management, and overall SAP landscape administration."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course cover ABAP and Java stacks?",
+      "answer": "Yes. The curriculum includes technical overviews and architecture for both Application Server ABAP and Application Server Java."
+    },
+    {
+      "faq_id": 6,
+      "question": "Who should learn SAP NetWeaver?",
+      "answer": "It is essential for aspiring SAP technical consultants, Basis admins, and developers who need to understand the underlying SAP infrastructure."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is SAP NetWeaver required for SAP S/4HANA careers?",
+      "answer": "Yes. A solid understanding of NetWeaver architecture is required to effectively manage or develop in S/4HANA technical environments."
+    },
+    {
+      "faq_id": 8,
+      "question": "What careers can SAP NetWeaver skills lead to?",
+      "answer": "Common roles include SAP Basis Administrator, Technical Consultant, Integration Analyst, and Platform Support Engineer."
+    }
+  ],
+  "target_audience": [
+    "Technical Consultants",
+    "Basis Administrators",
+    "IT Infrastructure Engineers",
+    "SAP Developers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP NetWeaver Course | SAP Architecture Training | Proximsoft",
+    "meta_description": "Master SAP NetWeaver architecture. Learn about application servers, RFC, ALE/IDoc, and system administration fundamentals for modern SAP landscapes.",
+    "meta_url": "/courses/sap/sap-netweaver-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPPIPO-057",
+    "course_uid": "uid-sap-pipo-middleware-orchestration-pro",
+    "course_title": "SAP PI/PO – Process Integration / Orchestration",
+    "course_subtitle": "End-to-End SAP PI/PO Integration, Mapping & Middleware Orchestration Training",
+    "course_slug": "sap-pipo-middleware-course",
+    "course_thumbnail": "assets/images/courses/sap-pipo-thumb.jpg",
+    "course_short_description": "Master enterprise middleware. Learn to connect SAP and non-SAP systems using ESR, ID, advanced adapters, and Business Process Management (BPM).",
+    "course_long_description": "This SAP PI/PO course helps professionals master enterprise integration. SAP PI/PO serves as the middleware layer connecting SAP and non-SAP systems. This program covers ESR, Integration Directory, adapters, message mapping, BPM, BRM, and orchestration for complex environments.",
+    "about_course": [
+      "Master the middleware layer that bridges the gap between SAP and external systems.",
+      "Learn end-to-end configuration in the Enterprise Service Repository (ESR) and Integration Directory (ID).",
+      "Hands-on training with diverse adapters including SOAP, REST, JDBC, and IDoc.",
+      "Deep dive into Business Process Management (BPM) for complex orchestration workflows."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 18,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "10 Weeks",
+    "total_duration": "90 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-pipo",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Technology Associate - Process Orchestration",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-pipo-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems",
+      "Familiarity with XML and web services",
+      "Basic knowledge of integration or middleware concepts"
+    ],
+    "key_learnings": [
+      "Design complex middleware architectures using SAP Process Orchestration ",
+      "Implement advanced message mappings and transformations with UDFs",
+      "Configure and manage diverse adapters for SAP-to-Non-SAP connectivity",
+      "Orchestrate business processes using BPM and Business Rules Management (BRM)"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP PI/PO Consultants",
+      "ABAP Developers moving to integration",
+      "SAP Basis & Technical Consultants",
+      "Middleware Developers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP PI/PO Integration",
+        "Middleware Orchestration",
+        "Message Mapping & Adapters"
+      ],
+      "supporting_skills": [
+        "Enterprise Service Repository (ESR)",
+        "BPM & BRM Modeling",
+        "Monitoring & Performance Optimization",
+        "Hybrid Integration Strategy"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP PI/PO",
+        "Enterprise Service Repository (ESR)",
+        "Integration Directory (ID)"
+      ],
+      "secondary": [
+        "BPM",
+        "BRM",
+        "XML/XSD",
+        "SOAP/REST Adapters"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP PI/PO Consultant",
+      "SAP Integration Developer",
+      "Middleware Engineer",
+      "SAP Technical Integration Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise SAP Integration Scenario. Design and implement an end-to-end integration including adapter configuration, complex mapping, and orchestration using BPM."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP PI/PO",
+        "module_duration": "Week 1",
+        "topics": [
+          "Enterprise integration overview",
+          "SAP PI vs SAP PO positioning",
+          "Middleware use cases and benefits"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP PI/PO Architecture",
+        "module_duration": "Week 1",
+        "topics": [
+          "AEX architecture fundamentals",
+          "ESR & ID components",
+          "Single-stack vs dual-stack comparisons"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "System Landscape Directory (SLD)",
+        "module_duration": "Week 2",
+        "topics": [
+          "Technical and Business systems",
+          "Software component versions",
+          "SLD configuration for integration"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Enterprise Service Repository (ESR)",
+        "module_duration": "Week 3",
+        "topics": [
+          "Data types & message types",
+          "Service interfaces",
+          "Design objects and versioning"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Integration Directory (ID)",
+        "module_duration": "Week 4",
+        "topics": [
+          "Communication channels",
+          "Receiver and Interface determination",
+          "Integrated Configuration (ICO) "
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Adapters Overview",
+        "module_duration": "Week 5",
+        "topics": [
+          "File adapter configuration",
+          "JDBC adapter for database connectivity",
+          "IDoc adapter for SAP integration"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Advanced Adapters",
+        "module_duration": "Week 5",
+        "topics": [
+          "SOAP and REST adapter setup",
+          "RFC adapter usage",
+          "Mail adapter for notifications"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Message Mapping",
+        "module_duration": "Week 6",
+        "topics": [
+          "Graphical mapping techniques ",
+          "User-defined functions (UDF)",
+          "Testing and debugging mappings"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Operation Mapping",
+        "module_duration": "Week 6",
+        "topics": [
+          "Operation mapping concepts",
+          "Message transformations",
+          "Mapping reuse strategies"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Business Process Management (BPM)",
+        "module_duration": "Week 7",
+        "topics": [
+          "BPM fundamentals and use cases",
+          "Process modeling and orchestration",
+          "Correlation and message triggers"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Business Rules Management (BRM)",
+        "module_duration": "Week 7",
+        "topics": [
+          "BRM concepts",
+          "Rule configuration and maintenance",
+          "Decision tables and logic"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Monitoring & Error Handling",
+        "module_duration": "Week 8",
+        "topics": [
+          "Message monitoring (PIMON)",
+          "Adapter monitoring and logs",
+          "Error analysis and reprocessing"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Security & Performance",
+        "module_duration": "Week 9",
+        "topics": [
+          "Secure communication protocols",
+          "Certificates and encryption",
+          "Performance optimization best practices"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Migration & Hybrid Integration",
+        "module_duration": "Week 10",
+        "topics": [
+          "PI/PO to CPI migration overview",
+          "Hybrid integration landscape architecture",
+          "Modern integration strategy"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end integration scenario build",
+          "Real-time orchestration testing",
+          "Final monitoring and project sign-off"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 480,
+    "total_students_enrolled": 3500
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP PI/PO?",
+      "answer": "SAP PI/PO is SAP’s middleware platform designed to seamlessly integrate SAP and non-SAP systems across complex enterprise landscapes."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP PI/PO still relevant?",
+      "answer": "Yes. While cloud tools are growing, most global enterprises still maintain on-premise or hybrid environments where PI/PO is the core middleware."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between SAP PI/PO and SAP CPI?",
+      "answer": "PI/PO is primarily an on-premise solution, whereas SAP CPI (Cloud Integration) is a cloud-based service on SAP BTP."
+    },
+    {
+      "faq_id": 4,
+      "question": "What are adapters in SAP PI/PO?",
+      "answer": "Adapters are technical connectors that allow the middleware to communicate with different systems using protocols like HTTP, SFTP, JDBC, or RFC."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is message mapping in SAP PI/PO?",
+      "answer": "It is the process of transforming the structure and format of a source message into the required format for the target system."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does SAP PI/PO require coding?",
+      "answer": "Graphical tools handle most tasks, but basic coding knowledge is useful for writing User Defined Functions (UDF) in Java for complex mappings."
+    },
+    {
+      "faq_id": 7,
+      "question": "What career roles can SAP PI/PO skills lead to?",
+      "answer": "You can work as an SAP PI/PO Consultant, Integration Developer, Middleware Engineer, or Technical Architect."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP PI/PO useful for SAP S/4HANA projects?",
+      "answer": "Absolutely. It is frequently used to handle on-premise integrations for hybrid S/4HANA landscapes."
+    }
+  ],
+  "target_audience": [
+    "Integration Consultants",
+    "Middleware Developers",
+    "ABAP Developers",
+    "Technical Architects"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP PI/PO Course | Middleware Integration Training | Proximsoft",
+    "meta_description": "Learn SAP PI/PO from scratch. Master ESR, ID, message mapping, adapters, and BPM orchestration for enterprise-level SAP integration.",
+    "meta_url": "/courses/sap/sap-pipo-middleware-course"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPRAP-054",
+    "course_uid": "uid-sap-rap-restful-programming-expert",
+    "course_title": "SAP RAP – RESTful Application Programming Model",
+    "course_subtitle": "Modern ABAP Development with RAP, CDS, OData & Fiori Elements",
+    "course_slug": "sap-rap-restful-application-programming-course",
+    "course_thumbnail": "assets/images/courses/sap-rap-thumb.jpg",
+    "course_short_description": "Learn modern ABAP development using SAP RAP. Master CDS views, OData services, and Fiori Elements to build cloud-ready enterprise applications.",
+    "course_long_description": "This SAP RAP course is designed to teach developers how to build modern, scalable SAP applications using the RESTful Application Programming Model on SAP S/4HANA. Unlike classical ABAP programming, RAP enables clean architecture and service-based development using CDS views and behavior definitions.",
+    "about_course": [
+      "Master the evolution from classical ABAP to modern service-oriented architecture.",
+      "Learn to design scalable data models using advanced CDS syntax and annotations.",
+      "Implement transactional business objects with both managed and unmanaged scenarios.",
+      "Follow SAP's Clean Core strategy for building upgrade-safe cloud-ready applications."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 15,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-rap",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Professional - Modern ABAP Development (RAP)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-rap-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic knowledge of SAP ABAP programming",
+      "Understanding of SAP system architecture",
+      "Familiarity with database concepts",
+      "Exposure to SAP S/4HANA helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Build modern SAP applications using the RESTful Application Programming Model [Image of SAP RAP architecture layers]",
+      "Design transactional business objects with behavior definitions and implementations",
+      "Expose secure RESTful APIs via OData services for frontend consumption",
+      "Integrate backend RAP services with Fiori Elements for metadata-driven UI"
+    ],
+    "ideal_candidates": [
+      "SAP ABAP Developers transitioning to S/4HANA",
+      "SAP Technical Consultants",
+      "SAP Fiori Developers",
+      "Backend Developers working with SAP APIs"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP RAP Development",
+        "CDS Modeling",
+        "OData Service Creation",
+        "Modern ABAP Programming"
+      ],
+      "supporting_skills": [
+        "S/4HANA Extensibility",
+        "Clean Core Architecture",
+        "API Development",
+        "SAP Security & Authorization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP RAP Framework",
+        "ABAP for S/4HANA",
+        "CDS Views"
+      ],
+      "secondary": [
+        "OData Services",
+        "Fiori Elements",
+        "SAP BTP",
+        "ADT (ABAP Development Tools)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP RAP Developer",
+      "SAP S/4HANA Technical Consultant",
+      "SAP ABAP on HANA Developer",
+      "SAP API Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Modern SAP RAP Application. Build a production-ready application including CDS modeling, behavior definition for business logic, OData exposure, and Fiori Elements UI integration."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 38
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP RAP & S/4HANA Architecture",
+        "module_duration": "Week 1",
+        "topics": [
+          "Evolution from classical ABAP to RAP",
+          "Clean core strategy and principles",
+          "SAP S/4HANA extensibility concepts"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Core Data Services (CDS Views)",
+        "module_duration": "Week 2",
+        "topics": [
+          "CDS syntax and annotations",
+          "Associations & joins",
+          "Analytical and transactional CDS",
+          "Performance optimization"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Behavior Definition & Implementation",
+        "module_duration": "Week 3",
+        "topics": [
+          "Managed vs unmanaged scenarios [Image of RAP Business Object lifecycle]",
+          "Business object modeling",
+          "Transaction handling",
+          "Validations and determinations"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "OData Services & RESTful APIs",
+        "module_duration": "Week 4",
+        "topics": [
+          "Service definitions",
+          "Service binding",
+          "OData V2 vs V4 exposure",
+          "API enablement"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Fiori Elements Integration",
+        "module_duration": "Week 5",
+        "topics": [
+          "List reports and Object pages",
+          "Metadata-driven UI concepts",
+          "UI annotations in CDS"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "RAP Transaction Model",
+        "module_duration": "Week 6",
+        "topics": [
+          "Draft handling and state",
+          "Save sequences",
+          "Authorization checks",
+          "Error handling"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Extensibility & Clean Core Development",
+        "module_duration": "Week 7",
+        "topics": [
+          "In-app extensibility",
+          "Side-by-side extensions on BTP",
+          "Upgrade-safe enhancements",
+          "Developer extensibility"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Performance & Optimization",
+        "module_duration": "Week 8",
+        "topics": [
+          "SQL optimization",
+          "CDS performance tuning",
+          "Debugging RAP applications"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security & Authorization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Role-based access (RBAC)",
+          "CDS-based authorization (DCL)",
+          "Secure API exposure"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "Build a complete SAP RAP business application",
+          "Data modeling and OData validation",
+          "Fiori integration and deployment"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 310,
+    "total_students_enrolled": 1950
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP RAP?",
+      "answer": "SAP RAP (RESTful Application Programming Model) is a modern development framework used to build cloud-ready and service-oriented applications on SAP S/4HANA using ABAP, CDS, and OData."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP RAP replacing classical ABAP?",
+      "answer": "SAP RAP does not replace ABAP but modernizes it by introducing structured business object modeling and Fiori-ready architecture."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between RAP and classical ABAP?",
+      "answer": "Classical ABAP focuses on dynpro screens and procedural logic, while RAP focuses on RESTful services, CDS modeling, and service-based architecture."
+    },
+    {
+      "faq_id": 4,
+      "question": "Do I need SAP S/4HANA knowledge for SAP RAP?",
+      "answer": "Basic ABAP knowledge is required. Exposure to S/4HANA architecture is helpful but can be learned throughout the course."
+    },
+    {
+      "faq_id": 5,
+      "question": "What are CDS views in SAP RAP?",
+      "answer": "CDS views define data models and business logic at the database layer, serving as the foundation for building scalable RAP applications."
+    },
+    {
+      "faq_id": 6,
+      "question": "How is OData used in SAP RAP?",
+      "answer": "OData services are used to expose business objects as RESTful APIs for Fiori frontends and external system integrations."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is SAP RAP required for SAP S/4HANA development?",
+      "answer": "Yes. SAP officially recommends RAP for all new developments and extension scenarios in S/4HANA environments."
+    },
+    {
+      "faq_id": 8,
+      "question": "What careers can I pursue after learning SAP RAP?",
+      "answer": "Roles include SAP RAP Developer, S/4HANA Technical Consultant, Modern ABAP Developer, and SAP API Architect."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP RAP suitable for cloud development?",
+      "answer": "Yes. SAP RAP supports clean core principles and is aligned with both SAP BTP and S/4HANA Cloud development standards."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to learn SAP RAP?",
+      "answer": "With structured training and hands-on practice, it typically takes 8–10 weeks move from classical ABAP to professional RAP expertise."
+    }
+  ],
+  "target_audience": [
+    "SAP ABAP Developers",
+    "Technical Architects",
+    "Fiori Developers",
+    "Backend Developers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP RAP Course | Modern ABAP RESTful Programming | Proximsoft",
+    "meta_description": "Learn modern ABAP development with SAP RAP. Master CDS, OData, and behavior definitions to build enterprise applications for S/4HANA.",
+    "meta_url": "/courses/sap/sap-rap-restful-programming"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSEC-059",
+    "course_uid": "uid-sap-security-authorization-expert",
+    "course_title": "SAP Security & Authorization",
+    "course_subtitle": "Master SAP User Management, Roles, Authorizations & GRC Security Concepts",
+    "course_slug": "sap-security-authorization-course",
+    "course_thumbnail": "assets/images/courses/sap-security-thumb.jpg",
+    "course_short_description": "Secure the enterprise landscape. Master user management, role design with PFCG, authorization objects, and S/4HANA Fiori security protocols.",
+    "course_long_description": "This SAP Security & Authorization course is designed to help professionals secure SAP landscapes through structured user management, role design, and authorization control. You will learn how security architecture works across ECC and S/4HANA, covering authorization objects, PFCG role design, audit readiness, and Segregation of Duties (SoD).",
+    "about_course": [
+      "Master SAP security architecture and the difference between authentication and authorization.",
+      "Learn end-to-end role design methodology using PFCG naming standards and organizational levels.",
+      "Deep dive into troubleshooting authorization issues using SU53 and STAUTHTRACE.",
+      "Introduces SAP S/4HANA specific security including Fiori catalogs, groups, and OData authorizations."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Instructor-Led / Flexible",
+    "course_priority": "high",
+    "course_sequence": 20,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "70 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-security",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Technology Associate - SAP System Security and Authorizations",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-security-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic SAP navigation knowledge",
+      "Understanding of core SAP business modules",
+      "Basic IT security concepts helpful but not mandatory",
+      "SAP Basis exposure is an advantage"
+    ],
+    "key_learnings": [
+      "Design secure and compliant SAP authorization roles using PFCG ",
+      "Manage end-to-end User Administration including master records and logon policies",
+      "Implement Segregation of Duties (SoD) to reduce compliance risk",
+      "Configure Fiori-specific security including Catalogs, Groups, and OData services"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP Security / GRC Consultants",
+      "SAP Basis professionals",
+      "SAP Functional & Technical consultants",
+      "IT Security professionals entering the SAP domain"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Security Administration",
+        "Role & Authorization Design",
+        "PFCG Role Configuration"
+      ],
+      "supporting_skills": [
+        "SAP GRC Fundamentals",
+        "Compliance & Risk Analysis",
+        "S/4HANA & Fiori Security",
+        "Audit Readiness"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP ECC Security",
+        "SAP S/4HANA Security",
+        "PFCG",
+        "SU01"
+      ],
+      "secondary": [
+        "SU24",
+        "SU53",
+        "STAUTHTRACE",
+        "SAP GRC"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Security Consultant",
+      "SAP Authorization Analyst",
+      "SAP GRC Consultant",
+      "SAP Basis Security Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP Security Implementation. Design a complete security setup including user administration, role design via PFCG, SoD check implementation, and final audit validation."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Security",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP security architecture overview",
+          "Authentication vs authorization",
+          "Standard SAP user types"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP System Landscape & Security Layers",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP ECC vs S/4HANA security landscape",
+          "Application layer security",
+          "Database and OS security layers"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "User Administration (SU01)",
+        "module_duration": "Week 2",
+        "topics": [
+          "User master record creation",
+          "User group management",
+          "Password and logon policies"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Authorization Concepts",
+        "module_duration": "Week 3",
+        "topics": [
+          "Authorization objects and classes",
+          "Authorization fields and values",
+          "Standard authorization check process"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Role & Profile Management (PFCG)",
+        "module_duration": "Week 4",
+        "topics": [
+          "Single and composite role design ",
+          "Profile generation and management",
+          "Role naming standards and best practices"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Role Design Methodology",
+        "module_duration": "Week 4",
+        "topics": [
+          "Business role concept and strategy",
+          "End-user vs technical role distinction",
+          "Organizational level derivation strategy"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "SU24 & Authorization Proposals",
+        "module_duration": "Week 5",
+        "topics": [
+          "SU24 configuration and maintenance",
+          "Authorization default value proposals",
+          "Role optimization using SU24"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Transport Management for Security",
+        "module_duration": "Week 6",
+        "topics": [
+          "Role transport workflow",
+          "Post-transport user comparison (PFUD)",
+          "Security handling during system refreshes"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Troubleshooting & Analysis",
+        "module_duration": "Week 6",
+        "topics": [
+          "SU53 authorization failure analysis",
+          "Using STAUTHTRACE for system-wide tracing",
+          "Common authorization issue patterns"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "SAP Tables & Critical Authorizations",
+        "module_duration": "Week 7",
+        "topics": [
+          "Securing sensitive SAP tables",
+          "Critical authorization objects (S_TABU_DIS, S_DEVELOP)",
+          "Data privacy and protection settings"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "SAP Security in S/4HANA",
+        "module_duration": "Week 8",
+        "topics": [
+          "Fiori security architecture ",
+          "Catalogs, groups, and spaces configuration",
+          "OData service authorizations"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Audit, Compliance & SoD",
+        "module_duration": "Week 9",
+        "topics": [
+          "Internal and external audit requirements",
+          "Segregation of Duties (SoD) matrix",
+          "Compliance best practices for ERP"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "SAP GRC Overview",
+        "module_duration": "Week 9",
+        "topics": [
+          "GRC Access Control components",
+          "Access risk analysis basics",
+          "Emergency Access Management (EAM) / Firefighter"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Real-Time SAP Security Scenarios",
+        "module_duration": "Week 10",
+        "topics": [
+          "Production support case studies",
+          "Authorization remediation strategies",
+          "Emergency role provisioning"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end security implementation",
+          "Role design and user setup validation",
+          "Audit validation simulation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 410,
+    "total_students_enrolled": 2900
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Security & Authorization?",
+      "answer": "It refers to the process of managing user access, designing roles, and using authorization objects to secure enterprise data and prevent unauthorized actions within SAP systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is PFCG in SAP Security?",
+      "answer": "PFCG is the primary SAP transaction code used for Role Maintenance. It allows you to create roles, manage menus, and generate authorization profiles."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is SU24 in SAP?",
+      "answer": "SU24 is used to manage authorization proposals. It helps define which authorization objects and values should be automatically pulled into a role when a transaction is added."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is Segregation of Duties (SoD) in SAP?",
+      "answer": "SoD is a security principle where business processes are divided among multiple users to prevent fraud or error, ensuring no single user has end-to-end control over a critical process."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP Security relevant for S/4HANA?",
+      "answer": "Yes. S/4HANA introduces modern security requirements including OData services and Fiori UI security components like Catalogs and Groups."
+    },
+    {
+      "faq_id": 6,
+      "question": "What is the difference between authentication and authorization in SAP?",
+      "answer": "Authentication is the process of verifying who a user is (logon), while authorization is the process of determining what that user can do once they are in the system."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is SAP GRC covered in this course?",
+      "answer": "The course provides a comprehensive overview of SAP GRC Access Control, including Risk Analysis and Emergency Access Management (EAM)."
+    },
+    {
+      "faq_id": 8,
+      "question": "What tools are used for troubleshooting SAP authorization issues?",
+      "answer": "The most common tools are SU53 (for current failures) and STAUTHTRACE (for a comprehensive trace of authorization checks)."
+    },
+    {
+      "faq_id": 9,
+      "question": "Who hires SAP Security professionals?",
+      "answer": "Fortune 500 companies, global consulting firms, and any enterprise running SAP ERP require dedicated security teams to maintain compliance."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career growth can I expect in SAP Security?",
+      "answer": "Professionals can advance to SAP GRC Consultant, SAP Security Architect, or IT Audit Manager roles with significant salary potential."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Security Consultants",
+    "SAP Basis Administrators",
+    "IT Auditors",
+    "Functional Consultants"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Security & Authorization Course | SAP GRC Training | Proximsoft",
+    "meta_description": "Master SAP Security and Authorizations. Learn role design (PFCG), user administration (SU01), SoD, and S/4HANA Fiori security in this expert-led course.",
+    "meta_url": "/courses/sap/sap-security-authorization"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPBRIM-060",
+    "course_uid": "uid-sap-brim-billing-revenue-innovation",
+    "course_title": "SAP Billing and Revenue Innovation Management (BRIM)",
+    "course_subtitle": "End-to-End SAP BRIM Strategy, Subscription Billing & Revenue Management",
+    "course_slug": "sap-brim-training-course",
+    "course_thumbnail": "assets/images/courses/sap-brim-thumb.jpg",
+    "course_short_description": "Master high-volume subscription and usage-based billing. Learn to implement SAP CC, CI, and FI-CA for scalable enterprise monetization.",
+    "course_long_description": "The SAP Billing and Revenue Innovation Management (BRIM) course is designed to build deep expertise in SAP’s end-to-end billing ecosystem. This program covers subscription business models, usage-based billing, contract accounts receivable (FI-CA), and revenue recognition integrated with SAP S/4HANA Finance.",
+    "about_course": [
+      "Master the architecture of SAP BRIM for subscription and consumption-based monetization.",
+      "Learn to configure real-time rating and charging using SAP Convergent Charging (CC).",
+      "Deep dive into invoice consolidation and billing document management with Convergent Invoicing (CI).",
+      "Hands-on training in FI-CA for managing high-volume sub-ledger accounting and collections."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 21,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "75 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-brim",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP Billing and Revenue Innovation Management",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-brim-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic SAP knowledge or finance background",
+      "Understanding of enterprise billing and financial processes",
+      "Familiarity with SAP FI, SD, or S/4HANA concepts"
+    ],
+    "key_learnings": [
+      "Implement the end-to-end SAP BRIM process flow ",
+      "Configure Convergent Charging for complex usage-based pricing models",
+      "Manage high-volume invoicing and consolidation via Convergent Invoicing",
+      "Execute sub-ledger accounting and automated collections using FI-CA"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Finance or Billing",
+      "Finance and Revenue Management professionals",
+      "IT Architects and Integration Specialists",
+      "Project Managers for Digital Transformation"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP BRIM Implementation",
+        "Convergent Charging (CC)",
+        "Convergent Invoicing (CI)",
+        "FI-CA Configuration"
+      ],
+      "supporting_skills": [
+        "Subscription Billing",
+        "Usage-Based Rating",
+        "Revenue Recognition",
+        "S/4HANA Finance Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP CC",
+        "SAP CI",
+        "SAP FI-CA",
+        "Subscription Billing"
+      ],
+      "secondary": [
+        "SAP S/4HANA Finance",
+        "SAP RAR",
+        "Billing Analytics"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP BRIM Consultant",
+      "Subscription Billing Specialist",
+      "Revenue Management Analyst",
+      "SAP Finance Integration Lead"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End SAP BRIM Implementation. Design a complete monetization system including subscription setup, usage rating logic, invoice consolidation, and financial posting into S/4HANA."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 14,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP BRIM",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP BRIM architecture and components ",
+          "Business relevance for subscription models",
+          "Monetization strategies overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Subscription Billing Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "Subscription lifecycle management",
+          "Customer contracts and agreements",
+          "Usage-based billing models"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SAP Convergent Charging (SAP CC)",
+        "module_duration": "Week 2",
+        "topics": [
+          "Rating and charging strategies",
+          "Pricing model configuration",
+          "Integration with subscription management"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SAP Convergent Invoicing (SAP CI)",
+        "module_duration": "Week 3",
+        "topics": [
+          "Invoice creation and consolidation",
+          "Billing document management",
+          "Validation and posting procedures"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Contract Accounts Receivable & Payable (FI-CA)",
+        "module_duration": "Week 4",
+        "topics": [
+          "High-volume AR/AP processes",
+          "Payment handling and allocation",
+          "Dunning and collections management"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Revenue Management & Recognition",
+        "module_duration": "Week 5",
+        "topics": [
+          "Revenue recognition principles (IFRS 15)",
+          "Compliance frameworks and settings",
+          "Integration with S/4HANA Finance"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "SAP BRIM Integration with S/4HANA",
+        "module_duration": "Week 6",
+        "topics": [
+          "FI, SD, and MM integration points",
+          "Master data synchronization (Business Partners)",
+          "Real-time and batch processing scenarios"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Pricing & Discount Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Rate plans and charge configuration",
+          "Promotions and discount logic",
+          "Pricing analytics and simulations"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Usage Data Management & Rating",
+        "module_duration": "Week 7",
+        "topics": [
+          "Usage data collection and mediation",
+          "Data validation and transformation",
+          "Rating-to-invoicing workflow execution"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Analytics, Reporting & KPIs",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard BRIM operational reports",
+          "Billing and revenue dashboards",
+          "Revenue KPIs for recurring business"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Security, Compliance & Audit",
+        "module_duration": "Week 9",
+        "topics": [
+          "Data privacy and GDPR controls",
+          "Role-based access in BRIM",
+          "Audit-ready billing system setup"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Process Automation & Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Workflow automation triggers",
+          "Billing process performance tuning",
+          "Revenue cycle improvement strategies"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Industry Case Studies & Best Practices",
+        "module_duration": "Week 10",
+        "topics": [
+          "Telecom and Utilities scenarios",
+          "Subscription SaaS business models",
+          "Common implementation pitfalls"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "Subscription and Usage rating setup",
+          "Invoice consolidation validation",
+          "Final revenue recognition workflow"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 340,
+    "total_students_enrolled": 2200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP BRIM?",
+      "answer": "SAP BRIM (Billing and Revenue Innovation Management) is a suite designed to manage end-to-end subscription billing, usage-based pricing, invoicing, and revenue management."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is SAP BRIM used for?",
+      "answer": "It is used to automate complex monetization models, such as monthly subscriptions or pay-per-use services, while ensuring financial compliance."
+    },
+    {
+      "faq_id": 3,
+      "question": "What industries use SAP BRIM?",
+      "answer": "It is predominantly used in Telecom, Utilities, Software (SaaS), Media, and any industry moving towards recurring revenue models."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP BRIM part of S/4HANA?",
+      "answer": "Yes, it integrates natively with S/4HANA Finance to ensure billing data is seamlessly reflected in the general ledger."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is the difference between SAP BRIM and SAP SD?",
+      "answer": "SAP SD is built for traditional sales of goods, whereas SAP BRIM is optimized for high-volume, recurring, and usage-based services."
+    },
+    {
+      "faq_id": 6,
+      "question": "What are the core components of SAP BRIM?",
+      "answer": "The core components are Subscription Billing, Convergent Charging (CC), Convergent Invoicing (CI), and Contract Accounts Receivable and Payable (FI-CA)."
+    },
+    {
+      "faq_id": 7,
+      "question": "What skills are required to learn SAP BRIM?",
+      "answer": "A basic understanding of SAP FI or SD, along with knowledge of enterprise billing or financial accounting, is recommended."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP BRIM a good career option?",
+      "answer": "Yes. As digital service models expand globally, specialists in SAP BRIM are in high demand and command premium salaries."
+    },
+    {
+      "faq_id": 9,
+      "question": "What is revenue recognition in SAP BRIM?",
+      "answer": "It is the automated process of recording revenue over time (as per IFRS 15 standards) rather than just at the point of invoicing."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to learn SAP BRIM?",
+      "answer": "With structured instructor-led training, professionals can master the core implementation skills in 8 to 10 weeks."
+    }
+  ],
+  "target_audience": [
+    "SAP Finance Consultants",
+    "Billing & Revenue Managers",
+    "IT Architects",
+    "Functional Consultants expanding to BRIM"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP BRIM Course | Billing & Revenue Innovation Management Training",
+    "meta_description": "Master SAP BRIM. Learn subscription billing, usage-based rating (SAP CC), convergent invoicing (SAP CI), and FI-CA in this expert S/4HANA course.",
+    "meta_url": "/courses/sap/sap-brim-billing-revenue-innovation-management"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPBRIM-060",
+    "course_uid": "uid-sap-brim-billing-revenue-innovation",
+    "course_title": "SAP Billing and Revenue Innovation Management (BRIM)",
+    "course_subtitle": "End-to-End SAP BRIM Strategy, Subscription Billing & Revenue Management",
+    "course_slug": "sap-brim-training-course",
+    "course_thumbnail": "assets/images/courses/sap-brim-thumb.jpg",
+    "course_short_description": "Master high-volume subscription and usage-based billing. Learn to implement SAP CC, CI, and FI-CA for scalable enterprise monetization.",
+    "course_long_description": "The SAP Billing and Revenue Innovation Management (BRIM) course is designed to build deep expertise in SAP’s end-to-end billing ecosystem. This program covers subscription business models, usage-based billing, contract accounts receivable (FI-CA), and revenue recognition integrated with SAP S/4HANA Finance.",
+    "about_course": [
+      "Master the architecture of SAP BRIM for subscription and consumption-based monetization.",
+      "Learn to configure real-time rating and charging using SAP Convergent Charging (CC).",
+      "Deep dive into invoice consolidation and billing document management with Convergent Invoicing (CI).",
+      "Hands-on training in FI-CA for managing high-volume sub-ledger accounting and collections."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 21,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "75 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-brim",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP Billing and Revenue Innovation Management",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-brim-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic SAP knowledge or finance background",
+      "Understanding of enterprise billing and financial processes",
+      "Familiarity with SAP FI, SD, or S/4HANA concepts"
+    ],
+    "key_learnings": [
+      "Implement the end-to-end SAP BRIM process flow ",
+      "Configure Convergent Charging for complex usage-based pricing models",
+      "Manage high-volume invoicing and consolidation via Convergent Invoicing",
+      "Execute sub-ledger accounting and automated collections using FI-CA"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Finance or Billing",
+      "Finance and Revenue Management professionals",
+      "IT Architects and Integration Specialists",
+      "Project Managers for Digital Transformation"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP BRIM Implementation",
+        "Convergent Charging (CC)",
+        "Convergent Invoicing (CI)",
+        "FI-CA Configuration"
+      ],
+      "supporting_skills": [
+        "Subscription Billing",
+        "Usage-Based Rating",
+        "Revenue Recognition",
+        "S/4HANA Finance Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP CC",
+        "SAP CI",
+        "SAP FI-CA",
+        "Subscription Billing"
+      ],
+      "secondary": [
+        "SAP S/4HANA Finance",
+        "SAP RAR",
+        "Billing Analytics"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP BRIM Consultant",
+      "Subscription Billing Specialist",
+      "Revenue Management Analyst",
+      "SAP Finance Integration Lead"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End SAP BRIM Implementation. Design a complete monetization system including subscription setup, usage rating logic, invoice consolidation, and financial posting into S/4HANA."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 14,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP BRIM",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP BRIM architecture and components ",
+          "Business relevance for subscription models",
+          "Monetization strategies overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Subscription Billing Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "Subscription lifecycle management",
+          "Customer contracts and agreements",
+          "Usage-based billing models"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SAP Convergent Charging (SAP CC)",
+        "module_duration": "Week 2",
+        "topics": [
+          "Rating and charging strategies",
+          "Pricing model configuration",
+          "Integration with subscription management"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "SAP Convergent Invoicing (SAP CI)",
+        "module_duration": "Week 3",
+        "topics": [
+          "Invoice creation and consolidation",
+          "Billing document management",
+          "Validation and posting procedures"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Contract Accounts Receivable & Payable (FI-CA)",
+        "module_duration": "Week 4",
+        "topics": [
+          "High-volume AR/AP processes",
+          "Payment handling and allocation",
+          "Dunning and collections management"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Revenue Management & Recognition",
+        "module_duration": "Week 5",
+        "topics": [
+          "Revenue recognition principles (IFRS 15)",
+          "Compliance frameworks and settings",
+          "Integration with S/4HANA Finance"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "SAP BRIM Integration with S/4HANA",
+        "module_duration": "Week 6",
+        "topics": [
+          "FI, SD, and MM integration points",
+          "Master data synchronization (Business Partners)",
+          "Real-time and batch processing scenarios"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Pricing & Discount Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Rate plans and charge configuration",
+          "Promotions and discount logic",
+          "Pricing analytics and simulations"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Usage Data Management & Rating",
+        "module_duration": "Week 7",
+        "topics": [
+          "Usage data collection and mediation",
+          "Data validation and transformation",
+          "Rating-to-invoicing workflow execution"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Analytics, Reporting & KPIs",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard BRIM operational reports",
+          "Billing and revenue dashboards",
+          "Revenue KPIs for recurring business"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Security, Compliance & Audit",
+        "module_duration": "Week 9",
+        "topics": [
+          "Data privacy and GDPR controls",
+          "Role-based access in BRIM",
+          "Audit-ready billing system setup"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Process Automation & Optimization",
+        "module_duration": "Week 9",
+        "topics": [
+          "Workflow automation triggers",
+          "Billing process performance tuning",
+          "Revenue cycle improvement strategies"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Industry Case Studies & Best Practices",
+        "module_duration": "Week 10",
+        "topics": [
+          "Telecom and Utilities scenarios",
+          "Subscription SaaS business models",
+          "Common implementation pitfalls"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "Subscription and Usage rating setup",
+          "Invoice consolidation validation",
+          "Final revenue recognition workflow"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 340,
+    "total_students_enrolled": 2200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP BRIM?",
+      "answer": "SAP BRIM (Billing and Revenue Innovation Management) is a suite designed to manage end-to-end subscription billing, usage-based pricing, invoicing, and revenue management."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is SAP BRIM used for?",
+      "answer": "It is used to automate complex monetization models, such as monthly subscriptions or pay-per-use services, while ensuring financial compliance."
+    },
+    {
+      "faq_id": 3,
+      "question": "What industries use SAP BRIM?",
+      "answer": "It is predominantly used in Telecom, Utilities, Software (SaaS), Media, and any industry moving towards recurring revenue models."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP BRIM part of S/4HANA?",
+      "answer": "Yes, it integrates natively with S/4HANA Finance to ensure billing data is seamlessly reflected in the general ledger."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is the difference between SAP BRIM and SAP SD?",
+      "answer": "SAP SD is built for traditional sales of goods, whereas SAP BRIM is optimized for high-volume, recurring, and usage-based services."
+    },
+    {
+      "faq_id": 6,
+      "question": "What are the core components of SAP BRIM?",
+      "answer": "The core components are Subscription Billing, Convergent Charging (CC), Convergent Invoicing (CI), and Contract Accounts Receivable and Payable (FI-CA)."
+    },
+    {
+      "faq_id": 7,
+      "question": "What skills are required to learn SAP BRIM?",
+      "answer": "A basic understanding of SAP FI or SD, along with knowledge of enterprise billing or financial accounting, is recommended."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP BRIM a good career option?",
+      "answer": "Yes. As digital service models expand globally, specialists in SAP BRIM are in high demand and command premium salaries."
+    },
+    {
+      "faq_id": 9,
+      "question": "What is revenue recognition in SAP BRIM?",
+      "answer": "It is the automated process of recording revenue over time (as per IFRS 15 standards) rather than just at the point of invoicing."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to learn SAP BRIM?",
+      "answer": "With structured instructor-led training, professionals can master the core implementation skills in 8 to 10 weeks."
+    }
+  ],
+  "target_audience": [
+    "SAP Finance Consultants",
+    "Billing & Revenue Managers",
+    "IT Architects",
+    "Functional Consultants expanding to BRIM"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP BRIM Course | Billing & Revenue Innovation Management Training",
+    "meta_description": "Master SAP BRIM. Learn subscription billing, usage-based rating (SAP CC), convergent invoicing (SAP CI), and FI-CA in this expert S/4HANA course.",
+    "meta_url": "/courses/sap/sap-brim-billing-revenue-innovation-management"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPDMC-061",
+    "course_uid": "uid-sap-digital-manufacturing-cloud-expert",
+    "course_title": "SAP Digital Manufacturing Cloud (DMC)",
+    "course_subtitle": "Comprehensive SAP DMC Strategy, Cloud-Based Production Management & Real-Time Smart Manufacturing",
+    "course_slug": "sap-digital-manufacturing-cloud-course",
+    "course_thumbnail": "assets/images/courses/sap-dmc-thumb.jpg",
+    "course_short_description": "Master SAP's Industry 4.0 MES platform. Learn to connect shop floor operations with S/4HANA, optimize production with real-time analytics, and implement smart factory solutions.",
+    "course_long_description": "This SAP Digital Manufacturing Cloud (DMC) course is designed to help professionals master cloud-based manufacturing execution, production planning, and real-time analytics. You will learn how to connect shop floor equipment and IoT devices to SAP S/4HANA, enabling a unified digital thread that transforms traditional factories into intelligent, connected operations.",
+    "about_course": [
+      "Master the cloud-native evolution of SAP Manufacturing Execution (ME) and MII.",
+      "Learn to implement the 'Digital Thread' connecting the top floor (ERP) to the shop floor.",
+      "Hands-on training in DMC for Execution (DMe) and DMC for Insights (DMi).",
+      "Comprehensive coverage of IoT sensor integration and predictive maintenance analytics."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Instructor-Led + Hands-On",
+    "course_priority": "high",
+    "course_sequence": 22,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-dmc",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate - SAP Digital Manufacturing",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-dmc-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of manufacturing processes",
+      "Familiarity with SAP ERP or SAP S/4HANA",
+      "Knowledge of production planning or shop floor operations"
+    ],
+    "key_learnings": [
+      "Configure SAP DMC for end-to-end manufacturing execution ",
+      "Integrate shop floor IoT devices with SAP S/4HANA via SAP Cloud Integration ",
+      "Design real-time Manufacturing Intelligence dashboards using Embedded SAC",
+      "Implement Resource Orchestration (REO) for labor and tool management"
+    ],
+    "ideal_candidates": [
+      "SAP PP / QM / PM Consultants",
+      "Manufacturing & Production Managers",
+      "Industry 4.0 Transformation Teams",
+      "ERP & Manufacturing Integration Specialists"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP DMC Configuration",
+        "MES Implementation",
+        "Cloud Production Planning",
+        "Real-Time Manufacturing Analytics"
+      ],
+      "supporting_skills": [
+        "IoT & Edge Connectivity",
+        "KPI Optimization (OEE)",
+        "S/4HANA Manufacturing Integration",
+        "Digital Twin Concepts"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Digital Manufacturing",
+        "SAP S/4HANA",
+        "SAP Analytics Cloud (Embedded)"
+      ],
+      "secondary": [
+        "IoT Edge Gateways",
+        "Production Operator Dashboards (POD)",
+        "Manufacturing Data Objects (MDO)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP DMC Consultant",
+      "Digital Manufacturing Specialist",
+      "Smart Factory Analyst",
+      "SAP Manufacturing Integration Lead"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Smart Manufacturing Implementation. Design and configure a full DMC environment including production planning, operator workstation setup, OEE dashboards, and real-time S/4HANA data exchange."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP DMC",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP DMC architecture and cloud deployment",
+          "Role of DMC in Industry 4.0",
+          "Manufacturing execution in the cloud"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Production Planning & Scheduling",
+        "module_duration": "Week 1",
+        "topics": [
+          "Cloud-based order management",
+          "Capacity planning and optimization",
+          "Resource allocation strategies"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Shop Floor Execution",
+        "module_duration": "Week 2",
+        "topics": [
+          "Real-time production tracking",
+          "Operator and work center management",
+          "Production confirmation workflows"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Manufacturing Analytics & KPIs",
+        "module_duration": "Week 3",
+        "topics": [
+          "Production efficiency metrics (OEE) ",
+          "Real-time shop floor dashboards",
+          "Standard analytical reports"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Quality & Compliance",
+        "module_duration": "Week 3",
+        "topics": [
+          "Quality inspection processes",
+          "Defect tracking and buyoffs",
+          "Compliance management in DMC"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Integration with SAP S/4HANA",
+        "module_duration": "Week 4",
+        "topics": [
+          "Master data synchronization (BOM, Routing)",
+          "Production order integration",
+          "Closed-loop data exchange"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "IoT & Sensor Integration",
+        "module_duration": "Week 5",
+        "topics": [
+          "Connecting IoT devices and machines",
+          "Data acquisition and streaming",
+          "Predictive maintenance concepts"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Advanced Analytics & Predictive Insights",
+        "module_duration": "Week 5",
+        "topics": [
+          "Data-driven production decisions",
+          "What-if analysis and simulation",
+          "Machine learning in manufacturing"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Alerts & Exception Handling",
+        "module_duration": "Week 6",
+        "topics": [
+          "Event monitoring and triggers",
+          "Root cause analysis tools",
+          "Escalation workflows"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Security & Governance",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access control (RBAC)",
+          "Audit logging and traceability",
+          "Data protection standards"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Industry Case Studies",
+        "module_duration": "Week 7",
+        "topics": [
+          "Smart manufacturing frameworks",
+          "Continuous improvement strategies",
+          "Raumedic and Topsoe success stories"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end DMC implementation",
+          "Production order lifecycle validation",
+          "Final KPI dashboard review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 180,
+    "total_students_enrolled": 1100
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Digital Manufacturing Cloud (DMC)?",
+      "answer": "SAP DMC is a cloud-based manufacturing execution system (MES) that integrates production planning, shop floor operations, and IoT devices for real-time manufacturing management."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between SAP DMC and SAP ME?",
+      "answer": "SAP DMC is the cloud-native evolution of SAP ME. It offers superior real-time analytics, out-of-the-box IoT integration, and runs on SAP BTP rather than on-premise hardware."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP DMC part of Industry 4.0?",
+      "answer": "Yes. It is a core pillar of Industry 4.0, enabling smart factories through real-time monitoring, predictive maintenance, and autonomous production capabilities."
+    },
+    {
+      "faq_id": 4,
+      "question": "Does SAP DMC integrate with SAP S/4HANA?",
+      "answer": "Yes. It features native, closed-loop integration with S/4HANA for master data synchronization and real-time production order feedback."
+    },
+    {
+      "faq_id": 5,
+      "question": "What are the career opportunities in SAP DMC?",
+      "answer": "You can target roles such as SAP DMC Consultant, Smart Manufacturing Specialist, Manufacturing Integration Architect, and Industry 4.0 Analyst."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is SAP DMC good for manufacturing professionals?",
+      "answer": "It is ideal for production managers, plant engineers, and SAP PP consultants looking to modernize shop floor operations."
+    },
+    {
+      "faq_id": 7,
+      "question": "What skills are required to learn SAP DMC?",
+      "answer": "A basic understanding of manufacturing shop floor processes and familiarity with SAP ERP or S/4HANA core modules is recommended."
+    },
+    {
+      "faq_id": 8,
+      "question": "What industries use SAP Digital Manufacturing?",
+      "answer": "It is widely used in Automotive, Pharmaceuticals, Electronics, Consumer Goods, and Heavy Machinery sectors."
+    },
+    {
+      "faq_id": 9,
+      "question": "Does SAP DMC include IoT integration?",
+      "answer": "Yes. The platform connects directly to machines and IoT sensors for real-time data acquisition and performance tracking."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to learn SAP DMC?",
+      "answer": "With structured training and hands-on laboratory work, the core implementation skills can be mastered in 6–8 weeks."
+    }
+  ],
+  "target_audience": [
+    "SAP PP/QM Consultants",
+    "Production Managers",
+    "Industry 4.0 Specialists",
+    "IT Architects"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Digital Manufacturing Cloud Course | Smart Factory MES Training",
+    "meta_description": "Master SAP Digital Manufacturing (DMC). Learn cloud-based production management, shop floor integration, and real-time KPI monitoring in this expert course.",
+    "meta_url": "/courses/sap/sap-digital-manufacturing-cloud"
+  },
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPFGL-062",
+    "course_uid": "uid-sap-fieldglass-vendor-workforce-pro",
+    "course_title": "SAP Fieldglass Training – Vendor Management & Contingent Workforce Solutions",
+    "course_subtitle": "Comprehensive SAP Fieldglass Strategy, External Workforce Management & Services Procurement",
+    "course_slug": "sap-fieldglass-training-course",
+    "course_thumbnail": "assets/images/courses/sap-fieldglass-thumb.jpg",
+    "course_short_description": "Master the world's leading VMS. Learn to manage contingent labor, external vendors, and Statement of Work (SOW) projects with SAP Fieldglass cloud solutions.",
+    "course_long_description": "The SAP Fieldglass course is a hands-on training program designed to help professionals master contingent workforce management and services procurement. You will learn to manage the entire external worker lifecycle, from job postings and vendor onboarding to time tracking, invoicing, and S/4HANA integration.",
+    "about_course": [
+      "Master the cloud-based Vendor Management System (VMS) architecture.",
+      "Learn to automate services procurement using SOW-based project management.",
+      "Hands-on experience with contingent labor onboarding, compliance, and offboarding.",
+      "Comprehensive training on workforce analytics and financial integration with S/4HANA."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Instructor-Led + Hands-on",
+    "course_priority": "high",
+    "course_sequence": 23,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "45 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-fieldglass",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Administrator – SAP Fieldglass",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-fieldglass-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP ERP (HCM, FI, MM preferred)",
+      "Familiarity with procurement or workforce processes",
+      "Understanding of vendor and contract management concepts"
+    ],
+    "key_learnings": [
+      "Configure SAP Fieldglass for global contingent workforce programs [Image of SAP Fieldglass VMS Workflow hierarchy]",
+      "Implement Statement of Work (SOW) configurations for milestone-based billing",
+      "Manage end-to-end vendor onboarding and performance tracking",
+      "Integrate Fieldglass with S/4HANA for real-time finance and HR synchronization"
+    ],
+    "ideal_candidates": [
+      "SAP HCM / HR Consultants",
+      "SAP MM / Procurement Consultants",
+      "Vendor Management Professionals",
+      "Workforce Program Managers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Fieldglass Implementation",
+        "VMS Management",
+        "Services Procurement (SOW)",
+        "Contingent Workforce Lifecycle"
+      ],
+      "supporting_skills": [
+        "Workforce Analytics",
+        "Compliance & Audit Controls",
+        "Invoice Automation",
+        "S/4HANA Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Fieldglass",
+        "S/4HANA Integration"
+      ],
+      "secondary": [
+        "Workforce Analytics Tools",
+        "SAP Business Network",
+        "Connector Setup Wizard"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Fieldglass Consultant",
+      "Vendor Management Specialist",
+      "Contingent Workforce Program Manager",
+      "Services Procurement Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Workforce Implementation. Design and deploy a complete solution including vendor onboarding, contingent worker lifecycle, SOW setup, and integrated financial reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Fieldglass",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP Fieldglass architecture overview",
+          "Role in contingent workforce management",
+          "Vendor Management System (VMS) concepts",
+          "Business benefits of Fieldglass"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Contingent Workforce Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Worker lifecycle management",
+          "Onboarding & offboarding processes",
+          "Role-based approvals",
+          "Compliance management"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Vendor Management & Onboarding",
+        "module_duration": "Week 2",
+        "topics": [
+          "Vendor registration workflows",
+          "Vendor performance tracking",
+          "SLA & contract alignment",
+          "Vendor governance best practices"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Job Posting & Requisition Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Work order creation",
+          "Candidate submission & approval",
+          "Skill-based matching",
+          "Approval hierarchies"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Time & Expense Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Timesheet submission & approvals",
+          "Expense reporting",
+          "Reimbursement workflows",
+          "Integration with payroll & finance"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Services Procurement (SOW Management)",
+        "module_duration": "Week 4",
+        "topics": [
+          "Statement of Work (SOW) configuration",
+          "Milestone tracking",
+          "Deliverable-based billing",
+          "Services vendor lifecycle"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Contract & Compliance Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Contract lifecycle management",
+          "Audit trails & regulatory compliance",
+          "Risk mitigation frameworks",
+          "Legal documentation tracking"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Invoicing & Payment Processing",
+        "module_duration": "Week 5",
+        "topics": [
+          "Invoice validation workflows",
+          "Billing reconciliation",
+          "Payment integration with SAP Finance",
+          "Dispute resolution"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 6",
+        "topics": [
+          "Workforce performance dashboards",
+          "Vendor performance KPIs",
+          "Cost tracking & analytics",
+          "Operational reporting best practices"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Integration with SAP S/4HANA",
+        "module_duration": "Week 7",
+        "topics": [
+          "Integration with SAP HR",
+          "Integration with SAP Finance",
+          "Real-time data synchronization",
+          "Workflow automation"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Security, Roles & Authorizations",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access control",
+          "User provisioning",
+          "Data privacy & audit readiness",
+          "Compliance governance"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation exercise"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 190,
+    "total_students_enrolled": 1400
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Fieldglass?",
+      "answer": "SAP Fieldglass is a cloud-based Vendor Management System (VMS) used to manage contingent labor, external vendors, and services procurement efficiently."
+    },
+    {
+      "faq_id": 2,
+      "question": "What does SAP Fieldglass do?",
+      "answer": "It helps organizations manage external workers, automate vendor onboarding, track time and expenses, and integrate workforce data with ERP systems."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP Fieldglass part of SAP S/4HANA?",
+      "answer": "It integrates seamlessly with S/4HANA Finance and HR but operates as a specialized cloud-based workforce solution."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is contingent workforce management in SAP?",
+      "answer": "It refers to the structured management of non-permanent staff like contractors and freelancers through automated onboarding and compliance."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who can learn SAP Fieldglass?",
+      "answer": "It is ideal for consultants in HR or procurement, workforce managers, and vendor program leads seeking to specialize in external labor management."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does Fieldglass manage project-based work?",
+      "answer": "Yes, its Services Procurement module specifically handles Statement of Work (SOW) based projects and milestone payments."
+    },
+    {
+      "faq_id": 7,
+      "question": "What tools are covered in the integration module?",
+      "answer": "We cover SAP Cloud Integration, the Fieldglass Connector Wizard, and Single Sign-On (SSO) configurations."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is the course hands-on?",
+      "answer": "Yes, learners will have access to a Fieldglass environment to perform configurations and worker lifecycle simulations."
+    },
+    {
+      "faq_id": 9,
+      "question": "What industries use SAP Fieldglass?",
+      "answer": "It is widely used in IT services, manufacturing, healthcare, and retail sectors that rely heavily on contingent labor."
+    },
+    {
+      "faq_id": 10,
+      "question": "What are the job prospects?",
+      "answer": "Fieldglass experts are in high demand for global SAP transformation projects, with roles like VMS Consultant or Services Procurement Analyst."
+    }
+  ],
+  "target_audience": [
+    "HR & Procurement Consultants",
+    "Workforce Managers",
+    "Services Procurement Analysts",
+    "SAP Functional Leads"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Fieldglass Course | Vendor Management System (VMS) Training",
+    "meta_description": "Master SAP Fieldglass. Learn contingent workforce management, SOW services procurement, and S/4HANA integration in this hands-on certification course.",
+    "meta_url": "/courses/sap/sap-fieldglass-training"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPGTS-063",
+    "course_uid": "uid-sap-global-trade-services-compliance-expert",
+    "course_title": "SAP Global Trade Services (GTS)",
+    "course_subtitle": "Comprehensive SAP GTS Strategy, International Trade Compliance & Customs Management",
+    "course_slug": "sap-gts-compliance-course",
+    "course_thumbnail": "assets/images/courses/sap-gts-thumb.jpg",
+    "course_short_description": "Master international trade. Learn customs management, export/import compliance, and sanction screening integrated with SAP S/4HANA.",
+    "course_long_description": "This SAP Global Trade Services (GTS) course helps professionals manage international trade operations and regulatory risk. You will learn real-world implementation of trade compliance, customs declaration automation, and integration with S/4HANA Logistics and Finance systems.",
+    "about_course": [
+      "Master the legal background and technical basics of Global Trade Services.",
+      "Learn to implement Sanctioned Party List (SPL) screening and legal control workflows.",
+      "Hands-on training in Customs Management, tariff classification, and electronic filing.",
+      "Focuses on risk management, preferential trade agreements, and audit trails."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 24,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-gts",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP Global Trade Services",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-gts-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP ERP modules (SD, MM, FI/CO)",
+      "Familiarity with import/export and customs processes",
+      "Awareness of international trade compliance concepts"
+    ],
+    "key_learnings": [
+      "Configure SAP GTS for end-to-end global trade compliance ",
+      "Automate Customs Declarations and duty calculations for diverse jurisdictions",
+      "Implement real-time SPL screening and legal control checks",
+      "Manage Trade Preferences and Certificates of Origin for international agreements"
+    ],
+    "ideal_candidates": [
+      "SAP SD/MM Functional Consultants",
+      "Trade Compliance Professionals",
+      "Customs & Logistics Managers",
+      "International Supply Chain Leads"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP GTS Implementation",
+        "Customs Management",
+        "Export Control",
+        "Sanction Screening"
+      ],
+      "supporting_skills": [
+        "S/4HANA Integration",
+        "Risk Assessment",
+        "Regulatory Reporting",
+        "Tariff Classification"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP GTS",
+        "S/4HANA Integration"
+      ],
+      "secondary": [
+        "Customs Filing Systems",
+        "GTS Analytics Dashboards",
+        "Legal Control Frameworks"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP GTS Consultant",
+      "Trade Compliance Specialist",
+      "Customs Management Analyst",
+      "ERP Trade Operations Lead"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP GTS Enterprise Implementation. Design a solution covering legal control setup, export/import configuration, customs automation, and risk monitoring."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 14,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP GTS",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP GTS architecture overview",
+          "Global trade compliance framework",
+          "Feeder system integration with SAP ERP"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Legal Control & Sanction Screening",
+        "module_duration": "Week 1",
+        "topics": [
+          "Restricted party (SPL) screening process ",
+          "Compliance workflows and status management",
+          "Alert handling and investigation"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Export Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "License determination strategies",
+          "Export documentation generation",
+          "Declaration processes and sequences"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Import Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Import customs declarations",
+          "Duties & taxation handling",
+          "Import control and permit workflows"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Customs Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Tariff classification methods",
+          "Electronic customs filing setup",
+          "Duty calculation logic"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Trade Preference & Certificates",
+        "module_duration": "Week 5",
+        "topics": [
+          "Preferential trade agreement modeling",
+          "Certificate of Origin management",
+          "Supplier declaration verification"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Risk Management & Compliance",
+        "module_duration": "Week 6",
+        "topics": [
+          "Trade risk assessment frameworks",
+          "Audit trail documentation",
+          "Reporting for compliance officers"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integration with SAP ERP",
+        "module_duration": "Week 7",
+        "topics": [
+          "Technical mapping to SD/MM/FI",
+          "Master data synchronization (Business Partners, Materials)",
+          "End-to-end automation triggers"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Trade Documentation & Reporting",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard regulatory reports",
+          "Compliance dashboards in GTS",
+          "KPI tracking for trade operations"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Workflow & Process Automation",
+        "module_duration": "Week 8",
+        "topics": [
+          "Exception management logic",
+          "Automated documentation triggers",
+          "Customized trade compliance workflows"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Data Management & Security",
+        "module_duration": "Week 9",
+        "topics": [
+          "Role-based access in GTS",
+          "Authorization object setup",
+          "Security audit controls"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 10",
+        "topics": [
+          "Global rollout scenarios",
+          "Compliance remediation patterns",
+          "Industry-specific trade lessons"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "SAP GTS Analytics",
+        "module_duration": "Week 10",
+        "topics": [
+          "Trade performance analytics",
+          "Risk pattern insights",
+          "Executive reporting dashboards"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "Export & Import solution design",
+          "Risk and compliance testing",
+          "Final system validation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 320,
+    "total_students_enrolled": 1100
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP GTS?",
+      "answer": "SAP Global Trade Services (GTS) is a solution used to manage international trade compliance, customs processes, and regulatory requirements within enterprise ERP environments."
+    },
+    {
+      "faq_id": 2,
+      "question": "What does SAP GTS do?",
+      "answer": "It automates sanction screening, customs declarations, import/export documentation, and risk assessment for global operations."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP GTS part of S/4HANA?",
+      "answer": "Yes, it integrates natively with S/4HANA Finance, Logistics, SD, and MM modules for seamless compliance management."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is sanction screening in SAP GTS?",
+      "answer": "It is a compliance check that ensures business partners and materials are not on restricted party lists mandated by governments."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP GTS?",
+      "answer": "Functional consultants in SD or MM, customs managers, and trade compliance professionals should specialize in GTS."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is knowledge of customs laws required?",
+      "answer": "A basic awareness helps, but the course teaches how the software manages these laws technically through tariff classification and license determination."
+    },
+    {
+      "faq_id": 7,
+      "question": "What industries use SAP GTS?",
+      "answer": "Manufacturing, retail, pharmaceuticals, and automotive industries that engage in cross-border trade are major users."
+    },
+    {
+      "faq_id": 8,
+      "question": "Does the course cover electronic customs filing?",
+      "answer": "Yes, we cover the configuration and processing of electronic customs declarations used in major global jurisdictions."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP GTS difficult to learn?",
+      "answer": "It is considered intermediate to advanced as it requires a good grasp of logistics and supply chain processes."
+    },
+    {
+      "faq_id": 10,
+      "question": "What are the career roles after training?",
+      "answer": "Roles include SAP GTS Consultant, Trade Compliance specialist, or ERP Customs Analyst."
+    }
+  ],
+  "target_audience": [
+    "Functional Consultants (SD/MM)",
+    "Customs & Logistics Managers",
+    "Compliance Specialists",
+    "Supply Chain Analysts"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP GTS Course | Global Trade Compliance Training | Proximsoft",
+    "meta_description": "Master SAP Global Trade Services (GTS). Learn customs management, sanctioned party screening, and export control in this expert S/4HANA course.",
+    "meta_url": "/courses/sap/sap-gts-compliance"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPIBP-064",
+    "course_uid": "uid-sap-integrated-business-planning-mastery",
+    "course_title": "SAP Integrated Business Planning (IBP)",
+    "course_subtitle": "Comprehensive SAP IBP Strategy, Demand & Supply Planning, and Supply Chain Optimization",
+    "course_slug": "sap-ibp-training-course",
+    "course_thumbnail": "assets/images/courses/sap-ibp-thumb.jpg",
+    "course_short_description": "Master SAP's next-generation supply chain planning. Learn Demand, Supply, Inventory, and S&OP using cloud-based simulations integrated with SAP S/4HANA.",
+    "course_long_description": "This SAP IBP course is designed to help professionals implement and manage modern supply chain planning solutions. You will learn how to configure demand planning, multi-echelon inventory optimization, and S&OP using SAP IBP’s cloud-based platform. The course covers advanced forecasting models, scenario simulations, and seamless integration with SAP S/4HANA and SAP Analytics Cloud.",
+    "about_course": [
+      "Master the unified cloud platform for demand, supply, and inventory planning.",
+      "Learn to use statistical forecasting and demand sensing for high-accuracy planning.",
+      "Hands-on training in Multi-Echelon Inventory Optimization (MEIO) and S&OP processes.",
+      "Focuses on real-time integration with S/4HANA using SDI and CPI-DS for live data planning."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate to Advanced",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 23,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "75 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-ibp",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP IBP for Supply Chain",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-ibp-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of supply chain processes",
+      "Familiarity with forecasting & inventory concepts",
+      "Knowledge of SAP ERP modules (SD, MM, PP) is helpful"
+    ],
+    "key_learnings": [
+      "Configure end-to-end planning cycles in SAP IBP ",
+      "Perform multi-echelon inventory optimization across complex global networks",
+      "Execute real-time 'What-If' scenario simulations for sales and operations alignment",
+      "Integrate IBP cloud with SAP S/4HANA via CPI-DS and Smart Data Integration (SDI) "
+    ],
+    "ideal_candidates": [
+      "Supply Chain Professionals & Planners",
+      "SAP SCM / APO Consultants transitioning to IBP",
+      "Demand & Inventory Analysts",
+      "IT Architects supporting planning solutions"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP IBP Configuration",
+        "Statistical Forecasting",
+        "Inventory Optimization",
+        "S&OP Process Design"
+      ],
+      "supporting_skills": [
+        "Scenario Modeling",
+        "Supply Network Planning",
+        "S/4HANA Integration",
+        "DDMRP Principles"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP IBP Cloud",
+        "S/4HANA",
+        "Forecasting Engines"
+      ],
+      "secondary": [
+        "SAP Analytics Cloud",
+        "Excel Planning Add-in",
+        "CPI-DS",
+        "SDI"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP IBP Consultant",
+      "Supply Chain Planner",
+      "S&OP Analyst",
+      "Enterprise Planning Architect"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Design and implement a complete SAP IBP planning solution including demand forecasting models, supply network planning, multi-level inventory optimization, and S&OP reporting dashboards."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 14,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP IBP",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP IBP architecture overview",
+          "Cloud-based deployment model",
+          "Planning area and Master Data concepts"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Demand Planning",
+        "module_duration": "Week 1",
+        "topics": [
+          "Statistical forecasting models ",
+          "Demand sensing & pattern recognition",
+          "Forecast collaboration and consensus workflows"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Supply Planning",
+        "module_duration": "Week 2",
+        "topics": [
+          "Supply network and constraint modeling",
+          "Rough-cut capacity planning",
+          "Deployment & distribution strategies"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Inventory Optimization",
+        "module_duration": "Week 3",
+        "topics": [
+          "Single and Multi-echelon safety stock modeling ",
+          "Inventory cost and service level trade-off simulations",
+          "Inventory target setting"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Sales & Operations Planning (S&OP)",
+        "module_duration": "Week 4",
+        "topics": [
+          "S&OP process design and orchestration",
+          "What-If scenario simulations",
+          "Balancing consensus demand with constrained supply"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Response & Supply Orchestration",
+        "module_duration": "Week 5",
+        "topics": [
+          "Exception-based planning logic",
+          "Planning with custom alerts",
+          "Order-based fulfillment optimization"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Demand-Driven Replenishment",
+        "module_duration": "Week 6",
+        "topics": [
+          "DDMRP principles and buffer positioning",
+          "Decoupled lead time analysis",
+          "Replenishment execution simulation"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Planning Views & Key Figures",
+        "module_duration": "Week 6",
+        "topics": [
+          "Excel Add-in planning templates",
+          "Key figure calculation and attributes",
+          "Version and scenario management"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 7",
+        "topics": [
+          "Web-based IBP dashboards",
+          "KPI-based planning metrics",
+          "SAP Analytics Cloud connectivity"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Master Data Management",
+        "module_duration": "Week 8",
+        "topics": [
+          "Product, Customer, and Location hierarchies",
+          "Attributes and Master Data Types",
+          "ERP master data synchronization"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Integration with SAP S/4HANA",
+        "module_duration": "Week 9",
+        "topics": [
+          "CPI-DS for time-series integration",
+          "Smart Data Integration (SDI) for order-based planning",
+          "Closed-loop planning process synchronization"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Security & Governance",
+        "module_duration": "Week 9",
+        "topics": [
+          "Role-based access and attribute-based security",
+          "Change history and audit trails",
+          "Planning data governance"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Industry Case Studies",
+        "module_duration": "Week 10",
+        "topics": [
+          "Manufacturing rough-cut capacity scenarios",
+          "Retail demand volatility handling",
+          "Logistics network optimization"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "Full planning cycle implementation",
+          "Scenario comparison and final report",
+          "Final IBP system validation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 280,
+    "total_students_enrolled": 1600
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP IBP?",
+      "answer": "SAP Integrated Business Planning (IBP) is a cloud-based supply chain planning solution that enables demand planning, supply planning, inventory optimization, and S&OP using advanced analytics and real-time ERP integration."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between SAP IBP and SAP APO?",
+      "answer": "SAP IBP is the modern cloud successor to SAP APO. It offers advanced analytics, real-time integration, and collaborative planning capabilities built on SAP HANA and cloud architecture."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP IBP in demand?",
+      "answer": "Yes. SAP IBP consultants are highly in demand globally as organizations migrate from legacy planning systems to cloud-based supply chain optimization platforms."
+    },
+    {
+      "faq_id": 4,
+      "question": "What modules are included in SAP IBP?",
+      "answer": "Key modules include Demand Planning, Supply Planning, Inventory Optimization, Sales & Operations Planning (S&OP), and Response & Supply Orchestration."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who can learn SAP IBP?",
+      "answer": "Supply chain professionals, SAP SCM consultants, demand planners, and ERP specialists who want to move into intelligent cloud planning can learn SAP IBP."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does SAP IBP require coding?",
+      "answer": "No heavy coding is required. However, understanding mathematical planning models, key figure logic, and integration patterns is essential."
+    },
+    {
+      "faq_id": 7,
+      "question": "What industries use SAP IBP?",
+      "answer": "Manufacturing, retail, FMCG, pharmaceuticals, automotive, and global logistics companies widely use SAP IBP to manage global networks."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP IBP integrated with SAP S/4HANA?",
+      "answer": "Yes. SAP IBP integrates natively with SAP S/4HANA for real-time master data and transactional data synchronization using SDI and CPI-DS."
+    },
+    {
+      "faq_id": 9,
+      "question": "What career opportunities are available after SAP IBP?",
+      "answer": "Common roles include SAP IBP Consultant, Supply Chain Planner, S&OP Analyst, and Enterprise Planning Architect."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is SAP IBP certification useful?",
+      "answer": "Yes. SAP IBP certification validates your implementation knowledge and is highly regarded in the supply chain transformation industry."
+    }
+  ],
+  "target_audience": [
+    "Supply Chain Planners",
+    "SCM / APO Consultants",
+    "Demand & Inventory Analysts",
+    "Enterprise Architects"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP IBP Course | Supply Chain Planning & Optimization Training",
+    "meta_description": "Master SAP IBP (Integrated Business Planning). Learn demand forecasting, inventory optimization, and S&OP using cloud-based simulations for Industry 4.0.",
+    "meta_url": "/courses/sap/sap-ibp-optimization"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPMII-065",
+    "course_uid": "uid-sap-mii-manufacturing-intelligence-expert",
+    "course_title": "SAP Manufacturing Integration and Intelligence (MII)",
+    "course_subtitle": "Comprehensive SAP MII Strategy, Shop Floor Integration & Manufacturing Intelligence",
+    "course_slug": "sap-mii-integration-intelligence-course",
+    "course_thumbnail": "assets/images/courses/sap-mii-thumb.jpg",
+    "course_short_description": "Bridge the gap between shop floor and the boardroom. Learn to integrate PLC/SCADA systems with SAP S/4HANA and build real-time manufacturing intelligence dashboards.",
+    "course_long_description": "The SAP Manufacturing Integration and Intelligence (MII) course is designed to help professionals integrate shop floor systems with SAP ERP and generate real-time manufacturing intelligence. This program emphasizes real-time data acquisition, manufacturing analytics, and intelligent production monitoring aligned with Industry 4.0 standards.",
+    "about_course": [
+      "Master the technical architecture that connects shop floor automation to enterprise ERP.",
+      "Learn to acquire real-time data from PLC, SCADA, and MES systems.",
+      "Develop skills in OEE tracking, yield analysis, and real-time downtime monitoring.",
+      "Focuses on building intelligent manufacturing dashboards for data-driven decision making."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 24,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-mii",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate - SAP MII Implementation",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-mii-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic knowledge of SAP ERP",
+      "Familiarity with manufacturing processes",
+      "Understanding of production planning and shop floor operations"
+    ],
+    "key_learnings": [
+      "Configure SAP MII to synchronize shop floor data with SAP S/4HANA ",
+      "Design real-time OEE (Overall Equipment Effectiveness) monitoring dashboards",
+      "Implement event-driven data collection for quality and performance metrics",
+      "Integrate PLC and SCADA systems using industry-standard connectivity protocols"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in manufacturing domains",
+      "Production Engineers & Plant Managers",
+      "Manufacturing Analytics Professionals",
+      "IT Architects supporting Industry 4.0"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP MII Implementation",
+        "Shop Floor Data Integration",
+        "Manufacturing Intelligence",
+        "Real-Time KPI Monitoring"
+      ],
+      "supporting_skills": [
+        "ERP-Manufacturing Integration",
+        "OEE Analytics",
+        "Smart Manufacturing Architecture",
+        "Alerting & Exception Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP MII",
+        "SAP S/4HANA (PP/QM/PM)",
+        "Plant Information Catalog"
+      ],
+      "secondary": [
+        "PLC & SCADA Interfaces",
+        "SAP Analytics Cloud",
+        "MES Connectors",
+        "OEE Dashboard Engine"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP MII Consultant",
+      "Manufacturing Analytics Specialist",
+      "Production Integration Lead",
+      "ERP Manufacturing Project Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: SAP MII Implementation. Design and implement a real-time production monitoring solution including shop floor data integration, OEE tracking, yield analytics, and ERP synchronization for production orders."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP MII",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP MII overview and business benefits",
+          "Architecture and components ",
+          "Manufacturing intelligence use cases"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Shop Floor Integration Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "PLC, SCADA, MES connectivity protocols",
+          "Data acquisition methods and medators",
+          "Real-time ERP integration basics"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Production Data Collection",
+        "module_duration": "Week 2",
+        "topics": [
+          "Master and transactional data integration",
+          "Event-driven data collection logic",
+          "Quality and performance metrics definitions"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Manufacturing Analytics",
+        "module_duration": "Week 3",
+        "topics": [
+          "KPI monitoring strategy ",
+          "OEE (Overall Equipment Effectiveness) analysis",
+          "Downtime and yield tracking"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Real-Time Dashboards & Visualization",
+        "module_duration": "Week 3",
+        "topics": [
+          "Dashboard design best practices",
+          "Visualization of shop floor data",
+          "Stakeholder-based reporting views"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Integration with SAP ERP / S/4HANA",
+        "module_duration": "Week 4",
+        "topics": [
+          "PP, QM, PM module integration",
+          "Production order updates and confirmations",
+          "Material and inventory synchronization"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Alerting & Exception Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "Event management and trigger logic",
+          "Root cause analysis tools",
+          "Escalation workflows for shop floor incidents"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Manufacturing Execution Monitoring",
+        "module_duration": "Week 6",
+        "topics": [
+          "Order tracking and status monitoring",
+          "Work center performance analysis",
+          "Real-time shop floor visibility tools"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Analytics Tools",
+        "module_duration": "Week 6",
+        "topics": [
+          "Standard MII reporting capabilities",
+          "Custom web-based reports development",
+          "Integration with SAP Analytics Cloud"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Security & Data Governance",
+        "module_duration": "Week 7",
+        "topics": [
+          "Roles and authorizations in MII",
+          "Audit and compliance logging",
+          "Data integrity and protection controls"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 8",
+        "topics": [
+          "Smart manufacturing deployment scenarios",
+          "Continuous improvement (Kaizen) models",
+          "Performance optimization strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end MII system configuration",
+          "KPI dashboard validation",
+          "Final real-time data flow test"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 210,
+    "total_students_enrolled": 1300
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP MII?",
+      "answer": "SAP MII (Manufacturing Integration and Intelligence) is a solution that integrates shop floor systems with SAP ERP to enable real-time manufacturing monitoring and analytics."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the role of SAP MII in Industry 4.0?",
+      "answer": "SAP MII supports Industry 4.0 by enabling real-time data acquisition, KPI monitoring, and intelligent production analytics across manufacturing plants."
+    },
+    {
+      "faq_id": 3,
+      "question": "How does SAP MII integrate with SAP S/4HANA?",
+      "answer": "SAP MII integrates with S/4HANA modules like PP, QM, and PM to synchronize production data, materials, and performance metrics."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the difference between SAP MII and SAP ME?",
+      "answer": "SAP ME focuses on manufacturing execution (controlling the order), while SAP MII focuses on integration, monitoring, and manufacturing intelligence (reporting on the process)."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP MII suitable for manufacturing industries?",
+      "answer": "Yes. SAP MII is widely used in manufacturing sectors such as automotive, pharmaceuticals, chemicals, and consumer goods."
+    },
+    {
+      "faq_id": 6,
+      "question": "What skills are required to learn SAP MII?",
+      "answer": "A basic understanding of SAP ERP and manufacturing processes is recommended. Knowledge of web technologies (HTML/JS) is also beneficial for dashboarding."
+    },
+    {
+      "faq_id": 7,
+      "question": "What are KPIs in SAP MII?",
+      "answer": "Common KPIs include OEE (Overall Equipment Effectiveness), downtime, yield, and production efficiency metrics."
+    },
+    {
+      "faq_id": 8,
+      "question": "Does SAP MII support real-time dashboards?",
+      "answer": "Yes. SAP MII provides real-time dashboards for monitoring shop floor and ERP-integrated production data."
+    },
+    {
+      "faq_id": 9,
+      "question": "What career roles can SAP MII lead to?",
+      "answer": "Roles include SAP MII Consultant, Manufacturing Integration Lead, and Production Analytics Specialist."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is SAP MII in demand?",
+      "answer": "Yes. As manufacturers adopt smart factory and Industry 4.0 initiatives, specialists who can bridge shop floor data with ERP systems are in high demand."
+    }
+  ],
+  "target_audience": [
+    "Production Engineers",
+    "Manufacturing IT Professionals",
+    "SAP Functional Consultants",
+    "Plant Managers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP MII Course | Manufacturing Integration & Intelligence Training",
+    "meta_description": "Master SAP MII. Learn to integrate shop floor systems (PLC/SCADA) with SAP S/4HANA for real-time manufacturing intelligence and OEE tracking.",
+    "meta_url": "/courses/sap/sap-mii-integration"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPMDG-066",
+    "course_uid": "uid-sap-master-data-governance-expert",
+    "course_title": "SAP Master Data Governance (MDG) – Enterprise Data Management & Governance",
+    "course_subtitle": "Comprehensive SAP MDG Strategy, Data Governance, and Master Data Management",
+    "course_slug": "sap-master-data-governance-course",
+    "course_thumbnail": "assets/images/courses/sap-mdg-thumb.jpg",
+    "course_short_description": "Master SAP MDG to govern and maintain high-quality master data. Learn workflow-based approvals, data validation, and integration with SAP S/4HANA landscapes.",
+    "course_long_description": "The SAP Master Data Governance (MDG) course is a job-oriented program designed to build deep expertise in enterprise data governance. It covers master data creation, change management, and validation rules for Material, Customer, Vendor, and Financial domains, ensuring consistent and compliant data across S/4HANA systems.",
+    "about_course": [
+      "Master centralized data governance for Material, Business Partner, and Financial domains.",
+      "Learn to configure workflow-based approval processes and change request lifecycles.",
+      "Deep dive into data quality management, enrichment, and duplicate detection.",
+      "Focuses on real-world integration strategies between MDG and SAP S/4HANA environments."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 25,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-mdg",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP Master Data Governance",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-mdg-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic SAP knowledge preferred",
+      "Understanding of ERP master data concepts",
+      "Familiarity with SAP S/4HANA or ECC",
+      "Knowledge of core business processes (Finance, Logistics, Sales)"
+    ],
+    "key_learnings": [
+      "Configure SAP MDG Hub and Co-deployment models ",
+      "Manage end-to-end Change Request lifecycles for master data ",
+      "Enforce data quality using BRFplus validation rules and data enrichment",
+      "Execute mass data uploads and complex consolidation strategies"
+    ],
+    "ideal_candidates": [
+      "SAP consultants working on S/4HANA projects",
+      "Data Governance & MDM professionals",
+      "IT Architects supporting data quality initiatives",
+      "Functional consultants in Finance or Logistics"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP MDG Configuration",
+        "Master Data Governance",
+        "Workflow & Approval Management",
+        "Data Quality Enforcement"
+      ],
+      "supporting_skills": [
+        "S/4HANA Integration",
+        "Regulatory Compliance (GDPR/SOX)",
+        "Enterprise Data Architecture",
+        "Data Consolidation"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Master Data Governance",
+        "SAP S/4HANA",
+        "Business Partner Framework"
+      ],
+      "secondary": [
+        "BRFplus",
+        "SAP Data Quality Management",
+        "SOA Manager",
+        "Data Services"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP MDG Consultant",
+      "Data Governance Analyst",
+      "Master Data Specialist",
+      "Enterprise Data Management Lead"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End SAP MDG Implementation. Design and execute a complete domain setup for Material or Business Partner, including governance workflows, BRFplus validations, and reporting dashboards."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP MDG",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview of SAP Master Data Governance",
+          "Enterprise data governance benefits",
+          "MDG architecture and deployment models"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Master Data Domains",
+        "module_duration": "Week 1",
+        "topics": [
+          "Material, Customer, Vendor, Financial master data",
+          "Business Partner integration",
+          "Data ownership and stewardship"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Governance Framework",
+        "module_duration": "Week 2",
+        "topics": [
+          "Governance policies and procedures",
+          "Data ownership models",
+          "Accountability structures"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Modeling & Consolidation",
+        "module_duration": "Week 3",
+        "topics": [
+          "Data model configuration",
+          "Consolidation of legacy master data",
+          "Duplicate detection and cleansing"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Data Quality Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Validation rules and enrichment",
+          "Data quality metrics",
+          "Governance-driven workflows"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Workflow & Approval Processes",
+        "module_duration": "Week 4",
+        "topics": [
+          "Change request lifecycle",
+          "Approval workflows ",
+          "Role-based access and authorizations"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Integration with SAP S/4HANA",
+        "module_duration": "Week 5",
+        "topics": [
+          "Real-time and batch integration",
+          "Data replication strategies (DRF)",
+          "Cross-module master data usage"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Reporting & Analytics",
+        "module_duration": "Week 6",
+        "topics": [
+          "Standard SAP MDG reporting",
+          "Data quality dashboards",
+          "KPI monitoring"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Data Migration & Maintenance",
+        "module_duration": "Week 6",
+        "topics": [
+          "Migration strategies",
+          "Mass data uploads",
+          "Master data lifecycle management"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Security, Compliance & Audit",
+        "module_duration": "Week 7",
+        "topics": [
+          "Data privacy principles",
+          "Regulatory compliance (SOX, GDPR)",
+          "Audit trails and monitoring"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 8",
+        "topics": [
+          "Enterprise MDG implementation scenarios",
+          "Governance transformation lessons",
+          "Continuous improvement strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end MDG implementation",
+          "Validation and governance rule testing",
+          "Final reporting dashboard build"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 290,
+    "total_students_enrolled": 1600
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP MDG used for?",
+      "answer": "SAP Master Data Governance (SAP MDG) is used to centrally create, manage, validate, and govern master data such as material, customer, vendor, and financial data across SAP ERP systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between SAP MDG and SAP MDM?",
+      "answer": "SAP MDG focuses on governance and workflow-driven management within SAP S/4HANA, while SAP MDM was an earlier standalone solution focused primarily on consolidation."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP MDG part of S/4HANA?",
+      "answer": "Yes. SAP MDG integrates tightly with SAP S/4HANA and can be deployed as a hub or co-deployed on the same instance to support real-time governance."
+    },
+    {
+      "faq_id": 4,
+      "question": "What are master data domains in SAP MDG?",
+      "answer": "Common domains include Material (MM), Business Partner (including Customer and Vendor), and Financial (FI) master data."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does SAP MDG require ABAP knowledge?",
+      "answer": "Basic technical understanding is helpful for BRFplus and UI enhancements, but SAP MDG consultants primarily focus on functional configuration and governance design."
+    },
+    {
+      "faq_id": 6,
+      "question": "What career roles are available after SAP MDG training?",
+      "answer": "You can work as an SAP MDG Consultant, Data Governance Analyst, or Enterprise Master Data Specialist."
+    },
+    {
+      "faq_id": 7,
+      "question": "How long does it take to learn SAP MDG?",
+      "answer": "With structured training and hands-on practice, SAP MDG can typically be mastered in 6–8 weeks."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP MDG in demand?",
+      "answer": "Yes. As organizations move to S/4HANA, the need for 'Clean Core' and accurate master data makes MDG specialists highly sought after."
+    },
+    {
+      "faq_id": 9,
+      "question": "What industries use SAP MDG?",
+      "answer": "Large-scale manufacturing, retail, healthcare, finance, and oil & gas sectors rely on SAP MDG for global data consistency."
+    },
+    {
+      "faq_id": 10,
+      "question": "Does this course prepare me for SAP MDG certification?",
+      "answer": "Yes. The curriculum covers the standard implementation practices required for the SAP MDG certification exam."
+    }
+  ],
+  "target_audience": [
+    "SAP Functional Consultants",
+    "Data Governance Managers",
+    "IT Architects",
+    "Master Data Specialists"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP MDG Course | Master Data Governance Training | Proximsoft",
+    "meta_description": "Learn SAP Master Data Governance (MDG). Master centralized data management, workflows, and quality enforcement for S/4HANA in this expert course.",
+    "meta_url": "/courses/sap/sap-master-data-governance"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPREFX-067",
+    "course_uid": "uid-sap-real-estate-management-expert",
+    "course_title": "SAP Real Estate Management (REFX) – End-to-End Property & Lease Management",
+    "course_subtitle": "Comprehensive SAP REFX Strategy, Lease Administration, and Real Estate Operations",
+    "course_slug": "sap-real-estate-management-refx-course",
+    "course_thumbnail": "assets/images/courses/sap-refx-thumb.jpg",
+    "course_short_description": "Master enterprise real estate and lease lifecycle management. Learn property operations, automated rent billing, and IFRS 16-compliant lease accounting within SAP S/4HANA.",
+    "course_long_description": "This SAP Real Estate Management (REFX) course teaches professionals how to manage enterprise real estate portfolios, lease contracts, and financial integration. You will master lease lifecycle management, automated rent calculation, and IFRS-compliant lease accounting, ensuring seamless financial postings and property governance using SAP S/4HANA.",
+    "about_course": [
+      "Master the centralized management of property master data and building structures.",
+      "Learn to configure lease contracts for commercial, retail, and corporate real estate.",
+      "Implement IFRS 16 and GAAP-compliant lease accounting and financial integration.",
+      "Hands-on training in automated rent billing, escalations, and index-based adjustments."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 26,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-refx",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP S/4HANA Real Estate Management",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-refx-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP ERP or SAP S/4HANA",
+      "Familiarity with SAP FI/CO modules",
+      "Knowledge of lease, contract, or property management processes"
+    ],
+    "key_learnings": [
+      "Manage hierarchical property master data structures ",
+      "Implement automated IFRS 16 lease accounting workflows ",
+      "Configure complex rent calculation and billing automation models",
+      "Design portfolio analytics and cost tracking dashboards for real estate governance"
+    ],
+    "ideal_candidates": [
+      "SAP FI/CO Consultants transitioning into REFX",
+      "Real Estate Portfolio Managers",
+      "Lease Administration Specialists",
+      "Finance Professionals handling lease accounting"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP REFX Implementation",
+        "Lease & Contract Management",
+        "Rent Calculation & Billing",
+        "Lease Accounting in SAP"
+      ],
+      "supporting_skills": [
+        "Financial Integration (FI/CO)",
+        "Portfolio Analytics",
+        "Regulatory Compliance (IFRS 16)",
+        "Governance best practices"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Real Estate Management (REFX)",
+        "SAP S/4HANA Finance"
+      ],
+      "secondary": [
+        "SAP FI/CO Integration",
+        "IFRS 16 Compliance Engine",
+        "SAP Analytics & Reporting"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP REFX Consultant",
+      "SAP Real Estate Functional Consultant",
+      "Lease Accounting Specialist",
+      "Real Estate ERP Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Lease Management System. Configure a complete property and contract master data set, create complex lease agreements, automate rent billing cycles, and execute IFRS-compliant financial postings into FI."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Foundations of SAP REFX",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview of SAP Real Estate Management",
+          "REFX architecture within SAP S/4HANA",
+          "Business scenarios and use cases"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Master Data Management in REFX",
+        "module_duration": "Week 1",
+        "topics": [
+          "Property and land master data",
+          "Building and unit structural objects",
+          "Business partner and vendor integration"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Lease & Contract Lifecycle Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Lease creation and configuration",
+          "Amendments, renewals, and terminations",
+          "Lease classification and compliance checks"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Rent Calculation & Billing",
+        "module_duration": "Week 3",
+        "topics": [
+          "Rent calculation methods and conditions",
+          "Escalations and index-based rent adjustments",
+          "Billing and periodic invoicing processes"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Lease Accounting & Financial Integration",
+        "module_duration": "Week 3",
+        "topics": [
+          "IFRS 16 and GAAP lease accounting",
+          "Integration with SAP FI/CO ",
+          "Automatic postings and reconciliation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Portfolio & Property Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Portfolio structure and data analytics",
+          "Occupancy and utilization management",
+          "Real estate cost tracking and service charges"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Planning, Budgeting & Forecasting",
+        "module_duration": "Week 5",
+        "topics": [
+          "Lease expense planning",
+          "Cash flow forecasting for properties",
+          "Real estate financial projections"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Compliance & Audit Controls",
+        "module_duration": "Week 6",
+        "topics": [
+          "Regulatory compliance management",
+          "Audit trails and contract documentation",
+          "Data integrity controls"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Analytics",
+        "module_duration": "Week 6",
+        "topics": [
+          "Standard SAP REFX reports",
+          "Lease analytics dashboards",
+          "KPI tracking for property ROI"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Integration with SAP S/4HANA",
+        "module_duration": "Week 7",
+        "topics": [
+          "Cross-module FI/CO integration",
+          "MM and procurement linkage for maintenance",
+          "Workflow automation for contract approval"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Security & Authorizations",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access controls for REFX",
+          "SAP authorization objects for contracts",
+          "Data governance best practices"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end SAP REFX implementation walkthrough",
+          "System setup and rent billing validation",
+          "Real-world enterprise case simulation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 240,
+    "total_students_enrolled": 1200
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP REFX?",
+      "answer": "SAP REFX (Flexible Real Estate Management) is a specialized module used to manage diverse property portfolios, lease contracts, and compliance requirements within SAP S/4HANA."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is SAP REFX used for?",
+      "answer": "It is used for lease lifecycle management, automated rent calculation, IFRS 16 compliance, property maintenance tracking, and real estate financial reporting."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP REFX part of SAP S/4HANA?",
+      "answer": "Yes. SAP REFX is fully integrated with SAP S/4HANA and shares master data with modules like Finance (FI) and Controlling (CO)."
+    },
+    {
+      "faq_id": 4,
+      "question": "Who should learn SAP REFX?",
+      "answer": "It is ideal for SAP FI/CO consultants, lease administrators, property managers, and finance professionals in industries with significant leased assets like retail and telecoms."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course cover IFRS 16 lease accounting?",
+      "answer": "Yes. A core component of this course is teaching you how to manage and report on leases in full compliance with IFRS 16 and US GAAP standards."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is SAP REFX in demand?",
+      "answer": "Yes. Since the new IFRS 16 mandate, most large organizations globally require REFX specialists to automate their lease accounting and ensure audit compliance."
+    },
+    {
+      "faq_id": 7,
+      "question": "What career roles can I get after this course?",
+      "answer": "You can apply for roles such as SAP REFX Functional Consultant, Lease Accountant, Portfolio Analyst, or Real Estate ERP Specialist."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is prior SAP experience required?",
+      "answer": "While basic knowledge of SAP navigation or FI/CO is recommended, the course covers the specific foundations needed to master the REFX module."
+    },
+    {
+      "faq_id": 9,
+      "question": "Does the course include hands-on practice?",
+      "answer": "Yes. The course includes multiple configuration labs and an end-to-end implementation project based on a corporate real estate scenario."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long does it take to complete the SAP REFX course?",
+      "answer": "The course is designed to be completed in 6 to 8 weeks with a commitment of 5 to 7 hours per week."
+    }
+  ],
+  "target_audience": [
+    "SAP FI/CO Consultants",
+    "Property Portfolio Managers",
+    "Lease Administrators",
+    "Finance and Accounting Professionals"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP REFX Course | Real Estate & Lease Management Training",
+    "meta_description": "Learn SAP Real Estate Management (REFX). Master property portfolios, IFRS 16 lease accounting, and rent billing automation in this expert S/4HANA course.",
+    "meta_url": "/courses/sap/sap-real-estate-management-refx"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPCDP-068",
+    "course_uid": "uid-sap-customer-data-platform-expert",
+    "course_title": "SAP CDP (Customer Data Platform) – Unified Customer Data & Intelligent Customer 360",
+    "course_subtitle": "Comprehensive SAP CDP Strategy, Identity Resolution, Segmentation & Real-Time Activation",
+    "course_slug": "sap-customer-data-platform-course",
+    "course_thumbnail": "assets/images/courses/sap-cdp-thumb.jpg",
+    "course_short_description": "Build a real-time Customer 360 view. Master identity resolution, unified profiling, and omnichannel activation using SAP CDP integrated with S/4HANA and SAP CX.",
+    "course_long_description": "This SAP CDP (Customer Data Platform) course is designed to help professionals unify customer data and enable intelligent marketing activation. You will learn to centralize data from online and offline sources, resolve identities into a 'Golden Record,' manage GDPR-compliant consent, and activate real-time personalized experiences across marketing, sales, and commerce channels.",
+    "about_course": [
+      "Master the unification of customer identities across SAP and non-SAP systems.",
+      "Learn to design scalable data models and schemas for unified customer profiles.",
+      "Implementation-focused training on real-time data activation and event-driven triggers.",
+      "Focuses on privacy-first data management and GDPR-compliant consent handling."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 27,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "70 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-cdp",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP Customer Data Platform",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-cdp-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of CRM or marketing processes",
+      "Familiarity with customer data and digital channels",
+      "Basic knowledge of SQL or data concepts (recommended)",
+      "Prior SAP experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Implement Identity Resolution and stitching for unified 'Golden Records' ",
+      "Design and configure real-time activation workflows for omnichannel personalization ",
+      "Unify online and offline data sources into a comprehensive Customer 360 profile",
+      "Manage enterprise-grade consent and privacy models aligned with GDPR/CCPA"
+    ],
+    "ideal_candidates": [
+      "SAP Functional Consultants transitioning into SAP CX",
+      "Marketing & CRM Professionals",
+      "Customer Data Analysts",
+      "Data Engineers working on CDP platforms"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "CDP Implementation",
+        "Identity Resolution (Golden Record)",
+        "Customer 360 Architecture",
+        "Real-Time Data Activation"
+      ],
+      "supporting_skills": [
+        "Data Modeling & Harmonization",
+        "Consent & Compliance Management",
+        "SAP CX Suite Integration",
+        "Customer Analytics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Customer Data Platform",
+        "SAP S/4HANA",
+        "SAP CX Suite"
+      ],
+      "secondary": [
+        "SAP Marketing Cloud",
+        "SAP Sales & Service Cloud",
+        "SAP Commerce Cloud",
+        "SAP BTP"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP CDP Consultant",
+      "SAP CX Solution Architect",
+      "Customer Data Analyst",
+      "Digital Marketing Technologist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Customer 360 Platform. Design an end-to-end CDP solution including multi-source ingestion, identity stitching logic, rule-based audience segmentation, and activation across SAP CX marketing channels."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Customer Data Platforms",
+        "module_duration": "Week 1",
+        "topics": [
+          "CDP meaning and business value",
+          "CDP vs CRM vs DMP comparison",
+          "Overview of SAP CDP architecture"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP CDP Architecture & Components",
+        "module_duration": "Week 1",
+        "topics": [
+          "Core services and data layers",
+          "Tenant setup and environments",
+          "Data flow architecture"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Data Sources & Ingestion",
+        "module_duration": "Week 2",
+        "topics": [
+          "Online and offline data sources",
+          "Batch vs real-time ingestion patterns",
+          "APIs and standard data connectors"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Modeling in SAP CDP",
+        "module_duration": "Week 3",
+        "topics": [
+          "Business objects and attributes",
+          "Data harmonization strategies",
+          "Schema design best practices"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Identity Resolution",
+        "module_duration": "Week 3",
+        "topics": [
+          "Identity stitching and cross-device mapping",
+          "Deterministic and probabilistic matching",
+          "Golden record creation and maintenance"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Profile Unification",
+        "module_duration": "Week 4",
+        "topics": [
+          "Unified customer profile views",
+          "Attribute prioritization and source weighting",
+          "Profile enrichment techniques"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Consent & Privacy Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "GDPR and global compliance fundamentals",
+          "Consent models and purpose handling",
+          "Preference and permission lifecycle"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Segmentation & Audiences",
+        "module_duration": "Week 6",
+        "topics": [
+          "Rule-based and dynamic segmentation",
+          "Behavioral and predictive segments",
+          "Audience lifecycle and synchronization"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Real-Time Data Activation",
+        "module_duration": "Week 7",
+        "topics": [
+          "Event-driven triggers and streaming",
+          "Real-time personalization scenarios",
+          "Streaming data integration concepts"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Integration with SAP Marketing Cloud",
+        "module_duration": "Week 8",
+        "topics": [
+          "Campaign activation workflows",
+          "Lead and customer engagement sync",
+          "Personalized content triggers"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Integration with SAP Sales & Service Cloud",
+        "module_duration": "Week 8",
+        "topics": [
+          "Customer 360 insights for sales teams",
+          "Service ticket personalization",
+          "Bidirectional customer data sharing"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Integration with SAP Commerce Cloud",
+        "module_duration": "Week 9",
+        "topics": [
+          "Omnichannel customer experiences",
+          "Customer journey optimization",
+          "E-commerce behavior data ingestion"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Analytics & Insights",
+        "module_duration": "Week 9",
+        "topics": [
+          "Customer analytics dashboards",
+          "Performance KPI monitoring",
+          "Operational reporting best practices"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Advanced Topics & Use Cases",
+        "module_duration": "Week 10",
+        "topics": [
+          "AI-driven segmentation (Workbench)",
+          "Predictive churn and CLV modeling",
+          "Industry-specific CDP implementation patterns"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 10",
+        "topics": [
+          "Deployment planning and go-live",
+          "End-to-end data ingestion to activation",
+          "Real-world enterprise case validation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 110,
+    "total_students_enrolled": 850
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP CDP?",
+      "answer": "SAP Customer Data Platform (CDP) is an enterprise application used to unify customer data from multiple online and offline systems to create a real-time, 360-degree view of the customer."
+    },
+    {
+      "faq_id": 2,
+      "question": "How does SAP CDP differ from SAP CRM?",
+      "answer": "While CRM manages the operational relationship and transactions, CDP focuses on data unification, identity resolution, and activating that data for personalized marketing and commerce."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP CDP part of SAP S/4HANA?",
+      "answer": "It is a cloud-based solution within the SAP CX (Customer Experience) portfolio that integrates with S/4HANA but operates as a distinct data unification layer."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is a 'Golden Record' in SAP CDP?",
+      "answer": "A Golden Record is the unified, accurate, and up-to-date customer profile created after resolving and stitching identities from multiple disparate data sources."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP CDP?",
+      "answer": "It is designed for SAP functional consultants, marketing technologists, and data analysts who want to specialize in high-impact customer experience digital transformations."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does the course cover AI features?",
+      "answer": "Yes, we include a module on the SAP CDP AI Workbench for building predictive models like Churn Risk and Customer Lifetime Value (CLV)."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is prior SQL knowledge required?",
+      "answer": "While not strictly mandatory, a basic understanding of data structures and SQL is recommended for designing effective data schemas and identity rules."
+    },
+    {
+      "faq_id": 8,
+      "question": "What systems can SAP CDP integrate with?",
+      "answer": "It integrates with SAP S/4HANA, the entire SAP CX suite, SAP BTP, and non-SAP systems like Salesforce, social media platforms, and legacy databases via APIs."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP CDP in high demand?",
+      "answer": "Yes, as companies shift toward privacy-first, personalized customer engagement, the demand for certified CDP specialists is growing rapidly."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long is the training?",
+      "answer": "The comprehensive program typically spans 8 to 10 weeks, including hands-on configuration and a final capstone implementation."
+    }
+  ],
+  "target_audience": [
+    "SAP Functional Consultants",
+    "CRM Professionals",
+    "Digital Marketing Managers",
+    "Customer Data Architects"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP CDP Course | Customer Data Platform Training | Proximsoft",
+    "meta_description": "Master SAP Customer Data Platform (CDP). Learn identity resolution, unified profiling, and real-time activation for Customer 360 in this expert-led course.",
+    "meta_url": "/courses/sap/sap-customer-data-platform"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPCOM-069",
+    "course_uid": "uid-sap-commerce-cloud-omnichannel-expert",
+    "course_title": "SAP Commerce Cloud – Enterprise eCommerce & Omnichannel Digital Commerce",
+    "course_subtitle": "Comprehensive SAP Commerce Cloud Strategy, Storefront Management, and Omnichannel Digital Commerce",
+    "course_slug": "sap-commerce-cloud-course",
+    "course_thumbnail": "assets/images/courses/sap-commerce-thumb.jpg",
+    "course_short_description": "Master enterprise B2B and B2C eCommerce. Learn catalog management, storefront configuration, and omnichannel integration with SAP S/4HANA and the CX ecosystem.",
+    "course_long_description": "This SAP Commerce Cloud course is designed to help professionals design, implement, and manage enterprise-grade eCommerce platforms. You will learn to build scalable online storefronts, manage complex product catalogs, deliver personalized customer journeys, and integrate digital commerce with SAP S/4HANA for seamless backend operations.",
+    "about_course": [
+      "Master the architecture of SAP Commerce Cloud and its role within the SAP CX suite.",
+      "Learn to configure and manage B2B and B2C storefronts with responsive design.",
+      "Deep dive into Product Content Management (PCM), pricing, and promotional campaigns.",
+      "Focuses on omnichannel order management and real-time integration with SAP ERP systems."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 28,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-commerce-cloud",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP Commerce Cloud",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-commerce-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems or ERP concepts",
+      "Familiarity with B2B/B2C commerce processes",
+      "Knowledge of product catalogs and online sales operations",
+      "Prior exposure to SAP CX suite or SAP S/4HANA (recommended)"
+    ],
+    "key_learnings": [
+      "Design enterprise digital commerce architectures using SAP Commerce Cloud ",
+      "Manage end-to-end Order Management and checkout workflows ",
+      "Implement advanced Product Content Management (PCM) and catalog versioning",
+      "Configure rule-based promotions and AI-driven personalization strategies"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Commerce, Marketing, or CX",
+      "eCommerce Managers and Digital Marketers",
+      "Product Managers and Web Operations Specialists",
+      "Project Managers overseeing omnichannel initiatives"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Commerce Cloud Implementation",
+        "Catalog & PCM Management",
+        "Personalization & Segmentation",
+        "Omnichannel Strategy"
+      ],
+      "supporting_skills": [
+        "S/4HANA Integration",
+        "Order Lifecycle Management",
+        "eCommerce Analytics",
+        "GDPR & Data Compliance"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Commerce Cloud",
+        "SAP S/4HANA",
+        "Spartacus Storefront"
+      ],
+      "secondary": [
+        "Product Information Management (PIM)",
+        "SAP Analytics Cloud",
+        "SAP Business Technology Platform (BTP)",
+        "Backoffice Administration"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Commerce Cloud Consultant",
+      "Digital Commerce Specialist",
+      "eCommerce Solution Architect",
+      "SAP CX Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Omnichannel Commerce Platform. Design and build a complete solution including product catalog setup, B2B/B2C storefront configuration, promotional campaign logic, and real-time S/4HANA order synchronization."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Commerce Cloud",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview and benefits of SAP Commerce Cloud",
+          "Architecture and cloud deployment models",
+          "Role within the SAP CX suite"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Product Content & Catalog Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Product creation and attribute management",
+          "Catalog structure and versioning",
+          "Media and content integration (PCM)"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Storefront Configuration & Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "B2B and B2C storefront setup",
+          "Page templates and navigation design",
+          "Responsive design optimization"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Pricing, Promotions & Discounts",
+        "module_duration": "Week 3",
+        "topics": [
+          "Price management and tier structures",
+          "Promotional campaign configuration",
+          "Rules-based discounts and offers"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Personalization & Customer Segmentation",
+        "module_duration": "Week 4",
+        "topics": [
+          "Customer behavior tracking logic",
+          "Personalized content and targeted offers",
+          "Segmentation and recommendation engines"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Order Management & Checkout",
+        "module_duration": "Week 4",
+        "topics": [
+          "Shopping cart and checkout workflows",
+          "Order lifecycle management",
+          "Returns, cancellations, and refund processes"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Payment & Integration",
+        "module_duration": "Week 5",
+        "topics": [
+          "Payment method configuration",
+          "Integration with SAP S/4HANA Finance",
+          "Inventory and financial synchronization"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Omnichannel Commerce",
+        "module_duration": "Week 6",
+        "topics": [
+          "Multi-channel storefront management",
+          "Unified experience across web and mobile",
+          "Customer journey orchestration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 6",
+        "topics": [
+          "eCommerce KPI dashboards",
+          "Conversion and behavior analytics",
+          "Sales performance and revenue tracking"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Security & Compliance Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access (RBAC) and authorization",
+          "Data privacy and GDPR compliance",
+          "Audit logs and security governance"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 7",
+        "topics": [
+          "Enterprise implementation scenarios",
+          "B2B vs B2C transformation case studies",
+          "Continuous improvement strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation validation",
+          "Final storefront and catalog testing",
+          "Omnichannel reporting deployment"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 150,
+    "total_students_enrolled": 1050
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Commerce Cloud?",
+      "answer": "SAP Commerce Cloud is a comprehensive enterprise eCommerce platform that enables businesses to manage product catalogs, storefronts, and order lifecycles for both B2B and B2C customers."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP Commerce Cloud part of SAP CX?",
+      "answer": "Yes. It is a core pillar of the SAP Customer Experience (CX) portfolio, formerly known as SAP Hybris."
+    },
+    {
+      "faq_id": 3,
+      "question": "Does this course help with SAP certification?",
+      "answer": "Absolutely. The course is aligned with the practical configuration and implementation knowledge required for the SAP Commerce Cloud certification exam."
+    },
+    {
+      "faq_id": 4,
+      "question": "Who should learn SAP Commerce Cloud?",
+      "answer": "It is ideal for SAP consultants, eCommerce managers, digital marketers, and project managers involved in digital transformation initiatives."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP Commerce Cloud in demand?",
+      "answer": "Yes. As businesses accelerate their digital pivot, the demand for consultants who can integrate commerce with S/4HANA is at an all-time high."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does the course include hands-on practice?",
+      "answer": "Yes, learners participate in configuration-based labs and complete a full end-to-end capstone eCommerce implementation."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is the course duration?",
+      "answer": "The program typically spans 6 to 8 weeks, depending on the learner's commitment to the hands-on modules."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can beginners learn SAP Commerce Cloud?",
+      "answer": "While a basic understanding of eCommerce and ERP is helpful, our structured curriculum and flexible pace make it accessible to motivated beginners."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is online SAP training available?",
+      "answer": "Yes, we offer flexible instructor-led online sessions that allow you to learn from anywhere while engaging with industry experts."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles are available after completion?",
+      "answer": "Key roles include SAP Commerce Cloud Consultant, eCommerce Architect, Digital Commerce Specialist, and CX Functional Lead."
+    }
+  ],
+  "target_audience": [
+    "SAP Consultants",
+    "eCommerce Managers",
+    "Solution Architects",
+    "Digital Marketers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Commerce Cloud Course | Omnichannel eCommerce Training",
+    "meta_description": "Learn SAP Commerce Cloud. Master catalog management, storefront configuration, and S/4HANA integration in this expert eCommerce certification course.",
+    "meta_url": "/courses/sap/sap-commerce-cloud"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPCPQ-070",
+    "course_uid": "uid-sap-cpq-sales-automation-expert",
+    "course_title": "SAP CPQ – Configure, Price, Quote for Sales Automation",
+    "course_subtitle": "Comprehensive SAP CPQ Strategy, Product Configuration, Pricing Rules, and Quote Management",
+    "course_slug": "sap-cpq-sales-automation-course",
+    "course_thumbnail": "assets/images/courses/sap-cpq-thumb.jpg",
+    "course_short_description": "Automate complex sales cycles. Master product configuration logic, dynamic pricing rules, and seamless quote-to-order integration with S/4HANA and Sales Cloud.",
+    "course_long_description": "This SAP CPQ course is designed to help professionals automate complex sales processes and manage enterprise quote lifecycles. You will learn to configure intricate product portfolios, implement dynamic pricing rules, and accelerate sales cycles by integrating quoting workflows with SAP S/4HANA and SAP Sales Cloud.",
+    "about_course": [
+      "Master rule-based product configuration to eliminate sales errors and improve accuracy.",
+      "Learn to implement dynamic pricing engines and automated discount governance.",
+      "Hands-on training in quote template design and automated proposal generation.",
+      "Focuses on end-to-end integration between SAP CPQ, CRM, and S/4HANA ERP systems."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 29,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-cpq",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP CPQ",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-cpq-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP ERP or SAP CRM systems",
+      "Familiarity with sales cycles and quote management processes",
+      "Knowledge of product configuration and pricing concepts",
+      "Exposure to SAP S/4HANA Sales or Sales Cloud (recommended)"
+    ],
+    "key_learnings": [
+      "Configure complex Variant Configuration (VC) logic within SAP CPQ ",
+      "Design and automate complex pricing and discounting workflows ",
+      "Implement Guided Selling to help sales reps select optimized product bundles",
+      "Generate professional, automated quote documents and manage multi-level approval workflows"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Sales, CRM, or ERP domains",
+      "Sales Operations Specialists",
+      "Product Managers handling configurable portfolios",
+      "Project Managers overseeing sales automation"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP CPQ Implementation",
+        "Product Configuration Management",
+        "Pricing & Discount Governance",
+        "Quote Lifecycle Automation"
+      ],
+      "supporting_skills": [
+        "Guided Selling Setup",
+        "CRM & ERP Integration",
+        "Sales Analytics Dashboards",
+        "Workflow Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP CPQ",
+        "SAP Sales Cloud",
+        "SAP S/4HANA"
+      ],
+      "secondary": [
+        "IronPython Scripting",
+        "DocuSign Integration",
+        "Variant Configuration",
+        "SAP BTP"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP CPQ Consultant",
+      "Sales Operations Specialist",
+      "CPQ Analyst",
+      "Solution Architect – Sales Automation"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Sales Automation & CPQ Platform. Build a complete solution including a configurable product portfolio, dynamic pricing rules, multi-tier approval workflows, and automated quote-to-ERP synchronization."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP CPQ",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview and benefits of SAP CPQ",
+          "Architecture and deployment options",
+          "Role in sales automation and CX"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Product & Catalog Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Product creation and hierarchy setup",
+          "Bundles, options, and variant configuration",
+          "Catalog versioning and approval management"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Configuration Rules & Guided Selling",
+        "module_duration": "Week 2",
+        "topics": [
+          "Product configuration logic and attributes",
+          "Advanced rules for valid combinations",
+          "Guided selling workflows for sales reps"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Pricing & Discount Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Pricing strategies and rule engines",
+          "Discounting logic and approval controls",
+          "Integration with ERP/S/4HANA pricing"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Quote Creation & Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Quote templates and layout configuration",
+          "Automated quotation generation",
+          "Quote revisions and submission logic"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Workflow Automation",
+        "module_duration": "Week 4",
+        "topics": [
+          "Approval workflows and escalation rules",
+          "Notifications and audit tracking",
+          "CRM integration for task automation"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Integration with SAP Sales Cloud & ERP",
+        "module_duration": "Week 5",
+        "topics": [
+          "SAP Sales Cloud integration setup",
+          "Real-time sync with SAP S/4HANA",
+          "Quote-to-order automation process"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 6",
+        "topics": [
+          "Sales quoting dashboards",
+          "Pipeline analytics and conversion metrics",
+          "Revenue forecasting and KPI reporting"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Contract & Order Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Linking quotes to contracts and orders",
+          "Post-quote approval workflows",
+          "Integration with ERP fulfillment"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Security & Compliance",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access control (RBAC)",
+          "Data privacy and audit trails",
+          "Enterprise compliance governance"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 7",
+        "topics": [
+          "Real-world CPQ implementation patterns",
+          "Lessons from high-tech and manufacturing",
+          "Continuous optimization strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation validation",
+          "Catalog and pricing rule testing",
+          "Final sales analytics deployment"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 140,
+    "total_students_enrolled": 920
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP CPQ?",
+      "answer": "SAP CPQ (Configure, Price, Quote) is a cloud-based solution that enables sales teams to configure complex products, manage dynamic pricing, and generate accurate quotes quickly."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP CPQ part of SAP ERP?",
+      "answer": "While it integrates natively with SAP S/4HANA and ECC, it is a standalone cloud application within the SAP Customer Experience (CX) portfolio."
+    },
+    {
+      "faq_id": 3,
+      "question": "Who should learn SAP CPQ?",
+      "answer": "It is ideal for SAP consultants, sales operations specialists, and IT architects who work in industries with complex, configurable products like High-Tech or Manufacturing."
+    },
+    {
+      "faq_id": 4,
+      "question": "Does this course help with SAP certification?",
+      "answer": "Yes. The curriculum covers the functional and configuration knowledge required for the SAP CPQ implementation consultant certification."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP CPQ in demand?",
+      "answer": "Extremely. As businesses move to digital sales models, the need for consultants who can automate the 'Quote-to-Cash' process is growing rapidly."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does the course include hands-on practice?",
+      "answer": "Yes. You will have access to a sandbox environment to build product models, pricing rules, and quote templates."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is the course duration?",
+      "answer": "The program typically takes 6 to 8 weeks to complete, including the capstone project."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is prior SAP experience required?",
+      "answer": "A basic understanding of CRM or ERP processes is helpful, but the course is structured to guide you through the CPQ-specific configurations from scratch."
+    },
+    {
+      "faq_id": 9,
+      "question": "Can SAP CPQ integrate with Sales Cloud?",
+      "answer": "Yes. One of the core modules in this course focuses specifically on integrating SAP CPQ with SAP Sales Cloud and SAP S/4HANA."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles are available after completion?",
+      "answer": "Key roles include SAP CPQ Consultant, CPQ Solution Architect, Sales Operations Manager, and Lead Functional Consultant."
+    }
+  ],
+  "target_audience": [
+    "SAP Sales Consultants",
+    "Product Managers",
+    "Sales Operations Analysts",
+    "CRM Architects"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP CPQ Course | Configure Price Quote Sales Automation Training",
+    "meta_description": "Master SAP CPQ. Learn complex product configuration, dynamic pricing, and S/4HANA integration in this expert-led sales automation certification course.",
+    "meta_url": "/courses/sap/sap-cpq-sales-automation"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPCDC-071",
+    "course_uid": "uid-sap-customer-data-cloud-iam-expert",
+    "course_title": "SAP Customer Data Cloud – Identity, Consent & Customer Experience Management",
+    "course_subtitle": "Comprehensive SAP Customer Data Cloud Strategy, Identity Management, and Data-Driven Customer Engagement",
+    "course_slug": "sap-customer-data-cloud-course",
+    "course_thumbnail": "assets/images/courses/sap-cdc-thumb.jpg",
+    "course_short_description": "Master Customer Identity and Access Management (CIAM). Learn secure authentication, global consent compliance (GDPR/CCPA), and unified profile management using SAP CDC.",
+    "course_long_description": "This SAP Customer Data Cloud (CDC) course is designed to help professionals manage customer identities, authentication, and consent securely. You will learn to implement Identity and Access Management (IAM), design secure authentication workflows like SSO and social login, and manage the full consent lifecycle to ensure compliance with global privacy regulations while delivering personalized CX.",
+    "about_course": [
+      "Master the CIAM (Customer Identity & Access Management) framework within the SAP CX ecosystem.",
+      "Learn to implement secure authentication methods including Social Login, SSO, and Risk-Based Authentication.",
+      "Deep dive into Consent-as-a-Service to manage GDPR, CCPA, and global privacy compliance.",
+      "Focuses on profile enrichment and real-time synchronization with SAP S/4HANA and Marketing Cloud."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 30,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-cdc",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP Customer Data Cloud",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-cdc-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems or CRM platforms",
+      "Familiarity with identity management and access management concepts",
+      "Knowledge of customer lifecycle and consent regulations",
+      "Exposure to SAP CX suite or SAP ERP environments (recommended)"
+    ],
+    "key_learnings": [
+      "Design secure Customer Identity and Access Management (CIAM) lifecycles ",
+      "Implement global Consent and Preference management for GDPR/CCPA compliance ",
+      "Configure Single Sign-On (SSO) and Social Login across multi-site environments",
+      "Sync unified customer profiles with SAP S/4HANA and SAP Marketing Cloud via SAP Integration Suite"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Marketing, CX, or CRM",
+      "Identity & Access Management (IAM) Specialists",
+      "Data Privacy and Compliance Professionals",
+      "Project Managers handling digital identity initiatives"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP CDC Implementation",
+        "CIAM Strategy & Design",
+        "Consent & Preference Management",
+        "Authentication Configuration"
+      ],
+      "supporting_skills": [
+        "SAP CX & ERP Integration",
+        "GDPR/CCPA Compliance Management",
+        "Customer Analytics",
+        "API-Based Identity Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Customer Data Cloud (Gigya)",
+        "SAP CX Suite",
+        "SAP S/4HANA"
+      ],
+      "secondary": [
+        "REST APIs & Webhooks",
+        "Social Login Providers",
+        "SAP BTP",
+        "Identity Query Language (GQL)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Customer Data Cloud Consultant",
+      "IAM Specialist",
+      "Customer Experience Architect",
+      "Data Privacy Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Identity & Consent Management Platform. Build a complete solution featuring secure registration, social authentication setup, multi-country consent management, and profile data synchronization with a mock ERP system."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Customer Data Cloud",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview and benefits of SAP CDC",
+          "Architecture and deployment models",
+          "Role within SAP Customer Experience (CX) suite"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Identity & Access Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Customer identity creation and lifecycle",
+          "Single Sign-On (SSO) and social login setup",
+          "Authentication and authorization mechanisms"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Consent & Preference Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Managing customer consent and preferences",
+          "GDPR, CCPA, and privacy compliance standards",
+          "Consent lifecycle tracking and audit trails"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Profile Management & Enrichment",
+        "module_duration": "Week 3",
+        "topics": [
+          "Unified customer profile management",
+          "Attribute mapping and data enrichment",
+          "Governance and data quality frameworks"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Segmentation & Targeting",
+        "module_duration": "Week 3",
+        "topics": [
+          "Customer segmentation strategies",
+          "Dynamic target groups for engagement",
+          "Integration with CRM and marketing automation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Customer Engagement Automation",
+        "module_duration": "Week 4",
+        "topics": [
+          "Personalized content delivery triggers",
+          "Email, SMS, and push communication workflows",
+          "Preference-based engagement automation"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 5",
+        "topics": [
+          "Identity and consent dashboards",
+          "Engagement and compliance metrics",
+          "KPI tracking for CX initiatives"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integration with SAP CX & ERP",
+        "module_duration": "Week 6",
+        "topics": [
+          "Integration with Marketing, Commerce, and S/4HANA",
+          "Real-time synchronization of identity data",
+          "Data flow automation using SAP Integration Suite"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security & Compliance Best Practices",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access and authorization controls",
+          "Data encryption and secure storage",
+          "Compliance audits and risk management"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "API & Developer Tools",
+        "module_duration": "Week 7",
+        "topics": [
+          "REST APIs for identity and consent management",
+          "Custom extensions and integration scenarios",
+          "Event-driven authentication workflows"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 8",
+        "topics": [
+          "Real-world identity and consent implementations",
+          "Lessons from enterprise SAP CDC deployments",
+          "Continuous optimization strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation validation",
+          "Identity and consent logic testing",
+          "Final compliance reporting dashboard build"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 120,
+    "total_students_enrolled": 880
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Customer Data Cloud?",
+      "answer": "SAP Customer Data Cloud (formerly Gigya) is a solution designed to help enterprises securely manage customer identities, authentication, and consent while ensuring global privacy compliance."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is CIAM in SAP?",
+      "answer": "CIAM stands for Customer Identity and Access Management. In SAP, it refers to the secure identification, authentication, and authorization of customers across digital channels."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP Customer Data Cloud part of SAP CX?",
+      "answer": "Yes, it is a core pillar of the SAP Customer Experience (CX) suite, providing the trusted foundation for customer data used in Commerce, Marketing, and Sales."
+    },
+    {
+      "faq_id": 4,
+      "question": "Does this course cover authentication protocols?",
+      "answer": "Yes. We cover modern authentication methods including OpenID Connect, SAML, Social Login, and Multi-Factor Authentication (MFA)."
+    },
+    {
+      "faq_id": 5,
+      "question": "How does SAP CDC help with GDPR?",
+      "answer": "SAP CDC provides 'Consent-as-a-Service' which automates the collection, storage, and renewal of customer consent, maintaining a full audit trail required by GDPR and CCPA."
+    },
+    {
+      "faq_id": 6,
+      "question": "Who should learn SAP CDC?",
+      "answer": "It is ideal for SAP consultants, security specialists, and privacy officers who want to master the technical side of digital identity and data protection."
+    },
+    {
+      "faq_id": 7,
+      "question": "Can beginners learn SAP CDC?",
+      "answer": "A basic understanding of CRM or web technologies is helpful, but our course provides the necessary foundations to master CDC configuration."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP CDC in demand?",
+      "answer": "Extremely. With increasing data privacy regulations worldwide, companies are aggressively hiring experts who can implement secure identity and consent solutions."
+    },
+    {
+      "faq_id": 9,
+      "question": "What career roles can I target?",
+      "answer": "You can apply for roles such as SAP CDC Consultant, CIAM Architect, Customer Experience Security Specialist, or Compliance Analyst."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long is the training?",
+      "answer": "The course is designed for 6–8 weeks with a flexible, instructor-led model including a final capstone project."
+    }
+  ],
+  "target_audience": [
+    "SAP CX Consultants",
+    "IAM Specialists",
+    "Privacy & Compliance Officers",
+    "Digital Identity Architects"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Customer Data Cloud Course | Identity & Consent Training",
+    "meta_description": "Learn SAP CDC. Master Customer Identity & Access Management (CIAM), GDPR consent management, and secure CX personalization in this expert course.",
+    "meta_url": "/courses/sap/sap-customer-data-cloud"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPEMA-072",
+    "course_uid": "uid-sap-emarsys-omnichannel-marketing-expert",
+    "course_title": "SAP Emarsys – Omnichannel Customer Engagement & Marketing Automation",
+    "course_subtitle": "Comprehensive SAP Emarsys Strategy, Customer Personalization, and Marketing Campaign Management",
+    "course_slug": "sap-emarsys-marketing-automation-course",
+    "course_thumbnail": "assets/images/courses/sap-emarsys-thumb.jpg",
+    "course_short_description": "Master AI-driven marketing automation. Learn to orchestrate personalized customer journeys across email, mobile, and web using SAP Emarsys integrated with the CX ecosystem.",
+    "course_long_description": "This SAP Emarsys course is designed to help professionals design, execute, and optimize omnichannel marketing campaigns. Unlike traditional CRM tools, Emarsys focuses on automated engagement and lifecycle marketing, teaching you how to use real-time data to orchestrate customer journeys, improve retention, and deliver personalized experiences across all digital touchpoints.",
+    "about_course": [
+      "Master the architecture of SAP Emarsys and its role as an engagement layer in SAP CX.",
+      "Learn to build sophisticated automation workflows using behavioral triggers and AI.",
+      "Deep dive into multi-channel execution including Email, SMS, Web, and Social ad integration.",
+      "Focuses on lifecycle marketing strategies to improve Customer Lifetime Value (CLTV) and retention."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 31,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-emarsys",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP Emarsys",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-emarsys-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of CRM systems or customer management tools",
+      "Familiarity with marketing campaigns and customer journeys",
+      "Knowledge of marketing automation platforms (recommended)",
+      "Exposure to SAP CX or SAP CRM software helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure the SAP Emarsys Marketing Platform for omnichannel engagement [Image of SAP Emarsys Customer Engagement Architecture]",
+      "Design and automate complex customer journeys using the Automation Center [Image of SAP Emarsys Automated Customer Journey workflow]",
+      "Implement advanced segmentation using static, dynamic, and AI-driven predictive filters",
+      "Analyze multi-channel campaign performance using the Strategic Dashboard and Revenue Analytics"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Marketing or CX",
+      "Digital Marketing Specialists",
+      "CRM and Customer Engagement Professionals",
+      "Campaign Coordinators and Managers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Emarsys Implementation",
+        "Omnichannel Strategy Design",
+        "Marketing Automation Center",
+        "Advanced Personalization"
+      ],
+      "supporting_skills": [
+        "Customer Journey Mapping",
+        "Predictive Segmentation",
+        "Retention Marketing",
+        "CRM Data Synchronization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Emarsys Marketing Cloud",
+        "Automation Center",
+        "Personalization Engine"
+      ],
+      "secondary": [
+        "SAP Commerce Cloud",
+        "SAP Customer Data Cloud",
+        "Relational Data Service",
+        "Emarsys SDKs"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Emarsys Consultant",
+      "Marketing Automation Analyst",
+      "Customer Engagement Manager",
+      "CRM Marketing Strategy Lead"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Omnichannel Marketing Automation Platform. Build a complete lifecycle marketing solution including database segmentation, automated welcome and re-engagement journeys, personalized email/SMS execution, and a final revenue impact report."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Emarsys",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview and business benefits of Emarsys",
+          "Architecture and cloud deployment models",
+          "Role within the SAP CX ecosystem"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Contact & Customer Data Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Contact lifecycle and field management",
+          "System fields vs. custom attributes",
+          "Data hygiene and import strategies"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Customer Segmentation & Targeting",
+        "module_duration": "Week 2",
+        "topics": [
+          "Static vs. dynamic segment filters",
+          "Predictive segmentation (Lead, Active, Cold)",
+          "Target group refinement for campaigns"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Campaign Management & Automation",
+        "module_duration": "Week 3",
+        "topics": [
+          "VCE (Visual Content Editor) for Email",
+          "SMS and Push notification configuration",
+          "Automation Center nodes and triggers"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Personalization & Customer Journey Mapping",
+        "module_duration": "Week 4",
+        "topics": [
+          "Personalization tokens and scripting",
+          "Journey orchestration (Interactions)",
+          "Behavioral triggers and automated responses"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Omnichannel Marketing Execution",
+        "module_duration": "Week 4",
+        "topics": [
+          "Web Channel personalization",
+          "Social and Ads network integration",
+          "Multi-touchpoint journey coordination"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 5",
+        "topics": [
+          "Performance dashboards and heatmaps",
+          "Revenue attribution and conversion KPIs",
+          "Predictive behavior analytics"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Loyalty & Retention Programs",
+        "module_duration": "Week 6",
+        "topics": [
+          "Emarsys Loyalty module configuration",
+          "Customer retention management logic",
+          "Win-back and re-engagement automation"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integration with SAP CX & S/4HANA",
+        "module_duration": "Week 7",
+        "topics": [
+          "SAP Commerce Cloud native integration",
+          "Marketing Cloud synchronization scenarios",
+          "Real-time data flow with S/4HANA"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Compliance & Security",
+        "module_duration": "Week 7",
+        "topics": [
+          "GDPR and global privacy compliance",
+          "Role-based access (RBAC) setup",
+          "Security governance and audit logging"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 8",
+        "topics": [
+          "D2C and Retail implementation patterns",
+          "SaaS and Subscription case studies",
+          "Continuous optimization strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation check",
+          "Live campaign orchestration testing",
+          "Final omnichannel engagement reporting"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 130,
+    "total_students_enrolled": 890
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Emarsys?",
+      "answer": "SAP Emarsys is an AI-driven omnichannel customer engagement platform that helps marketers automate personalized campaigns across email, mobile, web, and social channels."
+    },
+    {
+      "faq_id": 2,
+      "question": "How does SAP Emarsys differ from a standard CRM?",
+      "answer": "While a CRM focuses on storing customer data and managing sales pipelines, SAP Emarsys is an engagement layer that uses that data to automate marketing journeys and personalization."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP Emarsys part of SAP CX?",
+      "answer": "Yes, it is the primary marketing automation solution within the SAP Customer Experience (CX) portfolio."
+    },
+    {
+      "faq_id": 4,
+      "question": "Does this course cover AI features?",
+      "answer": "Yes, we cover Emarsys AI-driven predictive segments, product recommendations, and 'send-time' optimization features."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP Emarsys?",
+      "answer": "Digital marketers, CRM specialists, and SAP consultants who want to specialize in high-impact customer engagement and digital transformation."
+    },
+    {
+      "faq_id": 6,
+      "question": "What are customer journeys in Emarsys?",
+      "answer": "Customer journeys are automated pathways (e.g., Welcome series, Abandoned Cart) that guide a user through the brand experience based on their actions."
+    },
+    {
+      "faq_id": 7,
+      "question": "Can Emarsys integrate with non-SAP systems?",
+      "answer": "Yes, it has robust APIs and pre-built connectors for various third-party eCommerce, CRM, and social media platforms."
+    },
+    {
+      "faq_id": 8,
+      "question": "Does the course include hands-on practice?",
+      "answer": "Yes, learners get access to a sandbox environment to configure the Automation Center, build segments, and design campaigns."
+    },
+    {
+      "faq_id": 9,
+      "question": "Is SAP Emarsys in high demand?",
+      "answer": "Yes. As brands shift towards first-party data and D2C models, experts who can drive automated revenue through Emarsys are highly sought after."
+    },
+    {
+      "faq_id": 10,
+      "question": "What is the duration of the course?",
+      "answer": "The program typically spans 6 to 8 weeks, including the final capstone project."
+    }
+  ],
+  "target_audience": [
+    "Digital Marketing Managers",
+    "CRM Professionals",
+    "SAP CX Consultants",
+    "Campaign Specialists"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Emarsys Course | Omnichannel Marketing Automation Training",
+    "meta_description": "Master SAP Emarsys. Learn AI-driven automation, personalized customer journeys, and omnichannel marketing execution in this expert certification course.",
+    "meta_url": "/courses/sap/sap-emarsys-marketing-automation"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPMKT-073",
+    "course_uid": "uid-sap-marketing-cloud-automation-pro",
+    "course_title": "SAP Marketing Cloud – Customer Engagement & Marketing Automation",
+    "course_subtitle": "Comprehensive SAP Marketing Cloud Strategy, Campaign Management, and Customer Experience",
+    "course_slug": "sap-marketing-cloud-course",
+    "course_thumbnail": "assets/images/courses/sap-marketing-thumb.jpg",
+    "course_short_description": "Master enterprise-level marketing automation. Learn to orchestrate multi-channel campaigns, manage lead nurturing, and drive ROI through data-driven insights integrated with S/4HANA.",
+    "course_long_description": "This SAP Marketing Cloud course is designed to help professionals plan, execute, and optimize data-driven marketing campaigns. Unlike generic digital marketing courses, this program specializes in enterprise campaign management, dynamic segmentation, and marketing analytics, ensuring seamless integration with SAP S/4HANA and the broader SAP CX suite for measurable marketing ROI.",
+    "about_course": [
+      "Master the architecture of SAP Marketing Cloud and its role in the SAP Customer Experience (CX) portfolio.",
+      "Learn to design multi-channel campaigns with automated lead management and scoring workflows.",
+      "Implementation-focused training on dynamic segmentation and predictive target group management.",
+      "Focuses on real-time marketing analytics to track campaign performance and customer behavior insights."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 32,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-marketing-cloud",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP Marketing Cloud",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-marketing-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems or CRM platforms",
+      "Familiarity with marketing concepts and customer lifecycle",
+      "Knowledge of campaign planning and digital marketing fundamentals",
+      "Exposure to SAP CX suite or SAP S/4HANA (recommended)"
+    ],
+    "key_learnings": [
+      "Design end-to-end multi-channel marketing campaigns ",
+      "Implement lead scoring and automated nurturing workflows ",
+      "Configure dynamic customer segmentation using real-time behavioral data",
+      "Integrate SAP Marketing Cloud with S/4HANA and Commerce Cloud for 360-degree customer visibility"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Marketing, Sales, or CX",
+      "Marketing Managers and Campaign Coordinators",
+      "Data Analysts focusing on customer insights",
+      "CRM and Marketing Automation Professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Marketing Cloud Implementation",
+        "Campaign & Target Group Management",
+        "Lead Management Automation",
+        "Marketing Analytics & Dashboards"
+      ],
+      "supporting_skills": [
+        "Customer Journey Mapping",
+        "S/4HANA & CX Integration",
+        "GDPR Compliance",
+        "Data-Driven ROI Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Marketing Cloud",
+        "SAP S/4HANA",
+        "SAP CX Suite"
+      ],
+      "secondary": [
+        "SAP Analytics Cloud",
+        "Social Media Integration Adapters",
+        "Marketing Calendar Tools",
+        "Lead Scoring Engines"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Marketing Cloud Consultant",
+      "Marketing Automation Manager",
+      "Customer Engagement Specialist",
+      "CRM Technology Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Marketing Automation Platform. Build a complete solution covering customer data segmentation, multi-channel campaign design, automated lead nurturing workflows, and a final performance analytics dashboard."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Marketing Cloud",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview and business benefits of Marketing Cloud",
+          "Architecture and deployment options",
+          "Role within the SAP CX suite"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Master Data & Customer Profiles",
+        "module_duration": "Week 1",
+        "topics": [
+          "Customer and lead master data management",
+          "Segmentation and target group creation",
+          "Integration with SAP S/4HANA and CRM"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Campaign Planning & Execution",
+        "module_duration": "Week 2",
+        "topics": [
+          "Campaign design and objectives",
+          "Multi-channel campaign execution",
+          "Marketing calendar and scheduling"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Lead Management & Nurturing",
+        "module_duration": "Week 3",
+        "topics": [
+          "Lead capture and scoring logic",
+          "Nurturing campaigns and workflows",
+          "Conversion tracking and reporting"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Personalization & Customer Engagement",
+        "module_duration": "Week 4",
+        "topics": [
+          "Personalized content delivery triggers",
+          "Customer journey mapping techniques",
+          "Contextual engagement strategies"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Marketing Analytics & Reporting",
+        "module_duration": "Week 4",
+        "topics": [
+          "KPI definition and standard dashboards",
+          "Campaign performance measurement",
+          "Customer behavior insights"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Segmentation & Targeting",
+        "module_duration": "Week 5",
+        "topics": [
+          "Dynamic segmentation strategies",
+          "Target group refinement logic",
+          "Predictive segmentation using analytics"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Social Media & Digital Marketing",
+        "module_duration": "Week 6",
+        "topics": [
+          "Social media channel integration",
+          "Digital campaign tracking",
+          "Omnichannel marketing alignment"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integration with SAP CX & S/4HANA",
+        "module_duration": "Week 6",
+        "topics": [
+          "Integration with Sales and Commerce Cloud",
+          "Real-time data synchronization",
+          "Automated customer profile updates"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Workflow & Compliance Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Campaign approval workflows",
+          "GDPR and data privacy compliance",
+          "Audit and reporting standards"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 8",
+        "topics": [
+          "Real-world enterprise campaign scenarios",
+          "Lessons from successful implementations",
+          "Continuous optimization strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation validation",
+          "Customer segmentation final test",
+          "Final performance analytics deployment"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 115,
+    "total_students_enrolled": 950
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Marketing Cloud?",
+      "answer": "SAP Marketing Cloud is a comprehensive marketing automation platform used to design and execute data-driven campaigns, manage lead lifecycles, and deliver personalized experiences based on real-time customer insights."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP Marketing Cloud different from general digital marketing tools?",
+      "answer": "Yes. While tools like Mailchimp focus on tactics, SAP Marketing Cloud is an enterprise-grade solution that integrates deeply with ERP (S/4HANA) and CRM systems to manage complex data and customer journeys at scale."
+    },
+    {
+      "faq_id": 3,
+      "question": "Does this course cover lead scoring?",
+      "answer": "Yes. A significant part of the curriculum is dedicated to lead capture, scoring models, and automated nurturing workflows to improve sales conversion."
+    },
+    {
+      "faq_id": 4,
+      "question": "Who should learn SAP Marketing Cloud?",
+      "answer": "It is ideal for marketing technologists, CRM professionals, and SAP consultants who want to master the customer experience (CX) ecosystem."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is prior SAP experience required?",
+      "answer": "Basic knowledge of SAP or CRM is helpful, but our structured training provides the technical foundation needed to configure and use the Marketing Cloud platform."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is SAP Marketing Cloud in demand?",
+      "answer": "Yes. As enterprises move to S/4HANA and prioritize customer experience, the demand for specialists who can integrate marketing automation with the core ERP is growing rapidly."
+    },
+    {
+      "faq_id": 7,
+      "question": "What tools are used for analytics?",
+      "answer": "The course covers the native analytics dashboards within SAP Marketing Cloud and provides an overview of integration with SAP Analytics Cloud."
+    },
+    {
+      "faq_id": 8,
+      "question": "Does the course include hands-on practice?",
+      "answer": "Yes. Learners participate in configuration-based labs and complete a full end-to-end capstone marketing automation implementation."
+    },
+    {
+      "faq_id": 9,
+      "question": "What is the duration of the course?",
+      "answer": "The program typically spans 6 to 8 weeks, depending on the learner's commitment to the hands-on project work."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles are available after completion?",
+      "answer": "Key roles include SAP Marketing Cloud Consultant, Marketing Automation Manager, Campaign Specialist, and Digital CX Architect."
+    }
+  ],
+  "target_audience": [
+    "Digital Marketing Managers",
+    "CRM & CX Consultants",
+    "Campaign Coordinators",
+    "Marketing Data Analysts"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Marketing Cloud Course | Marketing Automation Training",
+    "meta_description": "Master SAP Marketing Cloud. Learn multi-channel campaign management, lead scoring, and S/4HANA integration in this expert-led certification course.",
+    "meta_url": "/courses/sap/sap-marketing-cloud-automation"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSAL-074",
+    "course_uid": "uid-sap-sales-cloud-c4c-automation-expert",
+    "course_title": "SAP Sales Cloud (C4C) – Customer Relationship & Sales Automation",
+    "course_subtitle": "Comprehensive SAP Sales Cloud Strategy, Lead-to-Cash Process, and Customer Management",
+    "course_slug": "sap-sales-cloud-c4c-course",
+    "course_thumbnail": "assets/images/courses/sap-sales-cloud-thumb.jpg",
+    "course_short_description": "Master cloud-based CRM and sales automation. Learn to manage the complete lead-to-cash lifecycle, opportunity tracking, and mobile sales enablement integrated with S/4HANA.",
+    "course_long_description": "This SAP Sales Cloud (C4C) course is designed to help professionals streamline sales operations and automate the complete lead-to-cash lifecycle. You will learn to manage accounts, leads, and opportunities while integrating seamlessly with SAP S/4HANA and SAP SD modules to drive intelligent customer engagement and real-time sales forecasting.",
+    "about_course": [
+      "Master the architecture of SAP Sales Cloud (formerly C4C) and its role in the CX ecosystem.",
+      "Learn to automate the end-to-end Lead-to-Quote-to-Order process flow.",
+      "Deep dive into territory management, sales team configuration, and pipeline forecasting.",
+      "Focuses on real-time integration with SAP S/4HANA Sales (SD) for unified order management."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 33,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-sales-cloud",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP Sales Cloud",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-sales-cloud-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP ERP system or CRM concepts",
+      "Familiarity with sales processes and customer lifecycle",
+      "Exposure to SAP S/4HANA or SAP CX suite (recommended)",
+      "Knowledge of enterprise sales workflows"
+    ],
+    "key_learnings": [
+      "Configure SAP Sales Cloud for end-to-end Lead-to-Cash automation ",
+      "Implement Activity and Task management for distributed sales teams",
+      "Design real-time sales analytics and pipeline forecasting dashboards",
+      "Integrate Sales Cloud with S/4HANA via SAP Integration Suite "
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Sales, CRM, or CX domains",
+      "Sales Managers and Account Executives",
+      "CRM Analysts and Sales Operations Specialists",
+      "Functional Consultants working with SAP SD"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Sales Cloud Implementation",
+        "Lead & Opportunity Management",
+        "Sales Analytics & Forecasting",
+        "Cloud Sales Automation"
+      ],
+      "supporting_skills": [
+        "S/4HANA & ERP Integration",
+        "Mobile CRM Enablement",
+        "Workflow & Approval Management",
+        "Territory Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Sales Cloud (C4C)",
+        "SAP S/4HANA",
+        "SAP CX Suite"
+      ],
+      "secondary": [
+        "SAP SD Module",
+        "SAP Integration Suite",
+        "Mobile CRM App",
+        "C4C Analytics"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Sales Cloud Consultant",
+      "CRM Specialist",
+      "Sales Operations Manager",
+      "SAP SD Functional Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Lead-to-Cash Automation Platform. Build a complete CRM solution including account/contact management, opportunity scoring, quote generation with approval workflows, and real-time order synchronization with S/4HANA."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Sales Cloud (C4C)",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview and business benefits of Sales Cloud",
+          "Architecture and deployment options",
+          "Role within the SAP CX suite"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Master Data Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "Account, contact, and product management",
+          "Territory and sales team configuration",
+          "Data governance and quality management"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Lead & Opportunity Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Lead capture and qualification criteria",
+          "Opportunity lifecycle and tracking",
+          "Pipeline forecasting and analytics"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Activity & Task Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Sales activity tracking and logging",
+          "Calendar integration and reminders",
+          "Collaboration features for sales teams"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Sales Analytics & Reporting",
+        "module_duration": "Week 3",
+        "topics": [
+          "KPI dashboards and performance tracking",
+          "Pipeline and conversion analytics",
+          "Real-time sales insights"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Quote & Order Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Quote creation and approval workflows",
+          "Order generation and tracking",
+          "Integration with S/4HANA order-to-cash"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Mobile Sales Enablement",
+        "module_duration": "Week 5",
+        "topics": [
+          "Mobile CRM app functionality",
+          "Offline access and synchronization",
+          "Collaboration using cloud sales tools"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Campaign & Marketing Integration",
+        "module_duration": "Week 5",
+        "topics": [
+          "Integration with SAP Marketing Cloud",
+          "Campaign-to-lead automation",
+          "Lead nurturing and conversion tracking"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Workflow & Approval Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Custom approval workflows for quotes",
+          "Notifications and escalations logic",
+          "Sales process automation triggers"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Compliance & Security Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Role-based access (RBAC) and authorization",
+          "GDPR compliance and data privacy",
+          "Audit logs and system monitoring"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 7",
+        "topics": [
+          "Real-world enterprise CRM deployments",
+          "Lessons from high-growth implementations",
+          "Optimization and continuous improvement"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation validation",
+          "Lead-to-cash process testing",
+          "Final analytics dashboard deployment"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 165,
+    "total_students_enrolled": 1150
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Sales Cloud (C4C)?",
+      "answer": "SAP Sales Cloud, formerly known as C4C (Cloud for Customer), is a modern, cloud-based CRM solution designed to help sales teams manage accounts, leads, and opportunities efficiently."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is SAP Sales Cloud part of SAP S/4HANA?",
+      "answer": "No, it is a standalone cloud application within the SAP CX suite, but it is designed to integrate natively and deeply with S/4HANA Sales (SD)."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the lead-to-cash process in SAP?",
+      "answer": "It is the end-to-end business process that starts with identifying a potential customer (Lead) and ends with receiving payment for the product or service (Cash)."
+    },
+    {
+      "faq_id": 4,
+      "question": "How is SAP Sales Cloud different from the SAP SD module?",
+      "answer": "SAP SD focuses on the backend logistics and execution of sales orders in the ERP, while Sales Cloud focuses on frontend CRM activities like relationship management and pipeline tracking."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP Sales Cloud?",
+      "answer": "It is ideal for CRM consultants, sales operations managers, and SAP functional consultants who want to specialize in modern cloud sales transformation."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is SAP Sales Cloud in demand?",
+      "answer": "Yes. As companies move away from on-premise CRM to cloud solutions, the demand for certified Sales Cloud consultants has grown significantly."
+    },
+    {
+      "faq_id": 7,
+      "question": "Does this course include integration with SAP ERP?",
+      "answer": "Yes. A significant part of the curriculum covers the technical and functional integration with SAP S/4HANA and the SAP SD module."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP Sales Cloud suitable for beginners?",
+      "answer": "While a basic understanding of business sales processes is helpful, the course is structured to teach Sales Cloud from the configuration level upwards."
+    },
+    {
+      "faq_id": 9,
+      "question": "What is SAP C4C?",
+      "answer": "SAP C4C (Cloud for Customer) was the original name of the product before it was rebranded as SAP Sales Cloud and SAP Service Cloud."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles are available after completion?",
+      "answer": "You can apply for roles such as SAP CX Consultant, Sales Cloud Architect, CRM Functional Lead, or Sales Operations Manager."
+    }
+  ],
+  "target_audience": [
+    "SAP Sales/CRM Consultants",
+    "Sales Managers",
+    "Sales Operations Analysts",
+    "CRM Architects"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Sales Cloud Course | C4C Sales Automation Training",
+    "meta_description": "Master SAP Sales Cloud (C4C). Learn lead management, opportunity tracking, and S/4HANA integration in this expert CRM certification course.",
+    "meta_url": "/courses/sap/sap-sales-cloud-automation"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSER-075",
+    "course_uid": "uid-sap-service-cloud-c4c-support-expert",
+    "course_title": "SAP Service Cloud (C4C) – Customer Service & Support Automation",
+    "course_subtitle": "Comprehensive SAP Service Cloud Strategy, Case Management, and Omnichannel Customer Support",
+    "course_slug": "sap-service-cloud-c4c-course",
+    "course_thumbnail": "assets/images/courses/sap-service-cloud-thumb.jpg",
+    "course_short_description": "Master enterprise service automation. Learn to manage support cases, SLA compliance, and omnichannel customer interactions integrated with S/4HANA and SAP CX.",
+    "course_long_description": "This SAP Service Cloud (C4C) course is designed to help professionals automate customer service operations and deliver seamless omnichannel support. You will learn to manage service tickets, design automated routing workflows, monitor SLA compliance, and integrate support processes with SAP S/4HANA to drive superior customer satisfaction.",
+    "about_course": [
+      "Master the architecture of SAP Service Cloud and its role in the SAP Customer Experience (CX) portfolio.",
+      "Learn to configure end-to-end case management, ticket categorization, and prioritization logic.",
+      "Deep dive into SLA monitoring, automated escalation workflows, and knowledge management.",
+      "Focuses on omnichannel integration, covering email, chat, phone, and social media support channels."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 34,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "50 Hours",
+    "weekly_commitment_duration": "5–7 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-service-cloud",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – Implementation Consultant – SAP Service Cloud",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-service-cloud-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of CRM systems or SAP ERP software",
+      "Familiarity with customer service processes and SLA management",
+      "Exposure to SAP S/4HANA or SAP CX suite (recommended)",
+      "Knowledge of customer lifecycle and support workflows"
+    ],
+    "key_learnings": [
+      "Configure SAP Service Cloud for automated ticket routing and case management [Image of SAP Service Cloud Ticket Lifecycle and Workflow]",
+      "Implement real-time SLA monitoring and multi-level escalation rules",
+      "Design an omnichannel support strategy across email, chat, and social media [Image of SAP Service Cloud Omnichannel Integration Architecture]",
+      "Integrate Service Cloud with S/4HANA for automated case creation from ERP transactions"
+    ],
+    "ideal_candidates": [
+      "SAP Consultants in Service, CRM, or CX domains",
+      "Customer Support Managers and Service Desk Professionals",
+      "Field Service Coordinators",
+      "CRM Specialists and Support Analysts"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Service Cloud (C4C) Implementation",
+        "Case & Ticket Management",
+        "SLA Monitoring & Compliance",
+        "Omnichannel Support Automation"
+      ],
+      "supporting_skills": [
+        "CRM & ERP Integration",
+        "Knowledge Management Systems",
+        "Service Analytics & KPI Tracking",
+        "Field Service Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Service Cloud (C4C)",
+        "SAP Customer Experience (CX) Suite",
+        "SAP S/4HANA"
+      ],
+      "secondary": [
+        "SAP Field Service Management (FSM)",
+        "Service Analytics Dashboards",
+        "AI Automation Tools",
+        "SAP Integration Suite"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Service Cloud Consultant",
+      "Customer Service Specialist",
+      "Service Operations Manager",
+      "CRM / Support Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Customer Service Automation Platform. Build a full-stack support solution including account/contact setup, ticket routing logic, SLA threshold configuration, and integration with a mock ERP system for parts ordering."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 36
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Service Cloud (C4C)",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview and business benefits of Service Cloud",
+          "Architecture and deployment options",
+          "Role within the SAP Customer Experience (CX) suite"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Master Data & Customer Profiles",
+        "module_duration": "Week 1",
+        "topics": [
+          "Account and contact management configuration",
+          "Customer profile and hierarchy setup",
+          "Data governance and quality management"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Case & Ticket Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Service request creation and lifecycle tracking",
+          "Case categorization and prioritization rules",
+          "SLA monitoring and escalation workflows"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Knowledge Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Knowledge article creation and approval",
+          "Linking knowledge base to active service cases",
+          "Self-service portal integration concepts"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Service Processes & Workflow Automation",
+        "module_duration": "Week 3",
+        "topics": [
+          "Automated case routing and assignment logic",
+          "Multi-level service approval processes",
+          "Notifications and automatic escalation handling"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Omnichannel Support Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Email, chat, and phone integration",
+          "Unified customer interaction management",
+          "Linking support to field service operations"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 5",
+        "topics": [
+          "Service performance and volume dashboards",
+          "SLA compliance and response time tracking",
+          "Customer satisfaction (CSAT) metrics"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Field Service Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "Integration with SAP Field Service Management (FSM)",
+          "Technician scheduling and dispatching basics",
+          "Mobile service enablement features"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Customer Feedback & Survey Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Post-service feedback collection triggers",
+          "Survey analysis and net promoter score (NPS)",
+          "Linking feedback to service performance KPIs"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Integration with SAP CX & S/4HANA",
+        "module_duration": "Week 7",
+        "topics": [
+          "Real-time CRM and ERP synchronization",
+          "Automated case creation from ERP triggers",
+          "S/4HANA back-office integration scenarios"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Best Practices & Case Studies",
+        "module_duration": "Week 7",
+        "topics": [
+          "Real-world service automation success stories",
+          "Lessons from enterprise support deployments",
+          "Continuous optimization strategies"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Production Deployment & Capstone",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end implementation validation",
+          "Testing omnichannel support workflows",
+          "Final service analytics dashboard build"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 145,
+    "total_students_enrolled": 920
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Service Cloud (C4C)?",
+      "answer": "SAP Service Cloud, formerly part of C4C (Cloud for Customer), is a comprehensive, cloud-based solution for managing customer support, field service, and omnichannel interactions."
+    },
+    {
+      "faq_id": 2,
+      "question": "Does this course cover ticket automation?",
+      "answer": "Yes, we focus heavily on automated case routing, assignment rules, and SLA-driven escalation workflows."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP Service Cloud part of SAP CX?",
+      "answer": "Yes, it is a core pillar of the SAP Customer Experience (CX) suite, working alongside Sales, Commerce, and Marketing clouds."
+    },
+    {
+      "faq_id": 4,
+      "question": "Does SAP Service Cloud integrate with S/4HANA?",
+      "answer": "Absolutely. It integrates with S/4HANA to allow service agents to see backend ERP data like warranty info, parts availability, and sales history."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP Service Cloud?",
+      "answer": "It is ideal for SAP consultants, customer service managers, and support analysts who want to modernize enterprise support operations."
+    },
+    {
+      "faq_id": 6,
+      "question": "What is the difference between Service Cloud and Sales Cloud?",
+      "answer": "Sales Cloud focuses on the 'Lead-to-Cash' process and pipeline management, while Service Cloud focuses on the post-purchase 'Ticket-to-Resolution' support lifecycle."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is the course hands-on?",
+      "answer": "Yes, learners get access to a sandbox environment to configure ticket workflows, SLAs, and omnichannel communication channels."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP Service Cloud in high demand?",
+      "answer": "Yes, as enterprises prioritize customer retention and digital service transformation, the demand for certified Service Cloud specialists is growing."
+    },
+    {
+      "faq_id": 9,
+      "question": "What career roles can I target?",
+      "answer": "You can target roles like SAP Service Cloud Consultant, Support Analyst, Service Operations Manager, or CX Solution Architect."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long is the training?",
+      "answer": "The program is designed for 6–8 weeks with a flexible, instructor-led model including a final capstone implementation."
+    }
+  ],
+  "target_audience": [
+    "SAP CX Consultants",
+    "Customer Support Managers",
+    "Service Desk Professionals",
+    "CRM Support Analysts"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Service Cloud Course | C4C Customer Support Training",
+    "meta_description": "Master SAP Service Cloud (C4C). Learn case management, SLA monitoring, and omnichannel support integration in this expert certification course.",
+    "meta_url": "/courses/sap/sap-service-cloud-automation"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPARB-076",
+    "course_uid": "uid-sap-ariba-procurement-sourcing-expert",
+    "course_title": "SAP Ariba – Procurement & Sourcing",
+    "course_subtitle": "End-to-End SAP Ariba Procurement, Sourcing & Supplier Collaboration Training",
+    "course_slug": "sap-ariba-procurement-sourcing-course",
+    "course_thumbnail": "assets/images/courses/sap-ariba-thumb.jpg",
+    "course_short_description": "Master digital procurement and strategic sourcing. Learn to manage supplier collaboration, contract lifecycles, and P2P automation integrated with SAP S/4HANA.",
+    "course_long_description": "This SAP Ariba course is designed to help professionals master digital procurement and strategic sourcing. You will learn to manage sourcing events, supplier onboarding, and the complete procure-to-pay (P2P) cycle. The program emphasizes cloud-based collaboration via the Ariba Network and seamless integration with SAP S/4HANA MM and FI modules.",
+    "about_course": [
+      "Master the cloud-based electronic procurement landscape and SAP Ariba architecture.",
+      "Learn to conduct strategic sourcing events including RFI, RFQ, and RFP auctions.",
+      "Deep dive into Contract Lifecycle Management (CLM) and compliance monitoring.",
+      "Focuses on the end-to-end Procure-to-Pay (P2P) cycle and supplier network collaboration."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 35,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "55 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-ariba",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Associate – SAP Ariba Procurement",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-ariba-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of procurement processes and purchasing",
+      "Familiarity with sourcing and procurement concepts",
+      "Knowledge of supply chain management basics",
+      "Prior SAP experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Design and execute strategic sourcing events and auctions ",
+      "Manage the end-to-end Procure-to-Pay (P2P) automation cycle ",
+      "Implement supplier registration and lifecycle management via the Ariba Network",
+      "Integrate SAP Ariba cloud solutions with S/4HANA MM and FI modules"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP Ariba Consultants",
+      "Procurement & Sourcing Professionals",
+      "Supply Chain & Operations Managers",
+      "Finance & Purchasing Professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Ariba Implementation",
+        "Strategic Sourcing",
+        "Procure-to-Pay (P2P) Execution",
+        "Supplier Lifecycle Management"
+      ],
+      "supporting_skills": [
+        "SAP MM Integration",
+        "Contract Lifecycle Management",
+        "Spend Analysis",
+        "Cloud Architecture Basics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Ariba Sourcing",
+        "SAP Ariba Buying & Invoicing",
+        "SAP Business Network"
+      ],
+      "secondary": [
+        "SAP S/4HANA MM",
+        "SAP Cloud Integration Gateway (CIG)",
+        "Ariba Spend Analysis",
+        "Ariba Contract Management"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP Ariba Consultant",
+      "Procurement Analyst",
+      "SAP Functional Consultant (MM/Ariba)",
+      "Supply Chain Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Procure-to-Pay Automation Platform. Build a complete procurement solution including supplier qualification, a multi-round RFP sourcing event, P2P workflow configuration, and spend analytics reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Ariba & Procurement Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "Digital procurement overview and business value",
+          "SAP Ariba solution landscape and modules",
+          "High-level integration with SAP S/4HANA"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP Ariba Architecture & Cloud Basics",
+        "module_duration": "Week 1",
+        "topics": [
+          "Ariba cloud components and infrastructure",
+          "Tenant and user management configuration",
+          "Security roles and permissions management"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Supplier Management & Onboarding",
+        "module_duration": "Week 2",
+        "topics": [
+          "Supplier registration and qualification workflows",
+          "Supplier lifecycle management (SLP)",
+          "Ariba Business Network collaboration "
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Strategic Sourcing",
+        "module_duration": "Week 3",
+        "topics": [
+          "Sourcing events (RFI, RFQ, RFP) setup",
+          "Reverse and Forward auction processes",
+          "Awarding logic and supplier negotiations"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Contract Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Contract creation and template management",
+          "Approval workflows for legal compliance",
+          "Contract lifecycle monitoring and renewals"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Procurement Operations",
+        "module_duration": "Week 5",
+        "topics": [
+          "Requisitioning and guided buying workflows",
+          "Purchase order creation and transmission",
+          "Goods receiving and confirmation processes"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Invoicing & Payment Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "Ariba electronic invoicing processes",
+          "Invoice reconciliation and exception handling",
+          "Integration with SAP FI for payment"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integration with SAP S/4HANA (MM & FI)",
+        "module_duration": "Week 7",
+        "topics": [
+          "Master data synchronization through CIG",
+          "End-to-end P2P transaction flow",
+          "Integration error handling and monitoring"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Spend Analytics",
+        "module_duration": "Week 8",
+        "topics": [
+          "Spend visibility dashboards and filters",
+          "Standard Ariba reporting capabilities",
+          "Procurement KPI and sourcing analysis"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "Full system configuration validation",
+          "Real-time sourcing scenario execution",
+          "Final supplier collaboration report"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 175,
+    "total_students_enrolled": 1250
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP Ariba?",
+      "answer": "SAP Ariba is a cloud-based procurement and sourcing platform that enables organizations to collaborate with suppliers, automate the P2P cycle, and manage strategic sourcing in a single ecosystem."
+    },
+    {
+      "faq_id": 2,
+      "question": "Does SAP Ariba replace SAP MM?",
+      "answer": "No, it complements SAP MM by extending internal procurement processes to a global cloud-based supplier network for better collaboration and sourcing."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the P2P process in Ariba?",
+      "answer": "The Procure-to-Pay (P2P) process covers the entire lifecycle from identifying a need (Requisition) to final supplier payment (Cash)."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP Ariba part of SAP S/4HANA?",
+      "answer": "It is a cloud solution that integrates deeply with S/4HANA through the Cloud Integration Gateway (CIG) to sync data and transactions."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is the Ariba Network?",
+      "answer": "It is a massive digital marketplace where millions of buyers and suppliers connect to automate business transactions and sourcing."
+    },
+    {
+      "faq_id": 6,
+      "question": "Who should learn SAP Ariba?",
+      "answer": "It is ideal for procurement professionals, supply chain managers, and SAP functional consultants looking to specialize in digital procurement."
+    },
+    {
+      "faq_id": 7,
+      "question": "Do I need coding skills for Ariba?",
+      "answer": "No heavy coding is required, as Ariba is a configuration-based cloud platform, though understanding integration logic is beneficial."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP Ariba in demand?",
+      "answer": "Yes, as enterprises aggressively move their procurement to the cloud, the demand for certified Ariba consultants is at an all-time high."
+    },
+    {
+      "faq_id": 9,
+      "question": "What industries use SAP Ariba?",
+      "answer": "Manufacturing, retail, oil & gas, pharmaceuticals, and public sector organizations globally use Ariba for spend management."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long is the training?",
+      "answer": "The course is designed to be completed in 8 weeks with a flexible, instructor-led model including a final capstone project."
+    }
+  ],
+  "target_audience": [
+    "Procurement Specialists",
+    "Supply Chain Managers",
+    "SAP MM Consultants",
+    "Purchasing Managers"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP Ariba Course | Procurement & Sourcing Training | Proximsoft",
+    "meta_description": "Learn SAP Ariba. Master digital procurement, strategic sourcing, and P2P automation integrated with S/4HANA in this expert-led certification course.",
+    "meta_url": "/courses/sap/sap-ariba-procurement-sourcing"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPCRM-077",
+    "course_uid": "uid-sap-crm-customer-relationship-expert",
+    "course_title": "SAP CRM – Customer Relationship Management",
+    "course_subtitle": "End-to-End SAP CRM Configuration, Sales, Service & Customer Engagement Training",
+    "course_slug": "sap-crm-customer-relationship-management-course",
+    "course_thumbnail": "assets/images/courses/sap-crm-thumb.jpg",
+    "course_short_description": "Master enterprise-grade CRM. Learn to configure sales, service, and marketing modules while integrating customer lifecycles with SAP S/4HANA and ERP systems.",
+    "course_long_description": "This SAP CRM course is designed to help professionals configure and manage customer interactions, sales processes, and service operations. You will learn to bridge the gap between frontend customer engagement and backend ERP modules (SD, MM, FI), mastering the Web UI framework, middleware data replication, and automated service workflows.",
+    "about_course": [
+      "Master the configuration of Business Partners and Organizational Management in SAP CRM.",
+      "Learn to automate the complete sales cycle from Lead and Opportunity to Order processing.",
+      "Deep dive into Service Management including SLA monitoring, complaints, and returns.",
+      "Focuses on CRM Middleware and real-time integration with SAP S/4HANA and ECC environments."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 36,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "55 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-crm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - CRM Foundation with SAP CRM",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-crm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of sales management or service processes",
+      "Familiarity with customer relationship concepts",
+      "Knowledge of marketing or CRM workflows",
+      "Prior SAP experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure SAP CRM architecture and its integration with ERP backend systems [Image of SAP CRM Architecture and Integration with SAP ERP]",
+      "Manage the end-to-end Sales Process from Lead to Quotation and Billing [Image of SAP CRM Sales Process Flow]",
+      "Implement Service Management workflows including Service Level Agreements (SLA) and returns",
+      "Master the CRM Web UI framework and Middleware data replication logic"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP CRM Consultants",
+      "Sales, Marketing & Customer Service Professionals",
+      "CRM & Business Analysts",
+      "MBA / Management Graduates"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP CRM Configuration",
+        "Sales & Service Management",
+        "CRM Marketing & Campaign Design",
+        "Web UI Framework Management"
+      ],
+      "supporting_skills": [
+        "CRM Middleware Integration",
+        "Business Partner Design",
+        "Customer Analytics",
+        "Cross-Module ERP Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP CRM",
+        "SAP S/4HANA",
+        "SAP CRM Web UI"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "CRM Middleware",
+        "Interaction Center",
+        "Analytics Dashboards"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP CRM Consultant",
+      "CRM Functional Analyst",
+      "SAP Functional Consultant",
+      "Customer Engagement Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Customer Relationship Management System. Design a complete solution featuring organizational structure setup, automated lead-to-order workflows, service request categorization with SLA thresholds, and real-time data sync with S/4HANA."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & CRM Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP and CRM fundamentals",
+          "SAP CRM architecture and landscape",
+          "Business scenarios and process overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Management & Business Partners",
+        "module_duration": "Week 1",
+        "topics": [
+          "Organizational structure configuration in CRM",
+          "Business Partner (BP) master data setup",
+          "Partner roles, relationships, and groupings"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Sales Process Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Lead and Opportunity lifecycle management",
+          "Sales quotations and contract processing",
+          "Sales cycle configuration and tracking"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Marketing Processes",
+        "module_duration": "Week 3",
+        "topics": [
+          "Marketing attributes and customer segmentation",
+          "Campaign management and orchestration",
+          "Lead generation and marketing integration"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Service Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Service request and service order processing",
+          "Complaints, returns, and credit memo handling",
+          "SLA management and service contract logic"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Interaction Center & Web UI",
+        "module_duration": "Week 5",
+        "topics": [
+          "SAP CRM Web UI framework configuration",
+          "Interaction Center (IC) setup and profiles",
+          "Customer interaction and communication management"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "CRM Middleware & Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "CRM Middleware basics and site definitions",
+          "Data replication concepts and monitoring",
+          "Connectivity between CRM and S/4HANA"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "CRM Integration with SD, MM & FI",
+        "module_duration": "Week 7",
+        "topics": [
+          "Sales-to-SD billing and logistics integration",
+          "Service-to-MM parts and inventory sync",
+          "Financial posting and settlement processes"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Analytics",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard CRM reports and dashboards",
+          "Advanced customer behavior analytics",
+          "Sales and service KPI tracking"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "Full system configuration and testing",
+          "Real-time sales/service scenario execution",
+          "Final reporting and system sign-off"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 165,
+    "total_students_enrolled": 1250
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP CRM?",
+      "answer": "SAP CRM is an enterprise-grade customer relationship management application used to manage sales, service, and marketing interactions across multiple customer touchpoints."
+    },
+    {
+      "faq_id": 2,
+      "question": "How does SAP CRM differ from SAP Sales Cloud?",
+      "answer": "SAP CRM is an on-premise or hybrid solution with deep backend integration, while SAP Sales Cloud is a modern, cloud-native CRM focused on sales automation."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP CRM still relevant with S/4HANA?",
+      "answer": "Yes. Many large enterprises use SAP CRM integrated with S/4HANA for complex service management and high-volume sales operations."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is CRM Middleware?",
+      "answer": "Middleware is the technology that enables the real-time exchange of master data and transactions between the CRM system and the ERP backend."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP CRM?",
+      "answer": "It is ideal for SAP consultants, business analysts, and sales/service professionals who need to manage enterprise-level customer lifecycles."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does the course cover the Web UI?",
+      "answer": "Yes. We focus on the modern Web UI framework, which is the primary interface for SAP CRM users and consultants."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is prior SAP experience required?",
+      "answer": "Basic business knowledge helps, but the course is designed to take you from the fundamentals of SAP through to advanced CRM configuration."
+    },
+    {
+      "faq_id": 8,
+      "question": "What is the Interaction Center?",
+      "answer": "The Interaction Center is a unified interface for service agents to handle customer calls, emails, and chats while viewing full customer history."
+    },
+    {
+      "faq_id": 9,
+      "question": "What industries use SAP CRM?",
+      "answer": "Industries like telecommunications, utilities, high-tech manufacturing, and retail use SAP CRM for its robust service and sales capabilities."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long is the training?",
+      "answer": "The program spans 8 weeks and includes instructor-led training and a hands-on capstone project."
+    }
+  ],
+  "target_audience": [
+    "SAP Consultants",
+    "Business Analysts",
+    "Sales and Service Professionals",
+    "MBA Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP CRM Course | Customer Relationship Management Training",
+    "meta_description": "Master SAP CRM. Learn sales and service configuration, Web UI management, and S/4HANA integration in this expert-led certification course.",
+    "meta_url": "/courses/sap/sap-crm-management"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPCRM-077",
+    "course_uid": "uid-sap-crm-customer-relationship-expert",
+    "course_title": "SAP CRM – Customer Relationship Management",
+    "course_subtitle": "End-to-End SAP CRM Configuration, Sales, Service & Customer Engagement Training",
+    "course_slug": "sap-crm-customer-relationship-management-course",
+    "course_thumbnail": "assets/images/courses/sap-crm-thumb.jpg",
+    "course_short_description": "Master enterprise-grade CRM. Learn to configure sales, service, and marketing modules while integrating customer lifecycles with SAP S/4HANA and ERP systems.",
+    "course_long_description": "This SAP CRM course is designed to help professionals configure and manage customer interactions, sales processes, and service operations. You will learn to bridge the gap between frontend customer engagement and backend ERP modules (SD, MM, FI), mastering the Web UI framework, middleware data replication, and automated service workflows.",
+    "about_course": [
+      "Master the configuration of Business Partners and Organizational Management in SAP CRM.",
+      "Learn to automate the complete sales cycle from Lead and Opportunity to Order processing.",
+      "Deep dive into Service Management including SLA monitoring, complaints, and returns.",
+      "Focuses on CRM Middleware and real-time integration with SAP S/4HANA and ECC environments."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 36,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "55 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-crm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - CRM Foundation with SAP CRM",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-crm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of sales management or service processes",
+      "Familiarity with customer relationship concepts",
+      "Knowledge of marketing or CRM workflows",
+      "Prior SAP experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure SAP CRM architecture and its integration with ERP backend systems ",
+      "Manage the end-to-end Sales Process from Lead to Quotation and Billing ",
+      "Implement Service Management workflows including Service Level Agreements (SLA) and returns",
+      "Master the CRM Web UI framework and Middleware data replication logic"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP CRM Consultants",
+      "Sales, Marketing & Customer Service Professionals",
+      "CRM & Business Analysts",
+      "MBA / Management Graduates"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP CRM Configuration",
+        "Sales & Service Management",
+        "CRM Marketing & Campaign Design",
+        "Web UI Framework Management"
+      ],
+      "supporting_skills": [
+        "CRM Middleware Integration",
+        "Business Partner Design",
+        "Customer Analytics",
+        "Cross-Module ERP Integration"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP CRM",
+        "SAP S/4HANA",
+        "SAP CRM Web UI"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "CRM Middleware",
+        "Interaction Center",
+        "Analytics Dashboards"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP CRM Consultant",
+      "CRM Functional Analyst",
+      "SAP Functional Consultant",
+      "Customer Engagement Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Customer Relationship Management System. Design a complete solution featuring organizational structure setup, automated lead-to-order workflows, service request categorization with SLA thresholds, and real-time data sync with S/4HANA."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 30
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & CRM Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP and CRM fundamentals",
+          "SAP CRM architecture and landscape",
+          "Business scenarios and process overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Management & Business Partners",
+        "module_duration": "Week 1",
+        "topics": [
+          "Organizational structure configuration in CRM",
+          "Business Partner (BP) master data setup",
+          "Partner roles, relationships, and groupings"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Sales Process Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Lead and Opportunity lifecycle management",
+          "Sales quotations and contract processing",
+          "Sales cycle configuration and tracking"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Marketing Processes",
+        "module_duration": "Week 3",
+        "topics": [
+          "Marketing attributes and customer segmentation",
+          "Campaign management and orchestration",
+          "Lead generation and marketing integration"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Service Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Service request and service order processing",
+          "Complaints, returns, and credit memo handling",
+          "SLA management and service contract logic"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Interaction Center & Web UI",
+        "module_duration": "Week 5",
+        "topics": [
+          "SAP CRM Web UI framework configuration",
+          "Interaction Center (IC) setup and profiles",
+          "Customer interaction and communication management"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "CRM Middleware & Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "CRM Middleware basics and site definitions",
+          "Data replication concepts and monitoring",
+          "Connectivity between CRM and S/4HANA"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "CRM Integration with SD, MM & FI",
+        "module_duration": "Week 7",
+        "topics": [
+          "Sales-to-SD billing and logistics integration",
+          "Service-to-MM parts and inventory sync",
+          "Financial posting and settlement processes"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Analytics",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard CRM reports and dashboards",
+          "Advanced customer behavior analytics",
+          "Sales and service KPI tracking"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "Full system configuration and testing",
+          "Real-time sales/service scenario execution",
+          "Final reporting and system sign-off"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 165,
+    "total_students_enrolled": 1250
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP CRM?",
+      "answer": "SAP CRM is an enterprise-grade customer relationship management application used to manage sales, service, and marketing interactions across multiple customer touchpoints."
+    },
+    {
+      "faq_id": 2,
+      "question": "How does SAP CRM differ from SAP Sales Cloud?",
+      "answer": "SAP CRM is an on-premise or hybrid solution with deep backend integration, while SAP Sales Cloud is a modern, cloud-native CRM focused on sales automation."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP CRM still relevant with S/4HANA?",
+      "answer": "Yes. Many large enterprises use SAP CRM integrated with S/4HANA for complex service management and high-volume sales operations."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is CRM Middleware?",
+      "answer": "Middleware is the technology that enables the real-time exchange of master data and transactions between the CRM system and the ERP backend."
+    },
+    {
+      "faq_id": 5,
+      "question": "Who should learn SAP CRM?",
+      "answer": "It is ideal for SAP consultants, business analysts, and sales/service professionals who need to manage enterprise-level customer lifecycles."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does the course cover the Web UI?",
+      "answer": "Yes. We focus on the modern Web UI framework, which is the primary interface for SAP CRM users and consultants."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is prior SAP experience required?",
+      "answer": "Basic business knowledge helps, but the course is designed to take you from the fundamentals of SAP through to advanced CRM configuration."
+    },
+    {
+      "faq_id": 8,
+      "question": "What is the Interaction Center?",
+      "answer": "The Interaction Center is a unified interface for service agents to handle customer calls, emails, and chats while viewing full customer history."
+    },
+    {
+      "faq_id": 9,
+      "question": "What industries use SAP CRM?",
+      "answer": "Industries like telecommunications, utilities, high-tech manufacturing, and retail use SAP CRM for its robust service and sales capabilities."
+    },
+    {
+      "faq_id": 10,
+      "question": "How long is the training?",
+      "answer": "The program spans 8 weeks and includes instructor-led training and a hands-on capstone project."
+    }
+  ],
+  "target_audience": [
+    "SAP Consultants",
+    "Business Analysts",
+    "Sales and Service Professionals",
+    "MBA Graduates"
+  ],
+  "metadata": {
+    "course_date": "2024-06-01",
+    "latest_update_date": "2024-06-01"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP CRM Course | Customer Relationship Management Training",
+    "meta_description": "Master SAP CRM. Learn sales and service configuration, Web UI management, and S/4HANA integration in this expert-led certification course.",
+    "meta_url": "/courses/sap/sap-crm-management"
   }
 },
 
