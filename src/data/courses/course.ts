@@ -10780,7 +10780,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP SuccessFactors – Employee Central (EC)",
     "course_subtitle": "Comprehensive SAP SF Employee Central Strategy, Core HR Processes & Cloud HR Management",
     "course_slug": "sap-successfactors-employee-central-course",
-    "course_thumbnail": "assets/images/courses/sap-sf-ec-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPSuccessfactorsEC.png",
     "course_short_description": "Master cloud-based HR management. Learn to configure employee master data, organizational structures, workflows, and payroll integrations in SAP SuccessFactors.",
     "course_long_description": "This SAP SuccessFactors Employee Central (EC) course is designed to help professionals master cloud-based HR management. You will learn how to manage core HR processes including employee master data, organizational structures, time-off management, workflows, and role-based permissions. The course focuses on real-world HR digital transformation and enterprise system implementation.",
     "about_course": [
@@ -11101,7 +11101,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP SuccessFactors – Recruiting Management",
     "course_subtitle": "Comprehensive SAP SF Recruiting Strategy, Talent Acquisition & Hiring Process Automation",
     "course_slug": "sap-successfactors-recruiting-management-course",
-    "course_thumbnail": "assets/images/courses/sap-sf-recruiting-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPSuccessfactorRecruitingmanagement.png",
     "course_short_description": "Master end-to-end talent acquisition. Learn to configure job requisitions, manage applicant tracking (ATS), and automate interview workflows using SAP SuccessFactors.",
     "course_long_description": "This SAP SuccessFactors Recruiting course is designed to help professionals master end-to-end talent acquisition and recruitment process automation. The program covers the complete lifecycle including job requisition management, applicant tracking (ATS), interview scheduling, candidate evaluation, offer workflows, and onboarding integration.",
     "about_course": [
@@ -11422,7 +11422,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP SuccessFactors (SF) Onboarding & Offboarding",
     "course_subtitle": "Joiner–Mover–Leaver (JML) Lifecycle Automation & Cloud HR Management",
     "course_slug": "sap-successfactors-onboarding-offboarding-course",
-    "course_thumbnail": "assets/images/courses/sap-sf-on-off-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPSuccessfactorOnboardingandoffnoarding.png",
     "course_short_description": "Master the complete employee lifecycle. Learn to automate pre-onboarding, manage Onboarding 2.0 configuration, and handle exit processes in SAP SuccessFactors.",
     "course_long_description": "The SAP SuccessFactors (SF) Onboarding & Offboarding course is designed to help professionals automate and manage the complete employee lifecycle—from pre-onboarding to exit processes. This program focuses on Joiner–Mover–Leaver (JML) lifecycle automation, Onboarding 2.0 configuration, workflow management, and integration with Employee Central.",
     "about_course": [
@@ -11774,7 +11774,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Artificial Intelligence (AI) – Intelligent Enterprise Solutions",
     "course_subtitle": "Comprehensive SAP AI Strategy, Intelligent Applications, and Machine Learning Integration",
     "course_slug": "sap-ai-intelligent-enterprise-course",
-    "course_thumbnail": "assets/images/courses/sap-ai-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPArtificialIntelligence.png",
     "course_short_description": "Master SAP's AI and machine learning ecosystem. Learn to implement SAP AI Core, predictive analytics, and conversational AI within SAP S/4HANA and BTP.",
     "course_long_description": "The SAP Artificial Intelligence (AI) course is designed to help professionals implement intelligent enterprise solutions using SAP’s AI and machine learning ecosystem. This program focuses on SAP AI Core, SAP AI Foundation, intelligent business services, predictive analytics, and AI integration with SAP S/4HANA, SAP CX, and SAP Business Technology Platform (BTP).",
     "about_course": [
@@ -12128,7 +12128,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Intelligent Robotic Process Automation (iRPA) – Automate Enterprise Processes",
     "course_subtitle": "Comprehensive SAP iRPA Strategy, Bot Development & Automation Lifecycle Management",
     "course_slug": "sap-intelligent-rpa-automation-course",
-    "course_thumbnail": "assets/images/courses/sap-irpa-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPIntelligentRPA.png",
     "course_short_description": "Master enterprise-grade automation. Learn to design, develop, and orchestrate software bots that integrate with SAP S/4HANA, SuccessFactors, and non-SAP apps.",
     "course_long_description": "The SAP Intelligent Robotic Process Automation (iRPA) course is designed to help professionals automate repetitive enterprise processes using SAP’s intelligent automation platform. This program focuses on end-to-end robotic process automation (RPA), including bot design, orchestration, deployment, and monitoring within SAP landscapes.",
     "about_course": [
@@ -12454,7 +12454,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Internet of Things (IoT) – Connected Enterprise Solutions",
     "course_subtitle": "Comprehensive SAP IoT Strategy, Sensor Integration, and Real-Time Data Analytics",
     "course_slug": "sap-iot-connected-enterprise-course",
-    "course_thumbnail": "assets/images/courses/sap-iot-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPIoT.png",
     "course_short_description": "Bridge the gap between physical assets and digital intelligence. Learn to build scalable IoT solutions using SAP BTP, Edge computing, and S/4HANA integration.",
     "course_long_description": "This SAP Internet of Things (IoT) course is designed to help professionals build connected enterprise solutions using SAP IoT, edge computing, and cloud technologies. You will learn how IoT devices and sensors connect with SAP platforms to capture real-time operational data and transform it into actionable business intelligence.",
     "about_course": [
@@ -12797,7 +12797,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP IS-Oil & Gas – Industry Solution for Oil & Gas",
     "course_subtitle": "Comprehensive SAP IS-Oil & Gas Strategy, Upstream, Midstream & Downstream Operations",
     "course_slug": "sap-is-oil-gas-course",
-    "course_thumbnail": "assets/images/courses/sap-oil-gas-thumb.jpg",
+    "course_thumbnail": "/images/courses//SAP/SAPIOilandGas.png",
     "course_short_description": "Master the leading industry solution for the energy sector. Learn Upstream production, Midstream logistics, Downstream refining, and Joint Venture Accounting in SAP S/4HANA.",
     "course_long_description": "SAP IS-Oil & Gas is an industry-specific SAP solution designed to manage complex operations across the oil and gas value chain. This course trains professionals to configure, implement, and optimize SAP IS-Oil & Gas using SAP S/4HANA and integrated modules like SAP FI/CO, MM, SD, and PM to manage exploration, logistics, and refining.",
     "about_course": [
@@ -13139,7 +13139,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP IS-Retail Course",
     "course_subtitle": "Comprehensive SAP IS-Retail Strategy, Merchandise Management & Store Operations",
     "course_slug": "sap-is-retail-course",
-    "course_thumbnail": "assets/images/courses/sap-retail-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPISRetail.png",
     "course_short_description": "Master SAP's industry solution for the retail sector. Learn to manage merchandise planning, store operations, omnichannel integration, and real-time inventory control.",
     "course_long_description": "This SAP IS-Retail course is designed to help professionals master SAP’s Industry Solution for Retail and implement enterprise-grade retail management systems. You will learn to manage end-to-end retail operations, including category management, procurement, pricing, promotions, and supply chain optimization across global retail enterprises.",
     "about_course": [
@@ -13482,7 +13482,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP ABAP – Advanced Business Application Programming",
     "course_subtitle": "End-to-End SAP ABAP Development, Enhancements & S/4HANA Programming",
     "course_slug": "sap-abap-development-course",
-    "course_thumbnail": "assets/images/courses/sap-abap-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPABAP.png",
     "course_short_description": "Master the core programming language of SAP. Learn report development, ALV, BAPIs, enhancements, and modern S/4HANA programming including CDS Views and AMDP.",
     "course_long_description": "The SAP ABAP course is designed to help learners master Advanced Business Application Programming (ABAP) for enterprise SAP environments including SAP ECC and SAP S/4HANA. This course provides end-to-end technical development training covering reports, interfaces, enhancements, forms, object-oriented ABAP, and performance optimization.",
     "about_course": [
@@ -14145,7 +14145,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Basis – System Administration Course",
     "course_subtitle": "End-to-End SAP Basis Administration, Monitoring & S/4HANA System Management",
     "course_slug": "sap-basis-system-administration-course",
-    "course_thumbnail": "assets/images/courses/sap-basis-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPBasis.png",
     "course_short_description": "Master the technical foundation of SAP. Learn system installation, transport management (TMS), user security, and S/4HANA administration to maintain enterprise SAP landscapes.",
     "course_long_description": "This SAP Basis – System Administration course is designed to train professionals in managing, monitoring, and maintaining enterprise SAP landscapes including SAP ECC and SAP S/4HANA systems. The course covers system installation, landscape architecture, client administration, user management, and performance tuning.",
     "about_course": [
@@ -14499,7 +14499,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP BTP – Business Technology Platform",
     "course_subtitle": "End-to-End SAP BTP Development, Integration, Extension & Analytics Training",
     "course_slug": "sap-btp-training-course",
-    "course_thumbnail": "assets/images/courses/sap-btp-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPBTP.png",
     "course_short_description": "Master SAP's unified cloud platform. Learn to build cloud-native apps, integrate enterprise systems, and extend S/4HANA using Integration Suite, Extension Suite, and SAP Build.",
     "course_long_description": "This SAP Business Technology Platform (BTP) course is designed to build strong expertise in SAP’s cloud platform for application development, integration, automation, analytics, and enterprise extensions. You will learn end-to-end architecture including Cloud Foundry, ABAP Environment, Integration Suite, and API Management to design enterprise-grade cloud solutions.",
     "about_course": [
@@ -14854,7 +14854,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP BW/4HANA – Data Warehousing",
     "course_subtitle": "Modern SAP Data Warehousing with BW/4HANA Modeling, Data Flows & Analytics",
     "course_slug": "sap-bw4hana-data-warehousing-course",
-    "course_thumbnail": "assets/images/courses/sap-bw4hana-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPBW4HANA.png",
     "course_short_description": "Master next-generation data warehousing. Learn BW/4HANA architecture, ADSO modeling, and real-time analytics optimization on SAP HANA.",
     "course_long_description": "This SAP BW/4HANA course is designed to help professionals build modern enterprise data warehouse solutions. Unlike legacy systems, BW/4HANA is fully optimized for SAP HANA, enabling high-performance modeling, real-time reporting, and scalable analytics architectures aligned with S/4HANA.",
     "about_course": [
@@ -15206,7 +15206,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP CPI – Cloud Platform Integration",
     "course_subtitle": "End-to-End SAP Cloud Integration (CPI) Development, iFlows & Hybrid Integration Training",
     "course_slug": "sap-cpi-cloud-integration-course",
-    "course_thumbnail": "assets/images/courses/sap-cpi-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPCPI.png",
     "course_short_description": "Bridge the cloud gap. Learn to design iFlows, manage APIs, and build secure hybrid integrations using SAP BTP Integration Suite.",
     "course_long_description": "The SAP CPI course is designed to help professionals build, deploy, and manage enterprise-grade integrations using SAP BTP. It focuses on Cloud Platform Integration (CPI) development, iFlows design, API-based connectivity, and real-time data synchronization across hybrid SAP and non-SAP environments.",
     "about_course": [
@@ -15491,7 +15491,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP RAP – RESTful Application Programming Model",
     "course_subtitle": "Modern ABAP Development with RAP, CDS, OData & Fiori Elements",
     "course_slug": "sap-rap-restful-application-programming-course",
-    "course_thumbnail": "assets/images/courses/sap-rap-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAPRAP.png",
     "course_short_description": "Master modern ABAP development. Learn to build cloud-ready enterprise applications using RAP, CDS, and OData for SAP S/4HANA and BTP.",
     "course_long_description": "This SAP RAP course is designed to teach developers how to build modern, scalable SAP applications using the RESTful Application Programming Model on SAP S/4HANA. Unlike classical ABAP programming, RAP enables clean architecture, service-based development, and Fiori-ready applications using CDS views, OData services, and transactional processing models.",
     "about_course": [
@@ -15800,7 +15800,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Fiori / UI5 – UX & Front-end Development",
     "course_subtitle": "Design & Build Modern SAP Fiori Applications Using UI5 and UX Best Practices",
     "course_slug": "sap-fiori-ui5-ux-development-course",
-    "course_thumbnail": "assets/images/courses/sap-fiori-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPFiori.png",
     "course_short_description": "Master SAP front-end development. Learn to build responsive, role-based Fiori applications using the SAPUI5 JavaScript framework and OData integration.",
     "course_long_description": "This SAP Fiori / UI5 course is designed to help professionals design, develop, and deploy modern SAP applications. Unlike traditional SAP GUI, Fiori focuses on responsive and intuitive user experiences. This program teaches HTML5, CSS3, JavaScript, UI5 architecture, and SAP BTP deployment strategies.",
     "about_course": [
@@ -16144,7 +16144,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP NetWeaver",
     "course_subtitle": "SAP NetWeaver Architecture, Application Server, Integration & Administration Training",
     "course_slug": "sap-netweaver-course",
-    "course_thumbnail": "assets/images/courses/sap-netweaver-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPNetweaver.png",
     "course_short_description": "Master the core technology stack of SAP. Learn NetWeaver architecture, ABAP & Java application servers, and enterprise integration fundamentals.",
     "course_long_description": "This SAP NetWeaver course provides a strong technical foundation in the platform that powers SAP ECC, S/4HANA, BW, and CRM. You will learn how NetWeaver supports application development, integration, and enterprise scalability, covering ICM, SAP Gateway, RFC, and ALE/IDoc.",
     "about_course": [
@@ -16487,7 +16487,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP PI/PO – Process Integration / Orchestration",
     "course_subtitle": "End-to-End SAP PI/PO Integration, Mapping & Middleware Orchestration Training",
     "course_slug": "sap-pipo-middleware-course",
-    "course_thumbnail": "assets/images/courses/sap-pipo-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPPIPO.png",
     "course_short_description": "Master enterprise middleware. Learn to connect SAP and non-SAP systems using ESR, ID, advanced adapters, and Business Process Management (BPM).",
     "course_long_description": "This SAP PI/PO course helps professionals master enterprise integration. SAP PI/PO serves as the middleware layer connecting SAP and non-SAP systems. This program covers ESR, Integration Directory, adapters, message mapping, BPM, BRM, and orchestration for complex environments.",
     "about_course": [
@@ -16830,7 +16830,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP RAP – RESTful Application Programming Model",
     "course_subtitle": "Modern ABAP Development with RAP, CDS, OData & Fiori Elements",
     "course_slug": "sap-rap-restful-application-programming-course",
-    "course_thumbnail": "assets/images/courses/sap-rap-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPRAP_.png",
     "course_short_description": "Learn modern ABAP development using SAP RAP. Master CDS views, OData services, and Fiori Elements to build cloud-ready enterprise applications.",
     "course_long_description": "This SAP RAP course is designed to teach developers how to build modern, scalable SAP applications using the RESTful Application Programming Model on SAP S/4HANA. Unlike classical ABAP programming, RAP enables clean architecture and service-based development using CDS views and behavior definitions.",
     "about_course": [
@@ -17140,7 +17140,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Security & Authorization",
     "course_subtitle": "Master SAP User Management, Roles, Authorizations & GRC Security Concepts",
     "course_slug": "sap-security-authorization-course",
-    "course_thumbnail": "assets/images/courses/sap-security-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPSecurityandauthorization.png",
     "course_short_description": "Secure the enterprise landscape. Master user management, role design with PFCG, authorization objects, and S/4HANA Fiori security protocols.",
     "course_long_description": "This SAP Security & Authorization course is designed to help professionals secure SAP landscapes through structured user management, role design, and authorization control. You will learn how security architecture works across ECC and S/4HANA, covering authorization objects, PFCG role design, audit readiness, and Segregation of Duties (SoD).",
     "about_course": [
@@ -17495,7 +17495,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Billing and Revenue Innovation Management (BRIM)",
     "course_subtitle": "End-to-End SAP BRIM Strategy, Subscription Billing & Revenue Management",
     "course_slug": "sap-brim-training-course",
-    "course_thumbnail": "assets/images/courses/sap-brim-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPBRIM.png",
     "course_short_description": "Master high-volume subscription and usage-based billing. Learn to implement SAP CC, CI, and FI-CA for scalable enterprise monetization.",
     "course_long_description": "The SAP Billing and Revenue Innovation Management (BRIM) course is designed to build deep expertise in SAP’s end-to-end billing ecosystem. This program covers subscription business models, usage-based billing, contract accounts receivable (FI-CA), and revenue recognition integrated with SAP S/4HANA Finance.",
     "about_course": [
@@ -17839,7 +17839,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Billing and Revenue Innovation Management (BRIM)",
     "course_subtitle": "End-to-End SAP BRIM Strategy, Subscription Billing & Revenue Management",
     "course_slug": "sap-brim-training-course",
-    "course_thumbnail": "assets/images/courses/sap-brim-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPBRIM.png",
     "course_short_description": "Master high-volume subscription and usage-based billing. Learn to implement SAP CC, CI, and FI-CA for scalable enterprise monetization.",
     "course_long_description": "The SAP Billing and Revenue Innovation Management (BRIM) course is designed to build deep expertise in SAP’s end-to-end billing ecosystem. This program covers subscription business models, usage-based billing, contract accounts receivable (FI-CA), and revenue recognition integrated with SAP S/4HANA Finance.",
     "about_course": [
@@ -18183,7 +18183,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Digital Manufacturing Cloud (DMC)",
     "course_subtitle": "Comprehensive SAP DMC Strategy, Cloud-Based Production Management & Real-Time Smart Manufacturing",
     "course_slug": "sap-digital-manufacturing-cloud-course",
-    "course_thumbnail": "assets/images/courses/sap-dmc-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPDMC.png",
     "course_short_description": "Master SAP's Industry 4.0 MES platform. Learn to connect shop floor operations with S/4HANA, optimize production with real-time analytics, and implement smart factory solutions.",
     "course_long_description": "This SAP Digital Manufacturing Cloud (DMC) course is designed to help professionals master cloud-based manufacturing execution, production planning, and real-time analytics. You will learn how to connect shop floor equipment and IoT devices to SAP S/4HANA, enabling a unified digital thread that transforms traditional factories into intelligent, connected operations.",
     "about_course": [
@@ -18506,7 +18506,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Fieldglass Training – Vendor Management & Contingent Workforce Solutions",
     "course_subtitle": "Comprehensive SAP Fieldglass Strategy, External Workforce Management & Services Procurement",
     "course_slug": "sap-fieldglass-training-course",
-    "course_thumbnail": "assets/images/courses/sap-fieldglass-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPfiedlglasstraining.png",
     "course_short_description": "Master the world's leading VMS. Learn to manage contingent labor, external vendors, and Statement of Work (SOW) projects with SAP Fieldglass cloud solutions.",
     "course_long_description": "The SAP Fieldglass course is a hands-on training program designed to help professionals master contingent workforce management and services procurement. You will learn to manage the entire external worker lifecycle, from job postings and vendor onboarding to time tracking, invoicing, and S/4HANA integration.",
     "about_course": [
@@ -18837,7 +18837,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Global Trade Services (GTS)",
     "course_subtitle": "Comprehensive SAP GTS Strategy, International Trade Compliance & Customs Management",
     "course_slug": "sap-gts-compliance-course",
-    "course_thumbnail": "assets/images/courses/sap-gts-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPGTStraining.png",
     "course_short_description": "Master international trade. Learn customs management, export/import compliance, and sanction screening integrated with SAP S/4HANA.",
     "course_long_description": "This SAP Global Trade Services (GTS) course helps professionals manage international trade operations and regulatory risk. You will learn real-world implementation of trade compliance, customs declaration automation, and integration with S/4HANA Logistics and Finance systems.",
     "about_course": [
@@ -19179,7 +19179,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Integrated Business Planning (IBP)",
     "course_subtitle": "Comprehensive SAP IBP Strategy, Demand & Supply Planning, and Supply Chain Optimization",
     "course_slug": "sap-ibp-training-course",
-    "course_thumbnail": "assets/images/courses/sap-ibp-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPIBP.png",
     "course_short_description": "Master SAP's next-generation supply chain planning. Learn Demand, Supply, Inventory, and S&OP using cloud-based simulations integrated with SAP S/4HANA.",
     "course_long_description": "This SAP IBP course is designed to help professionals implement and manage modern supply chain planning solutions. You will learn how to configure demand planning, multi-echelon inventory optimization, and S&OP using SAP IBP’s cloud-based platform. The course covers advanced forecasting models, scenario simulations, and seamless integration with SAP S/4HANA and SAP Analytics Cloud.",
     "about_course": [
@@ -19523,7 +19523,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Manufacturing Integration and Intelligence (MII)",
     "course_subtitle": "Comprehensive SAP MII Strategy, Shop Floor Integration & Manufacturing Intelligence",
     "course_slug": "sap-mii-integration-intelligence-course",
-    "course_thumbnail": "assets/images/courses/sap-mii-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPMIItraining'.png",
     "course_short_description": "Bridge the gap between shop floor and the boardroom. Learn to integrate PLC/SCADA systems with SAP S/4HANA and build real-time manufacturing intelligence dashboards.",
     "course_long_description": "The SAP Manufacturing Integration and Intelligence (MII) course is designed to help professionals integrate shop floor systems with SAP ERP and generate real-time manufacturing intelligence. This program emphasizes real-time data acquisition, manufacturing analytics, and intelligent production monitoring aligned with Industry 4.0 standards.",
     "about_course": [
@@ -19847,7 +19847,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Master Data Governance (MDG) – Enterprise Data Management & Governance",
     "course_subtitle": "Comprehensive SAP MDG Strategy, Data Governance, and Master Data Management",
     "course_slug": "sap-master-data-governance-course",
-    "course_thumbnail": "assets/images/courses/sap-mdg-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPMDGtraining.png",
     "course_short_description": "Master SAP MDG to govern and maintain high-quality master data. Learn workflow-based approvals, data validation, and integration with SAP S/4HANA landscapes.",
     "course_long_description": "The SAP Master Data Governance (MDG) course is a job-oriented program designed to build deep expertise in enterprise data governance. It covers master data creation, change management, and validation rules for Material, Customer, Vendor, and Financial domains, ensuring consistent and compliant data across S/4HANA systems.",
     "about_course": [
@@ -20172,7 +20172,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Real Estate Management (REFX) – End-to-End Property & Lease Management",
     "course_subtitle": "Comprehensive SAP REFX Strategy, Lease Administration, and Real Estate Operations",
     "course_slug": "sap-real-estate-management-refx-course",
-    "course_thumbnail": "assets/images/courses/sap-refx-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPRealestatemanagement.png",
     "course_short_description": "Master enterprise real estate and lease lifecycle management. Learn property operations, automated rent billing, and IFRS 16-compliant lease accounting within SAP S/4HANA.",
     "course_long_description": "This SAP Real Estate Management (REFX) course teaches professionals how to manage enterprise real estate portfolios, lease contracts, and financial integration. You will master lease lifecycle management, automated rent calculation, and IFRS-compliant lease accounting, ensuring seamless financial postings and property governance using SAP S/4HANA.",
     "about_course": [
@@ -20494,7 +20494,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP CDP (Customer Data Platform) – Unified Customer Data & Intelligent Customer 360",
     "course_subtitle": "Comprehensive SAP CDP Strategy, Identity Resolution, Segmentation & Real-Time Activation",
     "course_slug": "sap-customer-data-platform-course",
-    "course_thumbnail": "assets/images/courses/sap-cdp-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPCDP.png",
     "course_short_description": "Build a real-time Customer 360 view. Master identity resolution, unified profiling, and omnichannel activation using SAP CDP integrated with S/4HANA and SAP CX.",
     "course_long_description": "This SAP CDP (Customer Data Platform) course is designed to help professionals unify customer data and enable intelligent marketing activation. You will learn to centralize data from online and offline sources, resolve identities into a 'Golden Record,' manage GDPR-compliant consent, and activate real-time personalized experiences across marketing, sales, and commerce channels.",
     "about_course": [
@@ -20849,7 +20849,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Commerce Cloud – Enterprise eCommerce & Omnichannel Digital Commerce",
     "course_subtitle": "Comprehensive SAP Commerce Cloud Strategy, Storefront Management, and Omnichannel Digital Commerce",
     "course_slug": "sap-commerce-cloud-course",
-    "course_thumbnail": "assets/images/courses/sap-commerce-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPcommercecloudtraining.png",
     "course_short_description": "Master enterprise B2B and B2C eCommerce. Learn catalog management, storefront configuration, and omnichannel integration with SAP S/4HANA and the CX ecosystem.",
     "course_long_description": "This SAP Commerce Cloud course is designed to help professionals design, implement, and manage enterprise-grade eCommerce platforms. You will learn to build scalable online storefronts, manage complex product catalogs, deliver personalized customer journeys, and integrate digital commerce with SAP S/4HANA for seamless backend operations.",
     "about_course": [
@@ -21174,7 +21174,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP CPQ – Configure, Price, Quote for Sales Automation",
     "course_subtitle": "Comprehensive SAP CPQ Strategy, Product Configuration, Pricing Rules, and Quote Management",
     "course_slug": "sap-cpq-sales-automation-course",
-    "course_thumbnail": "assets/images/courses/sap-cpq-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPCPQtraining.png",
     "course_short_description": "Automate complex sales cycles. Master product configuration logic, dynamic pricing rules, and seamless quote-to-order integration with S/4HANA and Sales Cloud.",
     "course_long_description": "This SAP CPQ course is designed to help professionals automate complex sales processes and manage enterprise quote lifecycles. You will learn to configure intricate product portfolios, implement dynamic pricing rules, and accelerate sales cycles by integrating quoting workflows with SAP S/4HANA and SAP Sales Cloud.",
     "about_course": [
@@ -21499,7 +21499,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Customer Data Cloud – Identity, Consent & Customer Experience Management",
     "course_subtitle": "Comprehensive SAP Customer Data Cloud Strategy, Identity Management, and Data-Driven Customer Engagement",
     "course_slug": "sap-customer-data-cloud-course",
-    "course_thumbnail": "assets/images/courses/sap-cdc-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPcustomerdatacloudtraining.png",
     "course_short_description": "Master Customer Identity and Access Management (CIAM). Learn secure authentication, global consent compliance (GDPR/CCPA), and unified profile management using SAP CDC.",
     "course_long_description": "This SAP Customer Data Cloud (CDC) course is designed to help professionals manage customer identities, authentication, and consent securely. You will learn to implement Identity and Access Management (IAM), design secure authentication workflows like SSO and social login, and manage the full consent lifecycle to ensure compliance with global privacy regulations while delivering personalized CX.",
     "about_course": [
@@ -21824,7 +21824,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Emarsys – Omnichannel Customer Engagement & Marketing Automation",
     "course_subtitle": "Comprehensive SAP Emarsys Strategy, Customer Personalization, and Marketing Campaign Management",
     "course_slug": "sap-emarsys-marketing-automation-course",
-    "course_thumbnail": "assets/images/courses/sap-emarsys-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPEmarsystraining.png",
     "course_short_description": "Master AI-driven marketing automation. Learn to orchestrate personalized customer journeys across email, mobile, and web using SAP Emarsys integrated with the CX ecosystem.",
     "course_long_description": "This SAP Emarsys course is designed to help professionals design, execute, and optimize omnichannel marketing campaigns. Unlike traditional CRM tools, Emarsys focuses on automated engagement and lifecycle marketing, teaching you how to use real-time data to orchestrate customer journeys, improve retention, and deliver personalized experiences across all digital touchpoints.",
     "about_course": [
@@ -22149,7 +22149,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Marketing Cloud – Customer Engagement & Marketing Automation",
     "course_subtitle": "Comprehensive SAP Marketing Cloud Strategy, Campaign Management, and Customer Experience",
     "course_slug": "sap-marketing-cloud-course",
-    "course_thumbnail": "assets/images/courses/sap-marketing-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPmarketingcloudtraining.png",
     "course_short_description": "Master enterprise-level marketing automation. Learn to orchestrate multi-channel campaigns, manage lead nurturing, and drive ROI through data-driven insights integrated with S/4HANA.",
     "course_long_description": "This SAP Marketing Cloud course is designed to help professionals plan, execute, and optimize data-driven marketing campaigns. Unlike generic digital marketing courses, this program specializes in enterprise campaign management, dynamic segmentation, and marketing analytics, ensuring seamless integration with SAP S/4HANA and the broader SAP CX suite for measurable marketing ROI.",
     "about_course": [
@@ -22474,7 +22474,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Sales Cloud (C4C) – Customer Relationship & Sales Automation",
     "course_subtitle": "Comprehensive SAP Sales Cloud Strategy, Lead-to-Cash Process, and Customer Management",
     "course_slug": "sap-sales-cloud-c4c-course",
-    "course_thumbnail": "assets/images/courses/sap-sales-cloud-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPCRMtraining.png",
     "course_short_description": "Master cloud-based CRM and sales automation. Learn to manage the complete lead-to-cash lifecycle, opportunity tracking, and mobile sales enablement integrated with S/4HANA.",
     "course_long_description": "This SAP Sales Cloud (C4C) course is designed to help professionals streamline sales operations and automate the complete lead-to-cash lifecycle. You will learn to manage accounts, leads, and opportunities while integrating seamlessly with SAP S/4HANA and SAP SD modules to drive intelligent customer engagement and real-time sales forecasting.",
     "about_course": [
@@ -22799,7 +22799,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Service Cloud (C4C) – Customer Service & Support Automation",
     "course_subtitle": "Comprehensive SAP Service Cloud Strategy, Case Management, and Omnichannel Customer Support",
     "course_slug": "sap-service-cloud-c4c-course",
-    "course_thumbnail": "assets/images/courses/sap-service-cloud-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPServiceCloudC4C.png",
     "course_short_description": "Master enterprise service automation. Learn to manage support cases, SLA compliance, and omnichannel customer interactions integrated with S/4HANA and SAP CX.",
     "course_long_description": "This SAP Service Cloud (C4C) course is designed to help professionals automate customer service operations and deliver seamless omnichannel support. You will learn to manage service tickets, design automated routing workflows, monitor SLA compliance, and integrate support processes with SAP S/4HANA to drive superior customer satisfaction.",
     "about_course": [
@@ -23124,7 +23124,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Ariba – Procurement & Sourcing",
     "course_subtitle": "End-to-End SAP Ariba Procurement, Sourcing & Supplier Collaboration Training",
     "course_slug": "sap-ariba-procurement-sourcing-course",
-    "course_thumbnail": "assets/images/courses/sap-ariba-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPAribatarining.png",
     "course_short_description": "Master digital procurement and strategic sourcing. Learn to manage supplier collaboration, contract lifecycles, and P2P automation integrated with SAP S/4HANA.",
     "course_long_description": "This SAP Ariba course is designed to help professionals master digital procurement and strategic sourcing. You will learn to manage sourcing events, supplier onboarding, and the complete procure-to-pay (P2P) cycle. The program emphasizes cloud-based collaboration via the Ariba Network and seamless integration with SAP S/4HANA MM and FI modules.",
     "about_course": [
@@ -23429,7 +23429,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP CRM – Customer Relationship Management",
     "course_subtitle": "End-to-End SAP CRM Configuration, Sales, Service & Customer Engagement Training",
     "course_slug": "sap-crm-customer-relationship-management-course",
-    "course_thumbnail": "assets/images/courses/sap-crm-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/SAPCRMtraining.png",
     "course_short_description": "Master enterprise-grade CRM. Learn to configure sales, service, and marketing modules while integrating customer lifecycles with SAP S/4HANA and ERP systems.",
     "course_long_description": "This SAP CRM course is designed to help professionals configure and manage customer interactions, sales processes, and service operations. You will learn to bridge the gap between frontend customer engagement and backend ERP modules (SD, MM, FI), mastering the Web UI framework, middleware data replication, and automated service workflows.",
     "about_course": [
@@ -23729,25 +23729,25 @@ export const courses: CourseData[] =[
 },
 {
   "course_details": {
-    "course_id": "CRS-SAPCRM-077",
-    "course_uid": "uid-sap-crm-customer-relationship-expert",
-    "course_title": "SAP CRM – Customer Relationship Management",
-    "course_subtitle": "End-to-End SAP CRM Configuration, Sales, Service & Customer Engagement Training",
-    "course_slug": "sap-crm-customer-relationship-management-course",
-    "course_thumbnail": "assets/images/courses/sap-crm-thumb.jpg",
-    "course_short_description": "Master enterprise-grade CRM. Learn to configure sales, service, and marketing modules while integrating customer lifecycles with SAP S/4HANA and ERP systems.",
-    "course_long_description": "This SAP CRM course is designed to help professionals configure and manage customer interactions, sales processes, and service operations. You will learn to bridge the gap between frontend customer engagement and backend ERP modules (SD, MM, FI), mastering the Web UI framework, middleware data replication, and automated service workflows.",
+    "course_id": "CRS-SAPEWM-082",
+    "course_uid": "uid-sap-ewm-extended-warehouse-expert",
+    "course_title": "SAP EWM – Extended Warehouse Management",
+    "course_subtitle": "End-to-End SAP Extended Warehouse Management Configuration & Logistics Execution Training",
+    "course_slug": "sap-ewm-extended-warehouse-management-course",
+    "course_thumbnail": "/images/courses/SAP/SAPEWMtraining.png",
+    "course_short_description": "Master enterprise-grade warehouse management. Learn to configure advanced inventory operations, inbound/outbound logistics, and RF-based tracking integrated with SAP S/4HANA.",
+    "course_long_description": "This SAP EWM course is designed to help professionals configure and manage advanced warehouse operations and logistics execution using SAP EWM integrated with SAP S/4HANA. You will master complex logistics, real-time tracking, and seamless integration with SAP ERP modules like MM, SD, and TM to optimize supply chain efficiency.",
     "about_course": [
-      "Master the configuration of Business Partners and Organizational Management in SAP CRM.",
-      "Learn to automate the complete sales cycle from Lead and Opportunity to Order processing.",
-      "Deep dive into Service Management including SLA monitoring, complaints, and returns.",
-      "Focuses on CRM Middleware and real-time integration with SAP S/4HANA and ECC environments."
+      "Configure advanced warehouse structures, including storage types, sections, and bins.",
+      "Master end-to-end inbound and outbound processing with putaway and picking strategies.",
+      "Implement RF Framework and mobile processing for real-time warehouse execution.",
+      "Integrate EWM with SAP S/4HANA and modules like Materials Management (MM) and Sales & Distribution (SD)."
     ],
     "course_status": "published",
     "difficulty_level": "Beginner to Intermediate",
     "batch_type": "Flexible / Instructor-Led",
-    "course_priority": "high",
-    "course_sequence": 36,
+    "course_priority": "medium",
+    "course_sequence": 29,
     "course_category": {
       "category_id": "CAT_SAP",
       "category_title": "SAP",
@@ -23756,7 +23756,7 @@ export const courses: CourseData[] =[
   },
   "course_structure": {
     "course_timeline": "8 Weeks",
-    "total_duration": "55 Hours",
+    "total_duration": "60 Hours",
     "weekly_commitment_duration": "6–8 Hours",
     "modules_included": true,
     "course_features": [
@@ -23773,68 +23773,963 @@ export const courses: CourseData[] =[
     "discounted_price": 0.00,
     "discount_percentage": 0,
     "discount_code": "",
-    "enrollment_link": "/enroll/sap-crm",
+    "enrollment_link": "/enroll/sap-ewm",
     "is_free": false
   },
   "certification_details": {
     "is_certified": true,
-    "certificate_name": "SAP Certified Application Associate - CRM Foundation with SAP CRM",
+    "certificate_name": "SAP Certified Application Associate - Extended Warehouse Management with SAP S/4HANA",
     "is_shareable": true,
-    "certificate_image_url": "assets/images/certificates/sap-crm-cert.jpg"
+    "certificate_image_url": "assets/images/certificates/sap-ewm-cert.jpg"
   },
   "learning_content": {
     "prerequisites": [
-      "Basic understanding of sales management or service processes",
-      "Familiarity with customer relationship concepts",
-      "Knowledge of marketing or CRM workflows",
-      "Prior SAP experience is helpful but not mandatory"
+      "Basic understanding of inventory management or warehousing concepts",
+      "Familiarity with warehouse management and stock management processes",
+      "Knowledge of supply chain management basics",
+      "SAP experience is helpful but not mandatory"
     ],
     "key_learnings": [
-      "Configure SAP CRM architecture and its integration with ERP backend systems ",
-      "Manage the end-to-end Sales Process from Lead to Quotation and Billing ",
-      "Implement Service Management workflows including Service Level Agreements (SLA) and returns",
-      "Master the CRM Web UI framework and Middleware data replication logic"
+      "Configure SAP Extended Warehouse Management module end-to-end",
+      "Manage inventory and warehouse logistics processes with real-time tracking",
+      "Execute warehouse tasks using RF Framework and mobile systems",
+      "Integrate SAP EWM with SAP ERP and supply chain modules like MM, SD, and TM"
     ],
     "ideal_candidates": [
-      "Aspiring SAP CRM Consultants",
-      "Sales, Marketing & Customer Service Professionals",
-      "CRM & Business Analysts",
-      "MBA / Management Graduates"
+      "Aspiring SAP EWM Consultants",
+      "Warehouse & Logistics Professionals",
+      "Inventory & Distribution Managers",
+      "Supply Chain & Operations Professionals",
+      "Working professionals transitioning into SAP"
     ],
     "skills_gained": {
       "core_skills": [
-        "SAP CRM Configuration",
-        "Sales & Service Management",
-        "CRM Marketing & Campaign Design",
-        "Web UI Framework Management"
+        "SAP Extended Warehouse Management (EWM)",
+        "Warehouse & Inventory Management",
+        "Logistics Execution Processes",
+        "Warehouse Tracking & Stock Management"
       ],
       "supporting_skills": [
-        "CRM Middleware Integration",
-        "Business Partner Design",
-        "Customer Analytics",
-        "Cross-Module ERP Integration"
+        "SAP ERP & Supply Chain Integration",
+        "WMS System Configuration",
+        "Inventory Reconciliation",
+        "Warehouse Analytics & KPI Monitoring"
       ]
     },
     "tools_and_technologies": {
       "primary": [
-        "SAP CRM",
+        "SAP EWM (Embedded / Decentralized)",
         "SAP S/4HANA",
-        "SAP CRM Web UI"
+        "SAP ERP System"
       ],
       "secondary": [
         "SAP GUI",
-        "CRM Middleware",
-        "Interaction Center",
-        "Analytics Dashboards"
+        "RF Framework",
+        "Warehouse Management System (WMS) Tools",
+        "Inventory & Stock Management Systems"
       ]
     }
   },
   "career_outcomes": {
     "career_roles": [
-      "SAP CRM Consultant",
-      "CRM Functional Analyst",
+      "SAP EWM Consultant",
+      "Warehouse Management Analyst",
       "SAP Functional Consultant",
-      "Customer Engagement Specialist"
+      "SAP EWM Support Analyst",
+      "Supply Chain Logistics Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Warehouse Management System Implementation. Build a complete SAP EWM solution by configuring warehouse structures, managing end-to-end inbound/outbound processes, executing RF-based mobile operations, and integrating with S/4HANA MM and SD modules."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 35
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & Warehouse Management",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP full form and ERP fundamentals",
+          "SAP S/4HANA overview",
+          "Introduction to SAP EWM and warehouse management system concepts"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Warehouse Structure & Master Data",
+        "module_duration": "Week 1",
+        "topics": [
+          "Warehouse number and layout configuration",
+          "Storage types, sections, and bins",
+          "Product and packaging master data"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Inbound Processing",
+        "module_duration": "Week 2",
+        "topics": [
+          "Goods receipt processing",
+          "Inbound delivery integration",
+          "Putaway strategies"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Outbound Processing",
+        "module_duration": "Week 3",
+        "topics": [
+          "Outbound delivery processing",
+          "Picking and packing strategies",
+          "Shipping integration"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Storage Control & Warehouse Tasks",
+        "module_duration": "Week 4",
+        "topics": [
+          "Warehouse task management",
+          "Process-oriented storage control (POSC)",
+          "Layout-oriented storage control"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Physical Inventory & Stock Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "Inventory types and inventory management",
+          "Physical inventory processes",
+          "Stock reconciliation"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "RF Framework & Mobile Processing",
+        "module_duration": "Week 6",
+        "topics": [
+          "RF configuration basics",
+          "Mobile warehouse execution",
+          "Barcode and warehouse tracking system processes"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integration with MM, SD & TM",
+        "module_duration": "Week 7",
+        "topics": [
+          "Procurement and inbound integration",
+          "Sales and outbound integration",
+          "Transportation management overview"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Analytics",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard SAP EWM reports",
+          "Warehouse KPIs",
+          "Productivity and performance analysis"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end SAP EWM configuration",
+          "Real-time warehouse operations scenario",
+          "Inbound, outbound, and inventory execution"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 142,
+    "total_students_enrolled": 980
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP EWM?",
+      "answer": "SAP EWM (Extended Warehouse Management) is an advanced warehouse management system used to manage complex warehouse operations and logistics execution."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the difference between SAP WM and SAP EWM?",
+      "answer": "SAP EWM offers advanced warehouse control, real-time tracking, and integration capabilities compared to traditional SAP WM systems."
+    },
+    {
+      "faq_id": 3,
+      "question": "What does inventory management mean?",
+      "answer": "Inventory management refers to the process of tracking, controlling, and optimizing stock levels within a warehouse or supply chain."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP EWM part of SAP supply chain management?",
+      "answer": "Yes. SAP EWM is a key component of SAP supply chain management (SAP SCM)."
+    },
+    {
+      "faq_id": 5,
+      "question": "How does SAP EWM integrate with SAP S/4HANA?",
+      "answer": "SAP EWM integrates with SAP S/4HANA for master data synchronization, inbound and outbound processing, and financial reconciliation."
+    },
+    {
+      "faq_id": 6,
+      "question": "What is a warehouse management system (WMS)?",
+      "answer": "A warehouse management system is software used to control and optimize warehouse operations including receiving, storage, picking, and shipping."
+    },
+    {
+      "faq_id": 7,
+      "question": "Who should learn SAP EWM?",
+      "answer": "Warehouse managers, logistics professionals, supply chain consultants, and SAP functional consultants should learn SAP EWM."
+    },
+    {
+      "faq_id": 8,
+      "question": "Is SAP EWM in demand?",
+      "answer": "Yes. Enterprises implementing advanced warehouse logistics require skilled SAP EWM consultants."
+    },
+    {
+      "faq_id": 9,
+      "question": "Does this course include hands-on configuration?",
+      "answer": "Yes. The course includes practical labs and a complete end-to-end warehouse implementation project."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles are available after completion?",
+      "answer": "You can work as an SAP EWM Consultant, Warehouse Management Analyst, or Supply Chain Functional Consultant."
+    }
+  ],
+  "target_audience": [
+    "Aspiring SAP EWM Consultants",
+    "Warehouse & Logistics Professionals",
+    "Supply Chain Analysts",
+    "SAP Functional Experts"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP EWM Course | Extended Warehouse Management Training",
+    "meta_description": "Join our SAP EWM certification course. Master warehouse logistics, S/4HANA integration, and RF mobile processing with hands-on projects.",
+    "meta_url": "/courses/sap/sap-ewm-extended-warehouse-management"
+  }
+},
+
+{
+  "course_details": {
+    "course_id": "CRS-SAPFICO-083",
+    "course_uid": "uid-sap-fico-finance-controlling-expert",
+    "course_title": "SAP FICO – Financial Accounting & Controlling",
+    "course_subtitle": "End-to-End SAP Finance Configuration & Business Process Training",
+    "course_slug": "sap-fico-financial-accounting-controlling-course",
+    "course_thumbnail": "/images/courses/SAP/SAPFICOtraining.png",
+    "course_short_description": "Master enterprise finance with SAP FICO. Learn to configure General Ledger, AR, AP, and Asset Accounting while mastering Cost Center management and S/4HANA integration.",
+    "course_long_description": "This SAP FICO course is designed to help professionals configure and manage end-to-end finance processes using SAP FI and SAP CO modules. Integrated with SAP S/4HANA, you will learn to execute real-time financial postings, control costs, and bridge the gap between financial accounting and management reporting within an enterprise ERP environment.",
+    "about_course": [
+      "Master the configuration of Organizational Structures including Company Codes and Charts of Accounts.",
+      "Handle end-to-end Financial Accounting (FI) processes like General Ledger, Accounts Payable, and Receivable.",
+      "Deep dive into Controlling (CO) modules including Cost Center Accounting and Internal Orders.",
+      "Focus on seamless integration between Finance and other SAP modules like MM and SD."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 30,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-fico",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP S/4HANA for Financial Accounting Associates",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-fico-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of financial accounting concepts",
+      "Familiarity with accounting entries and business transactions",
+      "Knowledge of finance and accounting processes",
+      "Prior SAP experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure SAP FI and CO modules end-to-end for global enterprises",
+      "Manage complete lifecycles for Assets, Vendors, and Customers",
+      "Execute internal cost control and profitability analysis using CO modules",
+      "Perform real-time financial reporting and month-end closing activities"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP FICO Consultants",
+      "Finance & Accounting Professionals",
+      "Commerce Graduates & MBAs",
+      "Financial Analysts and Management Accountants",
+      "Working professionals transitioning into SAP"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Financial Accounting (FI)",
+        "SAP Controlling (CO)",
+        "General Ledger & Cost Center Management",
+        "ERP Finance Configuration"
+      ],
+      "supporting_skills": [
+        "Financial Reporting & Analysis",
+        "Cost Allocation & Profitability Management",
+        "Month-End Closing Processes",
+        "SAP Integration Concepts"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP ECC",
+        "SAP S/4HANA Finance",
+        "SAP FI/CO Modules"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "Financial Reporting Tools",
+        "Cost Management Systems"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP FICO Consultant",
+      "SAP Finance Analyst",
+      "SAP Functional Consultant",
+      "SAP Support Analyst",
+      "Financial Systems Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "97%",
+      "student_completion_rate": "95%",
+      "placement_rate": "94%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Finance Configuration & Reporting System. You will build a complete SAP FICO solution including organizational setup, financial postings across FI and CO, cost allocations, integration with procurement (MM) and sales (SD), and generation of final financial statements."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & ERP",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP fundamentals",
+          "SAP architecture overview",
+          "SAP S/4HANA finance basics"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Structure",
+        "module_duration": "Week 1",
+        "topics": [
+          "Company code configuration",
+          "Chart of accounts setup",
+          "Fiscal year variant definition"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "General Ledger Accounting (FI-GL)",
+        "module_duration": "Week 2",
+        "topics": [
+          "GL master data configuration",
+          "Document posting",
+          "Financial statement generation"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Accounts Payable (FI-AP)",
+        "module_duration": "Week 3",
+        "topics": [
+          "Vendor master data setup",
+          "Invoice posting",
+          "Payments and clearing"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Accounts Receivable (FI-AR)",
+        "module_duration": "Week 4",
+        "topics": [
+          "Customer master data",
+          "Billing and collections",
+          "Dunning process"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Asset Accounting (FI-AA)",
+        "module_duration": "Week 5",
+        "topics": [
+          "Asset master creation",
+          "Depreciation configuration",
+          "Asset lifecycle management"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Cost Center Accounting (CO-CCA)",
+        "module_duration": "Week 6",
+        "topics": [
+          "Cost elements configuration",
+          "Cost center setup",
+          "Cost allocations"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Internal Orders & Profit Center Accounting",
+        "module_duration": "Week 7",
+        "topics": [
+          "Internal order processing",
+          "Profit center reporting",
+          "Management accounting fundamentals"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integration & Reporting",
+        "module_duration": "Week 8",
+        "topics": [
+          "FI–CO integration",
+          "MM and SD integration overview",
+          "SAP reports and financial analytics"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end SAP FICO configuration",
+          "Real-time finance business scenario",
+          "Month-end closing activities"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 210,
+    "total_students_enrolled": 1850
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP FICO?",
+      "answer": "SAP FICO is a core SAP module that combines Financial Accounting (FI) and Controlling (CO) to manage enterprise finance and cost management processes."
+    },
+    {
+      "faq_id": 2,
+      "question": "What does SAP stand for?",
+      "answer": "SAP stands for Systems, Applications, and Products in Data Processing."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the difference between FI and CO in SAP?",
+      "answer": "FI focuses on financial accounting and external reporting, while CO focuses on internal cost control and management accounting."
+    },
+    {
+      "faq_id": 4,
+      "question": "Who should take the SAP FICO course?",
+      "answer": "Finance professionals, accountants, commerce graduates, and aspiring SAP consultants should take this course."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP FICO in demand?",
+      "answer": "Yes. SAP FICO is one of the most in-demand SAP modules across industries worldwide."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does this course prepare for SAP certification?",
+      "answer": "Yes. The course aligns with SAP certification preparation and real-world project requirements."
+    },
+    {
+      "faq_id": 7,
+      "question": "What is the duration of the SAP FICO course?",
+      "answer": "The course duration is 8 weeks with a weekly commitment of 6–8 hours."
+    },
+    {
+      "faq_id": 8,
+      "question": "Can beginners learn SAP FICO?",
+      "answer": "Yes. Basic accounting knowledge is recommended, but SAP experience is not mandatory."
+    },
+    {
+      "faq_id": 9,
+      "question": "Does the course include hands-on practice?",
+      "answer": "Yes. The course includes configuration labs and a complete end-to-end capstone project."
+    },
+    {
+      "faq_id": 10,
+      "question": "What career roles are available after completion?",
+      "answer": "You can work as an SAP FICO Consultant, Finance Analyst, or SAP Functional Consultant."
+    }
+  ],
+  "target_audience": [
+    "Finance Professionals",
+    "Accountants",
+    "Commerce & MBA Students",
+    "SAP Aspirants"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP FICO Course | Financial Accounting & Controlling Training",
+    "meta_description": "Master SAP FICO with our end-to-end configuration training. Learn FI/CO modules, S/4HANA finance, and get certified in enterprise accounting.",
+    "meta_url": "/courses/sap/sap-fico-finance-controlling"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPGRC-084",
+    "course_uid": "uid-sap-grc-governance-risk-compliance",
+    "course_title": "SAP GRC – Governance, Risk & Compliance",
+    "course_subtitle": "End-to-End SAP GRC Access Control, Risk Management & Compliance Training",
+    "course_slug": "sap-grc-governance-risk-compliance-training",
+    "course_thumbnail": "/images/courses/SAP/SAPGRCtraining.png",
+    "course_short_description": "Master enterprise security and audit readiness. Learn to implement SAP GRC Access Control, manage SoD risks, and automate compliance workflows in S/4HANA.",
+    "course_long_description": "This SAP GRC course is designed to help professionals implement enterprise security controls, manage access risks, and ensure regulatory compliance using SAP GRC integrated with SAP S/4HANA landscapes. You will master access control, segregation of duties (SoD), risk management, and compliance monitoring to ensure governance frameworks align with enterprise requirements.",
+    "about_course": [
+      "Implement strong access control and user authorization management in SAP.",
+      "Identify and remediate Segregation of Duties (SoD) risks using automated rulesets.",
+      "Configure Emergency Access Management (EAM) for secure elevated access.",
+      "Build automated access request workflows and compliance reporting dashboards."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 31,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-grc",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP GRC Access Control 12.0",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-grc-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of SAP systems or security concepts",
+      "Familiarity with user access and authorization processes",
+      "Knowledge of business controls and compliance requirements",
+      "SAP experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure SAP GRC modules end-to-end including AC, PC, and RM",
+      "Manage user access and authorization risks across the landscape",
+      "Implement mitigation controls and conduct SoD risk analysis",
+      "Support enterprise audit initiatives with real-time compliance reporting"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP GRC Consultants",
+      "SAP Security & Authorization Professionals",
+      "IT Auditors & Compliance Professionals",
+      "Risk Management & Governance Teams",
+      "Professionals transitioning into SAP security roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Governance, Risk & Compliance (GRC)",
+        "Access Control & Authorization Management",
+        "Segregation of Duties (SoD) Analysis",
+        "Risk Assessment & Mitigation"
+      ],
+      "supporting_skills": [
+        "Compliance Monitoring & Audit Reporting",
+        "SAP Security Configuration",
+        "Integration with SAP ERP Landscapes",
+        "Governance Framework Implementation"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP GRC (Access Control, Risk Management, Process Control)",
+        "SAP S/4HANA",
+        "SAP ECC"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "SAP Security & Authorization Tools",
+        "Risk & Compliance Monitoring Systems",
+        "Audit Reporting Dashboards"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP GRC Consultant",
+      "SAP Security Analyst",
+      "GRC Functional Consultant",
+      "SAP Authorization & Compliance Analyst",
+      "IT Risk & Compliance Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Governance & Access Control Implementation. You will build a complete SAP GRC solution that configures role management, performs full SoD analysis, implements mitigation controls for high-risk users, and integrates with a live S/4HANA system."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 38
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Governance, Risk & Compliance",
+        "module_duration": "Week 1",
+        "topics": [
+          "GRC fundamentals",
+          "Governance risk and compliance concepts",
+          "SAP GRC architecture overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP GRC Overview & Components",
+        "module_duration": "Week 1",
+        "topics": [
+          "GRC Access Control (AC)",
+          "GRC Risk Management (RM)",
+          "GRC Process Control (PC)"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Access Control – Role & User Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "User provisioning concepts",
+          "Role design and authorization basics",
+          "SAP security framework"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Segregation of Duties (SoD)",
+        "module_duration": "Week 3",
+        "topics": [
+          "SoD concepts and risk rulesets",
+          "Risk analysis and remediation",
+          "Conflict monitoring"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Access Request Management (ARM)",
+        "module_duration": "Week 4",
+        "topics": [
+          "Access request workflows",
+          "Approval processes",
+          "Emergency Access Management (EAM / Firefighter)"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Mitigation Controls & Monitoring",
+        "module_duration": "Week 5",
+        "topics": [
+          "Mitigation control design",
+          "Continuous control monitoring",
+          "Audit trail management"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Risk Management & Process Control",
+        "module_duration": "Week 6",
+        "topics": [
+          "Risk identification and assessment",
+          "Control framework setup",
+          "Compliance testing and validation"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integration with SAP S/4HANA",
+        "module_duration": "Week 7",
+        "topics": [
+          "User and role synchronization",
+          "Real-time risk analysis",
+          "System landscape integration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Compliance Dashboards",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard SAP GRC reports",
+          "Compliance dashboards",
+          "Audit and risk analytics"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end SAP GRC configuration",
+          "Real-time access control and compliance scenario",
+          "Risk analysis and audit reporting"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 128,
+    "total_students_enrolled": 850
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP GRC?",
+      "answer": "SAP GRC (Governance, Risk & Compliance) is a SAP solution used to manage access control, risk analysis, compliance monitoring, and audit processes within SAP systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "What does GRC stand for?",
+      "answer": "GRC stands for Governance, Risk, and Compliance."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is Segregation of Duties (SoD) in SAP?",
+      "answer": "SoD is a control mechanism that prevents conflicting access rights from being assigned to a single user to reduce fraud and risk."
+    },
+    {
+      "faq_id": 4,
+      "question": "Who should take the SAP GRC course?",
+      "answer": "SAP security professionals, IT auditors, compliance managers, and aspiring SAP consultants should take this course."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is SAP GRC in demand?",
+      "answer": "Yes. Organizations require SAP GRC consultants to ensure regulatory compliance and secure SAP environments."
+    }
+  ],
+  "target_audience": [
+    "SAP Security Professionals",
+    "IT Auditors",
+    "Compliance Officers",
+    "Risk Managers"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP GRC Course | Governance, Risk & Compliance Training",
+    "meta_description": "Master SAP GRC Access Control and Risk Management. Learn SoD analysis, Firefighter access, and S/4HANA security configuration in this end-to-end course.",
+    "meta_url": "/courses/sap/sap-grc-compliance-training"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPHCM-085",
+    "course_uid": "uid-sap-hcm-human-capital-management-expert",
+    "course_title": "SAP HCM – Human Capital Management (HR)",
+    "course_subtitle": "Master SAP HR Processes for Employee Lifecycle, Payroll & Organizational Management",
+    "course_slug": "sap-hcm-human-capital-management-course",
+    "course_thumbnail": "/images/courses/SAP/SAPHCMtraining.png",
+    "course_short_description": "Master the complete employee lifecycle. Learn SAP HR configuration, Organizational Management, Personnel Administration, and Payroll fundamentals in an enterprise environment.",
+    "course_long_description": "This SAP HCM (Human Capital Management) course is designed to help professionals manage the complete employee lifecycle using SAP HR modules. Unlike generic HR courses, this program focuses on enterprise-grade configuration including organizational management, personnel administration, time management, and payroll integration, preparing you for high-demand SAP consulting roles.",
+    "about_course": [
+      "Master the configuration of Organizational Management (OM) to map complex corporate structures.",
+      "Manage Personnel Administration (PA) including employee master data and infotypes.",
+      "Understand the mechanics of SAP Payroll, wage types, and payroll control records.",
+      "Implement Time Management solutions for tracking attendance, absences, and work schedules."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "medium",
+    "course_sequence": 32,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "70 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-hcm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - Human Capital Management with SAP ERP",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-hcm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic HR or people management knowledge",
+      "Understanding of organizational structures",
+      "Payroll knowledge is a plus but not mandatory",
+      "No prior SAP experience required"
+    ],
+    "key_learnings": [
+      "Configure core SAP HCM modules (OM, PA, TM, PY) end-to-end",
+      "Manage employee lifecycle from recruitment to retirement in SAP",
+      "Handle complex payroll structures and wage type configurations",
+      "Execute standard HR reporting and statutory compliance functions"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP HCM / HR Consultants",
+      "HR Professionals & Payroll Executives",
+      "MBA / HR Graduates",
+      "Working professionals transitioning into SAP HR roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Human Capital Management (HCM)",
+        "HR Process Automation",
+        "Organizational & Personnel Administration",
+        "Payroll & Time Management Fundamentals"
+      ],
+      "supporting_skills": [
+        "HR Reporting & Analytics",
+        "SAP Functional Consulting",
+        "Compliance & Data Governance",
+        "Employee Lifecycle Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA HCM",
+        "SAP ECC HCM",
+        "SAP HR Modules"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "Workforce Data Management Tools",
+        "Organizational Reporting Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP HCM Consultant",
+      "SAP HR Functional Analyst",
+      "HR Systems Analyst",
+      "SAP HR Support Consultant"
     ],
     "outcome_metrics": {
       "students_placed": 0,
@@ -23849,92 +24744,648 @@ export const courses: CourseData[] =[
     "total_projects": 1,
     "has_capstone_project": true,
     "total_capstone_projects": 1,
-    "project_description": "Capstone Project: Enterprise Customer Relationship Management System. Design a complete solution featuring organizational structure setup, automated lead-to-order workflows, service request categorization with SLA thresholds, and real-time data sync with S/4HANA."
+    "project_description": "Capstone Project: Enterprise Employee Lifecycle Management System. You will implement a complete SAP HCM solution including employee hiring, organizational unit setup, time tracking configuration, and a mock payroll run for a multinational entity."
   },
   "curriculum": {
     "summary": {
       "total_modules": 10,
-      "total_lectures": 30
+      "total_lectures": 42
     },
     "modules": [
       {
         "module_number": 1,
-        "module_name": "Introduction to SAP & CRM Concepts",
+        "module_name": "Introduction to SAP & HCM Overview",
         "module_duration": "Week 1",
         "topics": [
-          "ERP and CRM fundamentals",
-          "SAP CRM architecture and landscape",
-          "Business scenarios and process overview"
+          "ERP & SAP overview",
+          "SAP HCM architecture",
+          "HR business process flow"
         ]
       },
       {
         "module_number": 2,
-        "module_name": "Organizational Management & Business Partners",
-        "module_duration": "Week 1",
+        "module_name": "Organizational Management (OM)",
+        "module_duration": "Week 2",
         "topics": [
-          "Organizational structure configuration in CRM",
-          "Business Partner (BP) master data setup",
-          "Partner roles, relationships, and groupings"
+          "Organizational units, jobs & positions",
+          "Reporting structure mapping",
+          "OM configuration basics"
         ]
       },
       {
         "module_number": 3,
-        "module_name": "Sales Process Management",
-        "module_duration": "Week 2",
+        "module_name": "Personnel Administration (PA)",
+        "module_duration": "Week 3",
         "topics": [
-          "Lead and Opportunity lifecycle management",
-          "Sales quotations and contract processing",
-          "Sales cycle configuration and tracking"
+          "Employee master data setup",
+          "Infotypes management",
+          "Personnel actions (Hiring, Termination, Transfer)"
         ]
       },
       {
         "module_number": 4,
-        "module_name": "Marketing Processes",
-        "module_duration": "Week 3",
+        "module_name": "Recruitment & Talent Management Basics",
+        "module_duration": "Week 4",
         "topics": [
-          "Marketing attributes and customer segmentation",
-          "Campaign management and orchestration",
-          "Lead generation and marketing integration"
+          "Recruitment lifecycle in SAP",
+          "Applicant data management",
+          "Talent management integration overview"
         ]
       },
       {
         "module_number": 5,
-        "module_name": "Service Management",
-        "module_duration": "Week 4",
+        "module_name": "Time Management",
+        "module_duration": "Week 5",
         "topics": [
-          "Service request and service order processing",
-          "Complaints, returns, and credit memo handling",
-          "SLA management and service contract logic"
+          "Work schedules and shifts",
+          "Absence & attendance tracking",
+          "Time evaluation overview"
         ]
       },
       {
         "module_number": 6,
-        "module_name": "Interaction Center & Web UI",
-        "module_duration": "Week 5",
+        "module_name": "Payroll Overview",
+        "module_duration": "Week 6",
         "topics": [
-          "SAP CRM Web UI framework configuration",
-          "Interaction Center (IC) setup and profiles",
-          "Customer interaction and communication management"
+          "Payroll area and structure",
+          "Wage types configuration",
+          "Payroll control record and processing"
         ]
       },
       {
         "module_number": 7,
-        "module_name": "CRM Middleware & Integration",
-        "module_duration": "Week 6",
+        "module_name": "Benefits & Compensation Management",
+        "module_duration": "Week 7",
         "topics": [
-          "CRM Middleware basics and site definitions",
-          "Data replication concepts and monitoring",
-          "Connectivity between CRM and S/4HANA"
+          "Employee benefits configuration",
+          "Compensation structures",
+          "Financial integration concepts"
         ]
       },
       {
         "module_number": 8,
-        "module_name": "CRM Integration with SD, MM & FI",
+        "module_name": "SAP HCM Reporting",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard HR reports",
+          "Ad-hoc queries for data retrieval",
+          "HR data analysis basics"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integration & Compliance",
+        "module_duration": "Week 9",
+        "topics": [
+          "HCM integration with Finance (FI)",
+          "Legal & statutory compliance",
+          "Security, roles & authorizations"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SAP HCM implementation",
+          "Employee lifecycle management scenario",
+          "Final system testing and sign-off"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 185,
+    "total_students_enrolled": 1420
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP HCM?",
+      "answer": "SAP HCM (Human Capital Management) is a SAP module used to manage employee lifecycle, payroll, time management, and HR administration processes."
+    },
+    {
+      "faq_id": 2,
+      "question": "What does SAP stand for?",
+      "answer": "SAP stands for Systems, Applications, and Products in Data Processing."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP HCM suitable for HR professionals?",
+      "answer": "Yes. HR professionals, payroll executives, and MBA HR graduates can transition into SAP HR roles through this course."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the duration of the SAP HCM course?",
+      "answer": "The course duration is 8–10 weeks with a weekly commitment of 6–8 hours."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course prepare for SAP certification?",
+      "answer": "Yes. The course structure aligns with SAP certification preparation and real-world project scenarios."
+    }
+  ],
+  "target_audience": [
+    "HR Managers",
+    "Payroll Executives",
+    "MBA HR Students",
+    "ERP Aspirants"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP HCM Course | SAP HR Certification & Training",
+    "meta_description": "Master SAP HCM. Learn Organizational Management, Payroll, and Personnel Administration in our end-to-end SAP HR training with hands-on labs.",
+    "meta_url": "/courses/sap/sap-hcm-human-capital-management"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPMM-086",
+    "course_uid": "uid-sap-mm-materials-management-expert",
+    "course_title": "SAP MM – Materials Management",
+    "course_subtitle": "Master SAP Materials Management for Procurement, Inventory & Logistics Operations",
+    "course_slug": "sap-mm-materials-management-course",
+    "course_thumbnail": "/images/courses/SAP/SAPMaterialManagementtraining.png",
+    "course_short_description": "Master the core of SAP logistics. Learn to configure the Procure-to-Pay (P2P) cycle, manage inventory, and handle automated invoice verification in an enterprise ERP environment.",
+    "course_long_description": "This SAP MM course is designed to help professionals manage procurement, inventory management, and logistics operations within SAP ERP systems. You will learn to automate purchase orders, manage complex inventory processes, and integrate materials management with SAP FI and SD modules to streamline the entire supply chain.",
+    "about_course": [
+      "Master the full Procure-to-Pay (P2P) cycle from Purchase Requisition to Invoice Verification.",
+      "Configure SAP MM organizational structures including Plants, Storage Locations, and Purchasing Orgs.",
+      "Manage critical Master Data including Material Master, Vendor Master, and Info Records.",
+      "Implement Inventory Management processes including Goods Receipt, Goods Issue, and Physical Inventory."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 33,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "75 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-mm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - Procurement with SAP ERP / S/4HANA",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-mm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of business processes",
+      "Knowledge of procurement or inventory concepts",
+      "ERP exposure is a plus but not mandatory",
+      "No prior SAP experience required"
+    ],
+    "key_learnings": [
+      "Configure SAP MM business processes end-to-end for manufacturing and retail",
+      "Set up purchasing workflows and automated Purchase Order processing",
+      "Perform inventory reconciliation and material valuation",
+      "Integrate SAP MM seamlessly with SAP FI (Finance) and SAP SD (Sales)"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP MM Consultants",
+      "Fresh graduates entering ERP roles",
+      "Procurement, Supply Chain, or Logistics Professionals",
+      "SAP end-users transitioning into functional consulting"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Materials Management (MM)",
+        "Procurement & Purchase Order Processing",
+        "Inventory & Stock Management",
+        "ERP Configuration Fundamentals"
+      ],
+      "supporting_skills": [
+        "SAP Integration (FI & SD)",
+        "Master Data Management",
+        "Logistics Process Optimization",
+        "Enterprise Resource Planning Concepts"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA MM",
+        "SAP ECC MM",
+        "SAP ERP System"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "Inventory Management Tools",
+        "Business Analytics Reporting"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP MM Consultant",
+      "SAP Functional Analyst",
+      "SAP Procurement Specialist",
+      "SAP Inventory Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Procurement & Inventory Management System. You will implement a complete SAP MM cycle from Material Master creation and Vendor setup to Procurement processing, Goods Receipt, and final Invoice Verification with FI integration."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & ERP",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview of enterprise resource planning systems",
+          "ERP definition and business relevance",
+          "SAP architecture basics",
+          "SAP MM overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP MM Organizational Structure",
+        "module_duration": "Week 2",
+        "topics": [
+          "Client, company code, plant, storage location",
+          "Purchasing organization & purchasing group",
+          "Organizational structure configuration"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Material Master Data",
+        "module_duration": "Week 3",
+        "topics": [
+          "Material master views",
+          "Industry sector & material types",
+          "Number ranges and field selection"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Vendor Master & Purchasing Info Records",
+        "module_duration": "Week 4",
+        "topics": [
+          "Vendor master data",
+          "Account groups & partner functions",
+          "Purchasing info records"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Procurement Process (P2P)",
+        "module_duration": "Week 5",
+        "topics": [
+          "Purchase requisition & RFQ",
+          "Purchase order processing",
+          "Procure-to-pay cycle overview"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Pricing Procedure & Valuation",
+        "module_duration": "Week 6",
+        "topics": [
+          "Pricing elements & conditions",
+          "Material valuation & account determination"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Inventory Management",
         "module_duration": "Week 7",
         "topics": [
-          "Sales-to-SD billing and logistics integration",
-          "Service-to-MM parts and inventory sync",
-          "Financial posting and settlement processes"
+          "Goods receipt & goods issue",
+          "Transfer postings",
+          "Physical inventory process"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Invoice Verification",
+        "module_duration": "Week 8",
+        "topics": [
+          "Logistics invoice verification",
+          "Invoice blocking & release",
+          "Integration with SAP FI"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Integration with SAP Modules",
+        "module_duration": "Week 9",
+        "topics": [
+          "SAP MM & FI integration",
+          "SAP MM & SD integration",
+          "Enterprise resource planning software flow"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SAP MM implementation",
+          "Real-world procurement & inventory scenario",
+          "Documentation and process walkthrough"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 245,
+    "total_students_enrolled": 1950
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP MM?",
+      "answer": "SAP MM (Materials Management) is a core SAP module used to manage procurement, purchase orders, inventory management, and material valuation within ERP systems."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the procure-to-pay (P2P) process in SAP MM?",
+      "answer": "The procure-to-pay process includes purchase requisition, RFQ, purchase order, goods receipt, invoice verification, and payment integration."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is SAP MM part of SAP S/4HANA?",
+      "answer": "Yes. SAP MM is fully integrated into SAP S/4HANA as part of modern enterprise resource planning systems."
+    },
+    {
+      "faq_id": 9,
+      "question": "What is material master data in SAP MM?",
+      "answer": "Material master data contains all essential information about materials used in procurement, inventory, and valuation processes."
+    }
+  ],
+  "target_audience": [
+    "Procurement Specialists",
+    "Supply Chain Managers",
+    "Logistics Professionals",
+    "MBA Graduates"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP MM Training | Materials Management Online Course",
+    "meta_description": "Master SAP MM with our end-to-end training. Learn P2P cycles, inventory management, and procurement configuration in SAP S/4HANA and ECC.",
+    "meta_url": "/courses/sap/sap-mm-materials-management"
+  }
+},
+
+{
+  "course_details": {
+    "course_id": "CRS-SAPPM-087",
+    "course_uid": "uid-sap-pm-plant-maintenance-expert",
+    "course_title": "SAP PM – Plant Maintenance",
+    "course_subtitle": "End-to-End SAP Plant Maintenance Configuration & Asset Management Training",
+    "course_slug": "sap-pm-plant-maintenance-course",
+    "course_thumbnail": "/images/courses/SAP/SAPplantmainteinancetraining.png",
+    "course_short_description": "Master enterprise asset management. Learn to configure technical objects, maintenance notifications, work orders, and preventive strategies in SAP S/4HANA.",
+    "course_long_description": "This SAP PM course is designed to help professionals configure and manage equipment maintenance and asset lifecycle processes. You will learn to optimize asset reliability, reduce downtime, and streamline maintenance workflows while integrating plant maintenance with SAP MM and FI modules for a complete enterprise resource planning experience.",
+    "about_course": [
+      "Configure Technical Objects including Functional Locations, Equipment Master Data, and Bills of Materials (BOM).",
+      "Manage Maintenance Notifications and Work Orders for breakdown and corrective maintenance.",
+      "Implement advanced Preventive Maintenance plans, task lists, and scheduling parameters.",
+      "Execute cost tracking and settlement processes integrated with Financial Accounting (FI)."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible / Instructor-Led",
+    "course_priority": "medium",
+    "course_sequence": 34,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+
+ "pricing_and_enrollment": {
+  "currency": "USD",
+  "base_price": 0.00,
+  "discounted_price": 0.00,
+  "discount_percentage": 0,
+  "enrollment_link": "/enroll/sap-pm",
+  "is_free": false,
+  "discount_code": ""  // <--- Add this line to satisfy the interface
+},
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP S/4HANA Asset Management",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-pm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of maintenance or engineering processes",
+      "Knowledge of plant maintenance or asset management concepts",
+      "Basic business process understanding",
+      "SAP experience is not mandatory"
+    ],
+    "key_learnings": [
+      "Configure the SAP PM module end-to-end for asset-intensive industries",
+      "Implement preventive and condition-based maintenance strategies",
+      "Manage technical objects and master data for plant equipment",
+      "Integrate maintenance processes with procurement (MM) and finance (FI)"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP PM Consultants",
+      "Maintenance & Reliability Engineers",
+      "Plant & Operations Professionals",
+      "Mechanical / Electrical / Industrial Engineers",
+      "Working professionals transitioning into SAP"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Plant Maintenance (PM)",
+        "Asset & Equipment Management",
+        "Preventive and Corrective Maintenance",
+        "Maintenance Cost Control"
+      ],
+      "supporting_skills": [
+        "ERP Integration Knowledge",
+        "Master Data Management",
+        "Maintenance Analytics & Reporting",
+        "Business Operations Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA PM",
+        "SAP ECC PM",
+        "SAP Plant Maintenance Module"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "Asset Data Management Tools",
+        "Maintenance Planning Systems"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP PM Consultant",
+      "SAP Plant Maintenance Analyst",
+      "SAP Functional Consultant",
+      "SAP PM Support Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Asset & Plant Maintenance Implementation. You will configure technical objects, maintenance planning, and preventive strategies for a real-world asset-intensive scenario."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & PM Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP fundamentals & SAP architecture",
+          "SAP S/4HANA overview",
+          "Introduction to SAP Plant Maintenance"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Structure & Integration",
+        "module_duration": "Week 1",
+        "topics": [
+          "Plant and maintenance planning plant",
+          "Work centers configuration",
+          "Integration overview with MM and FI"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Technical Objects & Master Data",
+        "module_duration": "Week 2",
+        "topics": [
+          "Functional locations setup",
+          "Equipment master data",
+          "Bills of materials (BOM) in PM"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Maintenance Notifications",
+        "module_duration": "Week 3",
+        "topics": [
+          "Notification types configuration",
+          "Breakdown and corrective maintenance workflows",
+          "Notification processing and priorities"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Maintenance Orders",
+        "module_duration": "Week 4",
+        "topics": [
+          "Order types and configuration",
+          "Work order execution steps",
+          "Cost tracking and settlement concepts"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Preventive Maintenance Strategies",
+        "module_duration": "Week 5",
+        "topics": [
+          "Maintenance plans and task lists",
+          "Scheduling parameters and call objects",
+          "Preventive maintenance configuration"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Measuring Points & Counters",
+        "module_duration": "Week 6",
+        "topics": [
+          "Creating measuring points",
+          "Counters and readings entry",
+          "Condition-based maintenance triggers"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Procurement & Financial Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "Spare parts management (MM integration)",
+          "Procurement of external services",
+          "Maintenance cost posting to FI"
         ]
       },
       {
@@ -23942,9 +25393,9 @@ export const courses: CourseData[] =[
         "module_name": "Reporting & Analytics",
         "module_duration": "Week 8",
         "topics": [
-          "Standard CRM reports and dashboards",
-          "Advanced customer behavior analytics",
-          "Sales and service KPI tracking"
+          "Standard SAP PM reports and KPIs",
+          "Downtime and cost analysis",
+          "Plant maintenance dashboards"
         ]
       },
       {
@@ -23952,85 +25403,5333 @@ export const courses: CourseData[] =[
         "module_name": "Capstone Project",
         "module_duration": "Week 8",
         "topics": [
-          "Full system configuration and testing",
-          "Real-time sales/service scenario execution",
-          "Final reporting and system sign-off"
+          "End-to-end SAP PM system configuration",
+          "Real-time maintenance scenario execution",
+          "Final project documentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.7,
+    "total_reviews": 115,
+    "total_students_enrolled": 980
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP PM?",
+      "answer": "SAP PM (Plant Maintenance) is a SAP module used to manage equipment maintenance, preventive maintenance, asset lifecycle, and maintenance cost tracking."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is preventive maintenance in SAP PM?",
+      "answer": "Preventive maintenance involves scheduling regular maintenance activities to prevent equipment breakdown and improve asset reliability."
+    },
+    {
+      "faq_id": 4,
+      "question": "How does SAP PM integrate with SAP MM?",
+      "answer": "SAP PM integrates with SAP Materials Management (MM) for spare parts procurement and inventory management."
+    }
+  ],
+  "target_audience": [
+    "Maintenance Engineers",
+    "Reliability Specialists",
+    "Industrial Engineers",
+    "Asset Managers"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP PM Training | Plant Maintenance Online Course",
+    "meta_description": "Master SAP Plant Maintenance (PM). Learn to manage assets, configure preventive maintenance, and handle work orders in SAP S/4HANA.",
+    "meta_url": "/courses/sap/sap-pm-plant-maintenance"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPPP-088",
+    "course_uid": "uid-sap-pp-production-planning-expert",
+    "course_title": "SAP PP – Production Planning",
+    "course_subtitle": "Master SAP Production Planning & Manufacturing Processes with S/4HANA",
+    "course_slug": "sap-pp-production-planning-course",
+    "course_thumbnail": "/images/courses/SAP/SAPproductionplanningtraining.png",
+    "course_short_description": "Master end-to-end manufacturing processes. Learn MRP, Capacity Planning, and Shop Floor Control in SAP S/4HANA for discrete and process manufacturing.",
+    "course_long_description": "This SAP PP course is designed to help professionals manage end-to-end manufacturing and production planning processes using SAP S/4HANA. You will learn how to optimize production schedules, manage master data (BOMs, Routings), execute MRP runs, and control manufacturing orders while integrating with SAP MM and SD modules.",
+    "about_course": [
+      "Master Materials Requirements Planning (MRP) to calculate material needs based on demand.",
+      "Configure and manage Production Master Data including BOMs, Work Centers, and Routings.",
+      "Implement Demand Management and Capacity Leveling to optimize factory output.",
+      "Execute full Shop Floor Control, from Production Order creation to final confirmation and settlement."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 35,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "70 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-pp",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - Production Planning & Manufacturing",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-pp-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of manufacturing processes",
+      "Knowledge of production or supply chain concepts",
+      "Basic business process knowledge",
+      "SAP basics are an advantage but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure and execute MRP & capacity planning workflows",
+      "Understand end-to-end production planning business processes",
+      "Manage shop floor control and production order lifecycles",
+      "Integrate SAP PP with MM, SD, and FI for seamless ERP flow"
+    ],
+    "ideal_candidates": [
+      "Freshers aspiring for SAP careers",
+      "Manufacturing & Production Professionals",
+      "Supply Chain Professionals",
+      "ERP Consultants switching to SAP PP"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP PP Configuration",
+        "Production Planning & Control",
+        "Materials Requirements Planning (MRP)",
+        "Manufacturing Process Optimization"
+      ],
+      "supporting_skills": [
+        "ERP Integration Knowledge",
+        "Master Data Management",
+        "Capacity & Demand Planning",
+        "KPI Monitoring & Business Analytics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA PP",
+        "SAP ERP System",
+        "MRP Systems"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "Production Planning Tools",
+        "Business Analytics & KPI Reporting"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP PP Consultant",
+      "Production Planner",
+      "Manufacturing Analyst",
+      "SAP Functional Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Production Planning & Manufacturing Implementation. Implement a full SAP PP cycle including Master Data setup, MRP execution, capacity leveling, and production order settlement."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & PP Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP ERP & S/4HANA overview",
+          "SAP PP module architecture",
+          "Manufacturing business process flow"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Structure in SAP PP",
+        "module_duration": "Week 2",
+        "topics": [
+          "Plant and storage location setup",
+          "Work center configuration",
+          "Production versions and enterprise mapping"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Master Data in Production Planning",
+        "module_duration": "Week 3",
+        "topics": [
+          "Material master (PP views)",
+          "Bill of Materials (BOM)",
+          "Work centers & routings"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Demand Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Planned Independent Requirements (PIR)",
+          "Sales order vs forecast-based planning",
+          "Strategy groups"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Material Requirements Planning (MRP)",
+        "module_duration": "Week 5",
+        "topics": [
+          "MRP concepts & types",
+          "MRP run & planning parameters",
+          "MRP lists & exception messages"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Capacity Planning",
+        "module_duration": "Week 6",
+        "topics": [
+          "Capacity evaluation & scheduling",
+          "Capacity leveling",
+          "Production resource optimization"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Production Orders",
+        "module_duration": "Week 7",
+        "topics": [
+          "Order creation & release",
+          "Confirmation & goods movements",
+          "Order settlement"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Shop Floor Control",
+        "module_duration": "Week 8",
+        "topics": [
+          "Order execution ticket confirmations",
+          "Time ticket confirmations",
+          "Production reporting"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "PP Integration with Other Modules",
+        "module_duration": "Week 9",
+        "topics": [
+          "PP–MM & PP–SD integration",
+          "PP–QM & FI overview",
+          "Real-time ERP system integration"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SAP PP implementation",
+          "Real-world manufacturing scenario execution",
+          "Final reporting and analytics"
         ]
       }
     ]
   },
   "course_metrics": {
     "avg_rating": 4.8,
-    "total_reviews": 165,
+    "total_reviews": 156,
+    "total_students_enrolled": 1120
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP PP?",
+      "answer": "SAP PP (Production Planning) is a SAP module used to manage manufacturing processes, materials requirements planning (MRP), capacity planning, and production order execution."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is MRP in SAP PP?",
+      "answer": "MRP (Materials Requirements Planning) calculates material requirements based on demand forecasts and production schedules."
+    },
+    {
+      "faq_id": 6,
+      "question": "How does SAP PP integrate with SAP MM?",
+      "answer": "SAP PP integrates with SAP MM for procurement and inventory management of raw materials and finished goods required for production."
+    }
+  ],
+  "target_audience": [
+    "Production Managers",
+    "Manufacturing Engineers",
+    "Supply Chain Analysts",
+    "ERP Professionals"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP PP Training | Production Planning Online Course",
+    "meta_description": "Master SAP PP. Learn Material Requirements Planning (MRP), Capacity Planning, and Shop Floor Control in SAP S/4HANA for manufacturing industries.",
+    "meta_url": "/courses/sap/sap-pp-production-planning"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPPS-089",
+    "course_uid": "uid-sap-ps-project-system-expert",
+    "course_title": "SAP PS – Project System",
+    "course_subtitle": "End-to-End SAP Project System Configuration, Cost Control & Project Execution",
+    "course_slug": "sap-ps-project-system-course",
+    "course_thumbnail": "/images/courses/SAP/SAPProjectSystemtraining.png",
+    "course_short_description": "Master integrated project management. Learn to configure WBS structures, manage project networks, control budgets, and execute financial settlements in SAP S/4HANA.",
+    "course_long_description": "This SAP PS course is designed to help professionals plan, execute, and monitor enterprise projects within the SAP ecosystem. Unlike standalone tools, SAP PS integrates directly with Finance, Procurement, and Sales, allowing for real-time cost tracking, automated procurement, and precise revenue recognition for capital-intensive projects.",
+    "about_course": [
+      "Build complex project hierarchies using Work Breakdown Structures (WBS) and Network Activities.",
+      "Implement robust Budgeting and Availability Control to prevent project overspending.",
+      "Integrate project procurement with SAP MM for seamless material and service tracking.",
+      "Execute period-end closing tasks including project cost settlement to Assets, Cost Centers, or CO-PA."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 36,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "75 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-ps",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP S/4HANA Project System",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-ps-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of project lifecycle concepts",
+      "Knowledge of project planning and business processes",
+      "Basic SAP knowledge is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure SAP PS organizational structures and project profiles",
+      "Manage project timelines using Networks, Activities, and Milestones",
+      "Perform Earned Value Management (EVM) and Progress Analysis",
+      "Execute multi-level project settlements to FI, CO, and Fixed Assets"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP PS Consultants",
+      "Project Managers and Project Controllers",
+      "Finance and Operations Professionals",
+      "Engineers managing large-scale capital projects"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Project System (PS) Configuration",
+        "WBS Management & Hierarchy Control",
+        "Project Cost & Budget Monitoring",
+        "Project Settlement Processes"
+      ],
+      "supporting_skills": [
+        "Cross-Module Integration (FI/CO/MM/SD)",
+        "Revenue Recognition & Billing",
+        "Project Progress Analytics",
+        "Resource Capacity Planning"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Project System (PS)",
+        "SAP S/4HANA",
+        "SAP ECC"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "Project Planning Board",
+        "Cost & Revenue Analytics Dashboards"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP PS Consultant",
+      "Project Control Analyst",
+      "SAP Functional Consultant",
+      "Project Systems Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "93%",
+      "student_completion_rate": "91%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Project Planning & Execution System. You will design a complete project lifecycle for a construction or IT scenario, including WBS structuring, budget allocation, material procurement, and final cost settlement."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 55
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP Project System",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview of SAP PS",
+          "Project lifecycle in SAP ERP",
+          "Integration touchpoints"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Structures",
+        "module_duration": "Week 1",
+        "topics": [
+          "Project profiles & Coding masks",
+          "Company code and controlling area",
+          "Enterprise structure mapping"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Project Structuring with WBS",
+        "module_duration": "Week 2",
+        "topics": [
+          "Work Breakdown Structure concepts",
+          "WBS creation and hierarchy",
+          "Status management in WBS"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Networks & Activities",
+        "module_duration": "Week 3",
+        "topics": [
+          "Network types and activities",
+          "Relationships and milestones",
+          "Activity confirmation basics"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Scheduling & Dates Management",
+        "module_duration": "Week 3",
+        "topics": [
+          "Basic and detailed scheduling",
+          "Dependencies, floats, and constraints",
+          "Capacity planning basics"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Cost Planning in SAP PS",
+        "module_duration": "Week 4",
+        "topics": [
+          "Cost planning methods",
+          "Primary vs Secondary costs",
+          "Planning versions and unit costing"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Budgeting & Availability Control",
+        "module_duration": "Week 5",
+        "topics": [
+          "Budget creation and release",
+          "Availability control (AVAC) configuration",
+          "Budget alerts and tolerance limits"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Procurement Integration (PS–MM)",
+        "module_duration": "Week 6",
+        "topics": [
+          "Purchase requisitions from WBS",
+          "External services procurement",
+          "Goods receipt for project stock"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Execution & Progress Tracking",
+        "module_duration": "Week 7",
+        "topics": [
+          "Confirmations and actual dates",
+          "Progress analysis techniques",
+          "Earned value management (EVM)"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Revenue & Billing Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "Revenue planning and billing elements",
+          "Integration with SD",
+          "Milestone-based billing"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Settlement & Period-End Closing",
+        "module_duration": "Week 8",
+        "topics": [
+          "Settlement rules and profiles",
+          "Settlement to CO, FI, and Assets",
+          "Period-end processing"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Reporting & Analytics",
+        "module_duration": "Week 9",
+        "topics": [
+          "Standard PS reports (S_ALR)",
+          "Cost and schedule variance reports",
+          "Project dashboards and KPIs"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Integration with FI & CO",
+        "module_duration": "Week 9",
+        "topics": [
+          "Cost objects and real-time postings",
+          "Profitability analysis (CO-PA)",
+          "Financial project reporting"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Best Practices & Industry Scenarios",
+        "module_duration": "Week 10",
+        "topics": [
+          "Engineering & Construction (E&C) scenarios",
+          "Capital investment project workflows",
+          "Internal IT project management"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end project setup and planning",
+          "Execution, budget control, and settlement",
+          "Project closure walkthrough"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 92,
+    "total_students_enrolled": 740
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP PS?",
+      "answer": "SAP PS (Project System) is a SAP ERP module used to plan, execute, monitor, and control enterprise projects."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is a Work Breakdown Structure (WBS) in SAP PS?",
+      "answer": "WBS is a hierarchical structure used to break down a project into manageable components for planning and cost control."
+    },
+    {
+      "faq_id": 3,
+      "question": "Is SAP PS part of SAP ERP?",
+      "answer": "Yes. SAP PS is integrated within SAP ERP systems and SAP S/4HANA."
+    },
+    {
+      "faq_id": 4,
+      "question": "How does SAP PS integrate with SAP MM?",
+      "answer": "SAP PS integrates with SAP MM for procurement and materials management related to project activities."
+    }
+  ],
+  "target_audience": [
+    "Project Controllers",
+    "PMO Leads",
+    "Mechanical & Civil Engineers",
+    "Finance Professionals"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP PS Training | Project System Online Course",
+    "meta_description": "Learn SAP Project System (PS). Master WBS structuring, project costing, budgeting, and settlement in SAP S/4HANA for engineering and construction projects.",
+    "meta_url": "/courses/sap/sap-ps-project-system"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPQM-090",
+    "course_uid": "uid-sap-qm-quality-management-expert",
+    "course_title": "SAP QM – Quality Management",
+    "course_subtitle": "End-to-End SAP Quality Management Configuration & Business Process Training",
+    "course_slug": "sap-qm-quality-management-course",
+    "course_thumbnail": "/images/courses/SAP/SAPQualityManagementtraining.png",
+    "course_short_description": "Master enterprise quality control. Learn to configure inspection plans, manage inspection lots, record results, and handle quality notifications in SAP S/4HANA.",
+    "course_long_description": "This SAP QM course is designed to help professionals manage quality planning, inspection processing, and compliance. You will learn to integrate quality processes with procurement, production, and sales within SAP S/4HANA, ensuring standardized defect tracking, corrective actions (CAPA), and regulatory audit readiness.",
+    "about_course": [
+      "Configure Quality Planning elements including Master Inspection Characteristics (MIC) and Sampling Procedures.",
+      "Execute end-to-end Quality Inspections for Goods Receipt, In-Process, and Final inspections.",
+      "Manage Quality Notifications for defect recording, customer complaints, and CAPA processing.",
+      "Implement Batch Management and Quality Certificates for traceability and compliance."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "medium",
+    "course_sequence": 37,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-qm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - Quality Management with SAP ERP / S/4HANA",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-qm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of manufacturing or quality processes",
+      "Knowledge of quality concepts (QA/QC)",
+      "Basic business process understanding",
+      "SAP experience is not mandatory"
+    ],
+    "key_learnings": [
+      "Configure the SAP QM module end-to-end for manufacturing environments",
+      "Manage inspection lot processing and Usage Decisions (UD)",
+      "Implement Quality Notifications and defect management (CAPA)",
+      "Integrate QM workflows with Procurement (MM), Production (PP), and Sales (SD)"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP QM Consultants",
+      "Quality Assurance (QA) & QC Professionals",
+      "Manufacturing & Supply Chain Professionals",
+      "Engineering Graduates (Mechanical, Industrial, Production)"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Quality Management (QM)",
+        "Quality Planning & Inspection",
+        "Defect & Notification Management",
+        "Manufacturing Quality Control"
+      ],
+      "supporting_skills": [
+        "ERP Integration Knowledge",
+        "Compliance & Audit Readiness",
+        "Quality Analytics & Reporting",
+        "Traceability & Batch Management"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA QM",
+        "SAP ECC QM",
+        "SAP Quality Management Module"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "QMS Concepts",
+        "Reporting & KPI Dashboards"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP QM Consultant",
+      "SAP Quality Analyst",
+      "SAP Functional Consultant",
+      "SAP QM Support Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "94%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Quality Management Implementation. You will configure inspection planning, execute real-time inspections, manage defect notifications, and set up audit tracking for a manufacturing scenario."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 44
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & QM Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP fundamentals & S/4HANA overview",
+          "SAP QM architecture",
+          "Quality process flow in ERP"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Structure & Integration",
+        "module_duration": "Week 1",
+        "topics": [
+          "Plant & Org structure configuration",
+          "Integration touchpoints with MM and PP",
+          "QM-specific organizational elements"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Quality Planning",
+        "module_duration": "Week 2",
+        "topics": [
+          "Master Inspection Characteristics (MIC)",
+          "Inspection plans and Sampling procedures",
+          "Quality info records"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Quality Inspection Processing",
+        "module_duration": "Week 3",
+        "topics": [
+          "Inspection types (GR, In-process, Final)",
+          "Results recording & Inspection lots",
+          "Usage Decision (UD) processing"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Quality Notifications",
+        "module_duration": "Week 4",
+        "topics": [
+          "Defect recording & logic",
+          "Vendor & Customer complaints",
+          "CAPA (Corrective and Preventive Actions)"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Certificates & Batch Management",
+        "module_duration": "Week 5",
+        "topics": [
+          "Quality certificates generation",
+          "Batch management and classification",
+          "Traceability workflows"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Quality Audits & Control",
+        "module_duration": "Week 6",
+        "topics": [
+          "Audit planning and documentation",
+          "Quality control processes",
+          "Audit execution in SAP"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Module Integration Scenarios",
+        "module_duration": "Week 7",
+        "topics": [
+          "Procurement inspection (MM integration)",
+          "Production inspection (PP integration)",
+          "Customer quality (SD integration)"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Analytics",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard QM reports & KPIs",
+          "Quality dashboards",
+          "Defect analysis and performance metrics"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end QM configuration",
+          "Manufacturing quality scenario execution",
+          "Final presentation and documentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 128,
+    "total_students_enrolled": 890
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP QM?",
+      "answer": "SAP QM (Quality Management) is a SAP module used to manage quality planning, inspections, defect tracking, and compliance within ERP systems."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is inspection lot processing in SAP QM?",
+      "answer": "Inspection lot processing involves recording inspection results, evaluating quality characteristics, and making usage decisions regarding the material."
+    },
+    {
+      "faq_id": 9,
+      "question": "What is a quality notification in SAP QM?",
+      "answer": "A quality notification is a record used to document defects, internal problems, or customer/vendor complaints and initiate corrective actions."
+    }
+  ],
+  "target_audience": [
+    "QA/QC Professionals",
+    "Production Engineers",
+    "Compliance Managers",
+    "Manufacturing Consultants"
+  ],
+  "metadata": {
+    "course_date": "2026-02-19",
+    "latest_update_date": "2026-02-19"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP QM Training | Quality Management Online Course",
+    "meta_description": "Master SAP Quality Management (QM). Learn inspection planning, defect management, and CAPA in SAP S/4HANA with hands-on labs.",
+    "meta_url": "/courses/sap/sap-qm-quality-management"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSCM-091",
+    "course_uid": "uid-sap-scm-supply-chain-management-expert",
+    "course_title": "SAP SCM – Supply Chain Management",
+    "course_subtitle": "End-to-End SAP Supply Chain Planning, Execution & Optimization Training",
+    "course_slug": "sap-scm-supply-chain-management-course",
+    "course_thumbnail": "/images/courses/SAP/SAPSupplyChainManagement.png",
+    "course_short_description": "Master the global supply chain. Learn demand planning, MRP execution, inventory optimization, and logistics coordination within the SAP S/4HANA ecosystem.",
+    "course_long_description": "This SAP SCM course is designed to help professionals manage end-to-end supply chain planning, execution, and optimization. You will learn to unify demand forecasting, supply planning, inventory management, and logistics execution into one integrated platform, maintaining real-time visibility across global supply chain networks.",
+    "about_course": [
+      "Master Demand Planning and consumption-based forecasting to align supply with market needs.",
+      "Execute Material Requirements Planning (MRP) and Capacity Planning to optimize production flow.",
+      "Configure Inventory Management and Warehouse logistics to reduce carrying costs and improve stock accuracy.",
+      "Integrate Supply Chain workflows seamlessly across SAP MM, PP, and SD modules for total enterprise visibility."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 38,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "64 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-scm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP S/4HANA Supply Chain Planning and Execution",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-scm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of supply chain management or logistics processes",
+      "Knowledge of procurement or inventory concepts",
+      "Basic business process understanding",
+      "SAP experience is not mandatory"
+    ],
+    "key_learnings": [
+      "Understand end-to-end SAP supply chain business processes",
+      "Execute demand and supply planning using advanced MRP parameters",
+      "Optimize inventory levels and physical stock movement workflows",
+      "Analyze supply chain performance through real-time KPI dashboards"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP SCM Consultants",
+      "Supply Chain & Logistics Professionals",
+      "Inventory & Operations Managers",
+      "Manufacturing & Distribution Professionals"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Supply Chain Management (SCM)",
+        "Demand & Supply Planning",
+        "Inventory & Logistics Optimization",
+        "SAP SCM Reporting"
+      ],
+      "supporting_skills": [
+        "ERP Integration (MM/PP/SD)",
+        "Master Data Management",
+        "Supply Chain Analytics",
+        "Warehouse Management Basics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA",
+        "SAP ECC",
+        "SAP SCM Modules"
+      ],
+      "secondary": [
+        "SAP GUI",
+        "MRP Systems",
+        "Supply Chain Analytics Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP SCM Consultant",
+      "Supply Chain Analyst",
+      "SAP Functional Consultant",
+      "Logistics Manager"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "92%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Supply Chain Planning & Optimization System. You will configure an end-to-end scenario involving demand forecasting, MRP execution, warehouse movement, and performance reporting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & Supply Chain Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP and Supply Chain fundamentals",
+          "SAP S/4HANA vs ECC SCM overview",
+          "Introduction to SAP SCM module architecture"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Organizational Structure & Master Data",
+        "module_duration": "Week 1",
+        "topics": [
+          "Plant and Storage Location setup",
+          "Material and Vendor Master for SCM",
+          "Supply Chain Master Data integration"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Demand Planning",
+        "module_duration": "Week 2",
+        "topics": [
+          "Demand forecasting basics",
+          "Consumption-based planning",
+          "Planned Independent Requirements (PIR)"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Supply & Production Planning",
+        "module_duration": "Week 3",
+        "topics": [
+          "MRP concepts, types, and parameters",
+          "MRP Run execution",
+          "Capacity planning overview"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Inventory Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Goods receipt, Goods issue, and Transfer postings",
+          "Stock types and valuation methods",
+          "Physical inventory processes"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Procurement & Logistics Execution",
+        "module_duration": "Week 5",
+        "topics": [
+          "Procurement lifecycle",
+          "Purchase Orders and Scheduling Agreements",
+          "Logistics execution basics"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Warehouse & Distribution Overview",
+        "module_duration": "Week 6",
+        "topics": [
+          "Warehouse management concepts",
+          "Storage bins and movement types",
+          "Distribution process flow"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Cross-Module Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "SCM–MM (Procurement) integration",
+          "SCM–PP (Production) integration",
+          "SCM–SD (Distribution) integration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Supply Chain Analytics",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard SAP SCM reports",
+          "Supply chain KPIs and dashboarding",
+          "Inventory and demand variance analysis"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end system configuration",
+          "Real-time planning and execution scenario",
+          "Optimization use case walkthrough"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 142,
+    "total_students_enrolled": 1050
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP SCM?",
+      "answer": "SAP SCM (Supply Chain Management) is a SAP solution used to manage planning, logistics, inventory, and supply chain optimization processes within ERP systems."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is demand planning in SAP SCM?",
+      "answer": "Demand planning involves forecasting customer demand and aligning procurement and production strategies accordingly."
+    },
+    {
+      "faq_id": 7,
+      "question": "Does SAP SCM integrate with SAP MM and PP?",
+      "answer": "Yes. SAP SCM integrates with SAP MM, PP, and SD for end-to-end supply chain execution and financial settlement."
+    }
+  ],
+  "target_audience": [
+    "Supply Chain Professionals",
+    "Logistics Coordinators",
+    "Inventory Managers",
+    "Operations Analysts"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP SCM Training | Supply Chain Management Online Course",
+    "meta_description": "Master SAP SCM. Learn Demand Planning, MRP, Inventory Management, and Logistics Optimization in SAP S/4HANA with industry-aligned training.",
+    "meta_url": "/courses/sap/sap-scm-supply-chain-management"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSD-092",
+    "course_uid": "uid-sap-sd-sales-distribution-expert",
+    "course_title": "SAP SD – Sales & Distribution",
+    "course_subtitle": "Master SAP Sales, Billing, Pricing & Customer Management Processes",
+    "course_slug": "sap-sd-sales-distribution-course",
+    "course_thumbnail": "/images/courses/SAP/SAPSDsalesanddistribution.png",
+    "course_short_description": "Master the Order-to-Cash (O2C) cycle. Learn to configure pricing procedures, manage sales orders, delivery processing, and automated billing in SAP S/4HANA.",
+    "course_long_description": "This SAP SD course is designed to help professionals manage end-to-end sales processes and customer management. You will master the configuration of pricing techniques, billing operations, and delivery management while integrating sales workflows with SAP MM and FICO modules for a complete enterprise resource planning experience.",
+    "about_course": [
+      "Master the end-to-end Order-to-Cash (O2C) business process in SAP S/4HANA.",
+      "Configure complex Pricing Procedures using condition techniques, discounts, and taxes.",
+      "Manage Sales Document types, Item Categories, and Schedule Line Categories.",
+      "Execute automated Billing and Invoicing with seamless integration to Financial Accounting (FI)."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 39,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "72 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-sd",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP S/4HANA Sales",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-sd-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of sales or business processes",
+      "ERP exposure is helpful but not mandatory",
+      "No prior SAP experience required"
+    ],
+    "key_learnings": [
+      "Execute complete sales cycles from inquiry to billing in SAP",
+      "Configure custom Pricing Procedures and Condition Techniques",
+      "Maintain and manage Customer Master Data and Partner Functions",
+      "Integrate SD processes with Materials Management and Finance"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP SD Consultants",
+      "Sales & Operations Professionals",
+      "Fresh graduates entering SAP functional roles",
+      "SAP end-users transitioning to consulting"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Sales & Distribution (SD)",
+        "Pricing & Billing Management",
+        "Order-to-Cash (O2C) Execution",
+        "Sales Process Configuration"
+      ],
+      "supporting_skills": [
+        "Master Data Management",
+        "ERP Integration Knowledge",
+        "Sales Process Optimization",
+        "Functional Consulting Skills"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP S/4HANA SD",
+        "SAP ECC SD",
+        "SAP ERP System"
+      ],
+      "secondary": [
+        "Pricing & Billing Tools",
+        "Master Data Management",
+        "SAP GUI"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP SD Consultant",
+      "SAP Functional Analyst",
+      "SAP Sales Operations Analyst",
+      "O2C Process Lead"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End SAP SD Implementation. You will configure a complete O2C cycle, including sales organization setup, pricing procedure determination, delivery processing, and financial posting."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 48
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & SD Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP and SAP S/4HANA overview",
+          "SAP SD business processes",
+          "Order-to-Cash (O2C) cycle walkthrough"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SAP SD Organizational Structure",
+        "module_duration": "Week 2",
+        "topics": [
+          "Sales Org, Distribution Channel, and Division",
+          "Sales Area and Shipping Point configuration",
+          "Organizational structure mapping"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Customer Master Data",
+        "module_duration": "Week 3",
+        "topics": [
+          "Customer master views and Account Groups",
+          "Partner Functions and Partner Determination",
+          "Number ranges and master records"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Material Master for SD",
+        "module_duration": "Week 4",
+        "topics": [
+          "SD-specific views in Material Master",
+          "Item categories and determination",
+          "Availability check basics"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Sales Order Processing",
+        "module_duration": "Week 5",
+        "topics": [
+          "Sales document types configuration",
+          "Item & Schedule Line categories",
+          "Sales order creation and document flow"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Pricing & Condition Techniques",
+        "module_duration": "Week 6",
+        "topics": [
+          "Pricing procedure determination",
+          "Condition records and tables",
+          "Discounts, surcharges, and taxes"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Shipping & Delivery",
+        "module_duration": "Week 7",
+        "topics": [
+          "Delivery processing and document types",
+          "Picking, Packing, and Post Goods Issue (PGI)",
+          "Integration with Materials Management (MM)"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Billing & Invoicing",
+        "module_duration": "Week 8",
+        "topics": [
+          "Billing document types and configuration",
+          "Credit and Debit memos",
+          "Integration with Financial Accounting (FI)"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Cross-Module Integration",
+        "module_duration": "Week 9",
+        "topics": [
+          "SD–MM integration (Availability & Stock)",
+          "SD–FI integration (Revenue & AR)",
+          "Real-time business flow scenarios"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-end SD system implementation",
+          "O2C scenario execution",
+          "Final project documentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 184,
+    "total_students_enrolled": 1450
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP SD?",
+      "answer": "SAP SD (Sales & Distribution) is a core SAP module used to manage sales order processing, pricing, delivery, billing, and customer management within ERP systems."
+    },
+    {
+      "faq_id": 2,
+      "question": "What is the Order-to-Cash (O2C) process in SAP SD?",
+      "answer": "The O2C process includes every step from sales order creation and delivery processing to goods issue, billing, and final financial posting."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does SAP SD integrate with SAP FICO?",
+      "answer": "Yes. SAP SD integrates with SAP FICO for billing, revenue recognition, and accounts receivable processing."
+    }
+  ],
+  "target_audience": [
+    "Sales Operations Managers",
+    "Business Analysts",
+    "Commerce Graduates",
+    "Consulting Aspirants"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP SD Training | Sales & Distribution Online Course",
+    "meta_description": "Master SAP SD. Learn the Order-to-Cash (O2C) cycle, Pricing Procedures, and Billing in SAP S/4HANA with hands-on configuration training.",
+    "meta_url": "/courses/sap/sap-sd-sales-distribution"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPSFSF-093",
+    "course_uid": "uid-sap-successfactors-hcm-cloud-expert",
+    "course_title": "SAP SuccessFactors – HCM Cloud",
+    "course_subtitle": "End-to-End SAP SuccessFactors Employee Central, Talent & Payroll Integration Training",
+    "course_slug": "sap-successfactors-hcm-cloud-course",
+    "course_thumbnail": "/images/courses/SAP/SAPSuccessfactorHCM.png",
+    "course_short_description": "Master cloud-based HR. Learn to implement Employee Central, manage talent lifecycles, and integrate payroll and analytics in the SAP SuccessFactors ecosystem.",
+    "course_long_description": "This SAP SuccessFactors course is designed for professionals moving into the cloud HCM space. You will learn to manage the entire employee lifecycle—from recruitment and onboarding to performance and compensation—while ensuring seamless data replication and integration with SAP S/4HANA and legacy ERP landscapes.",
+    "about_course": [
+      "Configure Employee Central as the core HRIS to manage global employee master data and organizational structures.",
+      "Implement Talent Management modules including Recruitment, Onboarding, and Performance & Goal Management.",
+      "Manage Learning Management Systems (LMS) and Compensation planning for workforce development.",
+      "Execute seamless Payroll and Time & Attendance integrations between cloud and on-premise SAP environments."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 40,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-successfactors",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - SAP SuccessFactors Employee Central",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-sfsf-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic HR or human resource management knowledge",
+      "Understanding of employee lifecycle processes",
+      "SAP HCM knowledge is helpful but not mandatory",
+      "No prior cloud experience required"
+    ],
+    "key_learnings": [
+      "Configure SAP SuccessFactors Employee Central end-to-end",
+      "Manage cloud HR workflows for recruitment and performance tracking",
+      "Understand and implement data replication for payroll integration",
+      "Utilize workforce analytics and dashboards for strategic HR decision making"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP SuccessFactors Consultants",
+      "HR Professionals transitioning to Cloud HR",
+      "SAP HCM Consultants upgrading to Cloud",
+      "MBA HR Graduates"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP SuccessFactors Configuration",
+        "Cloud Human Capital Management (HCM)",
+        "Talent & Performance Management",
+        "Employee Central (EC) Management"
+      ],
+      "supporting_skills": [
+        "HR Process Automation",
+        "Workforce Analytics",
+        "Cloud Data Integration",
+        "Global HR Compliance"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP SuccessFactors (SFSF)",
+        "Employee Central",
+        "SAP Cloud Platform Integration"
+      ],
+      "secondary": [
+        "SAP S/4HANA",
+        "LMS & Performance Tools",
+        "Workforce Analytics Dashboards"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP SuccessFactors Consultant",
+      "SAP HCM Cloud Functional Analyst",
+      "HR Systems Consultant",
+      "SAP HR Cloud Support Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "97%",
+      "student_completion_rate": "95%",
+      "placement_rate": "93%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Cloud HR Digital Transformation. You will build a complete employee lifecycle solution, from configuring the organizational structure in Employee Central to setting up recruitment workflows and performance goal templates."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 50
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & SuccessFactors Overview",
+        "module_duration": "Week 1",
+        "topics": [
+          "SAP Overview & ERP Evolution",
+          "SuccessFactors Architecture & Cloud Basics",
+          "HXM (Human Experience Management) Philosophy"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Employee Central (Core HRIS)",
+        "module_duration": "Week 2",
+        "topics": [
+          "Foundation Objects & Data Models",
+          "Employee Data Management",
+          "Position & Job Configuration"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Recruitment & Onboarding",
+        "module_duration": "Week 3",
+        "topics": [
+          "Candidate Management & Sourcing",
+          "Recruitment Lifecycle Workflows",
+          "New Hire Onboarding Experience"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Performance & Goal Management",
+        "module_duration": "Week 4",
+        "topics": [
+          "Goal Planning & Templates",
+          "Performance Review Cycles",
+          "Continuous Performance Management (CPM)"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Learning Management System (LMS)",
+        "module_duration": "Week 5",
+        "topics": [
+          "Course Catalog Management",
+          "Learning Assignments & Curricula",
+          "Certification & Compliance Tracking"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Compensation & Benefits",
+        "module_duration": "Week 6",
+        "topics": [
+          "Compensation Planning & Worksheets",
+          "Variable Pay Configuration",
+          "Benefits Integration & Enrollment"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Payroll Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "EC Payroll Overview",
+          "Integration with S/4HANA & On-Premise HCM",
+          "Data Replication & Troubleshooting"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Time & Attendance Integration",
+        "module_duration": "Week 8",
+        "topics": [
+          "Time Management & Work Schedules",
+          "Leave of Absence Workflows",
+          "Attendance Tracking & Integration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Workforce Analytics",
+        "module_duration": "Week 9",
+        "topics": [
+          "Report Center & Ad-hoc Reporting",
+          "Workforce Dashboards",
+          "People Analytics & KPIs"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-End System Implementation",
+          "Employee Lifecycle Scenario Execution",
+          "Final Documentation & Presentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 210,
+    "total_students_enrolled": 1600
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP SuccessFactors?",
+      "answer": "SAP SuccessFactors is a cloud-based HXM solution used to manage employee lifecycle, talent, performance, and payroll integration."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is Employee Central in SuccessFactors?",
+      "answer": "Employee Central is the core HRIS module that manages employee master data and the organizational structure in the cloud."
+    },
+    {
+      "faq_id": 9,
+      "question": "Does this course prepare for SAP certification?",
+      "answer": "Yes. The curriculum is aligned with the SAP Associate certification pathways for Employee Central and other SF modules."
+    }
+  ],
+  "target_audience": [
+    "HR Managers",
+    "Digital HR Consultants",
+    "SAP HCM Experts",
+    "IT HR Business Partners"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP SuccessFactors Training | Cloud HCM Online Course",
+    "meta_description": "Master SAP SuccessFactors. Learn Employee Central, Talent Management, and Payroll integration in the cloud with hands-on implementation labs.",
+    "meta_url": "/courses/sap/sap-successfactors-hcm-cloud"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPTM-094",
+    "course_uid": "uid-sap-tm-transportation-management-expert",
+    "course_title": "SAP TM – Transportation Management",
+    "course_subtitle": "End-to-End SAP Transportation Planning, Execution & Freight Cost Management",
+    "course_slug": "sap-tm-transportation-management-course",
+    "course_thumbnail": "/images/courses/SAP/SAPTM.png",
+    "course_short_description": "Optimize global logistics. Master transportation planning, carrier tendering, freight execution, and cost settlement in SAP S/4HANA.",
+    "course_long_description": "This SAP TM course is designed to help professionals manage the end-to-end transportation lifecycle. You will learn to model transportation networks, manage freight units, perform automated route optimization, and handle complex freight cost calculations while integrating with SAP SD, EWM, and FI modules.",
+    "about_course": [
+      "Master Transportation Planning and automated Route Optimization to reduce logistics costs.",
+      "Execute Carrier Tendering and Collaboration to streamline freight procurement.",
+      "Configure Freight Charge Management for accurate rate determination and settlement.",
+      "Integrate TM with SAP EWM and SD for seamless warehouse and sales synchronization."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 41,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "85 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Projects",
+      "1-on-1 Mentorship",
+      "Job Assistance",
+      "Mobile Friendly"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-tm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - Transportation Management",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-tm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of logistics or supply chain management concepts",
+      "Knowledge of shipping or transportation processes",
+      "Basic SAP knowledge is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Configure transportation networks including lanes and resources",
+      "Manage freight unit building and freight order lifecycles",
+      "Implement carrier selection strategies and tendering workflows",
+      "Perform freight settlement and integration with SAP FI"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP TM Consultants",
+      "Logistics & Supply Chain Professionals",
+      "SAP SD / LE / EWM Professionals",
+      "Operations and Transportation Planners"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Transportation Management (TM)",
+        "Transportation Planning & Optimization",
+        "Freight Cost Management",
+        "Logistics Execution"
+      ],
+      "supporting_skills": [
+        "Carrier Collaboration & Tendering",
+        "SAP EWM & SD Integration",
+        "Freight Settlement",
+        "Logistics Analytics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Transportation Management (TM)",
+        "SAP S/4HANA",
+        "Freight Cost Analytics"
+      ],
+      "secondary": [
+        "SAP EWM Integration",
+        "SAP FI Integration",
+        "Carrier Collaboration Portal"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP TM Consultant",
+      "Transportation Analyst",
+      "SAP Functional Consultant",
+      "Logistics Systems Specialist"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End Logistics Lifecycle Implementation. Design a transportation network, perform automated planning, execute carrier selection, and complete the freight settlement process."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 15,
+      "total_lectures": 65
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP TM",
+        "module_duration": "Week 1",
+        "topics": [
+          "Overview of SAP TM & S/4HANA Architecture",
+          "Transportation Lifecycle Walkthrough",
+          "Integration Overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Architecture & Master Data",
+        "module_duration": "Week 1",
+        "topics": [
+          "Business Partners in TM",
+          "Locations and Products setup",
+          "Organizational Data mapping"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Transportation Network & Resources",
+        "module_duration": "Week 2",
+        "topics": [
+          "Transportation Lanes and Zones",
+          "Vehicle and Resource setup",
+          "Capacity Management"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Freight Units & Orders",
+        "module_duration": "Week 3",
+        "topics": [
+          "Freight Unit creation rules",
+          "Freight Orders and Bookings",
+          "Order Management workflows"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Planning & Optimization Basics",
+        "module_duration": "Week 4",
+        "topics": [
+          "Planning Profiles configuration",
+          "Manual vs Automated Route Determination",
+          "Load Building concepts"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Advanced Planning & Optimization",
+        "module_duration": "Week 4",
+        "topics": [
+          "Cost-based Planning",
+          "Multi-leg transportation scenarios",
+          "Optimizer Strategies"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Carrier Selection & Tendering",
+        "module_duration": "Week 5",
+        "topics": [
+          "Carrier Master Data",
+          "Tendering processes",
+          "Carrier Collaboration workflows"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Execution & Tracking",
+        "module_duration": "Week 6",
+        "topics": [
+          "Transportation Execution monitoring",
+          "Event Management and Tracking",
+          "Visibility dashboards"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Charge Management",
+        "module_duration": "Week 7",
+        "topics": [
+          "Charge Calculation Sheets",
+          "Freight Agreements",
+          "Rate Determination techniques"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Freight Settlement",
+        "module_duration": "Week 8",
+        "topics": [
+          "Freight Settlement Documents (FSD)",
+          "Integration with SAP FI (Financials)",
+          "Invoice verification processes"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Cross-Module Integration",
+        "module_duration": "Week 9",
+        "topics": [
+          "TM–SD Integration",
+          "TM–EWM Integration",
+          "Integration with S/4HANA Logistics"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Analytics & Reporting",
+        "module_duration": "Week 9",
+        "topics": [
+          "Standard TM Reports",
+          "Transportation KPIs and Metrics",
+          "Cost and Performance analytics"
+        ]
+      },
+      {
+        "module_number": 13,
+        "module_name": "Transportation Compliance",
+        "module_duration": "Week 10",
+        "topics": [
+          "Compliance and Regulation concepts",
+          "Industry Best Practices",
+          "Risk Management in Logistics"
+        ]
+      },
+      {
+        "module_number": 14,
+        "module_name": "Real-World Transportation Scenarios",
+        "module_duration": "Week 10",
+        "topics": [
+          "Inbound vs Outbound Logistics",
+          "Third-party Logistics (3PL) workflows",
+          "Intermodal transportation"
+        ]
+      },
+      {
+        "module_number": 15,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 10",
+        "topics": [
+          "End-to-End Configuration Setup",
+          "Execution and Settlement scenario",
+          "Project presentation and review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 110,
+    "total_students_enrolled": 820
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is SAP TM?",
+      "answer": "SAP TM (Transportation Management) is a solution used to plan, execute, optimize, and settle transportation processes within an enterprise supply chain."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is freight settlement in SAP TM?",
+      "answer": "Freight settlement manages the calculation of freight costs, verification of carrier invoices, and integration with the Financial (FI) module for payment."
+    },
+    {
+      "faq_id": 6,
+      "question": "Does SAP TM integrate with SAP EWM?",
+      "answer": "Yes. SAP TM integrates with Extended Warehouse Management (EWM) to coordinate warehouse loading and transportation schedules effectively."
+    }
+  ],
+  "target_audience": [
+    "Logistics Managers",
+    "Freight Forwarders",
+    "Supply Chain Analysts",
+    "Functional SAP Consultants"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "SAP TM Training | Transportation Management Online Course",
+    "meta_description": "Master SAP Transportation Management (TM). Learn route optimization, freight settlement, and carrier tendering in SAP S/4HANA.",
+    "meta_url": "/courses/sap/sap-tm-transportation-management"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SAPWM-095",
+    "course_uid": "uid-sap-wm-warehouse-management-pro",
+    "course_title": "SAP WM – Warehouse Management",
+    "course_subtitle": "End-to-End SAP Warehouse Management Configuration & Inventory Control Training",
+    "course_slug": "sap-wm-warehouse-management-course",
+    "course_thumbnail": "/images/courses/SAP/SAPEWMtraining.png",
+    "course_short_description": "Master the core of logistics execution. Learn to configure warehouse structures, optimize picking/putaway strategies, and control complex inventory movements.",
+    "course_long_description": "This SAP WM course is built for professionals aiming to master warehouse operations within the SAP ERP environment. You will transition from basic inventory management to advanced warehouse control, learning how to structure storage bins, manage transfer orders, and integrate logistics seamlessly with Materials Management (MM) and Sales & Distribution (SD) modules.",
+    "about_course": [
+      "Configure complex warehouse structures including storage types, sections, and bins.",
+      "Execute end-to-end warehouse processes from Goods Receipt to Picking and Goods Issue.",
+      "Implement advanced Putaway and Picking strategies to optimize warehouse throughput.",
+      "Master integration between WM and cross-functional modules like MM, SD, and PP."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 42,
+    "course_category": {
+      "category_id": "CAT_SAP",
+      "category_title": "SAP",
+      "category_url": "/courses/sap"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Configuration Labs",
+      "Real-world Simulations",
+      "1-on-1 Mentorship",
+      "Job Assistance"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/sap-wm",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "SAP Certified Application Associate - Warehouse Management",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/sap-wm-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of warehouse or inventory processes",
+      "Familiarity with business process flows",
+      "Interest in SAP ERP systems",
+      "Prior SAP experience is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Define and configure the SAP WM organizational structure",
+      "Execute stock movements using Transfer Requirements (TR) and Transfer Orders (TO)",
+      "Automate putaway and picking using system-driven strategies",
+      "Perform physical inventory and reconcile warehouse differences"
+    ],
+    "ideal_candidates": [
+      "Aspiring SAP WM Consultants",
+      "Warehouse & Inventory Professionals",
+      "Logistics & Supply Chain Managers",
+      "SAP Functional Consultants"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "SAP Warehouse Management (WM)",
+        "Warehouse Configuration",
+        "Inventory & Stock Management",
+        "Transfer Order Processing"
+      ],
+      "supporting_skills": [
+        "Logistics Execution",
+        "Cross-Module Integration (MM/SD)",
+        "Warehouse Reporting",
+        "RF Technology Basics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "SAP Warehouse Management (WM)",
+        "SAP ERP / ECC",
+        "SAP GUI"
+      ],
+      "secondary": [
+        "SAP MM Integration",
+        "SAP SD Integration",
+        "Logistics Execution Tools"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "SAP WM Consultant",
+      "Warehouse Management Analyst",
+      "SAP Functional Consultant",
+      "Logistics Systems Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 1,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Production-Grade Warehouse Setup. You will configure an entire warehouse structure, map material master views, simulate a full inbound-to-outbound cycle, and resolve inventory discrepancies in a live environment."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to SAP & Warehouse Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "ERP Fundamentals & SAP ECC Architecture",
+          "Role of SAP WM in Supply Chain",
+          "WM vs. IM (Inventory Management)"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Warehouse Structure Configuration",
+        "module_duration": "Week 1",
+        "topics": [
+          "Defining Warehouse Numbers",
+          "Storage Types and Sections",
+          "Storage Bin Structure & Creation"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Master Data in SAP WM",
+        "module_duration": "Week 2",
+        "topics": [
+          "Material Master Integration (WM Views)",
+          "Storage Unit Management basics",
+          "Warehouse Master Data Maintenance"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Goods Receipt & Putaway",
+        "module_duration": "Week 3",
+        "topics": [
+          "Inbound Delivery & Processing",
+          "Putaway Strategies (Fixed Bin, Open, etc.)",
+          "Transfer Requirements (TR) and Orders (TO)"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Goods Issue & Picking",
+        "module_duration": "Week 4",
+        "topics": [
+          "Outbound Delivery Processing",
+          "Picking Strategies (FIFO, LIFO, SLED)",
+          "Goods Issue Execution and Confirmation"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Internal Warehouse Movements",
+        "module_duration": "Week 5",
+        "topics": [
+          "Stock Transfers & Posting Changes",
+          "Replenishment Processes",
+          "Bin-to-Bin Transfers"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Physical Inventory Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Cycle Counting & Annual Inventory",
+          "Inventory Procedures & Documents",
+          "Handling Inventory Differences"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Integration with MM & SD",
+        "module_duration": "Week 7",
+        "topics": [
+          "Procurement-to-Warehouse Flow (MM)",
+          "Warehouse-to-Sales Flow (SD)",
+          "Interface Configuration"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Reporting & Warehouse KPIs",
+        "module_duration": "Week 8",
+        "topics": [
+          "Standard SAP WM Reports (LX series)",
+          "Warehouse Activity Monitor",
+          "Logistics Analytics & Stock Metrics"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-End Configuration Setup",
+          "Live Scenario Simulation",
+          "Final Assessment & Project Review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.7,
+    "total_reviews": 185,
     "total_students_enrolled": 1250
   },
   "faqs": [
     {
       "faq_id": 1,
-      "question": "What is SAP CRM?",
-      "answer": "SAP CRM is an enterprise-grade customer relationship management application used to manage sales, service, and marketing interactions across multiple customer touchpoints."
+      "question": "What is the difference between SAP WM and SAP EWM?",
+      "answer": "SAP WM is natively integrated within ECC for core warehouse needs, whereas SAP EWM is a more advanced, standalone solution for high-volume, complex logistics environments."
     },
     {
       "faq_id": 2,
-      "question": "How does SAP CRM differ from SAP Sales Cloud?",
-      "answer": "SAP CRM is an on-premise or hybrid solution with deep backend integration, while SAP Sales Cloud is a modern, cloud-native CRM focused on sales automation."
-    },
-    {
-      "faq_id": 3,
-      "question": "Is SAP CRM still relevant with S/4HANA?",
-      "answer": "Yes. Many large enterprises use SAP CRM integrated with S/4HANA for complex service management and high-volume sales operations."
-    },
-    {
-      "faq_id": 4,
-      "question": "What is CRM Middleware?",
-      "answer": "Middleware is the technology that enables the real-time exchange of master data and transactions between the CRM system and the ERP backend."
-    },
-    {
-      "faq_id": 5,
-      "question": "Who should learn SAP CRM?",
-      "answer": "It is ideal for SAP consultants, business analysts, and sales/service professionals who need to manage enterprise-level customer lifecycles."
-    },
-    {
-      "faq_id": 6,
-      "question": "Does the course cover the Web UI?",
-      "answer": "Yes. We focus on the modern Web UI framework, which is the primary interface for SAP CRM users and consultants."
-    },
-    {
-      "faq_id": 7,
-      "question": "Is prior SAP experience required?",
-      "answer": "Basic business knowledge helps, but the course is designed to take you from the fundamentals of SAP through to advanced CRM configuration."
-    },
-    {
-      "faq_id": 8,
-      "question": "What is the Interaction Center?",
-      "answer": "The Interaction Center is a unified interface for service agents to handle customer calls, emails, and chats while viewing full customer history."
-    },
-    {
-      "faq_id": 9,
-      "question": "What industries use SAP CRM?",
-      "answer": "Industries like telecommunications, utilities, high-tech manufacturing, and retail use SAP CRM for its robust service and sales capabilities."
+      "question": "Is SAP WM still relevant with the rise of S/4HANA?",
+      "answer": "Yes. Many organizations use WM in ECC or hybrid S/4HANA (Stock Room Management) environments, making it essential for maintenance and transition roles."
     },
     {
       "faq_id": 10,
-      "question": "How long is the training?",
-      "answer": "The program spans 8 weeks and includes instructor-led training and a hands-on capstone project."
+      "question": "Does SAP WM integrate with other SAP modules?",
+      "answer": "Absolutely. It integrates seamlessly with MM (Materials Management) for procurement and SD (Sales & Distribution) for order fulfillment."
     }
   ],
   "target_audience": [
-    "SAP Consultants",
-    "Business Analysts",
-    "Sales and Service Professionals",
-    "MBA Graduates"
+    "Logistics Planners",
+    "Warehouse Leads",
+    "Inventory Controllers",
+    "SAP Career Aspirants"
   ],
   "metadata": {
-    "course_date": "2024-06-01",
-    "latest_update_date": "2024-06-01"
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
   },
   "seo_metadata": {
-    "meta_title": "SAP CRM Course | Customer Relationship Management Training",
-    "meta_description": "Master SAP CRM. Learn sales and service configuration, Web UI management, and S/4HANA integration in this expert-led certification course.",
-    "meta_url": "/courses/sap/sap-crm-management"
+    "meta_title": "SAP WM Training | Warehouse Management Configuration Course",
+    "meta_description": "Learn SAP Warehouse Management (WM) from scratch. Master storage bin configuration, picking/putaway strategies, and inventory control with hands-on labs.",
+    "meta_url": "/courses/sap/sap-wm-warehouse-management"
   }
 },
+{
+  "course_details": {
+    "course_id": "CRS-BND-007",
+    "course_uid": "uid-backend-dev-mastery",
+    "course_title": "Backend Development (Java / Python / Node.js)",
+    "course_subtitle": "Build Secure, Scalable & High-Performance Backend Systems Using Modern Technologies",
+    "course_slug": "backend-development-java-python-nodejs",
+    "course_thumbnail": "assets/images/courses/backend-dev-thumb.jpg",
+    "course_short_description": "Master server-side engineering. Learn to design REST APIs, manage databases, implement JWT authentication, and build scalable architectures using Java, Python, or Node.js.",
+    "course_long_description": "This Backend Development course is designed to transition engineers from basic programming to production-grade server-side systems. Unlike syntax-only tutorials, this program dives deep into backend architecture, database transactions, security patterns, and scalability workflows required to power modern SaaS, mobile, and enterprise applications.",
+    "about_course": [
+      "Design and implement secure, stateless RESTful APIs using industry-standard principles.",
+      "Master Database modeling and integration using both SQL and NoSQL technologies.",
+      "Implement robust security with JWT-based authentication and Role-Based Access Control (RBAC).",
+      "Apply scalability patterns including caching, asynchronous processing, and optimized data access."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "CAT_DEV",
+      "category_title": "Software Development",
+      "category_url": "/courses/software-development"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "90 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Multiple Hands-on Labs",
+      "Production-Grade Project",
+      "1-on-1 Mentorship",
+      "Resume & Interview Support"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/backend-development",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Backend Development Professional",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/backend-dev-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of any programming language",
+      "Familiarity with web concepts and HTTP",
+      "Fundamental problem-solving skills",
+      "Prior backend experience is not mandatory"
+    ],
+    "key_learnings": [
+      "Architect scalable and maintainable backend systems",
+      "Develop secure API endpoints with proper error handling and validation",
+      "Manage complex data relationships using ORMs and raw queries",
+      "Deploy and monitor production-ready server-side applications"
+    ],
+    "ideal_candidates": [
+      "Backend Developers",
+      "Full Stack Developers",
+      "Software Engineers",
+      "Professionals transitioning into backend roles"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Backend System Design",
+        "REST API Development",
+        "Database Modeling (SQL/NoSQL)",
+        "Authentication & Security"
+      ],
+      "supporting_skills": [
+        "Scalability & Caching",
+        "Asynchronous Processing",
+        "API Documentation (Swagger)",
+        "Unit Testing"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Java / Spring Boot",
+        "Python / FastAPI",
+        "Node.js / Express",
+        "REST APIs"
+      ],
+      "secondary": [
+        "PostgreSQL / MongoDB",
+        "Hibernate / Prisma",
+        "Redis",
+        "Git & Docker"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Backend Developer",
+      "Software Engineer",
+      "API Developer",
+      "Full Stack Developer",
+      "Server-Side Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 3,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Production-Ready Backend System. Build a complete server-side application with secure JWT authentication, complex database relationships, global error handling, and Swagger documentation."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 52
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Backend & Server-Side Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "Client-server architecture deep dive",
+          "HTTP/HTTPS protocols and status codes",
+          "Statelessness and REST principles"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Programming Foundations",
+        "module_duration": "Week 1-2",
+        "topics": [
+          "Language-specific environment setup",
+          "Project structuring and dependency management",
+          "Asynchronous vs Synchronous execution"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "REST API Development",
+        "module_duration": "Week 3",
+        "topics": [
+          "Routing and Controllers",
+          "Middleware patterns",
+          "Request-response lifecycle management"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Database Fundamentals",
+        "module_duration": "Week 4",
+        "topics": [
+          "Relational vs Document stores",
+          "Schema design and Normalization",
+          "CRUD operations with raw queries"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Data Access & ORM Concepts",
+        "module_duration": "Week 5",
+        "topics": [
+          "Working with ORMs (Hibernate/Prisma/SQLAlchemy)",
+          "Managing Transactions and Migrations",
+          "Relationship mapping (One-to-Many, Many-to-Many)"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Authentication & Authorization",
+        "module_duration": "Week 6",
+        "topics": [
+          "JWT implementation and token refresh",
+          "Hashing passwords with BCrypt",
+          "Role-Based Access Control (RBAC) middleware"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Error Handling & Validation",
+        "module_duration": "Week 7",
+        "topics": [
+          "Global exception handling",
+          "Input validation and Sanitization",
+          "Structured logging best practices"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Testing & API Documentation",
+        "module_duration": "Week 8",
+        "topics": [
+          "Unit testing with JUnit/Pytest/Jest",
+          "Integration testing APIs",
+          "Auto-generating docs with Swagger/OpenAPI"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Performance & Scalability",
+        "module_duration": "Week 9",
+        "topics": [
+          "Database Indexing and Pagination",
+          "Caching strategies with Redis",
+          "Background tasks and Message Queues"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "System Architecture design",
+          "Feature implementation and security audit",
+          "Deployment-ready configuration"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 320,
+    "total_students_enrolled": 2150
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "Which backend language should I choose?",
+      "answer": "This course covers the architectural patterns common to Java, Python, and Node.js. You can focus on the stack that best aligns with your career goals."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is REST API development?",
+      "answer": "REST API development involves building HTTP-based interfaces that allow different software systems to communicate securely using standard methods."
+    },
+    {
+      "faq_id": 6,
+      "question": "Will I learn backend security?",
+      "answer": "Yes. We cover JWT authentication, role-based access control, and secure coding practices to prevent common vulnerabilities."
+    }
+  ],
+  "target_audience": [
+    "Computer Science Students",
+    "Frontend Developers wanting to go Full-Stack",
+    "IT Professionals",
+    "Software Engineering Aspirants"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Backend Development Training | Java, Python, Node.js APIs",
+    "meta_description": "Master backend engineering. Learn REST API design, database integration, and security using Spring Boot, FastAPI, or Express.js.",
+    "meta_url": "/courses/software-development/backend-development"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-FED-008",
+    "course_uid": "uid-frontend-dev-react-mastery",
+    "course_title": "Frontend Development Course",
+    "course_subtitle": "Design & Build Modern, Responsive Web Interfaces Using HTML, CSS, JavaScript & React",
+    "course_slug": "frontend-development-html-css-javascript-react",
+    "course_thumbnail": "assets/images/courses/frontend-dev-thumb.jpg",
+    "course_short_description": "Master the art of building beautiful, high-performance websites. Learn HTML, CSS, JavaScript, and React to create responsive, production-ready web applications.",
+    "course_long_description": "This Frontend Development course bridges the gap between basic web design and professional frontend engineering. You will master the Document Object Model (DOM), CSS Grid/Flexbox, ES6+ JavaScript, and the React ecosystem. By the end of this program, you will be building dynamic, API-driven interfaces that are optimized for speed and accessibility.",
+    "about_course": [
+      "Build mobile-first, responsive layouts using modern CSS Flexbox and Grid systems.",
+      "Develop interactive and dynamic user experiences using Advanced JavaScript (ES6+).",
+      "Create scalable, component-based single-page applications (SPAs) using React.",
+      "Integrate real-world REST APIs and manage complex UI state efficiently."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 2,
+    "course_category": {
+      "category_id": "CAT_DEV",
+      "category_title": "Software Development",
+      "category_url": "/courses/software-development"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "85 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Coding Exercises",
+      "Production-Grade Capstone",
+      "1-on-1 Mentorship",
+      "Interview Preparation"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/frontend-development",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Frontend Web Developer (React)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/frontend-dev-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer knowledge",
+      "Logical thinking skills",
+      "No prior coding experience required (Beginner-friendly)"
+    ],
+    "key_learnings": [
+      "Code responsive websites from scratch using semantic HTML and CSS",
+      "Master JavaScript fundamentals and DOM manipulation",
+      "Build reusable UI components with React Hooks and Props",
+      "Connect frontend interfaces to backend services via Fetch API"
+    ],
+    "ideal_candidates": [
+      "Beginners starting in Web Development",
+      "Aspiring Frontend Developers",
+      "UI/UX Enthusiasts transitioning to Code",
+      "Backend Developers expanding to Full-Stack"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Frontend Development",
+        "HTML5 & CSS3",
+        "JavaScript (ES6+)",
+        "React.js"
+      ],
+      "supporting_skills": [
+        "Responsive Design",
+        "DOM Manipulation",
+        "API Integration",
+        "Performance Optimization"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "secondary": [
+        "Git & GitHub",
+        "npm / Node.js",
+        "REST APIs",
+        "VS Code"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Frontend Developer",
+      "React Developer",
+      "UI Developer",
+      "Web Developer",
+      "Junior Full-Stack Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "94%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 4,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Modern Web Application. You will design and deploy a complete, mobile-responsive React application that consumes a third-party API, features dynamic routing, and implements optimized state management."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 55
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Web Development",
+        "module_duration": "Week 1",
+        "topics": [
+          "How the Web Works: DNS, Hosting, and Browsers",
+          "Client-Side vs. Server-Side concepts",
+          "Setting up the Developer Environment (VS Code, Chrome DevTools)"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "HTML – Structure of the Web",
+        "module_duration": "Week 1",
+        "topics": [
+          "Semantic HTML5 tags",
+          "Forms, Validations, and Tables",
+          "Web Accessibility (A11y) basics"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "CSS – Styling & Layouts",
+        "module_duration": "Week 2",
+        "topics": [
+          "Box Model, Positioning, and Selectors",
+          "Flexbox and CSS Grid Mastery",
+          "Responsive Design & Media Queries"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "JavaScript Fundamentals",
+        "module_duration": "Week 3",
+        "topics": [
+          "Variables, Data Types, and Operators",
+          "Functions and Scope",
+          "DOM Manipulation and Event Listeners"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced JavaScript",
+        "module_duration": "Week 4",
+        "topics": [
+          "ES6+ Features (Arrow functions, Destructuring, Spread)",
+          "Asynchronous JS: Promises & Async/Await",
+          "Working with the Fetch API"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Version Control & NPM",
+        "module_duration": "Week 5",
+        "topics": [
+          "Git workflow: Commit, Push, Pull, Branching",
+          "Managing packages with npm",
+          "Understanding package.json and node_modules"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "React Fundamentals",
+        "module_duration": "Week 6",
+        "topics": [
+          "Introduction to JSX and Components",
+          "Managing data with Props and State",
+          "React Hooks: useState and useEffect"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Building Modern Frontend Applications",
+        "module_duration": "Week 7",
+        "topics": [
+          "Client-side routing with React Router",
+          "Handling Complex Forms",
+          "Building API-driven dynamic UIs"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Performance & Optimization",
+        "module_duration": "Week 8",
+        "topics": [
+          "Code Splitting and React.lazy",
+          "Optimizing Asset Loading",
+          "Best practices for SEO-friendly Frontend"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 9-10",
+        "topics": [
+          "Project Planning & UI Mockups",
+          "Feature Implementation & API Integration",
+          "Hosting and Deployment (Vercel/Netlify)"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 412,
+    "total_students_enrolled": 2850
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "Is frontend development good for beginners?",
+      "answer": "Yes! It is highly visual and provides immediate feedback, making it an ideal starting point for anyone new to coding."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is the difference between frontend and backend?",
+      "answer": "Frontend is what the user sees and interacts with in the browser. Backend is the server-side logic and database that powers the data the frontend displays."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is React necessary for frontend development?",
+      "answer": "While not strictly mandatory, React is the industry leader for building modern web apps. Learning it significantly increases your job prospects."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Web Developers",
+    "Career Switchers",
+    "UI/UX Designers",
+    "Students"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Frontend Development Course | Learn HTML, CSS, JS & React",
+    "meta_description": "Become a Frontend Developer. Build responsive websites and dynamic React apps with our instructor-led, project-based training.",
+    "meta_url": "/courses/software-development/frontend-development"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-FSJD-009",
+    "course_uid": "uid-fullstack-java-spring-expert",
+    "course_title": "Full Stack Java Developer",
+    "course_subtitle": "Build End-to-End Enterprise Web Applications Using Java, Spring Boot & Modern Frontend Technologies",
+    "course_slug": "full-stack-java-developer-course",
+    "course_thumbnail": "assets/images/courses/fullstack-java-thumb.jpg",
+    "course_short_description": "Become an enterprise-ready engineer. Master backend development with Java and Spring Boot, design robust SQL databases, and build interactive frontends.",
+    "course_long_description": "This Full Stack Java Developer course is designed for those who want to build high-performance, secure, and scalable enterprise applications. You will master the entire development lifecycle—from writing efficient Java code and designing relational databases to building RESTful microservices and integrating them with modern, responsive user interfaces.",
+    "about_course": [
+      "Master Java 17+ and Spring Boot to build industrial-strength backend services.",
+      "Design and optimize relational databases using SQL, Hibernate, and JPA.",
+      "Build secure applications using Spring Security and JWT for modern authentication.",
+      "Develop responsive and dynamic frontends that consume enterprise-grade REST APIs."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 3,
+    "course_category": {
+      "category_id": "CAT_DEV",
+      "category_title": "Software Development",
+      "category_url": "/courses/software-development"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "100 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Enterprise-Grade Capstone Project",
+      "Weekly Hands-on Labs",
+      "1-on-1 Mentorship",
+      "Placement Assistance"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/full-stack-java",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Full Stack Java Developer",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/fullstack-java-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of programming concepts",
+      "Familiarity with any programming language (preferred)",
+      "Basic HTML knowledge is helpful but not mandatory"
+    ],
+    "key_learnings": [
+      "Develop scalable backend systems with Spring Boot",
+      "Architect and query relational databases with SQL and JPA",
+      "Implement JWT and Spring Security for enterprise safety",
+      "Connect and synchronize frontend UI with complex backend APIs"
+    ],
+    "ideal_candidates": [
+      "Aspiring Full Stack Developers",
+      "Java Developers moving to Full Stack",
+      "Computer Science Graduates",
+      "Engineers transitioning to Web Development"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Java & Spring Boot",
+        "REST API Development",
+        "Full Stack Application Design",
+        "Database Optimization"
+      ],
+      "supporting_skills": [
+        "Hibernate & JPA",
+        "Spring Security (JWT)",
+        "Frontend Integration",
+        "Unit Testing (JUnit)"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Java",
+        "Spring Boot",
+        "MySQL / PostgreSQL",
+        "REST APIs"
+      ],
+      "secondary": [
+        "HTML5 / CSS3",
+        "JavaScript (ES6+)",
+        "Maven / Gradle",
+        "Git & Docker"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Full Stack Java Developer",
+      "Java Software Engineer",
+      "Backend Developer",
+      "Full Stack Consultant"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "93%",
+      "placement_rate": "92%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 4,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Full Stack Enterprise Application. You will build a complete end-to-end system (e.g., an E-commerce backend or Fintech dashboard) featuring secure user login, transaction management, database persistence, and a responsive frontend."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 60
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Java Programming Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "Java Syntax and Environment Setup",
+          "Object-Oriented Programming (OOP) in Java",
+          "Data Types, Loops, and Control Flow"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Advanced Java Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "Collections Framework (List, Set, Map)",
+          "Exception Handling & Debugging",
+          "Java Streams and Lambda Expressions"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SQL & Database Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Relational Database Management Systems (RDBMS)",
+          "SQL Queries, Joins, and Aggregations",
+          "Database Design & Normalization"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Web Fundamentals",
+        "module_duration": "Week 3",
+        "topics": [
+          "Semantic HTML5 & Modern CSS3",
+          "Responsive Design with Flexbox/Grid",
+          "CSS Frameworks basics"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Modern JavaScript & Frontend Basics",
+        "module_duration": "Week 4",
+        "topics": [
+          "ES6+ Features and Async JS",
+          "DOM Manipulation and Browser APIs",
+          "Introduction to Frontend Architectures"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Backend Development with Spring Boot",
+        "module_duration": "Week 5",
+        "topics": [
+          "Spring Boot Framework Architecture",
+          "Dependency Injection & Inversion of Control (IoC)",
+          "Application Configuration"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "REST APIs & Microservices Basics",
+        "module_duration": "Week 6",
+        "topics": [
+          "RESTful API Design Principles",
+          "Handling Request Methods (GET, POST, PUT, DELETE)",
+          "Introduction to Microservices Architecture"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "ORM & Data Access",
+        "module_duration": "Week 7",
+        "topics": [
+          "Hibernate and Java Persistence API (JPA)",
+          "Entity Relationships (One-to-Many, Many-to-Many)",
+          "Spring Data JPA Repositories"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Security & Authentication",
+        "module_duration": "Week 8",
+        "topics": [
+          "Spring Security Configuration",
+          "JWT (JSON Web Token) Integration",
+          "Role-Based Access Control (RBAC)"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Frontend Integration",
+        "module_duration": "Week 9",
+        "topics": [
+          "Connecting Frontend to Spring Boot APIs",
+          "Handling Authentication States in Browser",
+          "Global Error Handling & Toasts"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Testing & Deployment",
+        "module_duration": "Week 10",
+        "topics": [
+          "Unit Testing with JUnit and Mockito",
+          "Packaging applications with Maven",
+          "Deployment strategies (Cloud/Docker)"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "Final Feature Implementation",
+          "Code Refactoring and Best Practices",
+          "Project Demo and Code Review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 520,
+    "total_students_enrolled": 3400
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is a Full Stack Java Developer?",
+      "answer": "A Full Stack Java Developer is an engineer capable of handling both the server-side (Java/Spring Boot) and the client-side (Web technologies) of an application."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is Spring Boot used for?",
+      "answer": "Spring Boot is an industry-standard framework used to create stand-alone, production-grade Spring-based applications with minimal effort."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is Full Stack Java in demand in 2026?",
+      "answer": "Absolutely. Large-scale enterprises in banking, healthcare, and e-commerce continue to rely on Java for its unmatched security and scalability."
+    }
+  ],
+  "target_audience": [
+    "Computer Science Students",
+    "Java Enthusiasts",
+    "Career Switchers",
+    "Software Professionals"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Full Stack Java Developer Course | Spring Boot & Web Development",
+    "meta_description": "Master Full Stack Java development. Learn Spring Boot, REST APIs, SQL, and modern Frontend technologies to build enterprise-grade web applications.",
+    "meta_url": "/courses/software-development/full-stack-java-developer"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-PY-010",
+    "course_uid": "uid-fullstack-python-django-mastery",
+    "course_title": "Full Stack Python Developer",
+    "course_subtitle": "Build Scalable Web Applications Using Python, Django/Flask, REST APIs & Modern Frontend Technologies",
+    "course_slug": "full-stack-python-developer-course",
+    "course_thumbnail": "assets/images/courses/python-fullstack-thumb.jpg",
+    "course_short_description": "Master end-to-end web development with Python. From backend logic with Django and Flask to dynamic frontends and RESTful APIs, build production-ready SaaS applications.",
+    "course_long_description": "This Full Stack Python Developer course is engineered to take you from core programming to architectural mastery. You will dive deep into Python’s most powerful web frameworks, Django and Flask, learn to architect relational databases with SQL, and integrate everything with modern frontend technologies. The program focuses on real-world patterns like MVT (Model-View-Template), JWT security, and scalable deployment strategies used by top-tier tech firms.",
+    "about_course": [
+      "Master Python 3.x and Advanced OOP to write clean, maintainable backend logic.",
+      "Build complex, feature-rich web applications using the Django MVT architecture.",
+      "Develop lightweight, high-performance microservices and APIs with Flask.",
+      "Integrate SQL databases and ORMs for robust data persistence and management."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 4,
+    "course_category": {
+      "category_id": "CAT_DEV",
+      "category_title": "Software Development",
+      "category_url": "/courses/software-development"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "95 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Production-Grade Capstone Project",
+      "Hands-on Coding Labs",
+      "Dedicated Career Mentorship",
+      "Industry-Recognized Certification"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/full-stack-python",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Full Stack Python Developer",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/python-fullstack-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of programming concepts",
+      "Familiarity with Python fundamentals (helpful but not mandatory)",
+      "An interest in building end-to-end web applications"
+    ],
+    "key_learnings": [
+      "Build and deploy full-featured web apps using Django and Flask",
+      "Create and secure REST APIs with Django REST Framework (DRF)",
+      "Manage and query relational databases using SQL and Django ORM",
+      "Design responsive user interfaces and connect them to Python backends"
+    ],
+    "ideal_candidates": [
+      "Aspiring Full Stack Developers",
+      "Python Developers upgrading to Full Stack",
+      "Software Engineers and CS Graduates",
+      "Professionals transitioning into Web Development"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Python Web Development",
+        "Django & Flask Frameworks",
+        "REST API Architecture",
+        "Database Management (SQL)"
+      ],
+      "supporting_skills": [
+        "JWT Authentication",
+        "Frontend Integration",
+        "Unit Testing with Pytest",
+        "Deployment & DevOps Basics"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Python",
+        "Django",
+        "Flask",
+        "PostgreSQL / MySQL"
+      ],
+      "secondary": [
+        "Django REST Framework",
+        "HTML5 / CSS3 / JS",
+        "Git",
+        "Docker basics"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Full Stack Python Developer",
+      "Backend Developer",
+      "Python Developer",
+      "Software Engineer",
+      "SaaS Application Developer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "91%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 3,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Full Stack Python Web Application. Build a production-ready application (e.g., a SaaS platform or Task Management System) with a Django/Flask backend, RESTful API endpoints, secure user authentication, and a responsive frontend UI."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 12,
+      "total_lectures": 58
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Python Programming Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "Python Syntax and Dynamic Typing",
+          "Control Structures (If-Else, Loops)",
+          "Functions and Lambda expressions"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Advanced Python Concepts",
+        "module_duration": "Week 1",
+        "topics": [
+          "Object-Oriented Programming (OOP) in Python",
+          "Decorators, Generators, and Iterators",
+          "Exception Handling and Module Packaging"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "SQL & Database Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "RDBMS Concepts and SQL Syntax",
+          "Advanced Joins, Subqueries, and Aggregations",
+          "Database Normalization for Web Apps"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Web Development Fundamentals",
+        "module_duration": "Week 3",
+        "topics": [
+          "Semantic HTML5 and Modern CSS3 Layouts",
+          "Responsive Design with Media Queries",
+          "Web Standards and SEO basics"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Modern JavaScript Essentials",
+        "module_duration": "Week 4",
+        "topics": [
+          "ES6+ Syntax (Arrow functions, Destructuring)",
+          "DOM Manipulation and Event Handling",
+          "Frontend Architecture Overview"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Backend Development with Django",
+        "module_duration": "Week 5",
+        "topics": [
+          "Django MVT (Model-View-Template) Pattern",
+          "Django ORM and Migrations",
+          "Admin Interface and Template Tagging"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "REST API Development with DRF & Flask",
+        "module_duration": "Week 6",
+        "topics": [
+          "REST Principles and API Lifecycle",
+          "Django REST Framework (DRF) Serializers",
+          "Building microservices with Flask"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Authentication & Authorization",
+        "module_duration": "Week 7",
+        "topics": [
+          "Session vs Token-based Auth",
+          "Implementing JWT (JSON Web Tokens)",
+          "Custom User Models and Permissions"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Frontend–Backend Integration",
+        "module_duration": "Week 8",
+        "topics": [
+          "Consuming APIs with Axios/Fetch",
+          "State management across the stack",
+          "Cross-Origin Resource Sharing (CORS) setup"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Deployment & DevOps Basics",
+        "module_duration": "Week 9",
+        "topics": [
+          "Gunicorn/Uvicorn Server Setup",
+          "Environment Variables and Security (.env)",
+          "Deployment to Heroku/AWS/DigitalOcean"
+        ]
+      },
+      {
+        "module_number": 11,
+        "module_name": "Testing & Best Practices",
+        "module_duration": "Week 9",
+        "topics": [
+          "Unit Testing with Unittest and Pytest",
+          "Mocking and Integration Testing",
+          "Code Quality (PEP8) and Linting"
+        ]
+      },
+      {
+        "module_number": 12,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "Final Project Implementation",
+          "Production Security Audits",
+          "Presentation and Code Review"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 480,
+    "total_students_enrolled": 3100
+  },
+  "faqs": [
+    {
+      "faq_id": 2,
+      "question": "Is Python good for full stack development?",
+      "answer": "Yes. Python frameworks like Django and Flask are industry standards for building the backend of scalable, high-traffic web applications used by companies like Instagram and Pinterest."
+    },
+    {
+      "faq_id": 5,
+      "question": "What is the difference between Django and Flask?",
+      "answer": "Django is a 'batteries-included' framework with everything built-in, while Flask is a micro-framework that is lightweight and highly customizable."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is Full Stack Python in demand?",
+      "answer": "Absolutely. It is one of the most versatile and sought-after skill sets in 2026, especially in the SaaS and Startup sectors."
+    }
+  ],
+  "target_audience": [
+    "Aspiring Developers",
+    "Data Enthusiasts moving to Web",
+    "IT Students",
+    "Professionals seeking Career Growth"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Full Stack Python Developer Course | Django & Flask Training",
+    "meta_description": "Master Full Stack Python. Build scalable web apps with Django, Flask, REST APIs, and modern frontend technologies in this project-based course.",
+    "meta_url": "/courses/software-development/full-stack-python-developer"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-REST-011",
+    "course_uid": "uid-rest-api-engineering-pro",
+    "course_title": "REST API Development",
+    "course_subtitle": "Design, Build & Secure Scalable RESTful APIs Using Industry Best Practices",
+    "course_slug": "rest-api-development-design-security",
+    "course_thumbnail": "assets/images/courses/rest-api-thumb.jpg",
+    "course_short_description": "Master the backbone of modern web architecture. Learn to design, document, and secure industrial-grade REST APIs using Spring Boot or FastAPI.",
+    "course_long_description": "This REST API Development course focuses on the art of high-performance backend engineering. You will move beyond simple CRUD operations to master resource modeling, versioning, advanced security with JWT, and performance optimization. Designed for those who want to build the infrastructure that powers mobile apps and enterprise systems, this course follows the OpenAPI/Swagger standards used by top-tier tech organizations.",
+    "about_course": [
+      "Understand the 6 guiding constraints of RESTful architecture for global scalability.",
+      "Master HTTP methods, status codes, and resource-oriented URI design.",
+      "Implement robust security layers using JWT (JSON Web Tokens) and RBAC.",
+      "Automate API documentation and testing using Swagger/OpenAPI and Postman."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 5,
+    "course_category": {
+      "category_id": "CAT_DEV",
+      "category_title": "Software Development",
+      "category_url": "/courses/software-development"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "70 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on API Labs",
+      "Postman Collection & Documentation Templates",
+      "1-on-1 Mentorship",
+      "Production Deployment Guide"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/rest-api-development",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified API Engineer (REST)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/rest-api-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic programming knowledge (Java or Python preferred)",
+      "Understanding of HTTP & web fundamentals",
+      "Familiarity with databases (helpful but not mandatory)"
+    ],
+    "key_learnings": [
+      "Design standard-compliant RESTful URIs and resource models",
+      "Secure backend endpoints with modern authentication protocols",
+      "Handle errors, logging, and pagination for high-traffic APIs",
+      "Build and publish interactive API documentation with Swagger"
+    ],
+    "ideal_candidates": [
+      "Backend Developers",
+      "Full Stack Developers",
+      "Software Engineers",
+      "API & Integration Specialists",
+      "Microservices Architects"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "REST API Design",
+        "Backend Infrastructure",
+        "HTTP Protocol Mastery",
+        "API Security Architecture"
+      ],
+      "supporting_skills": [
+        "Swagger/OpenAPI Documentation",
+        "JWT Authentication",
+        "Unit Testing for APIs",
+        "Deployment & Versioning"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "RESTful APIs",
+        "HTTP/HTTPS",
+        "Postman",
+        "Swagger"
+      ],
+      "secondary": [
+        "Spring Boot / FastAPI",
+        "JSON Web Tokens (JWT)",
+        "Git",
+        "SQL/NoSQL Databases"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Backend Developer",
+      "API Developer",
+      "Full Stack Developer",
+      "Software Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "97%",
+      "student_completion_rate": "95%",
+      "placement_rate": "90%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 3,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Production-Ready REST API. Build an industrial-strength API for a real-world scenario featuring secure JWT login, input validation, structured error responses, and full OpenAPI documentation."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 8,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "API & REST Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "Introduction to API Ecosystems",
+          "6 REST Architectural Constraints",
+          "HTTP Request/Response Lifecycle"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "REST API Design Best Practices",
+        "module_duration": "Week 2",
+        "topics": [
+          "Resource Naming Conventions",
+          "API Versioning Strategies (Header vs. URL)",
+          "HATEOAS and Richardson Maturity Model"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Backend Setup & API Development",
+        "module_duration": "Week 3",
+        "topics": [
+          "Defining Controllers and DTOs",
+          "Routing and Path Parameters",
+          "Middleware for Request Filtering"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Handling & Persistence",
+        "module_duration": "Week 4",
+        "topics": [
+          "Implementing CRUD operations",
+          "Entity mapping to SQL/NoSQL",
+          "DTO Pattern and Data Sanitization"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Authentication & Authorization",
+        "module_duration": "Week 5",
+        "topics": [
+          "Stateless vs Stateful Auth",
+          "JWT implementation details",
+          "Managing Scopes and User Roles"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Error Handling, Logging & Documentation",
+        "module_duration": "Week 6",
+        "topics": [
+          "Global Exception Handlers",
+          "Meaningful Status Codes",
+          "Automating Swagger UI & OpenAPI specs"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Performance, Testing & Optimization",
+        "module_duration": "Week 7",
+        "topics": [
+          "Pagination, Sorting, and Filtering",
+          "Response Caching and Rate Limiting",
+          "Automated Testing with Postman/JUnit"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Deployment & API Management",
+        "module_duration": "Week 8",
+        "topics": [
+          "CI/CD for API services",
+          "Environment variables & Security",
+          "Introduction to API Gateways"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 315,
+    "total_students_enrolled": 2100
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is REST API development?",
+      "answer": "It is the process of building web services that allow different software systems to communicate securely over HTTP."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the difference between REST and SOAP?",
+      "answer": "REST is a lightweight architectural style using JSON and HTTP, while SOAP is a strict protocol based on XML."
+    }
+  ],
+  "target_audience": [
+    "Backend Engineers",
+    "Systems Architects",
+    "Software Developers"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "REST API Development Course | Build Secure & Scalable APIs",
+    "meta_description": "Learn to design and secure professional RESTful APIs with resource modeling and JWT authentication.",
+    "meta_url": "/courses/software-development/rest-api-development"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SBM-012",
+    "course_uid": "uid-spring-boot-microservices-cloud",
+    "course_title": "Spring Boot & Microservices",
+    "course_subtitle": "Build Scalable, Cloud-Ready Microservices Using Spring Boot, REST APIs & Industry Best Practices",
+    "course_slug": "spring-boot-microservices-course",
+    "course_thumbnail": "assets/images/courses/spring-microservices-thumb.jpg",
+    "course_short_description": "Master the art of distributed systems. Learn to decompose monoliths, implement service discovery, secure APIs with JWT, and build resilient cloud-native applications.",
+    "course_long_description": "This Spring Boot & Microservices course is designed for Java developers looking to lead digital transformations. You will move beyond single-server applications to build distributed systems that are loosely coupled, independently deployable, and highly scalable. From Eureka Service Discovery and Spring Cloud Gateway to centralized configuration and JWT security, this program covers the entire ecosystem used by top-tier enterprise companies.",
+    "about_course": [
+      "Decompose monolithic architectures into manageable, independent microservices.",
+      "Implement inter-service communication using Feign Clients and Load Balancing.",
+      "Master the Spring Cloud ecosystem for Service Discovery and API Gateway routing.",
+      "Secure distributed systems using Spring Security and stateless JWT authentication."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 6,
+    "course_category": {
+      "category_id": "CAT_DEV",
+      "category_title": "Software Development",
+      "category_url": "/courses/software-development"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "90 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Enterprise-Grade Capstone Project",
+      "Distributed Systems Architecture Design",
+      "1-on-1 Mentorship",
+      "Resume & Interview Support"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/spring-boot-microservices",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Microservices Architect (Spring Boot)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/spring-micro-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Working knowledge of Java programming",
+      "Basic understanding of REST APIs",
+      "Familiarity with backend development concepts"
+    ],
+    "key_learnings": [
+      "Build resilient microservices using Spring Boot and Spring Cloud",
+      "Manage externalized configuration with Spring Cloud Config",
+      "Secure distributed environments with JWT and Spring Security",
+      "Optimize service communication with Feign and API Gateways"
+    ],
+    "ideal_candidates": [
+      "Java Developers",
+      "Backend & Full Stack Developers",
+      "Software Engineers",
+      "Architects transitioning from Monoliths"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Microservices Architecture",
+        "Spring Boot Development",
+        "REST API Design",
+        "Distributed Systems"
+      ],
+      "supporting_skills": [
+        "Spring Cloud (Eureka, Gateway)",
+        "JWT Security",
+        "Centralized Logging",
+        "Fault Tolerance Patterns"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Java",
+        "Spring Boot",
+        "Spring Cloud",
+        "REST APIs"
+      ],
+      "secondary": [
+        "Spring Data JPA",
+        "JWT / Spring Security",
+        "Git",
+        "Eureka / Config Server"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Java Microservices Developer",
+      "Backend Developer",
+      "Spring Boot Developer",
+      "Cloud Backend Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "91%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 3,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Production-Ready Microservices Application. Build a complete distributed system featuring Service Discovery, an API Gateway, Centralized Config, and JWT security for a real-world enterprise scenario."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 48
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Microservices Architecture Fundamentals",
+        "module_duration": "Week 1",
+        "topics": [
+          "Monolith vs Microservices Trade-offs",
+          "Service Decomposition Strategies (Domain Driven Design)",
+          "Microservices Communication Patterns"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Spring Boot Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Spring Boot Auto-configuration & Starters",
+          "Advanced Dependency Management",
+          "Application Context and Bean Lifecycle"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "REST API Development with Spring Boot",
+        "module_duration": "Week 3",
+        "topics": [
+          "Advanced Controller Design",
+          "Custom Content Negotiation",
+          "Standardized Exception Handling Frameworks"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Data Persistence & JPA",
+        "module_duration": "Week 4",
+        "topics": [
+          "Transactional Management in Microservices",
+          "Database Per Service Pattern",
+          "Optimization with Spring Data JPA"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Service-to-Service Communication",
+        "module_duration": "Week 5",
+        "topics": [
+          "Declarative Clients with Spring Cloud Feign",
+          "Client-Side Load Balancing with Ribbon/LoadBalancer",
+          "Synchronous vs Asynchronous calls"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Configuration Management",
+        "module_duration": "Week 6",
+        "topics": [
+          "Externalized Configuration Principles",
+          "Spring Cloud Config Server & Client",
+          "Handling Sensitive Data in Config"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "API Gateway & Service Discovery",
+        "module_duration": "Week 7",
+        "topics": [
+          "Service Registry with Netflix Eureka",
+          "API Gateway pattern using Spring Cloud Gateway",
+          "Routing, Filters, and Rate Limiting"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Security in Microservices",
+        "module_duration": "Week 8",
+        "topics": [
+          "Stateless Authentication with JWT",
+          "Propagation of Security Context",
+          "Securing Gateway vs Securing Individual Services"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "Monitoring, Logging & Resilience",
+        "module_duration": "Week 9",
+        "topics": [
+          "Centralized Logging with ELK/Sleuth basics",
+          "Spring Boot Actuator for Health Monitoring",
+          "Circuit Breaker Patterns (Resilience4j)"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project Development",
+        "module_duration": "Week 10",
+        "topics": [
+          "Architecture Review and Implementation",
+          "System Integration Testing",
+          "Final Project Demo and Documentation"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 280,
+    "total_students_enrolled": 1950
+  },
+  "faqs": [
+    {
+      "faq_id": 2,
+      "question": "What is microservices architecture?",
+      "answer": "Microservices architecture is an approach where a large application is built as a suite of small, independent services that communicate via APIs."
+    },
+    {
+      "faq_id": 7,
+      "question": "Do companies use Spring Boot microservices in real projects?",
+      "answer": "Yes. It is the industry standard for Java-based enterprise applications in sectors like banking, e-commerce, and SaaS."
+    }
+  ],
+  "target_audience": [
+    "Backend Engineers",
+    "Java Developers",
+    "Technical Architects",
+    "Software Engineering Students"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Spring Boot & Microservices Training | Cloud-Native Development",
+    "meta_description": "Learn to build scalable microservices using Spring Boot and Spring Cloud. Master service discovery, API gateways, and distributed security.",
+    "meta_url": "/courses/software-development/spring-boot-microservices"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-CYP-013",
+    "course_uid": "uid-cypress-automation-pro-qa",
+    "course_title": "Cypress Automation Course",
+    "course_subtitle": "Modern Frontend & API Automation Testing with Cypress",
+    "course_slug": "cypress-automation-testing-course",
+    "course_thumbnail": "assets/images/courses/cypress-automation-thumb.jpg",
+    "course_short_description": "Master modern E2E testing. Build powerful automation frameworks, validate REST APIs, and integrate testing into CI/CD pipelines using Cypress and JavaScript.",
+    "course_long_description": "The Cypress Automation course is designed for the modern QA landscape. Unlike legacy tools, Cypress runs in the same run-loop as your application, providing lightning-fast execution and native debugging. This program takes you from manual testing to building robust, developer-centric automation frameworks that handle dynamic UIs, complex API flows, and automated deployments with ease.",
+    "about_course": [
+      "Master modern E2E and UI automation using the Cypress architecture.",
+      "Perform advanced API testing by intercepting network requests and mocking responses.",
+      "Implement industry-standard Page Object Model (POM) and data-driven testing patterns.",
+      "Automate testing workflows within CI/CD pipelines using GitHub Actions and Jenkins."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "medium",
+    "course_sequence": 1,
+    "course_category": {
+      "category_id": "CAT_TEST",
+      "category_title": "Software Testing",
+      "category_url": "/courses/software-testing"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "60 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Automation Labs",
+      "Real-world Framework Templates",
+      "1-on-1 Mentorship",
+      "Resume Support for QA Roles"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/cypress-automation",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Automation Engineer (Cypress)",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/cypress-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of software testing concepts",
+      "Familiarity with JavaScript fundamentals",
+      "Basic knowledge of web applications (HTML, DOM, APIs)"
+    ],
+    "key_learnings": [
+      "Design scalable UI automation frameworks from scratch",
+      "Automate and validate backend REST APIs seamlessly",
+      "Handle asynchronous behavior and dynamic web elements",
+      "Execute headless tests in CI/CD environments"
+    ],
+    "ideal_candidates": [
+      "Manual Testers moving to Automation",
+      "QA Engineers wanting to learn JS-based tools",
+      "Frontend Developers interested in testing",
+      "SDET Aspirants"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Cypress Automation",
+        "E2E Testing",
+        "API Automation",
+        "Framework Architecture"
+      ],
+      "supporting_skills": [
+        "JavaScript (ES6+)",
+        "Page Object Model (POM)",
+        "CI/CD Integration",
+        "Test Reporting & Debugging"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Cypress",
+        "JavaScript",
+        "Node.js"
+      ],
+      "secondary": [
+        "Mocha/Chai",
+        "GitHub Actions",
+        "Jenkins",
+        "Postman"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Automation Test Engineer",
+      "QA Automation Engineer",
+      "SDET",
+      "Frontend Automation Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "90%",
+      "placement_rate": "88%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 4,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End Web Automation Framework. You will build a production-grade Cypress framework for a real-world web application, integrating UI workflows, API validation, customized reporting, and GitHub Actions for automated execution."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 8,
+      "total_lectures": 38
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Automation Testing",
+        "module_duration": "Week 1",
+        "topics": [
+          "Manual vs Automation testing trade-offs",
+          "Automation role in Agile/SDLC",
+          "Selecting the right tool for the job"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Getting Started with Cypress",
+        "module_duration": "Week 1",
+        "topics": [
+          "Cypress vs Selenium architecture",
+          "Installation and Environment Setup",
+          "Project structure and Configuration"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Cypress Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Locators (CSS/Xpath) and Element interaction",
+          "Cypress Commands and Chaining",
+          "Assertions: BDD vs TDD styles"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Advanced UI Testing",
+        "module_duration": "Week 3",
+        "topics": [
+          "Handling Iframes, Tabs, and Alerts",
+          "Writing Custom Commands",
+          "Dynamic element handling and Waits"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "API Testing with Cypress",
+        "module_duration": "Week 4",
+        "topics": [
+          "Network interception with cy.intercept()",
+          "REST API Validation (GET, POST, PUT, DELETE)",
+          "Mocking and Stubbing API responses"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Test Framework Design",
+        "module_duration": "Week 5",
+        "topics": [
+          "Implementing Page Object Model (POM)",
+          "Data-Driven Testing using Fixtures",
+          "Reusable utility functions"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "CI/CD Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "Headless execution mode",
+          "Setting up GitHub Actions/Jenkins pipelines",
+          "HTML Report generation (Allure/Mochawesome)"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Real-World Capstone Project",
+        "module_duration": "Week 7-8",
+        "topics": [
+          "Full E2E workflow automation",
+          "UI + API Hybrid testing",
+          "Code Refactoring and Final Deployment"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 156,
+    "total_students_enrolled": 1200
+  },
+  "faqs": [
+    {
+      "faq_id": 2,
+      "question": "Is Cypress better than Selenium?",
+      "answer": "Cypress is built for the modern web. It provides faster execution, automatic waiting, and better debugging, making it superior for JavaScript-heavy applications."
+    },
+    {
+      "faq_id": 4,
+      "question": "Is JavaScript required for Cypress?",
+      "answer": "Yes, basic JavaScript knowledge is essential as Cypress scripts are written entirely in JS."
+    }
+  ],
+  "target_audience": [
+    "Manual Testers",
+    "QA Engineers",
+    "Frontend Developers",
+    "Automation Enthusiasts"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Cypress Automation Testing Course | Learn UI & API Automation",
+    "meta_description": "Master Cypress for E2E testing. Learn UI automation, API validation, and CI/CD integration in this comprehensive JavaScript-based QA course.",
+    "meta_url": "/courses/software-testing/cypress-automation"
+  }
+},
+
+{
+  "course_details": {
+    "course_id": "CRS-PLY-014",
+    "course_uid": "uid-playwright-automation-mastery",
+    "course_title": "Playwright Automation",
+    "course_subtitle": "Modern End-to-End Automation Testing with Playwright & JavaScript / TypeScript",
+    "course_slug": "playwright-automation-testing-course",
+    "course_thumbnail": "assets/images/courses/playwright-automation-thumb.jpg",
+    "course_short_description": "Master the next generation of automation. Learn cross-browser testing, parallel execution, and hybrid UI+API framework design using Microsoft's Playwright.",
+    "course_long_description": "This Playwright Automation course is engineered for the modern DevOps era. As organizations move away from slow, flaky Selenium grids, Playwright has emerged as the gold standard for speed and reliability. You will learn to build a professional-grade automation ecosystem from scratch, covering everything from auto-waiting and network interception to advanced CI/CD integration with GitHub Actions and Jenkins. Designed for high-performance QA teams, this course bridges the gap between traditional testing and modern SDET engineering.",
+    "about_course": [
+      "Master cross-browser testing across Chromium, Firefox, and WebKit with a single API.",
+      "Implement parallel test execution to drastically reduce feedback loops in CI/CD.",
+      "Build hybrid frameworks that combine UI interactions with direct REST API validation.",
+      "Leverage Playwright's auto-waiting and isolation features to eliminate flaky tests."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Advanced",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "medium",
+    "course_sequence": 2,
+    "course_category": {
+      "category_id": "CAT_TEST",
+      "category_title": "Software Testing",
+      "category_url": "/courses/software-testing"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8 Weeks",
+    "total_duration": "80 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Parallel Execution Labs",
+      "CI/CD Pipeline Templates",
+      "1-on-1 Mentorship",
+      "SDET Interview Preparation"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/playwright-automation",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Playwright Automation Professional",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/playwright-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of software testing concepts",
+      "Familiarity with manual testing workflows",
+      "Basic JavaScript knowledge (covered in the course)",
+      "Selenium experience (an advantage but not required)"
+    ],
+    "key_learnings": [
+      "Build scalable automation frameworks using Playwright",
+      "Perform cross-browser and parallel test execution",
+      "Combine UI and API testing strategies",
+      "Integrate automation into CI/CD pipelines",
+      "Debug and optimize automation scripts"
+    ],
+    "ideal_candidates": [
+      "Manual & Automation Testers",
+      "Selenium professionals upgrading their skills",
+      "QA Engineers working in Agile / DevOps teams",
+      "Developers interested in automation testing",
+      "SDETs looking to modernize their automation stack"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Playwright Automation",
+        "Cross-Browser Testing",
+        "API Automation",
+        "Test Framework Design"
+      ],
+      "supporting_skills": [
+        "CI/CD Integration",
+        "Debugging & Reporting",
+        "DevOps Testing Workflows",
+        "Parallel Execution Strategies"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Playwright",
+        "JavaScript / TypeScript",
+        "Node.js"
+      ],
+      "secondary": [
+        "Git & GitHub",
+        "CI/CD (Jenkins / GitHub Actions)",
+        "REST APIs"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Playwright Automation Engineer",
+      "QA Automation Engineer",
+      "Software Test Engineer",
+      "SDET (Junior / Mid-Level)"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "96%",
+      "student_completion_rate": "93%",
+      "placement_rate": "89%"
+    }
+  },
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 3,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Modern Automation Framework. You will build a production-ready Playwright automation framework that includes: Cross-browser UI automation, API validation workflows, Parallel test execution, Reporting and debugging setup, and CI/CD pipeline integration."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 50
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Playwright",
+        "module_duration": "Week 1",
+        "topics": [
+          "Automation testing overview",
+          "Why Playwright over Selenium?",
+          "Playwright architecture & features"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "JavaScript / TypeScript Basics",
+        "module_duration": "Week 1",
+        "topics": [
+          "JavaScript fundamentals for automation",
+          "TypeScript overview",
+          "Async & await concepts"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Playwright Setup & Configuration",
+        "module_duration": "Week 2",
+        "topics": [
+          "Installation & project setup",
+          "Playwright Test Runner",
+          "Browser configuration"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Locators & UI Automation",
+        "module_duration": "Week 3",
+        "topics": [
+          "Built-in locators",
+          "Handling forms & UI elements",
+          "Assertions & validations"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Advanced Browser Handling",
+        "module_duration": "Week 4",
+        "topics": [
+          "Multiple tabs & windows",
+          "Frames & alerts",
+          "File upload & download"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Cross-Browser & Parallel Testing",
+        "module_duration": "Week 5",
+        "topics": [
+          "Chromium, Firefox & WebKit",
+          "Parallel execution setups",
+          "Test retries & timeouts"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "API Testing with Playwright",
+        "module_duration": "Week 6",
+        "topics": [
+          "API testing concepts",
+          "REST API validation",
+          "UI + API hybrid testing"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Test Reporting & Debugging",
+        "module_duration": "Week 7",
+        "topics": [
+          "Playwright reports",
+          "Screenshots & videos",
+          "Debugging techniques"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "CI/CD & DevOps Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "Git & GitHub integration",
+          "CI/CD pipelines (GitHub Actions / Jenkins)",
+          "Automation in Agile workflows"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "End-to-end Playwright automation framework",
+          "UI + API testing for a real-world application",
+          "Reporting & Optimization"
+        ]
+      }
+    ]
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 184,
+    "total_students_enrolled": 1450
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Playwright automation testing?",
+      "answer": "Playwright automation testing is a modern testing framework used to automate UI and API testing across Chromium, Firefox, and WebKit browsers using JavaScript or TypeScript."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is Playwright better than Selenium?",
+      "answer": "Playwright provides faster execution, built-in parallel testing, cross-browser support, and easier CI/CD integration compared to traditional Selenium setups."
+    },
+    {
+      "faq_id": 3,
+      "question": "Can Playwright be used for API testing?",
+      "answer": "Yes. Playwright supports REST API testing, allowing testers to combine UI and API validation in the same automation framework."
+    },
+    {
+      "faq_id": 4,
+      "question": "Do I need JavaScript to learn Playwright?",
+      "answer": "Basic JavaScript knowledge is helpful but not mandatory. The course covers required JavaScript concepts for automation."
+    },
+    {
+      "faq_id": 5,
+      "question": "Is Playwright good for cross-browser testing?",
+      "answer": "Yes. Playwright supports Chromium, Firefox, and WebKit for reliable cross-browser testing."
+    },
+    {
+      "faq_id": 6,
+      "question": "Can Playwright integrate with CI/CD pipelines?",
+      "answer": "Yes. Playwright integrates with tools like GitHub Actions and Jenkins for automated test execution in CI/CD workflows."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is Playwright suitable for beginners?",
+      "answer": "Yes. This course starts from fundamentals and gradually progresses to advanced automation framework design."
+    },
+    {
+      "faq_id": 8,
+      "question": "What jobs can I get after learning Playwright?",
+      "answer": "You can apply for roles such as Playwright Automation Engineer, QA Automation Engineer, and SDET."
+    },
+    {
+      "faq_id": 9,
+      "question": "How long does it take to learn Playwright automation?",
+      "answer": "With structured training, you can become job-ready in approximately 8 weeks."
+    },
+    {
+      "faq_id": 10,
+      "question": "Does Playwright support parallel test execution?",
+      "answer": "Yes. Playwright supports built-in parallel test execution, improving automation speed and efficiency."
+    }
+  ],
+  "target_audience": [
+    "Manual & Automation Testers",
+    "QA Engineers",
+    "Software Developers",
+    "SDET Aspirants"
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Playwright Automation Course | Modern E2E Testing with TS/JS",
+    "meta_description": "Learn Playwright for cross-browser and parallel testing. Master API automation, framework design, and CI/CD integration.",
+    "meta_url": "/courses/software-testing/playwright-automation"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-QAQC-015",
+    "course_uid": "uid-qa-qc-master-testing",
+    "course_title": "QA & QC Testing Course",
+    "course_subtitle": "Master Software Quality Assurance (QA), Quality Control (QC), Manual Testing & Automation Fundamentals",
+    "course_slug": "qa-qc-software-testing-course",
+    "course_thumbnail": "assets/images/courses/qa-qc-testing-thumb.jpg",
+    "course_short_description": "Bridge the gap between process and product. Learn the core principles of QA/QC, master manual testing, and get a head start on automation fundamentals.",
+    "course_long_description": "This QA & QC Testing course is designed to build high-caliber testing professionals who understand that quality is more than just finding bugs. While many courses jump straight into tools, we focus on the entire ecosystem: from Quality Assurance (process improvement) to Quality Control (product inspection). You will master the SDLC and STLC frameworks, learn advanced test design techniques, and understand how testing evolves in Agile and DevOps environments.",
+    "about_course": [
+      "Distinguish between QA (process-oriented) and QC (product-oriented) methodologies.",
+      "Master the Software Testing Life Cycle (STLC) and its integration with SDLC.",
+      "Design comprehensive test cases using Black-Box, BVA, and Equivalence Partitioning.",
+      "Gain foundational knowledge in API, Database, and basic Automation testing."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Instructor-Led / Flexible Batches",
+    "course_priority": "high",
+    "course_sequence": 3,
+    "course_category": {
+      "category_id": "CAT_TEST",
+      "category_title": "Software Testing",
+      "category_url": "/courses/software-testing"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6 Weeks",
+    "total_duration": "48 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Manual Testing Labs",
+      "Agile/Scrum Simulation",
+      "Capstone Project"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/qa-qc-testing",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Quality Management & Software Testing Professional",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/qa-qc-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic computer knowledge",
+      "Logical thinking",
+      "Programming knowledge is optional"
+    ],
+    "key_learnings": [
+      "Differentiate between QA and QC responsibilities",
+      "Design effective test cases",
+      "Manage defect life cycles",
+      "Perform API and database validation"
+    ],
+    "ideal_candidates": [
+      "Aspiring QA Engineers",
+      "IT Freshers",
+      "Career Switchers"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Quality Assurance",
+        "Quality Control",
+        "Manual Testing"
+      ],
+      "supporting_skills": [
+        "Agile Testing",
+        "SQL for Testing",
+        "Bug Tracking"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Manual Testing Techniques",
+        "Jira",
+        "Test Case Design"
+      ],
+      "secondary": [
+        "SQL",
+        "Postman",
+        "Selenium Fundamentals"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "QA Engineer",
+      "QC Engineer",
+      "Manual Tester",
+      "Junior Automation Tester"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "95%",
+      "student_completion_rate": "92%",
+      "placement_rate": "87%"
+    }
+  },
+  "course_metrics": {
+    "avg_rating": 4.7,
+    "total_reviews": 120,
+    "total_students_enrolled": 850
+  },
+  "target_audience": [
+    "Aspiring QA Engineers",
+    "Freshers entering IT roles",
+    "Developers wanting to learn testing",
+    "Professionals switching to QA / QC careers"
+  ],
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 2,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End QA & QC Implementation."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 40
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to QA & QC",
+        "module_duration": "Week 1",
+        "topics": [
+          "QA vs QC definition",
+          "Roles and responsibilities"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "SDLC & STLC",
+        "module_duration": "Week 1",
+        "topics": [
+          "Development vs Testing Life Cycles"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Manual Testing Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "Test Case Creation",
+          "Execution Workflows"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Defect Management",
+        "module_duration": "Week 2",
+        "topics": [
+          "Bug Life Cycle",
+          "Severity vs Priority"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Test Design Techniques",
+        "module_duration": "Week 3",
+        "topics": [
+          "Boundary Value Analysis",
+          "Equivalence Partitioning"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Agile & Scrum Practices",
+        "module_duration": "Week 3",
+        "topics": [
+          "Scrum Ceremonies for Testers"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Automation Testing Overview",
+        "module_duration": "Week 4",
+        "topics": [
+          "When to automate"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Automation Fundamentals",
+        "module_duration": "Week 4",
+        "topics": [
+          "Framework basics"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "API & Database Testing",
+        "module_duration": "Week 5",
+        "topics": [
+          "SQL Queries",
+          "API validation"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 6",
+        "topics": [
+          "Real-world application testing"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is the difference between QA and QC?",
+      "answer": "Quality Assurance (QA) focuses on process to prevent defects; Quality Control (QC) focuses on the product to identify defects."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is programming required?",
+      "answer": "Not for Manual Testing, but helpful for Automation later."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is the role in Agile?",
+      "answer": "Continuous testing and validation within Sprints."
+    },
+    {
+      "faq_id": 4,
+      "question": "What tools are used?",
+      "answer": "Jira, SQL, Postman, and Selenium basics."
+    },
+    {
+      "faq_id": 5,
+      "question": "Can beginners start here?",
+      "answer": "Yes, it is the most accessible entry point to IT."
+    },
+    {
+      "faq_id": 6,
+      "question": "What is the defect life cycle?",
+      "answer": "The stages a bug goes through from New to Closed."
+    }
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "QA & QC Testing Course | Master Software Quality",
+    "meta_description": "Foundational course on QA/QC, Manual testing, and Automation fundamentals.",
+    "meta_url": "/courses/software-testing/qa-qc-testing"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-SEL-016",
+    "course_uid": "uid-selenium-automation-pro",
+    "course_title": "Selenium Testing",
+    "course_subtitle": "Master Automation Testing with Selenium, Java/Python & Real-World Frameworks",
+    "course_slug": "selenium-automation-testing-course",
+    "course_thumbnail": "assets/images/courses/selenium-testing-thumb.jpg",
+    "course_short_description": "Master the world's most popular web automation tool. Build scalable Page Object Model frameworks, handle dynamic elements, and integrate with Jenkins and Git.",
+    "course_long_description": "This Selenium Testing course is designed to take you from manual testing to a professional Automation Engineer. You will move beyond simple record-and-playback to build robust, maintainable, and scalable automation frameworks from scratch. We cover the full spectrum of Selenium WebDriver, from deep-diving into locators and synchronization to designing Page Object Models (POM) and integrating your suites into modern DevOps pipelines. Whether you choose Java or Python, you will learn the industry best practices required to ensure high-quality software delivery in enterprise environments.",
+    "about_course": [
+      "Build scalable automation testing frameworks using Selenium WebDriver.",
+      "Implement the Page Object Model (POM) design pattern for maintainable code.",
+      "Perform cross-browser and parallel testing to optimize execution time.",
+      "Integrate automated test suites into CI/CD pipelines using Jenkins and Git."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Intermediate",
+    "batch_type": "Flexible, Instructor-Led",
+    "course_priority": "high",
+    "course_sequence": 4,
+    "course_category": {
+      "category_id": "CAT_TEST",
+      "category_title": "Software Testing",
+      "category_url": "/courses/software-testing"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "8–10 Weeks",
+    "total_duration": "90 Hours",
+    "weekly_commitment_duration": "8–10 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "Hands-on Automation Labs",
+      "Real-world Framework Project",
+      "1-on-1 Mentorship",
+      "Interview & Resume Support"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/selenium-testing",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Selenium Automation Professional",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/selenium-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of software testing concepts",
+      "Knowledge of Java or Python basics",
+      "Familiarity with web applications and browsers"
+    ],
+    "key_learnings": [
+      "Design scalable automation testing frameworks",
+      "Implement Selenium WebDriver using Java or Python",
+      "Perform cross-browser automation testing",
+      "Integrate automation with CI/CD pipelines",
+      "Maintain and optimize automated test suites"
+    ],
+    "ideal_candidates": [
+      "Manual Testers transitioning to Automation",
+      "QA Engineers",
+      "Software Testing Professionals",
+      "Developers interested in test automation",
+      "IT professionals entering software testing"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "Selenium Automation Testing",
+        "WebDriver Framework Design",
+        "Test Automation Architecture",
+        "Cross-Browser Testing"
+      ],
+      "supporting_skills": [
+        "CI/CD Integration",
+        "Agile Testing Practices",
+        "API Testing Fundamentals",
+        "Version Control (Git)"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Selenium WebDriver",
+        "Java or Python",
+        "TestNG / PyTest"
+      ],
+      "secondary": [
+        "Jenkins",
+        "Git",
+        "Postman",
+        "Maven"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "Automation Test Engineer",
+      "Selenium Automation Engineer",
+      "QA Automation Engineer",
+      "Software Test Analyst"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "94%",
+      "student_completion_rate": "91%",
+      "placement_rate": "88%"
+    }
+  },
+  "course_metrics": {
+    "avg_rating": 4.8,
+    "total_reviews": 320,
+    "total_students_enrolled": 2150
+  },
+  "target_audience": [
+    "Manual Testers",
+    "QA Professionals",
+    "Aspiring Automation Engineers",
+    "Computer Science Students"
+  ],
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 2,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: End-to-End Automation Framework. Build a production-ready framework that automates real web workflows, implements POM, uses logging/reporting, and integrates with a CI/CD pipeline."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 8,
+      "total_lectures": 45
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Automation Testing",
+        "module_duration": "Week 1",
+        "topics": [
+          "Automation vs Manual Testing",
+          "SDLC & STLC overview",
+          "Selenium architecture and components"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "Selenium WebDriver Fundamentals",
+        "module_duration": "Week 2",
+        "topics": [
+          "WebDriver setup and configuration",
+          "Locators and element identification",
+          "Browser interactions and navigation"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Advanced WebDriver Concepts",
+        "module_duration": "Week 3",
+        "topics": [
+          "Handling alerts, frames, and windows",
+          "Synchronization and waits (Implicit, Explicit, Fluent)",
+          "Handling dynamic elements"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "Test Framework Design",
+        "module_duration": "Week 4",
+        "topics": [
+          "Page Object Model (POM)",
+          "TestNG / PyTest integration",
+          "Data-driven and keyword-driven frameworks"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "Selenium with Java / Python",
+        "module_duration": "Week 5",
+        "topics": [
+          "Writing reusable test scripts",
+          "Exception handling in automation",
+          "Logging and reporting (Extent Reports/Allure)"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "API Testing & Integration",
+        "module_duration": "Week 6",
+        "topics": [
+          "API testing basics for UI testers",
+          "Integration with REST tools",
+          "Postman basics for testers"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "CI/CD & DevOps Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "Selenium with Jenkins",
+          "Version control integration (Git/GitHub)",
+          "Automated test execution pipelines"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "Real-World Capstone Project",
+        "module_duration": "Week 8-10",
+        "topics": [
+          "Building a complete automation framework",
+          "Cross-browser testing execution",
+          "Reporting & maintenance strategy"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is Selenium testing?",
+      "answer": "Selenium testing is automation testing of web applications using Selenium WebDriver to simulate user interactions across browsers and environments."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is Selenium good for beginners in automation?",
+      "answer": "Yes. Selenium is one of the most popular automation testing tools and is widely used in the industry, making it ideal for beginners entering test automation."
+    },
+    {
+      "faq_id": 3,
+      "question": "Do I need Java or Python for Selenium?",
+      "answer": "Yes. Selenium requires programming knowledge, typically Java or Python, to build automation scripts and frameworks."
+    },
+    {
+      "faq_id": 4,
+      "question": "What is the Page Object Model in Selenium?",
+      "answer": "Page Object Model (POM) is a design pattern used to create maintainable and reusable test automation frameworks by separating page elements from test logic."
+    },
+    {
+      "faq_id": 5,
+      "question": "Can Selenium be integrated with CI/CD tools?",
+      "answer": "Yes. Selenium can be integrated with tools like Jenkins, Git, and DevOps pipelines to automate test execution in continuous integration environments."
+    },
+    {
+      "faq_id": 6,
+      "question": "What jobs can I get after learning Selenium?",
+      "answer": "You can apply for roles such as Automation Test Engineer, QA Automation Engineer, and Selenium Developer."
+    },
+    {
+      "faq_id": 7,
+      "question": "Is Selenium only for web applications?",
+      "answer": "Primarily yes. Selenium is mainly used for web application automation testing."
+    },
+    {
+      "faq_id": 8,
+      "question": "How long does it take to learn Selenium?",
+      "answer": "With consistent practice, learners can gain practical automation skills within 8–10 weeks."
+    },
+    {
+      "faq_id": 9,
+      "question": "What is the difference between manual testing and automation testing?",
+      "answer": "Manual testing involves human execution of test cases, while automation testing uses tools like Selenium to execute test scripts automatically."
+    },
+    {
+      "faq_id": 10,
+      "question": "Is Selenium still in demand?",
+      "answer": "Yes. Selenium remains one of the most in-demand automation testing tools globally."
+    }
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "Selenium Testing Course | Master Web Automation with Java/Python",
+    "meta_description": "Master Selenium WebDriver, POM, and CI/CD. Learn to build professional automation frameworks in Java or Python.",
+    "meta_url": "/courses/software-testing/selenium-testing"
+  }
+},
+{
+  "course_details": {
+    "course_id": "CRS-TOS-017",
+    "course_uid": "uid-tosca-enterprise-automation",
+    "course_title": "TOSCA Testing",
+    "course_slug": "tosca-automation-testing-course",
+    "course_subtitle": "Enterprise Test Automation with Tricentis TOSCA (Model-Based Testing)",
+    "course_thumbnail": "assets/images/courses/tosca-testing-thumb.jpg",
+    "course_short_description": "Master codeless enterprise automation. Learn Model-Based Testing (MBT) to automate SAP, Web, and API applications using Tricentis TOSCA.",
+    "course_long_description": "This TOSCA Testing course is engineered for the modern enterprise QA professional. Move beyond traditional script-based automation into the world of Model-Based Testing (MBT). Unlike Selenium, TOSCA allows you to build scalable, reusable automation suites without writing a single line of code. You will learn the 'TOSCA Commander' workflow, from scanning modules and building test cases to advanced TestCase Design (TCD) and SAP automation. This program focuses on building high-maintenance, low-flakiness automation frameworks that integrate seamlessly with enterprise DevOps pipelines.",
+    "about_course": [
+      "Master Tricentis TOSCA's unique Model-Based Testing architecture.",
+      "Build codeless automation suites for Web, API, and SAP applications.",
+      "Implement advanced TestCase Design (TCD) to optimize test coverage.",
+      "Integrate TOSCA automation into CI/CD pipelines for enterprise DevOps."
+    ],
+    "course_status": "published",
+    "difficulty_level": "Beginner to Advanced",
+    "batch_type": "Flexible, Instructor-Led",
+    "course_priority": "medium",
+    "course_sequence": 5,
+    "course_category": {
+      "category_id": "CAT_TEST",
+      "category_title": "Software Testing",
+      "category_url": "/courses/software-testing"
+    }
+  },
+  "course_structure": {
+    "course_timeline": "6–8 Weeks",
+    "total_duration": "75 Hours",
+    "weekly_commitment_duration": "6–8 Hours",
+    "modules_included": true,
+    "course_features": [
+      "Lifetime Access",
+      "SAP Automation Labs",
+      "Enterprise Framework Templates",
+      "1-on-1 Mentorship",
+      "AS1 & AS2 Certification Prep Support"
+    ]
+  },
+  "pricing_and_enrollment": {
+    "currency": "USD",
+    "base_price": 0.00,
+    "discounted_price": 0.00,
+    "discount_percentage": 0,
+    "discount_code": "",
+    "enrollment_link": "/enroll/tosca-testing",
+    "is_free": false
+  },
+  "certification_details": {
+    "is_certified": true,
+    "certificate_name": "Certified Enterprise TOSCA Automation Specialist",
+    "is_shareable": true,
+    "certificate_image_url": "assets/images/certificates/tosca-cert.jpg"
+  },
+  "learning_content": {
+    "prerequisites": [
+      "Basic understanding of software testing concepts",
+      "Knowledge of SDLC & STLC",
+      "Manual testing experience (recommended)"
+    ],
+    "key_learnings": [
+      "Design scalable, reusable automation frameworks",
+      "Implement model-based testing strategies",
+      "Automate SAP and complex enterprise applications",
+      "Integrate automation with Jenkins CI/CD pipelines",
+      "Maintain enterprise-grade automation suites"
+    ],
+    "ideal_candidates": [
+      "Manual QA / QC Testers",
+      "Automation Testers moving to codeless tools",
+      "SAP Testers and Consultants",
+      "QA Engineers in enterprise projects"
+    ],
+    "skills_gained": {
+      "core_skills": [
+        "TOSCA Automation",
+        "Model-Based Testing",
+        "Enterprise Test Automation",
+        "SAP Automation Testing"
+      ],
+      "supporting_skills": [
+        "Test Design Techniques (BVA, EP)",
+        "CI/CD Integration",
+        "TOSCA API Testing",
+        "Automation Maintenance"
+      ]
+    },
+    "tools_and_technologies": {
+      "primary": [
+        "Tricentis TOSCA",
+        "TOSCA Commander",
+        "Model-Based Testing"
+      ],
+      "secondary": [
+        "SAP GUI Automation",
+        "Jenkins",
+        "DEX (Distributed Execution)"
+      ]
+    }
+  },
+  "career_outcomes": {
+    "career_roles": [
+      "TOSCA Automation Engineer",
+      "Test Automation Consultant",
+      "SAP Automation Tester",
+      "QA Automation Engineer"
+    ],
+    "outcome_metrics": {
+      "students_placed": 0,
+      "students_internships": 0,
+      "student_success_rate": "93%",
+      "student_completion_rate": "89%",
+      "placement_rate": "86%"
+    }
+  },
+  "course_metrics": {
+    "avg_rating": 4.9,
+    "total_reviews": 85,
+    "total_students_enrolled": 520
+  },
+  "target_audience": [
+    "Manual Testers",
+    "SAP Consultants",
+    "Enterprise QA Professionals",
+    "Automation Specialists"
+  ],
+  "project_details": {
+    "has_projects": true,
+    "total_projects": 3,
+    "has_capstone_project": true,
+    "total_capstone_projects": 1,
+    "project_description": "Capstone Project: Enterprise Automation Framework. You will build a real-world automation solution that automates complex enterprise web/SAP workflows using reusable components and TCD techniques."
+  },
+  "curriculum": {
+    "summary": {
+      "total_modules": 10,
+      "total_lectures": 42
+    },
+    "modules": [
+      {
+        "module_number": 1,
+        "module_name": "Introduction to Automation & TOSCA",
+        "module_duration": "Week 1",
+        "topics": [
+          "Automation testing fundamentals",
+          "Model-based testing vs Script-based testing",
+          "TOSCA architecture overview"
+        ]
+      },
+      {
+        "module_number": 2,
+        "module_name": "TOSCA Commander & Workspace",
+        "module_duration": "Week 1",
+        "topics": [
+          "TOSCA Commander UI",
+          "Creating Multi-user workspaces",
+          "Project structure and navigation"
+        ]
+      },
+      {
+        "module_number": 3,
+        "module_name": "Modules & TestCase Design",
+        "module_duration": "Week 2",
+        "topics": [
+          "Scanning applications with XScan",
+          "Reusable modules and components",
+          "Test step configuration"
+        ]
+      },
+      {
+        "module_number": 4,
+        "module_name": "TestCase Creation & Execution",
+        "module_duration": "Week 3",
+        "topics": [
+          "Building automated TestCases",
+          "Creating Execution Lists",
+          "Result analysis and reporting"
+        ]
+      },
+      {
+        "module_number": 5,
+        "module_name": "TestCase Design (TCD)",
+        "module_duration": "Week 4",
+        "topics": [
+          "Equivalence partitioning in TCD",
+          "Boundary value analysis",
+          "Risk-based testing approach"
+        ]
+      },
+      {
+        "module_number": 6,
+        "module_name": "Reusability & Maintenance",
+        "module_duration": "Week 5",
+        "topics": [
+          "Reusable Automation Components (RTB)",
+          "Dynamic steering and synchronization",
+          "Test maintenance strategies"
+        ]
+      },
+      {
+        "module_number": 7,
+        "module_name": "Data-Driven & API Testing",
+        "module_duration": "Week 6",
+        "topics": [
+          "Test Data Management (TDM)",
+          "API testing basics in TOSCA",
+          "Service virtualization concepts"
+        ]
+      },
+      {
+        "module_number": 8,
+        "module_name": "SAP & Enterprise Automation",
+        "module_duration": "Week 7",
+        "topics": [
+          "SAP GUI automation fundamentals",
+          "Desktop and Web application validation",
+          "Enterprise system workflows"
+        ]
+      },
+      {
+        "module_number": 9,
+        "module_name": "CI/CD & DevOps Integration",
+        "module_duration": "Week 7",
+        "topics": [
+          "TOSCA in CI/CD pipelines",
+          "Jenkins integration",
+          "Agile testing workflows"
+        ]
+      },
+      {
+        "module_number": 10,
+        "module_name": "Capstone Project",
+        "module_duration": "Week 8",
+        "topics": [
+          "Enterprise automation project implementation",
+          "End-to-end framework execution",
+          "Review and optimization"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "faq_id": 1,
+      "question": "What is TOSCA testing?",
+      "answer": "TOSCA testing is model-based, codeless test automation using Tricentis TOSCA to automate web, SAP, API, and enterprise applications."
+    },
+    {
+      "faq_id": 2,
+      "question": "Is coding required for TOSCA automation?",
+      "answer": "No. TOSCA is a codeless automation platform. Basic testing knowledge is sufficient to get started."
+    },
+    {
+      "faq_id": 3,
+      "question": "What is model-based testing in TOSCA?",
+      "answer": "Model-based testing separates technical application structure from test cases, allowing reusable automation components and scalable framework design."
+    },
+    {
+      "faq_id": 4,
+      "question": "Can TOSCA automate SAP applications?",
+      "answer": "Yes. TOSCA provides strong SAP GUI automation capabilities widely used in enterprise SAP testing."
+    },
+    {
+      "faq_id": 5,
+      "question": "Does this course cover API testing?",
+      "answer": "Yes. You will learn API testing fundamentals within TOSCA, including service validation concepts."
+    },
+    {
+      "faq_id": 6,
+      "question": "Is TOSCA suitable for enterprise automation?",
+      "answer": "Yes. TOSCA is primarily used in enterprise environments for large-scale automation and DevOps integration."
+    },
+    {
+      "faq_id": 7,
+      "question": "Will this course include CI/CD integration?",
+      "answer": "Yes. You will learn how to integrate TOSCA with CI/CD tools like Jenkins for pipeline execution."
+    },
+    {
+      "faq_id": 8,
+      "question": "What roles can I apply for after this course?",
+      "answer": "You can apply for roles such as TOSCA Automation Engineer, SAP Automation Tester, and QA Automation Consultant."
+    }
+  ],
+  "metadata": {
+    "course_date": "2026-02-20",
+    "latest_update_date": "2026-02-20"
+  },
+  "seo_metadata": {
+    "meta_title": "TOSCA Testing Course | Master Enterprise Automation Testing",
+    "meta_description": "Learn Tricentis TOSCA for codeless automation. Master Model-Based Testing, SAP automation, and CI/CD integration.",
+    "meta_url": "/courses/software-testing/tosca-testing"
+  }
+}
 
 ]
