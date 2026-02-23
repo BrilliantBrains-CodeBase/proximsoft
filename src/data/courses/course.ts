@@ -9273,7 +9273,7 @@ export const courses: CourseData[] =[
     "course_title": "Salesforce Commerce Cloud Course",
     "course_subtitle": "Enterprise eCommerce Development & Management with Salesforce Commerce Cloud (SFCC)",
     "course_slug": "salesforce-commerce-cloud-course",
-    "course_thumbnail": "assets/images/courses/sfcc-thumb.jpg",
+    "course_thumbnail": "/images/courses/Salesforce/SAlesforcecommercecloud.png",
     "course_short_description": "Build and manage enterprise eCommerce storefronts. Master SFRA architecture, ISML, and customization using JavaScript for global retail brands.",
     "course_long_description": "This Salesforce Commerce Cloud (SFCC) course is designed to help professionals build, customize, and manage enterprise-grade eCommerce applications using Salesforce’s B2C Commerce platform. The course focuses on real-world implementation, covering SFRA architecture, storefront development, product catalogs, checkout flows, and complex third-party integrations.",
     "about_course": [
@@ -9574,7 +9574,7 @@ export const courses: CourseData[] =[
     "course_title": "Salesforce Marketing Cloud Course",
     "course_subtitle": "Digital Marketing Automation & Customer Journey Management with Salesforce",
     "course_slug": "salesforce-marketing-cloud-course",
-    "course_thumbnail": "assets/images/courses/sfmc-thumb.jpg",
+    "course_thumbnail": "/images/courses/Salesforce/Salesforcemarketingcloud.png",
     "course_short_description": "Master enterprise marketing automation. Learn Journey Builder, Email Studio, and Data Modeling to design personalized customer experiences at scale.",
     "course_long_description": "This Salesforce Marketing Cloud course is designed to help learners master enterprise-level digital marketing automation and customer journey management using Salesforce’s Marketing Cloud platform. The course focuses on how modern organizations design, automate, personalize, and optimize customer communication across email, mobile, and digital channels.",
     "about_course": [
@@ -9876,7 +9876,7 @@ export const courses: CourseData[] =[
     "course_title": "Salesforce Sales Cloud Course",
     "course_subtitle": "Lead-to-Cash Management & Sales Automation using Salesforce Sales Cloud",
     "course_slug": "salesforce-sales-cloud-course",
-    "course_thumbnail": "assets/images/courses/sales-cloud-thumb.jpg",
+    "course_thumbnail": "/images/courses/Salesforce/Salesforcesalescloud.png",
     "course_short_description": "Master the world's #1 CRM for sales. Learn to manage leads, automate sales processes, and build powerful forecasting dashboards for enterprise sales operations.",
     "course_long_description": "This Salesforce Sales Cloud course is designed to help learners master how modern sales teams use Salesforce to manage leads, close deals efficiently, and gain complete visibility into sales performance. The course focuses on end-to-end lead-to-cash processes, covering lead management, accounts, sales automation, and forecasting.",
     "about_course": [
@@ -10175,7 +10175,7 @@ export const courses: CourseData[] =[
     "course_title": "Salesforce Administrator Course",
     "course_subtitle": "Salesforce CRM Administration, Configuration & User Management",
     "course_slug": "salesforce-administrator-course",
-    "course_thumbnail": "assets/images/courses/salesforce-admin-thumb.jpg",
+    "course_thumbnail": "/images/courses/Salesforce/SalesforceAdministrator.png",
     "course_short_description": "Master the world's #1 CRM platform. Learn to configure orgs, manage user security, automate workflows, and build high-impact business reports without coding.",
     "course_long_description": "This Salesforce Administrator course is designed to help learners master Salesforce CRM administration, configuration, and day-to-day management. The course focuses on real-world business scenarios—from setting up users and security to automating workflows and building dashboards that leadership relies on.",
     "about_course": [
@@ -10478,7 +10478,7 @@ export const courses: CourseData[] =[
     "course_title": "Salesforce Developer (Apex & LWC) Course",
     "course_subtitle": "Build Custom Salesforce Applications using Apex, Triggers & Lightning Web Components",
     "course_slug": "salesforce-developer-apex-lwc-course",
-    "course_thumbnail": "assets/images/courses/salesforce-dev-thumb.jpg",
+    "course_thumbnail": "/images/courses/Salesforce/Salesforcedeveloper.png",
     "course_short_description": "Move beyond configuration. Master Apex programming, triggers, and modern Lightning Web Components (LWC) to build enterprise-grade Salesforce applications.",
     "course_long_description": "The Salesforce Developer (Apex & LWC) course is designed to help professionals build custom, scalable Salesforce applications using programmatic development. Unlike Admin courses that focus on configuration, this program teaches core development skills including Apex programming, triggers, SOQL/SOSL, asynchronous processing, and Lightning Web Components (LWC).",
     "about_course": [
@@ -27981,7 +27981,7 @@ export const courses: CourseData[] =[
     "course_title": "Frontend Development Course",
     "course_subtitle": "Design & Build Modern, Responsive Web Interfaces Using HTML, CSS, JavaScript & React",
     "course_slug": "frontend-development-html-css-javascript-react",
-    "course_thumbnail": "assets/images/courses/frontend-dev-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareDevelopment/FrontendDevelopment.png",
     "course_short_description": "Master the art of building beautiful, high-performance websites. Learn HTML, CSS, JavaScript, and React to create responsive, production-ready web applications.",
     "course_long_description": "This Frontend Development course bridges the gap between basic web design and professional frontend engineering. You will master the Document Object Model (DOM), CSS Grid/Flexbox, ES6+ JavaScript, and the React ecosystem. By the end of this program, you will be building dynamic, API-driven interfaces that are optimized for speed and accessibility.",
     "about_course": [
@@ -28252,7 +28252,7 @@ export const courses: CourseData[] =[
     "course_title": "Full Stack Java Developer",
     "course_subtitle": "Build End-to-End Enterprise Web Applications Using Java, Spring Boot & Modern Frontend Technologies",
     "course_slug": "full-stack-java-developer-course",
-    "course_thumbnail": "assets/images/courses/fullstack-java-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareDevelopment/FullStackJavaDeveloper.png",
     "course_short_description": "Become an enterprise-ready engineer. Master backend development with Java and Spring Boot, design robust SQL databases, and build interactive frontends.",
     "course_long_description": "This Full Stack Java Developer course is designed for those who want to build high-performance, secure, and scalable enterprise applications. You will master the entire development lifecycle—from writing efficient Java code and designing relational databases to building RESTful microservices and integrating them with modern, responsive user interfaces.",
     "about_course": [
@@ -28542,7 +28542,7 @@ export const courses: CourseData[] =[
     "course_title": "Full Stack Python Developer",
     "course_subtitle": "Build Scalable Web Applications Using Python, Django/Flask, REST APIs & Modern Frontend Technologies",
     "course_slug": "full-stack-python-developer-course",
-    "course_thumbnail": "assets/images/courses/python-fullstack-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareDevelopment/FullStackPythonDeveloper.png",
     "course_short_description": "Master end-to-end web development with Python. From backend logic with Django and Flask to dynamic frontends and RESTful APIs, build production-ready SaaS applications.",
     "course_long_description": "This Full Stack Python Developer course is engineered to take you from core programming to architectural mastery. You will dive deep into Python’s most powerful web frameworks, Django and Flask, learn to architect relational databases with SQL, and integrate everything with modern frontend technologies. The program focuses on real-world patterns like MVT (Model-View-Template), JWT security, and scalable deployment strategies used by top-tier tech firms.",
     "about_course": [
@@ -28833,7 +28833,7 @@ export const courses: CourseData[] =[
     "course_title": "REST API Development",
     "course_subtitle": "Design, Build & Secure Scalable RESTful APIs Using Industry Best Practices",
     "course_slug": "rest-api-development-design-security",
-    "course_thumbnail": "assets/images/courses/rest-api-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareDevelopment/RESTAPIdevelopment.png",
     "course_short_description": "Master the backbone of modern web architecture. Learn to design, document, and secure industrial-grade REST APIs using Spring Boot or FastAPI.",
     "course_long_description": "This REST API Development course focuses on the art of high-performance backend engineering. You will move beyond simple CRUD operations to master resource modeling, versioning, advanced security with JWT, and performance optimization. Designed for those who want to build the infrastructure that powers mobile apps and enterprise systems, this course follows the OpenAPI/Swagger standards used by top-tier tech organizations.",
     "about_course": [
@@ -29078,7 +29078,7 @@ export const courses: CourseData[] =[
     "course_title": "Spring Boot & Microservices",
     "course_subtitle": "Build Scalable, Cloud-Ready Microservices Using Spring Boot, REST APIs & Industry Best Practices",
     "course_slug": "spring-boot-microservices-course",
-    "course_thumbnail": "assets/images/courses/spring-microservices-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareDevelopment/SpringBootandMicorservices.png",
     "course_short_description": "Master the art of distributed systems. Learn to decompose monoliths, implement service discovery, secure APIs with JWT, and build resilient cloud-native applications.",
     "course_long_description": "This Spring Boot & Microservices course is designed for Java developers looking to lead digital transformations. You will move beyond single-server applications to build distributed systems that are loosely coupled, independently deployable, and highly scalable. From Eureka Service Discovery and Spring Cloud Gateway to centralized configuration and JWT security, this program covers the entire ecosystem used by top-tier enterprise companies.",
     "about_course": [
@@ -29343,7 +29343,7 @@ export const courses: CourseData[] =[
     "course_title": "Cypress Automation Course",
     "course_subtitle": "Modern Frontend & API Automation Testing with Cypress",
     "course_slug": "cypress-automation-testing-course",
-    "course_thumbnail": "assets/images/courses/cypress-automation-thumb.jpg",
+    "course_thumbnail": "/images/courses/cypress-automation-thumb.jpg",
     "course_short_description": "Master modern E2E testing. Build powerful automation frameworks, validate REST APIs, and integrate testing into CI/CD pipelines using Cypress and JavaScript.",
     "course_long_description": "The Cypress Automation course is designed for the modern QA landscape. Unlike legacy tools, Cypress runs in the same run-loop as your application, providing lightning-fast execution and native debugging. This program takes you from manual testing to building robust, developer-centric automation frameworks that handle dynamic UIs, complex API flows, and automated deployments with ease.",
     "about_course": [
@@ -29588,7 +29588,7 @@ export const courses: CourseData[] =[
     "course_title": "Playwright Automation",
     "course_subtitle": "Modern End-to-End Automation Testing with Playwright & JavaScript / TypeScript",
     "course_slug": "playwright-automation-testing-course",
-    "course_thumbnail": "assets/images/courses/playwright-automation-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareTesting/Playwrightautomation.png",
     "course_short_description": "Master the next generation of automation. Learn cross-browser testing, parallel execution, and hybrid UI+API framework design using Microsoft's Playwright.",
     "course_long_description": "This Playwright Automation course is engineered for the modern DevOps era. As organizations move away from slow, flaky Selenium grids, Playwright has emerged as the gold standard for speed and reliability. You will learn to build a professional-grade automation ecosystem from scratch, covering everything from auto-waiting and network interception to advanced CI/CD integration with GitHub Actions and Jenkins. Designed for high-performance QA teams, this course bridges the gap between traditional testing and modern SDET engineering.",
     "about_course": [
@@ -29894,7 +29894,7 @@ export const courses: CourseData[] =[
     "course_title": "QA & QC Testing Course",
     "course_subtitle": "Master Software Quality Assurance (QA), Quality Control (QC), Manual Testing & Automation Fundamentals",
     "course_slug": "qa-qc-software-testing-course",
-    "course_thumbnail": "assets/images/courses/qa-qc-testing-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareTesting/QAQCtesting.png",
     "course_short_description": "Bridge the gap between process and product. Learn the core principles of QA/QC, master manual testing, and get a head start on automation fundamentals.",
     "course_long_description": "This QA & QC Testing course is designed to build high-caliber testing professionals who understand that quality is more than just finding bugs. While many courses jump straight into tools, we focus on the entire ecosystem: from Quality Assurance (process improvement) to Quality Control (product inspection). You will master the SDLC and STLC frameworks, learn advanced test design techniques, and understand how testing evolves in Agile and DevOps environments.",
     "about_course": [
@@ -30158,7 +30158,7 @@ export const courses: CourseData[] =[
     "course_title": "Selenium Testing",
     "course_subtitle": "Master Automation Testing with Selenium, Java/Python & Real-World Frameworks",
     "course_slug": "selenium-automation-testing-course",
-    "course_thumbnail": "assets/images/courses/selenium-testing-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareTesting/Seleniumtesting.png",
     "course_short_description": "Master the world's most popular web automation tool. Build scalable Page Object Model frameworks, handle dynamic elements, and integrate with Jenkins and Git.",
     "course_long_description": "This Selenium Testing course is designed to take you from manual testing to a professional Automation Engineer. You will move beyond simple record-and-playback to build robust, maintainable, and scalable automation frameworks from scratch. We cover the full spectrum of Selenium WebDriver, from deep-diving into locators and synchronization to designing Page Object Models (POM) and integrating your suites into modern DevOps pipelines. Whether you choose Java or Python, you will learn the industry best practices required to ensure high-quality software delivery in enterprise environments.",
     "about_course": [
@@ -30444,7 +30444,7 @@ export const courses: CourseData[] =[
     "course_title": "TOSCA Testing",
     "course_slug": "tosca-automation-testing-course",
     "course_subtitle": "Enterprise Test Automation with Tricentis TOSCA (Model-Based Testing)",
-    "course_thumbnail": "assets/images/courses/tosca-testing-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareTesting/TOSCOtesting.png",
     "course_short_description": "Master codeless enterprise automation. Learn Model-Based Testing (MBT) to automate SAP, Web, and API applications using Tricentis TOSCA.",
     "course_long_description": "This TOSCA Testing course is engineered for the modern enterprise QA professional. Move beyond traditional script-based automation into the world of Model-Based Testing (MBT). Unlike Selenium, TOSCA allows you to build scalable, reusable automation suites without writing a single line of code. You will learn the 'TOSCA Commander' workflow, from scanning modules and building test cases to advanced TestCase Design (TCD) and SAP automation. This program focuses on building high-maintenance, low-flakiness automation frameworks that integrate seamlessly with enterprise DevOps pipelines.",
     "about_course": [
