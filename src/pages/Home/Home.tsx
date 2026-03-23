@@ -1,15 +1,17 @@
 import { testimonials } from "../../data/testimonials/testimonials"
 import CTASection from "../../layout/CTA/CTASection"
 import TestimonialSection from "../../layout/Testimonials/TestimonialSection"
-import CourseCategoriesSection from "./components/CourseCategoriesSection"
+// import CourseCategoriesSection from "./components/CourseCategoriesSection"
 import FaqSection from "./components/FaqSection"
-import Hero from "./components/Hero"
+// import Hero from "./components/Hero"
 import StatsCTASection from "./components/StatsCTASection"
 import WhyTrustUsSection from "./components/WhyTrustUsSection"
 import useMeta from "../../hooks/useMeta" 
 import FutureReadySection from "./components/FutureReadySection"
 import CareerSupportSection from "./components/CareerSupportSection"
 import SuccessStories from "./components/SuccessStories"
+import HeroSection from "./components/HeroSection"
+import CourseCategoriesSectionV2 from "./components/CourseCategoriesSectionV2"
 
 const Home = () => {
   // Setup SEO metadata for the Landing Page
@@ -20,8 +22,10 @@ const Home = () => {
 
   return (
     <div className="">
-      <Hero />
-      <CourseCategoriesSection />
+      {/* <Hero /> */}
+      <HeroSection />
+      {/* <CourseCategoriesSection /> */}
+      <CourseCategoriesSectionV2 />
       <WhyTrustUsSection />
       <StatsCTASection />
       <FutureReadySection />
