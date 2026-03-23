@@ -193,10 +193,10 @@ const LeadForm = () => {
           <div className="grid grid-cols-2 gap-3">
             <Stat icon={<GraduationCap className="text-blue-600" />} value="98.9%" label="Placement Rate" />
             <Stat icon={<Users className="text-blue-600" />} value="50k+" label="Students enrolled" />
-            <Stat icon={<GraduationCap className="text-blue-600" />} value="98.9%" label="Placement Rate" />
-            <Stat icon={<Star className="text-blue-600" />} value="98.9%" label="Placement Rate" />
-            <Stat icon={<Briefcase className="text-blue-600" />} value="98.9%" label="Placement Rate" />
-            <Stat icon={<Globe className="text-blue-600" />} value="98.9%" label="Placement Rate" />
+            <Stat icon={<GraduationCap className="text-blue-600" />} value="98.9%" label="Internship Rate" />
+            <Stat icon={<Star className="text-blue-600" />} value="50K+" label="Students Graduated" />
+            <Stat icon={<Briefcase className="text-blue-600" />} value="500+" label="Hiring Partners" />
+            <Stat icon={<Globe className="text-blue-600" />} value="20K+" label="Alumini Stories" />
           </div>
         </div>
       </div>
