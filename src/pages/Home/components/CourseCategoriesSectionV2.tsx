@@ -19,7 +19,6 @@ const CourseCategoriesSectionV2 = () => {
 
   return (
     <section className="w-full py-16 px-4">
-
       {/* ── HEADER ── */}
       <div className="text-center mb-12">
         <span
@@ -39,16 +38,17 @@ const CourseCategoriesSectionV2 = () => {
       </div>
 
       {/* ── SLIDER WRAPPER — extra px so arrows don't get cut ── */}
-      <div className="relative max-w-[1200px] mx-auto px-10">
-
+      <div className="relative max-w-[1200px] mx-auto md:px-10 ">
         {/* ── Track pill — overflow-hidden keeps cards inside ── */}
         <div
           className="rounded-full py-12 px-12 overflow-hidden"
           style={{ backgroundColor: "#f0f0f6" }}
         >
           <Swiper
-            modules={[Autoplay]}
-            onSwiper={(swiper) => { swiperRef.current = swiper; }}
+            modules={[]}
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+            }}
             slidesPerView={2}
             spaceBetween={16}
             loop={true}
@@ -58,9 +58,10 @@ const CourseCategoriesSectionV2 = () => {
               pauseOnMouseEnter: true,
             }}
             breakpoints={{
-              480:  { slidesPerView: 2, spaceBetween: 16 },
-              640:  { slidesPerView: 3, spaceBetween: 20 },
-              900:  { slidesPerView: 4, spaceBetween: 24 },
+              0: { slidesPerView: 2, spaceBetween: 12 },
+              480: { slidesPerView: 2, spaceBetween: 16 },
+              640: { slidesPerView: 3, spaceBetween: 20 },
+              900: { slidesPerView: 4, spaceBetween: 24 },
               1100: { slidesPerView: 5, spaceBetween: 24 },
             }}
           >
@@ -69,47 +70,66 @@ const CourseCategoriesSectionV2 = () => {
                 <motion.div
                   whileHover={{ y: -6 }}
                   transition={{ type: "spring", stiffness: 300, damping: 18 }}
-                  className="flex flex-col items-center cursor-pointer group pb-2"
+                  className="flex flex-col items-center cursor-pointer group py-6 pb-4 md:pb-2 transition-all duration-300"
+                  style={{ borderRadius: "100px" }}
                   onClick={() => navigate(category.metaUrl)}
                 >
                   {/* ── Circle ── */}
                   <div
-                    className="relative rounded-full flex items-center justify-center transition-all duration-300"
+                    className="
+      relative rounded-full flex items-center justify-center transition-all duration-300 
+      w-[120px] h-[120px]
+      sm:w-[140px] sm:h-[140px]
+      md:w-[170px] md:h-[170px]
+    "
                     style={{
-                      width: "170px",
-                      height: "170px",
-                      /* default: soft lavender-gray */
-                      background: "radial-gradient(circle at 60% 40%, #e8e8f4 0%, #d4d4ea 100%)",
+                      background:
+                        "radial-gradient(circle at 60% 40%, #e8e8f4 0%, #d4d4ea 100%)",
                     }}
-                    /* on hover: switch to deep indigo/purple */
                     onMouseEnter={(e) => {
-                      (e.currentTarget as HTMLDivElement).style.background =
+                      const el = e.currentTarget as HTMLDivElement;
+                      el.style.background =
                         "radial-gradient(circle at 60% 40%, #6b63e8 0%, #5046c8 100%)";
+                      el.style.boxShadow = "6px 6px 0px rgba(0,0,0,0.15)";
                     }}
                     onMouseLeave={(e) => {
-                      (e.currentTarget as HTMLDivElement).style.background =
+                      const el = e.currentTarget as HTMLDivElement;
+                      el.style.background =
                         "radial-gradient(circle at 60% 40%, #e8e8f4 0%, #d4d4ea 100%)";
+                      el.style.boxShadow = "none";
                     }}
                   >
-                    {/* Sparkle marks */}
-                    <span className="absolute top-5 right-9 text-[#b0b0d8] group-hover:text-white/60 text-[11px] font-bold select-none leading-none transition-colors duration-300">+</span>
-                    <span className="absolute top-8 right-5 text-[#b0b0d8] group-hover:text-white/60 text-[8px] font-bold select-none leading-none transition-colors duration-300">+</span>
-                    <span className="absolute top-6 right-2 text-[#b0b0d8] group-hover:text-white/60 text-[6px] font-bold select-none leading-none transition-colors duration-300">+</span>
+                    {/* ✨ Stars */}
+                    <span className="absolute top-4 right-10 sm:top-5 sm:right-12 md:top-6 md:right-14 text-[#b0b0d8] group-hover:text-white text-[12px] sm:text-[13px] md:text-[14px] transition-all duration-300">
+                      ✦
+                    </span>
+                    <span className="absolute top-7 right-7 sm:top-8 sm:right-9 md:top-10 md:right-10 text-[#b0b0d8] group-hover:text-white text-[9px] sm:text-[10px] md:text-[10px] transition-all duration-300">
+                      ✦
+                    </span>
+                    <span className="absolute top-5 right-5 sm:top-6 sm:right-7 md:top-7 md:right-8 text-[#b0b0d8] group-hover:text-white text-[7px] sm:text-[8px] md:text-[8px] transition-all duration-300">
+                      ✦
+                    </span>
 
-                    {/* Icon image */}
+                    {/* ── Icon ── */}
                     <img
-                      src={category.coverImage}
+                      src={category.icon}
                       alt={category.title}
-                      className="w-[85px] h-[85px] object-contain transition-all duration-300 group-hover:brightness-0 group-hover:invert"
+                      className="
+        w-[36px] h-[36px]
+        sm:w-[42px] sm:h-[42px]
+        md:w-[48px] md:h-[48px]
+        object-contain transition-all duration-300
+        group-hover:brightness-0 group-hover:invert
+      "
                     />
                   </div>
 
                   {/* ── Text ── */}
-                  <div className="mt-5 text-center">
-                    <h3 className="text-[15px] font-bold text-[#161439] group-hover:text-[#5751E1] transition-colors duration-200">
+                  <div className="mt-4 md:mt-5 text-center">
+                    <h3 className="text-[13px] sm:text-[14px] md:text-[15px] font-bold text-[#161439] group-hover:text-[#5751E1] transition-colors duration-200">
                       {category.title}
                     </h3>
-                    <p className="text-[13px] text-gray-400 mt-1">
+                    <p className="text-[12px] sm:text-[13px] text-gray-400 mt-1">
                       ({category.courseCount})
                     </p>
                   </div>
@@ -191,7 +211,6 @@ const CourseCategoriesSectionV2 = () => {
             />
           </svg>
         </button>
-
       </div>
     </section>
   );
