@@ -12,6 +12,8 @@ import CareerSupportSection from "./components/CareerSupportSection"
 import SuccessStories from "./components/SuccessStories"
 import HeroSection from "./components/HeroSection"
 import CourseCategoriesSectionV2 from "./components/CourseCategoriesSectionV2"
+import BrandSlider from "./components/BrandSlider"
+import AboutUsSectionV2 from "./components/AboutUsSectionV2"
 
 const Home = () => {
   // Setup SEO metadata for the Landing Page
@@ -26,6 +28,8 @@ const Home = () => {
       <HeroSection />
       {/* <CourseCategoriesSection /> */}
       <CourseCategoriesSectionV2 />
+      <BrandSlider />
+      <AboutUsSectionV2 />
       <WhyTrustUsSection />
       <StatsCTASection />
       <FutureReadySection />
