@@ -1,15 +1,15 @@
-import { testimonials } from "../../data/testimonials/testimonials"
-import CTASection from "../../layout/CTA/CTASection"
-import TestimonialSection from "../../layout/Testimonials/TestimonialSection"
+// import { testimonials } from "../../data/testimonials/testimonials"
+// import CTASection from "../../layout/CTA/CTASection"
+// import TestimonialSection from "../../layout/Testimonials/TestimonialSection"
 // import CourseCategoriesSection from "./components/CourseCategoriesSection"
-import FaqSection from "./components/FaqSection"
+// import FaqSection from "./components/FaqSection"
 // import Hero from "./components/Hero"
-import StatsCTASection from "./components/StatsCTASection"
-import WhyTrustUsSection from "./components/WhyTrustUsSection"
+// import StatsCTASection from "./components/StatsCTASection"
+// import WhyTrustUsSection from "./components/WhyTrustUsSection"
+// import FutureReadySection from "./components/FutureReadySection"
+// import CareerSupportSection from "./components/CareerSupportSection"
+// import SuccessStories from "./components/SuccessStories"
 import useMeta from "../../hooks/useMeta" 
-import FutureReadySection from "./components/FutureReadySection"
-import CareerSupportSection from "./components/CareerSupportSection"
-import SuccessStories from "./components/SuccessStories"
 import HeroSection from "./components/HeroSection"
 import CourseCategoriesSectionV2 from "./components/CourseCategoriesSectionV2"
 import BrandSlider from "./components/BrandSlider"
@@ -30,16 +30,16 @@ const Home = () => {
       <CourseCategoriesSectionV2 />
       <BrandSlider />
       <AboutUsSectionV2 />
-      <WhyTrustUsSection />
-      <StatsCTASection />
-      <FutureReadySection />
-      <SuccessStories />
-      <CareerSupportSection />
-      <div className="relative z-10 bg-white">
+      {/* <WhyTrustUsSection /> */}
+      {/* <StatsCTASection /> */}
+      {/* <FutureReadySection /> */}
+      {/* <SuccessStories /> */}
+      {/* <CareerSupportSection /> */}
+      {/* <div className="relative z-10 bg-white">
         <TestimonialSection testimonials={testimonials}/>
-      </div>
-      <FaqSection />
-      <CTASection />
+      </div> */}
+      {/* <FaqSection />
+      <CTASection /> */}
     </div>
   )
 }
