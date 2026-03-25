@@ -14,6 +14,11 @@ import HeroSection from "./components/HeroSection"
 import CourseCategoriesSectionV2 from "./components/CourseCategoriesSectionV2"
 import BrandSlider from "./components/BrandSlider"
 import AboutUsSectionV2 from "./components/AboutUsSectionV2"
+import TopCourses from "./components/TopCourses"
+import NewsletterSection from "./components/Newslettersection "
+import TopInstructors from "./components/TopInstructors"
+import StatsStrip from "./components/StatsStrip"
+import FAQSectionV2 from "./components/FAQSectionV2"
 
 const Home = () => {
   // Setup SEO metadata for the Landing Page
@@ -30,6 +35,11 @@ const Home = () => {
       <CourseCategoriesSectionV2 />
       <BrandSlider />
       <AboutUsSectionV2 />
+      <TopCourses />
+      <NewsletterSection />
+      <TopInstructors />
+      <StatsStrip />
+      <FAQSectionV2 />
       {/* <WhyTrustUsSection /> */}
       {/* <StatsCTASection /> */}
       {/* <FutureReadySection /> */}
