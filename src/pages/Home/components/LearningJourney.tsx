@@ -11,13 +11,6 @@ interface Feature {
   description: string;
 }
 
-interface Role {
-  image: string;
-  badge: string;
-  title: string;
-  description: string;
-  cta: string;
-}
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
@@ -119,7 +112,6 @@ const FeatureCard: React.FC<{ feature: Feature; index: number; inView: boolean }
 const LearningJourney: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const featuresRef = useRef<HTMLDivElement>(null);
-  const rolesRef = useRef<HTMLDivElement>(null);
 
   const heroInView = useInView(heroRef, { once: true, margin: "-60px" });
   const featuresInView = useInView(featuresRef, { once: true, margin: "-60px" });
