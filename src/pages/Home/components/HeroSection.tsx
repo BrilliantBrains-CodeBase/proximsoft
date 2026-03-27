@@ -67,7 +67,7 @@ const HeroSection = () => {
                     >
                 {/* LINE 1 */}
                 <span className="flex items-center gap-4 whitespace-nowrap">
-                  <span>Never Stop</span>
+                  <span>Always Keep</span>
 
                   {/* Yellow blob pill + scribble SVG on top-right */}
                   <span className="relative inline-flex items-center justify-center">
@@ -130,7 +130,7 @@ const HeroSection = () => {
 
                 {/* LINE 2 */}
                 <span className="block mt-[6px] whitespace-nowrap">
-                  Life <span className="font-semibold">Never Stop</span> Teaching
+                  Life <span className="font-semibold">Always Keeps</span> Teaching
                 </span>
               </motion.h1>
 
@@ -141,8 +141,7 @@ const HeroSection = () => {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="text-[#6D6C80] text-[15px] mt-6 mb-4 max-w-[400px] leading-[1.75]"
               >
-                Every teaching and learning journey is unique Following We'll
-                help guide your way.
+                Your next career opportunity starts with one smart step. We are here to skill you up and push you forward.
               </motion.p>
 
               {/* ── CTA BUTTON ── */}
@@ -162,7 +161,7 @@ const HeroSection = () => {
                     (e.currentTarget as HTMLElement).style.boxShadow = "6px 6px 0px 0px #000000";
                   }}
                 >
-                  Start Free Trial
+                  Start Free Demo
                   <svg
                     width="16" height="14" viewBox="0 0 16 14" fill="none"
                     className="transition-transform duration-300 group-hover:translate-x-1"

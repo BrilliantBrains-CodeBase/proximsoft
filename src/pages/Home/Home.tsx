@@ -19,6 +19,9 @@ import NewsletterSection from "./components/Newslettersection "
 import TopInstructors from "./components/TopInstructors"
 import StatsStrip from "./components/StatsStrip"
 import FAQSectionV2 from "./components/FAQSectionV2"
+import LearningJourney from "./components/LearningJourney"
+import RolesCards from "./components/RolesCards"
+import LatestNewsFeed from "../Blogs/AllBlogs/components/LatestNews"
 
 const Home = () => {
   // Setup SEO metadata for the Landing Page
@@ -40,6 +43,9 @@ const Home = () => {
       <TopInstructors />
       <StatsStrip />
       <FAQSectionV2 />
+      <LearningJourney />
+      <RolesCards />
+      <LatestNewsFeed />
       {/* <WhyTrustUsSection /> */}
       {/* <StatsCTASection /> */}
       {/* <FutureReadySection /> */}

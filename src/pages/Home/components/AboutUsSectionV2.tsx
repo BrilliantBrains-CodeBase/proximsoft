@@ -13,9 +13,9 @@ const avatars = [
 ];
 
 const features = [
-  "The Most World Class Instructors",
-  "Access Your Class anywhere",
-  "Flexible Course Plan",
+  "Certified Trainers With Real Industry Experience",
+  "Live Interactive Classes From Anywhere",
+  "Placement Support Included",
 ];
 
 const AboutUsSectionV2 = () => {
@@ -86,7 +86,7 @@ const AboutUsSectionV2 = () => {
 
             {/* LINE 1 */}
             <span className="flex items-center justify-center md:justify-start gap-4 whitespace-nowrap">
-              <span>Thousand Of Top</span>
+              <span>A Wide Range Of</span>
 
               {/* Yellow blob pill */}
               <span className="relative inline-flex items-center justify-center">
@@ -116,20 +116,20 @@ const AboutUsSectionV2 = () => {
                 </span>
 
                 <span className="relative text-white font-extrabold px-5 py-[5px] text-[inherit] leading-none">
-                  Courses
+                   Skills
                 </span>
               </span>
             </span>
 
             {/* LINE 2 */}
             <span className="block mt-[6px] whitespace-nowrap">
-              Now In <span className="font-semibold">One Place</span>
+              All In <span className="font-semibold">One Place</span>
             </span>
           </h1>
 
           {/* description */}
           <p className="text-gray-500 text-sm md:text-base leading-relaxed max-w-md mx-auto md:mx-0">
-            Groove's intuitive shared inbox makes it easy for team members to organize, prioritize and. In this episode of the Smashing Pod we're talking about Web Platform Baseline.
+            Proximsoft trains freshers, career switchers and working professionals across the USA, Canada, UAE, Germany and the UK with live, job-ready IT programs aligned to real hiring needs.
           </p>
 
           {/* feature list */}

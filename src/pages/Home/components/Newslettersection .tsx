@@ -14,7 +14,7 @@ const NewsletterSection = () => {
   return (
     <section
       className="w-full relative overflow-hidden"
-      style={{ backgroundColor: "#4E46DC", height: "200px" }}
+      style={{ backgroundColor: "#4E46DC", height: "300px" }}
     >
       {/* ──────────────────────────────────────────────────
           LEFT SIDE: Yellow semi-circle + man image
@@ -26,8 +26,8 @@ const NewsletterSection = () => {
       <div
         className="absolute rounded-full hidden md:block"
         style={{
-          width: "240px",
-          height: "240px",
+          width: "300px",
+          height: "300px",
           backgroundColor: "#F5C518",
           bottom: "-50%",       /* push down so only top arc shows */
           left: "200px",         /* align with man's torso */
@@ -41,7 +41,7 @@ const NewsletterSection = () => {
         alt="Student"
         className="absolute bottom-0 hidden md:block"
         style={{
-          height: "200px",
+          height: "250px",
           width: "auto",
           left: "200px",
           zIndex: 2,
@@ -59,7 +59,7 @@ const NewsletterSection = () => {
         className="absolute hidden md:grid pointer-events-none"
         style={{
           top: "30px",
-          left: "380px",
+          left: "450px",
           gridTemplateColumns: "repeat(6, 1fr)",
           gap: "7px",
           zIndex: 3,

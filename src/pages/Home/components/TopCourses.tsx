@@ -215,7 +215,7 @@ const TopCourses = () => {
   };
 
   return (
-    <section className="w-full bg-[#f5f4fb]  relative overflow-hidden">
+    <section className="w-full bg-[#f5f4fb]  relative overflow-hidden py-10">
 
       <ShineStyle />
       {/* bg blobs */}

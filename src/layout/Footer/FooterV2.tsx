@@ -18,8 +18,7 @@ const FooterV2 = () => {
       {/* ── MAIN GRID ── */}
       <div className="max-w-[1300px] mx-auto px-10 pt-16 pb-20">
         <div
-          className="grid gap-8"
-          style={{ gridTemplateColumns: "2fr 1.2fr 1.2fr 1.4fr" }}
+          className="grid gap-8 grid-cols-1 md:grid-cols-4"
         >
 
           {/* ── COL 1 : BRAND ── */}

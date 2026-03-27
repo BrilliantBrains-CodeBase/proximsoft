@@ -21,6 +21,8 @@ export interface Blog {
   date: string;
   readTime: string;
 
+  category?:string;
+
   // Full blog content (HTML)
   content: string;
 }

@@ -21,6 +21,8 @@ export const blogs: Blog[] = [
   date: "August 18, 2024",
   readTime: "6 min read",
 
+  category:'Education',
+
 content: `
   <p class="text-gray-600 leading-relaxed mb-6">
     Educational Technology (EdTech) has revolutionized how individuals learn,
@@ -90,6 +92,8 @@ content: `
 
   date: "September 5, 2024",
   readTime: "7 min read",
+
+  category:'Edtech',
 
   content: `
   <p class="text-gray-600 leading-relaxed mb-6">
@@ -162,6 +166,8 @@ content: `
 
     date: "June 11, 2022",
     readTime: "5 min read",
+
+    category:'Training',
 
     content: `
   <p class="text-gray-600 leading-relaxed mb-6">
