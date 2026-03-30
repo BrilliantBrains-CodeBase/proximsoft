@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { Mail, Phone, MapPin } from "lucide-react";
+import ContactUsHero from "./ContactUsHero";
 
 const ContactUs = () => {
   const [phone, setPhone] = useState("");
@@ -24,9 +25,12 @@ const ContactUs = () => {
 
   return (
     <section className="bg-[#f8fafc] py-8 mt-12">
+      <div>
+        <ContactUsHero />
+      </div>
       <div className="mx-auto max-w-7xl px-4">
         {/* HEADER */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -40,10 +44,10 @@ const ContactUs = () => {
           <h1 className="mt-4 text-3xl font-semibold text-gray-900 md:text-4xl">
             Get in touch, let us know how we can help
           </h1>
-        </motion.div>
+        </motion.div> */}
 
         {/* INFO CARDS */}
-        <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-3">
+        {/* <div className="mt-10 grid grid-cols-1 gap-4 ">
           <InfoCard
             icon={<Mail size={18} />}
             label="Email Address"
@@ -59,24 +63,33 @@ const ContactUs = () => {
             label="Our Office"
             value="3600 NJ-66 #150, Tinton Falls, NJ"
           />
-        </div>
+        </div>         */}
 
         {/* MAP + FORM */}
-        <div className="mt-10 grid grid-cols-1 gap-8 rounded-2xl bg-white p-6 shadow-sm md:grid-cols-2 md:p-10">
+        <div className="mt-10 grid grid-cols-1 gap-8 rounded-2xl  p-6  md:grid-cols-2 md:p-10">
           {/* MAP */}
           <motion.div
             initial={{ opacity: 0, scale: 0.97 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="overflow-hidden rounded-xl"
+            className="overflow-hidden rounded-xl grid grid-cols-1 gap-4"
           >
-            <iframe
-              title="Proximsoft Location"
-              src="https://www.google.com/maps?q=3600%20NJ-66%20%23150%2C%20Tinton%20Falls%2C%20NJ%2007753&output=embed"
-              className="h-[420px] w-full border-0"
-              loading="lazy"
-            />
+                      <InfoCard
+            icon={<Mail size={24} />}
+            label="Email Address"
+            value="careers@proximsoft.com"
+          />
+          <InfoCard
+            icon={<Phone size={24} />}
+            label="Phone Number"
+            value="+1 (908) 312 4519"
+          />
+          <InfoCard
+            icon={<MapPin size={24} />}
+            label="Our Office"
+            value="3600 NJ-66 #150, Tinton Falls, NJ"
+          />
           </motion.div>
 
           {/* FORM */}
@@ -85,7 +98,7 @@ const ContactUs = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="space-y-5"
+            className="space-y-5 bg-white p-4 shadow-lg rounded-2xl"
           >
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <Input label="First Name" placeholder="Your first name" />
@@ -131,7 +144,22 @@ const ContactUs = () => {
             </button>
           </motion.form>
         </div>
+        <motion.div
+            initial={{ opacity: 0, scale: 0.97 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="overflow-hidden rounded-xl my-10"
+          >
+            <iframe
+              title="Proximsoft Location"
+              src="https://www.google.com/maps?q=3600%20NJ-66%20%23150%2C%20Tinton%20Falls%2C%20NJ%2007753&output=embed"
+              className="h-[420px] w-full border-0"
+              loading="lazy"
+            />
+          </motion.div>
       </div>
+      
     </section>
   );
 };
@@ -149,13 +177,13 @@ const InfoCard = ({
   label: string;
   value: string;
 }) => (
-  <div className="flex items-center gap-4 rounded-xl bg-white p-4 shadow-sm">
-    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#2E78CC] text-white">
+  <div className="flex items-center gap-4 rounded-xl bg-gray-100 my-2 p-4 shadow-sm min-h-[150px]">
+    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[#2E78CC] text-white">
       {icon}
     </div>
     <div>
-      <p className="text-xs text-gray-500">{label}</p>
-      <p className="text-sm font-medium text-gray-900">{value}</p>
+      <p className="text-lg font-semibold text-gray-500">{label}</p>
+      <p className="text-md font-medium text-gray-900">{value}</p>
     </div>
   </div>
 );
