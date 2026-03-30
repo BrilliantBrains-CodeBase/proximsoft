@@ -3,7 +3,7 @@ import { Routes,Route } from 'react-router-dom'
 import MainLayout from './layout/Main/MainLayout'
 import Home from './pages/Home/Home'
 import Aboutus from './pages/About/Aboutus'
-import AllCourses from './pages/Courses/AllCourses/AllCourses'
+// import AllCourses from './pages/Courses/AllCourses/AllCourses'
 import AllBlogs from './pages/Blogs/AllBlogs/AllBlogs'
 import TermsAndConditions from './pages/Legal/TermsAndConditions'
 import PrivacyAndPolicy from './pages/Legal/PrivacyAndPolicy'
@@ -17,6 +17,7 @@ import FreeDemoModal from './layout/Demo/FreeDemoModal'
 import FloatingWhatsapp from './layout/Whatsapp/FloatingWhatsapp'
 import ThankYou from './pages/Thankyou/ThankYou'
 import EnrollThankYou from './pages/Thankyou/EnrollSuccess'
+import AllCoursesV2 from './pages/Courses/AllCoursesV2/AllCoursesV2'
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Aboutus />} />
-        <Route path="/courses" element={<AllCourses />} />
+        {/* <Route path="/courses" element={<AllCourses />} /> */}
+        <Route path="/courses" element={<AllCoursesV2 />} />
         <Route path="/courses/:course-category-slug" element={<CourseCategory />} />
         <Route path='/courses/:category-slug/:course-slug' element={<CourseIndividual />}/>
         <Route path="/blogs" element={<AllBlogs />} />

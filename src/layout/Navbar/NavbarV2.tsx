@@ -12,7 +12,7 @@ import {
   LayoutGrid,
 } from "lucide-react";
 
-import { courseNavItems } from "../../data/navbar/courseNav";
+import { courseCategories } from "../../data/categories/courseCategories";
 import { courses } from "../../data/courses/course";
 import { useFreeDemo } from "../../context/FreeDemoContext";
 import TopNavbar from "./TopNavbar";
@@ -34,7 +34,7 @@ const NavbarV2 = () => {
   const navigate = useNavigate();
   const { openDemo } = useFreeDemo();
 
-  /* SEARCH HANDLER — FIXED: use category_title instead of category_name */
+  /* SEARCH HANDLER */
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearchTerm(value);
@@ -53,7 +53,7 @@ const NavbarV2 = () => {
       const categoryMatch =
         selectedCategory === "Categories" ||
         selectedCategory === "All" ||
-        course.course_details.course_category.category_title === selectedCategory; // ✅ FIXED: was category_name
+        course.course_details.course_category.category_title === selectedCategory;
 
       return titleMatch && categoryMatch;
     });
@@ -77,7 +77,7 @@ const NavbarV2 = () => {
 
   return (
     <header className="w-full bg-white shadow-sm fixed top-0 z-50">
-        <TopNavbar />
+      <TopNavbar />
       <div className="max-w-[1300px] mx-auto px-4 py-3 flex items-center justify-between">
 
         {/* LOGO */}
@@ -90,7 +90,7 @@ const NavbarV2 = () => {
 
           <NavItem to="/">Home</NavItem>
 
-          {/* COURSES DROPDOWN (FIXED NO FLICKER) */}
+          {/* COURSES DROPDOWN */}
           <div
             className="relative"
             onMouseEnter={() => setCoursesOpen(true)}
@@ -109,13 +109,21 @@ const NavbarV2 = () => {
                   transition={{ duration: 0.2 }}
                   className="absolute top-8 left-0 bg-white shadow-lg rounded-md w-56 z-50"
                 >
+                  {/* All Courses — no filter */}
                   <DropdownItem to="/courses">All Courses</DropdownItem>
 
-                  {courseNavItems.map((item) => (
-                    <DropdownItem key={item.to} to={item.to}>
-                      {item.label}
-                    </DropdownItem>
-                  ))}
+                  {/* Per-category — filters AllCoursesV2 via ?category=categoryId */}
+                  {courseCategories
+                    .filter((cat) => cat.isActive)
+                    .sort((a, b) => a.sequence - b.sequence)
+                    .map((cat) => (
+                      <DropdownItem
+                        key={cat.uid}
+                        to={`/courses?category=${cat.categoryId}`}
+                      >
+                        {cat.title}
+                      </DropdownItem>
+                    ))}
                 </motion.div>
               )}
             </AnimatePresence>
@@ -161,30 +169,33 @@ const NavbarV2 = () => {
                         All
                       </DropdownSelect>
 
-                      {courseNavItems.map((item) => (
-                        <DropdownSelect
-                          key={item.to}
-                          onClick={() => {
-                            setSelectedCategory(item.label);
-                            setCategoryOpen(false);
-                          }}
-                        >
-                          {item.label}
-                        </DropdownSelect>
-                      ))}
+                      {courseCategories
+                        .filter((cat) => cat.isActive)
+                        .sort((a, b) => a.sequence - b.sequence)
+                        .map((cat) => (
+                          <DropdownSelect
+                            key={cat.uid}
+                            onClick={() => {
+                              setSelectedCategory(cat.title);
+                              setCategoryOpen(false);
+                            }}
+                          >
+                            {cat.title}
+                          </DropdownSelect>
+                        ))}
                     </motion.div>
                   )}
                 </AnimatePresence>
               </div>
 
-              {/* INPUT — FIXED: increased font size from text-sm to text-base */}
+              {/* INPUT */}
               <input
                 type="text"
                 placeholder="Search your Course..."
                 value={searchTerm}
                 onChange={handleSearch}
                 onFocus={() => results.length > 0 && setShowDropdown(true)}
-                className="bg-transparent outline-none px-3 text-base w-full" // ✅ FIXED: was text-sm
+                className="bg-transparent outline-none px-3 text-base w-full"
               />
 
               <span className="bg-blue-900 rounded-full p-2">
@@ -221,11 +232,9 @@ const NavbarV2 = () => {
                       </div>
 
                       <div className="flex-grow text-left">
-                        {/* FIXED: increased from text-xs to text-sm */}
                         <h4 className="text-gray-900 font-semibold text-sm">
                           {course.course_details.course_title}
                         </h4>
-                        {/* FIXED: increased from text-[10px] to text-xs */}
                         <p className="text-blue-600 text-xs font-bold uppercase">
                           {course.course_details.difficulty_level}
                         </p>
@@ -283,7 +292,19 @@ const NavbarV2 = () => {
 
             <div className="px-4 space-y-3">
               <MobileItem to="/" onClick={() => setMobileOpen(false)}>Home</MobileItem>
-              <MobileItem to="/courses" onClick={() => setMobileOpen(false)}>Courses</MobileItem>
+              <MobileItem to="/courses" onClick={() => setMobileOpen(false)}>All Courses</MobileItem>
+              {courseCategories
+                .filter((cat) => cat.isActive)
+                .sort((a, b) => a.sequence - b.sequence)
+                .map((cat) => (
+                  <MobileItem
+                    key={cat.uid}
+                    to={`/courses?category=${cat.categoryId}`}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {cat.title}
+                  </MobileItem>
+                ))}
               <MobileItem to="/blogs" onClick={() => setMobileOpen(false)}>Blog</MobileItem>
               <MobileItem to="/about" onClick={() => setMobileOpen(false)}>About Us</MobileItem>
               <MobileItem to="/contact" onClick={() => setMobileOpen(false)}>Contact</MobileItem>

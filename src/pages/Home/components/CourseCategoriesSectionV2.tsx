@@ -71,7 +71,7 @@ const CourseCategoriesSectionV2 = () => {
                   transition={{ type: "spring", stiffness: 300, damping: 18 }}
                   className="flex flex-col items-center cursor-pointer group py-6 pb-4 md:pb-2 transition-all duration-300"
                   style={{ borderRadius: "100px" }}
-                  onClick={() => navigate(category.metaUrl)}
+                  onClick={() => navigate(`/courses?category=${category.categoryId}`)}
                 >
                   {/* ── Circle ── */}
                   <div
