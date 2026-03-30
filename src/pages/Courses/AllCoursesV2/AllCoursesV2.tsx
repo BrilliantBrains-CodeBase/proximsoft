@@ -5,7 +5,6 @@ import { useMemo} from "react";
 import { useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import AllCoursesHero from "./AllCoursesHero";
-import { div } from "framer-motion/client";
 
 // ─── Icons ──────────────────────────────────────────────────────────────────
 
