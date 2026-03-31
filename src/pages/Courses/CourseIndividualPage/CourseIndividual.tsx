@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
-import Course from "./Course";
+// import Course from "./Course";
 import { courses } from "../../../data/courses/course"; 
 import useMeta from "../../../hooks/useMeta";
+import CourseV2 from "./CourseV2";
 
 const CourseIndividual = () => {
   const { "category-slug": categorySlug, "course-slug": courseSlug } = useParams();
@@ -19,7 +20,7 @@ const CourseIndividual = () => {
   // 2. Call the hook at the TOP LEVEL
   // Use optional chaining and fallback values so it works even if foundCourse is undefined
   useMeta({
-    title: foundCourse?.seo_metadata.meta_title || "Course Not Found | YourBrand",
+    title: foundCourse?.seo_metadata.meta_title || "Course Not Found | Proximsoft Solutions",
     description: foundCourse?.seo_metadata.meta_description || "Explore our professional courses."
   });
 
@@ -45,7 +46,8 @@ const CourseIndividual = () => {
   // 4. Success Return
   return (
     <div className="animate-in fade-in duration-700">
-      <Course course={foundCourse} />
+      {/* <Course course={foundCourse} /> */}
+      <CourseV2 course={foundCourse} />
     </div>
   );
 };
