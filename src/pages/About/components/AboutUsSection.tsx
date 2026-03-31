@@ -29,7 +29,7 @@ const AboutUsSection = () => {
           {/* Circular clipped image */}
           <div className="w-full h-full rounded-full overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80"
+              src="/images/aboutus/about-us-cover.png"
               alt="Students"
               className="w-full h-full object-cover object-center"
             />

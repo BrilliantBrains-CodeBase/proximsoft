@@ -32,7 +32,7 @@ const AboutUsSectionV2 = () => {
           {/* raw image — designer will apply blob clip-path / mask */}
           <div className="relative z-10">
             <img
-              src="/images/home/about_img.png"
+              src="/images/home/about_img-2.webp"
               alt="Students learning"
               className="w-[300px] md:w-[600px] object-cover object-top"
               style={{ borderRadius: "0" }} 

@@ -32,9 +32,9 @@ export default function FAQSectionV2() {
         {/* LEFT IMAGE */}
         <div className="flex justify-center">
           <img
-            src="/images/home/faq_img.png" // replace with your final asset
+            src="/images/home/FAQ-img.png" // replace with your final asset
             alt="faq visual"
-            className="w-[420px] max-w-full object-contain"
+            className="w-[500px] max-w-full object-contain"
           />
         </div>
 
@@ -42,7 +42,7 @@ export default function FAQSectionV2() {
         <div className="max-w-[520px]">
           
           {/* Badge */}
-          <span className="inline-block bg-indigo-100 text-indigo-600 text-[11px] px-4 py-[6px] rounded-full mb-5 font-medium">
+          <span className="inline-block bg-indigo-100 text-indigo-600 text-[11px] px-4 py-[6px] rounded-full mb-5 font-semibold">
             Faq's
           </span>
 

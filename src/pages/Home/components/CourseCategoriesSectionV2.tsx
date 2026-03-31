@@ -116,7 +116,7 @@ const CourseCategoriesSectionV2 = () => {
                       className="
         w-[36px] h-[36px]
         sm:w-[42px] sm:h-[42px]
-        md:w-[48px] md:h-[48px]
+        md:w-[60px] md:h-[60px]
         object-contain transition-all duration-300
         group-hover:brightness-0 group-hover:invert
       "
