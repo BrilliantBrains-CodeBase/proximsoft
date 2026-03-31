@@ -82,11 +82,11 @@ const NavbarV2 = () => {
 
         {/* LOGO */}
         <NavLink to="/" className="flex items-center">
-          <img src="/proximsoft_logo.png" className="h-10" />
+          <img src="/proximsoft-logo-new.webp" className="h-8  mr-4" />
         </NavLink>
 
         {/* NAV LINKS */}
-        <nav className="hidden lg:flex items-center gap-8 text-md font-semibold text-black">
+        <nav className="hidden lg:flex items-center gap-8 text-md font-medium text-black">
 
           <NavItem to="/">Home</NavItem>
 
@@ -249,8 +249,8 @@ const NavbarV2 = () => {
           </div>
 
           {/* ICONS */}
-          <IconWithBadge icon={<Heart size={18} />} count={0} />
-          <IconWithBadge icon={<ShoppingCart size={18} />} count={0} />
+          {/* <IconWithBadge icon={<Heart size={18} />} count={0} />
+          <IconWithBadge icon={<ShoppingCart size={18} />} count={0} /> */}
 
           {/* CTA */}
           <button

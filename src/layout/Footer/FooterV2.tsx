@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { courseCategories } from "../../data/categories/courseCategories";
+import { MapIcon, Phone } from "lucide-react";
 
 const FooterV2 = () => {
   const popularCategories = courseCategories
@@ -26,9 +27,9 @@ const FooterV2 = () => {
             {/* Logo */}
             <NavLink to="/" className="inline-flex items-center mb-6">
               <img
-                src="/proximsoft_logo.png"
+                src="/proximsoft-logo-new-2.webp "
                 alt="Proximsoft"
-                className="h-10"
+                className="h-32"
               />
             </NavLink>
 
@@ -42,13 +43,17 @@ const FooterV2 = () => {
             </p>
 
             {/* Address */}
-            <p className="text-sm mb-2" style={{ color: "#c5c8e0" }}>
-              3600 NJ-66 #150, Tinton Falls, NJ
+            <p className="text-sm mb-2 flex items-center gap-4" style={{ color: "#c5c8e0" }}>
+              <MapIcon className="w-4 h-4"/>
+              <span>
+                3600 NJ-66 #150, Tinton Falls, NJ 
+              </span>
             </p>
 
             {/* Phone */}
-            <p className="text-sm" style={{ color: "#c5c8e0" }}>
-              +1 (908) 312 4519
+            <p className="text-sm flex items-center gap-4" style={{ color: "#c5c8e0" }}>
+              <Phone className="h-4 w-4" />
+             <span> +1 (908) 312 4519</span>
             </p>
           </div>
 
