@@ -14,7 +14,6 @@ const CourseSidebar = ({ courseData }: CourseSidebarProps) => {
     course_metrics,
     certification_details,
     curriculum,
-    pricing_and_enrollment,
   } = courseData;
 
   const { difficulty_level, course_thumbnail, course_title } = course_details;
@@ -22,7 +21,6 @@ const CourseSidebar = ({ courseData }: CourseSidebarProps) => {
   const { total_students_enrolled } = course_metrics;
   const { is_certified } = certification_details;
   const { total_modules, total_lectures } = curriculum.summary;
-  const { enrollment_link } = pricing_and_enrollment;
 
   const handleEnrollClick = () => {
     const target = document.getElementById("lead-form");

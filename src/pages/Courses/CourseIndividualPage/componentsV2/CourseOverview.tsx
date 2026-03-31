@@ -7,7 +7,7 @@ interface CourseOverviewProps {
 const CourseOverview = ({ courseData }: CourseOverviewProps) => {
   const { course_details, course_metrics, course_structure, pricing_and_enrollment, certification_details, metadata } = courseData;
   const { course_title, course_thumbnail, course_category, difficulty_level } = course_details;
-  const { avg_rating, total_reviews, total_students_enrolled } = course_metrics;
+  const { avg_rating, total_students_enrolled } = course_metrics;
   const { base_price, discounted_price, currency } = pricing_and_enrollment;
   const { total_duration } = course_structure;
   const { is_certified } = certification_details;

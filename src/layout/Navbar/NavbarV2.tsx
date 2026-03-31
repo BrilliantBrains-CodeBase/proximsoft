@@ -6,8 +6,6 @@ import {
   Menu,
   X,
   Search,
-  Heart,
-  ShoppingCart,
   ArrowRight,
   LayoutGrid,
 } from "lucide-react";
