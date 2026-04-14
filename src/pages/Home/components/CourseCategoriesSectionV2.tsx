@@ -32,7 +32,7 @@ const CourseCategoriesSectionV2 = () => {
         </h2>
 
         <p className="mt-3 text-[15px] text-gray-400 max-w-xl mx-auto">
-          when known printer took a galley of type scrambl edmake
+          Explore our most in-demand courses designed to accelerate your tech career.
         </p>
       </div>
 

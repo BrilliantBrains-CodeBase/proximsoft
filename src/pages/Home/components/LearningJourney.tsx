@@ -167,8 +167,7 @@ const LearningJourney: React.FC = () => {
           initial="hidden"
           animate={heroInView ? "visible" : "hidden"}
         >
-          Groove's intuitive shared inbox makesteam members together organize,
-          prioritize and.In this episode.
+         Start your learning journey with Proximsoft—where intuitive, industry-focused courses help you organize your growth, prioritize the right skills, and accelerate your career with real-world upskilling.
         </motion.p>
       </div>
 
