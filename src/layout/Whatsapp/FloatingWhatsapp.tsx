@@ -10,7 +10,7 @@ const FloatingWhatsapp = () => {
       className="fixed bottom-6 right-6 z-[9999]"
     >
       <FloatingWhatsApp
-        phoneNumber="190312 4519"
+        phoneNumber="+19084287996"
         accountName="Proximsoft Support"
         chatMessage="Hi 👋 How can we help you?"
         statusMessage="Typically replies within minutes"
@@ -19,7 +19,7 @@ const FloatingWhatsapp = () => {
         notification
         notificationDelay={5}
         darkMode={false}
-        avatar="/proximsoft_logo.png"
+        avatar="/proximsoft-logo-new-2.webp"
         placeholder="Type your message..."
       />
     </motion.div>

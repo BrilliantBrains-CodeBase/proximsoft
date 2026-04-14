@@ -20,6 +20,15 @@ export interface CourseCategory {
   isFeatured?: boolean;
 }
 
+import { courses } from "../courses/course";
+
+export const getCourseCountByCategory = (categoryId: string): number => {
+  return courses.filter(
+    (course) =>
+      course.course_details.course_category.category_id === categoryId
+  ).length;
+};
+
 
 export const courseCategories: CourseCategory[] = [
   {
@@ -32,12 +41,12 @@ export const courseCategories: CourseCategory[] = [
       "Explore Artificial Intelligence courses covering machine learning, deep learning, and real-world AI applications.",
     metaUrl: "/courses/artificial-intelligence",
     coverImage: "/images/category/Artificial intelligence.png",
-    icon:"/images/category/technology_14527610.png",
+    icon: "/images/category/technology_14527610.png",
     sequence: 1,
     priority: "high",
-    courseCount: 7,
+    courseCount: getCourseCountByCategory("CAT_AI"),
     isActive: true,
-    isFeatured: true
+    isFeatured: true,
   },
   {
     uid: "cat-cloud-002",
@@ -50,11 +59,11 @@ export const courseCategories: CourseCategory[] = [
       "Learn cloud computing with hands-on AWS, Azure, and Google Cloud training programs.",
     metaUrl: "/courses/cloud-computing",
     coverImage: "/images/category/Cloud computing.png",
-    icon:"/images/category/edge-computing_17757119.png",
+    icon: "/images/category/edge-computing_17757119.png",
     sequence: 2,
     priority: "high",
-    courseCount: 8,
-    isActive: true
+    courseCount: getCourseCountByCategory("CAT_CLOUD"),
+    isActive: true,
   },
   {
     uid: "cat-data-003",
@@ -66,11 +75,11 @@ export const courseCategories: CourseCategory[] = [
       "Build a career in data analytics by mastering SQL, Python, Power BI, and Tableau.",
     metaUrl: "/courses/data-analytics",
     coverImage: "/images/category/Data analytics.png",
-    icon:"/images/category/online_8257096.png",
+    icon: "/images/category/online_8257096.png",
     sequence: 3,
     priority: "high",
-    courseCount: 13,
-    isActive: true
+    courseCount: getCourseCountByCategory("CAT_DATA"),
+    isActive: true,
   },
   {
     uid: "cat-mgmt-004",
@@ -82,43 +91,44 @@ export const courseCategories: CourseCategory[] = [
       "Advance your leadership skills with management, strategy, and business courses.",
     metaUrl: "/courses/management",
     coverImage: "/images/category/Management.png",
-    icon:"/images/category/team-management_10382204.png",
+    icon: "/images/category/team-management_10382204.png",
     sequence: 4,
     priority: "medium",
-    courseCount: 6,
-    isActive: true
+    courseCount: getCourseCountByCategory("CAT_MGMT"),
+    isActive: true,
   },
-  // Add these to your export const courseCategories: CourseCategory[] array
-{
-  uid: "cat-salesforce-005",
-  categoryId: "CAT_SALESFORCE",
-  slug: "salesforce",
-  title: "Salesforce",
-  metaTitle: "Salesforce CRM Training | Proximsoft",
-  metaDescription: "Master Salesforce administration and development with our comprehensive training.",
-  metaUrl: "/courses/salesforce",
-  coverImage: "/images/category/Salesforce.png",
-  icon:"/images/category/edge-computing_17757119.png",
-  sequence: 7,
-  priority: "medium",
-  courseCount: 35,
-  isActive: true
-},
-{
-  uid: "cat-sap-006",
-  categoryId: "CAT_SAP",
-  slug: "sap",
-  title: "SAP",
-  metaTitle: "SAP ERP Modules & Certification | Proximsoft",
-  metaDescription: "Learn SAP ERP modules including FICO, MM, and SD from industry experts.",
-  metaUrl: "/courses/sap",
-  coverImage: "/images/category/SAP.png",
-  icon:"/images/category/sap_10329720.png",
-  sequence: 8,
-  priority: "medium",
-  courseCount: 28,
-  isActive: true
-},
+  {
+    uid: "cat-salesforce-005",
+    categoryId: "CAT_SALESFORCE",
+    slug: "salesforce",
+    title: "Salesforce",
+    metaTitle: "Salesforce CRM Training | Proximsoft",
+    metaDescription:
+      "Master Salesforce administration and development with our comprehensive training.",
+    metaUrl: "/courses/salesforce",
+    coverImage: "/images/category/Salesforce.png",
+    icon: "/images/category/edge-computing_17757119.png",
+    sequence: 7,
+    priority: "medium",
+    courseCount: getCourseCountByCategory("CAT_SALESFORCE"),
+    isActive: true,
+  },
+  {
+    uid: "cat-sap-006",
+    categoryId: "CAT_SAP",
+    slug: "sap",
+    title: "SAP",
+    metaTitle: "SAP ERP Modules & Certification | Proximsoft",
+    metaDescription:
+      "Learn SAP ERP modules including FICO, MM, and SD from industry experts.",
+    metaUrl: "/courses/sap",
+    coverImage: "/images/category/SAP.png",
+    icon: "/images/category/sap_10329720.png",
+    sequence: 8,
+    priority: "medium",
+    courseCount: getCourseCountByCategory("CAT_SAP"),
+    isActive: true,
+  },
   {
     uid: "cat-dev-007",
     categoryId: "CAT_DEV",
@@ -130,11 +140,11 @@ export const courseCategories: CourseCategory[] = [
       "Learn modern software development including frontend, backend, and full-stack technologies.",
     metaUrl: "/courses/software-development",
     coverImage: "/images/category/Software development.png",
-    icon:"/images/category/web-programming.png",
+    icon: "/images/category/web-programming.png",
     sequence: 5,
     priority: "high",
-    courseCount: 120,
-    isActive: true
+    courseCount: getCourseCountByCategory("CAT_DEV"),
+    isActive: true,
   },
   {
     uid: "cat-test-008",
@@ -147,10 +157,10 @@ export const courseCategories: CourseCategory[] = [
       "Start your QA career with manual and automation software testing courses.",
     metaUrl: "/courses/software-testing",
     coverImage: "/images/category/Software testing.png",
-    icon:"/images/category/testing_18142627.png",
+    icon: "/images/category/testing_18142627.png",
     sequence: 6,
     priority: "medium",
-    courseCount: 40,
-    isActive: true
-  }
+    courseCount: getCourseCountByCategory("CAT_TEST"),
+    isActive: true,
+  },
 ];

@@ -224,7 +224,7 @@ const HeroSection = () => {
 
               {/* ── banner_img.png — girl, scroll parallax ── */}
               <motion.img
-                src="/images/home/banner_img.png"
+                src="/freepik__adjust__74194.png"
                 alt="Student with laptop"
                 className="absolute bottom-[-10px] left-1/2 z-[20] w-[400px] object-contain select-none"
                 style={{
