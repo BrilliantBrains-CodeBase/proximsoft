@@ -114,9 +114,9 @@ const CourseContentNavigation: React.FC<CourseContentProps> = ({ courseData }) =
         {activeTab === 'curriculum' && (
           <div>
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">Course Curriculum</h2>
-            <p className="text-gray-500 text-sm mb-6">
+            {/* <p className="text-gray-500 text-sm mb-6">
               {curriculum.summary.total_modules} Modules · {curriculum.summary.total_lectures} Lessons · {curriculum.summary.difficulty_level}
-            </p>
+            </p> */}
 
             <div className="space-y-3">
               {curriculum.modules.map((module, index) => (
@@ -135,7 +135,7 @@ const CourseContentNavigation: React.FC<CourseContentProps> = ({ courseData }) =
                       </span>
                       <div className="text-left">
                         <p className="text-sm sm:text-[15px] font-semibold text-gray-800">{module.module_name}</p>
-                        <p className="text-xs text-gray-400 mt-0.5">{module.module_duration} · {module.topics.length} topics</p>
+                        {/* <p className="text-xs text-gray-400 mt-0.5">{module.module_duration} · {module.topics.length} topics</p> */}
                       </div>
                     </div>
                     <svg

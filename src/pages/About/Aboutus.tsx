@@ -12,6 +12,7 @@ import AboutUsHero from "./components/AboutUsHero"
 import AboutUsSection from "./components/AboutUsSection"
 import FeaturesSection from "./components/FeatureSection"
 import TestimonialsSection from "./components/TestimonialsSection"
+import WhatWeDoBest from "./components/WhatWeDoBest"
 
 const Aboutus = () => {
   return (
@@ -26,6 +27,7 @@ const Aboutus = () => {
       <AboutUsHero />
       <AboutUsSection />
       <BrandSlider />
+      <WhatWeDoBest />
       <FeaturesSection />
       <NewsletterSection />
       <LearningJourney />

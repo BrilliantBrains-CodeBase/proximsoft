@@ -16,12 +16,13 @@ import BrandSlider from "./components/BrandSlider"
 import AboutUsSectionV2 from "./components/AboutUsSectionV2"
 import TopCourses from "./components/TopCourses"
 import NewsletterSection from "./components/Newslettersection "
-import TopInstructors from "./components/TopInstructors"
+// import TopInstructors from "./components/TopInstructors"
 import StatsStrip from "./components/StatsStrip"
 import FAQSectionV2 from "./components/FAQSectionV2"
 import LearningJourney from "./components/LearningJourney"
 import RolesCards from "./components/RolesCards"
 import LatestNewsFeed from "../Blogs/AllBlogs/components/LatestNews"
+import WhatWeDoBest from "../About/components/WhatWeDoBest"
 
 const Home = () => {
   // Setup SEO metadata for the Landing Page
@@ -40,7 +41,8 @@ const Home = () => {
       <AboutUsSectionV2 />
       <TopCourses />
       <NewsletterSection />
-      <TopInstructors />
+      {/* <TopInstructors /> */}
+      <WhatWeDoBest />
       <StatsStrip />
       <FAQSectionV2 />
       <LearningJourney />

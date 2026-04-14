@@ -10,17 +10,18 @@ const CourseSidebar = ({ courseData }: CourseSidebarProps) => {
 
   const {
     course_details,
-    course_structure,
+    // course_structure,
     course_metrics,
     certification_details,
     curriculum,
   } = courseData;
 
   const { difficulty_level, course_thumbnail, course_title } = course_details;
-  const { total_duration } = course_structure;
+  // const { total_duration } = course_structure;
   const { total_students_enrolled } = course_metrics;
   const { is_certified } = certification_details;
-  const { total_modules, total_lectures } = curriculum.summary;
+  const { total_modules } = curriculum.summary;
+  // const { total_lectures} =curriculum.summary
 
   const handleEnrollClick = () => {
     const target = document.getElementById("lead-form");
@@ -41,7 +42,7 @@ const CourseSidebar = ({ courseData }: CourseSidebarProps) => {
     },
     {
       label: "Duration",
-      value: total_duration,
+      value: "40-50 Hours",
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
           <circle cx="12" cy="12" r="10" />
@@ -49,16 +50,16 @@ const CourseSidebar = ({ courseData }: CourseSidebarProps) => {
         </svg>
       ),
     },
-    {
-      label: "Lessons",
-      value: total_lectures,
-      icon: (
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-          <rect x="3" y="3" width="18" height="18" rx="2" />
-          <path d="M3 9h18M9 21V9" strokeLinecap="round" />
-        </svg>
-      ),
-    },
+    // {
+    //   label: "Lessons",
+    //   value: total_lectures,
+    //   icon: (
+    //     <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+    //       <rect x="3" y="3" width="18" height="18" rx="2" />
+    //       <path d="M3 9h18M9 21V9" strokeLinecap="round" />
+    //     </svg>
+    //   ),
+    // },
     {
       label: "Modules",
       value: total_modules,

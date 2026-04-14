@@ -22,7 +22,7 @@ const AboutUsSectionV2 = () => {
   const [showVideo, setShowVideo] = useState(false);
 
   return (
-    <section className="w-full min-h-screen bg-[#f4f6fb] flex items-center justify-center px-4 py-6 md:py-0">
+    <section className="w-full  bg-[#f4f6fb] flex items-center justify-center px-4 py-6 md:py-12">
       <div className="max-w-6xl w-full mx-auto flex flex-col-reverse md:flex-row items-center gap-12 md:gap-16">
 
         {/* ── LEFT: Image (no circle, blob clipping done by designer) ── */}

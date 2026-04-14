@@ -42,17 +42,17 @@ export default function FAQSectionV2() {
         <div className="max-w-[520px]">
           
           {/* Badge */}
-          <span className="inline-block bg-indigo-100 text-indigo-600 text-[11px] px-4 py-[6px] rounded-full mb-5 font-semibold">
+          <span className="inline-block text-md bg-indigo-100 text-indigo-600  px-4 py-[6px] rounded-full mb-5 font-semibold">
             Faq's
           </span>
 
           {/* Heading */}
-          <h2 className="text-[34px] font-semibold text-[#0f172a] leading-[1.2] tracking-tight">
-            Get Hired From <br /> Industry's Best Trainers
+          <h2 className="text-[34px] font-semibold text-[#0f172a] leading-[1.5] tracking-tight">
+            Land Your Dream Job with Expert-Led Training
           </h2>
 
           {/* Description */}
-          <p className="text-[#64748b] mt-4 text-[14px] leading-[1.7]">
+          <p className="text-[#64748b] mt-4 text-md leading-[1.7]">
             Get answers to everything you need to know before starting your IT
             career journey with Proximsoft.
           </p>
@@ -71,7 +71,7 @@ export default function FAQSectionV2() {
                     className="w-full flex items-center justify-between"
                   >
                     <span
-                      className={`text-[15px] font-medium transition-colors ${
+                      className={`text-lg font-semibold transition-colors ${
                         isActive ? "text-indigo-600" : "text-[#334155]"
                       }`}
                     >

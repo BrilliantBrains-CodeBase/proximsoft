@@ -186,7 +186,7 @@ const CourseCard = ({ course }: { course: (typeof courses)[0] }) => {
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 const TopCourses = () => {
-  const [activeCategory, setActiveCategory] = useState<string>("ALL");
+  const [activeCategory, setActiveCategory] = useState<string>("CAT_AI");
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
   const swiperRef = useRef<SwiperType | null>(null);
@@ -196,7 +196,7 @@ const TopCourses = () => {
     .sort((a, b) => a.sequence - b.sequence);
 
   const tabs = [
-    { id: "ALL", title: "All Courses" },
+    
     ...sortedCategories.map((c) => ({ id: c.categoryId, title: c.title })),
   ];
 

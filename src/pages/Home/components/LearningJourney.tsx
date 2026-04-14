@@ -19,25 +19,25 @@ const features: Feature[] = [
     icon: "/images/home/features_icon01.svg",
     title: "Learn with Experts",
     description:
-      "Curate anding area share Pluralsight content to reach your",
+      "Train with industry professionals who bring real-world experience, practical insights, and mentorship to help you master in-demand skills faster.",
   },
   {
     icon: "/images/home/features_icon02.svg",
     title: "Learn Anything",
     description:
-      "Curate anding area share Pluralsight content to reach your",
+      "Access a wide range of IT courses across domains, from beginner to advanced, designed to match current industry demands and career goals.",
   },
   {
     icon: "/images/home/features_icon03.svg",
     title: "Get Online Certificate",
     description:
-      "Curate anding area share Pluralsight content to reach your",
+      "Earn industry-recognized certifications that validate your skills and boost your profile for better job opportunities and career growth.",
   },
   {
     icon: "/images/home/features_icon04.svg",
-    title: "E-mail Marketing",
+    title: "Build Your Network",
     description:
-      "Curate anding area share Pluralsight content to reach your",
+      "Connect with HRs, peers, and industry experts through live sessions, community groups, and events to unlock opportunities and grow your career.",
   },
 ];
 
