@@ -27365,7 +27365,7 @@ export const courses: CourseData[] =[
     "course_title": "Backend Development (Java / Python / Node.js)",
     "course_subtitle": "Build Secure, Scalable & High-Performance Backend Systems Using Modern Technologies",
     "course_slug": "backend-development-java-python-nodejs",
-    "course_thumbnail": "assets/images/courses/backend-dev-thumb.jpg",
+    "course_thumbnail": "/images/courses/SoftwareDevelopment/backend development course.webp",
     "course_short_description": "Master server-side engineering. Learn to design REST APIs, manage databases, implement JWT authentication, and build scalable architectures using Java, Python, or Node.js.",
     "course_long_description": "This Backend Development course is designed to transition engineers from basic programming to production-grade server-side systems. Unlike syntax-only tutorials, this program dives deep into backend architecture, database transactions, security patterns, and scalability workflows required to power modern SaaS, mobile, and enterprise applications.",
     "about_course": [
