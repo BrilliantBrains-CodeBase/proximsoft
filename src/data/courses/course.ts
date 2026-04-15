@@ -13821,7 +13821,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP ABAP on S/4HANA Course",
     "course_subtitle": "Modern ABAP Development for SAP S/4HANA, CDS, AMDP & Performance Optimization",
     "course_slug": "sap-abap-on-s4hana-course",
-    "course_thumbnail": "assets/images/courses/sap-abap-s4-thumb.jpg",
+    "course_thumbnail": "/images/courses/SAP/MASTER HANA OPTIMISED DEVELOPMENT CDS.webp",
     "course_short_description": "Upgrade your technical skills for the future. Master HANA-optimized programming, Core Data Services (CDS), AMDP, and code pushdown techniques for S/4HANA migrations.",
     "course_long_description": "This SAP ABAP on S/4HANA course is designed for developers and technical consultants who want to build modern ABAP applications aligned with SAP S/4HANA architecture. Unlike classical ABAP, this program focuses on HANA-optimized programming, CDS Views, ABAP Managed Database Procedures (AMDP), and custom code adaptation for S/4HANA migrations.",
     "about_course": [
@@ -15491,7 +15491,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP RAP – RESTful Application Programming Model",
     "course_subtitle": "Modern ABAP Development with RAP, CDS, OData & Fiori Elements",
     "course_slug": "sap-rap-restful-application-programming-course",
-    "course_thumbnail": "/images/courses/SAPRAP.png",
+    "course_thumbnail": "/images/courses/SAP/SAP-BUILD_SCALABLE_RTESTFUL.webp",
     "course_short_description": "Master modern ABAP development. Learn to build cloud-ready enterprise applications using RAP, CDS, and OData for SAP S/4HANA and BTP.",
     "course_long_description": "This SAP RAP course is designed to teach developers how to build modern, scalable SAP applications using the RESTful Application Programming Model on SAP S/4HANA. Unlike classical ABAP programming, RAP enables clean architecture, service-based development, and Fiori-ready applications using CDS views, OData services, and transactional processing models.",
     "about_course": [

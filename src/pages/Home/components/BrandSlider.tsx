@@ -1,10 +1,18 @@
 const logos = [
-  "/images/home/brand01.png",
-  "/images/home/brand02.png",
-  "/images/home/brand03.png",
-  "/images/home/brand04.png",
-  "/images/home/brand05.png",
-  "/images/home/brand06.png",
+  "/images/brands/Proximsoft/accenture@3x.png",
+  "/images/brands/Proximsoft/amazon@3x.png",
+  "public/images/brands/Proximsoft/AT &T@3x.png",
+  "/images/brands/Proximsoft/CAPITAL ONE@3x.png",
+  "/images/brands/Proximsoft/COMCAST@3x.png",
+  "/images/brands/Proximsoft/cvs health@3x.png",
+  "/images/brands/Proximsoft/dell logo@3x.png",
+  "/images/brands/Proximsoft/FANIE MAE@3x.png",
+  "/images/brands/Proximsoft/jP MORGAN@3x.png",
+  "/images/brands/Proximsoft/KPMG@3x.png",
+  "/images/brands/Proximsoft/Microsoft@3x.png",
+  "/images/brands/Proximsoft/T MOBILE@3x.png",
+  "/images/brands/Proximsoft/UNITED HEALTHCARE@3x.png",
+  "public/images/brands/Proximsoft/WELLS FARGO@3x.png"
 ];
 
 const star = "/images/home/brand_star.svg";

@@ -1,6 +1,6 @@
 const PrivacyAndPolicy = () => {
   return (
-    <div className="min-h-screen bg-white text-gray-900 mt-12">
+    <div className="min-h-screen bg-white text-gray-900 mt-24">
       {/* Header */}
       <div className="bg-black text-white py-16 px-6">
         <div className="max-w-4xl mx-auto">

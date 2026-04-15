@@ -30,66 +30,128 @@ const CourseSidebar = ({ courseData }: CourseSidebarProps) => {
     }
   };
 
-  const courseIncludes = [
-    {
-      label: "Level",
-      value: difficulty_level,
-      icon: (
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-          <path d="M18 20V10M12 20V4M6 20v-6" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-    {
-      label: "Duration",
-      value: "40-50 Hours",
-      icon: (
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-          <circle cx="12" cy="12" r="10" />
-          <polyline points="12 6 12 12 16 14" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-    // {
-    //   label: "Lessons",
-    //   value: total_lectures,
-    //   icon: (
-    //     <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-    //       <rect x="3" y="3" width="18" height="18" rx="2" />
-    //       <path d="M3 9h18M9 21V9" strokeLinecap="round" />
-    //     </svg>
-    //   ),
-    // },
-    {
-      label: "Modules",
-      value: total_modules,
-      icon: (
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-          <path d="M9 11l3 3L22 4" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" strokeLinecap="round" />
-        </svg>
-      ),
-    },
-    {
-      label: "Certifications",
-      value: is_certified ? "Yes" : "No",
-      icon: (
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-          <path d="M12 15l-2 5L9 9l11 4-5 2zm0 0l4.5 4.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-    {
-      label: "Graduation",
-      value: `${(total_students_enrolled / 1000).toFixed(0)}K`,
-      icon: (
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
-          <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M6 12v5c3.333 1.667 8.667 1.667 12 0v-5" strokeLinecap="round" />
-        </svg>
-      ),
-    },
-  ];
+const courseIncludes = [
+  {
+    label: "Level",
+    value: difficulty_level,
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M18 20V10M12 20V4M6 20v-6" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "Duration",
+    value: "40-50 Hours",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "Modules",
+    value: total_modules,
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M9 11l3 3L22 4" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "Certifications",
+    value: is_certified ? "Yes" : "No",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M12 15l-2 5L9 9l11 4-5 2zm0 0l4.5 4.5" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "Graduation",
+    value: `${(total_students_enrolled / 1000).toFixed(0)}K`,
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M6 12v5c3.333 1.667 8.667 1.667 12 0v-5" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+
+  // ✅ STATIC (SHORTENED)
+
+  {
+    label: "Software Access",
+    value: "All tools included",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <rect x="3" y="4" width="18" height="14" rx="2" />
+        <path d="M8 20h8" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "Study Material",
+    value: "Soft copy resources",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M4 19.5V6a2 2 0 012-2h10a2 2 0 012 2v13.5" />
+        <path d="M8 6v13.5M16 6v13.5" />
+      </svg>
+    ),
+  },
+  {
+    label: "Resume Prep",
+    value: "JD-based optimization",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M7 3h10v18H7z" />
+        <path d="M9 7h6M9 11h6M9 15h4" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "Interview Prep",
+    value: "FAQs & scenarios",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M9 9h6v6H9z" />
+      </svg>
+    ),
+  },
+  {
+    label: "Mock Interviews",
+    value: "Practice sessions",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M17 8h2a2 2 0 012 2v4a2 2 0 01-2 2h-2" />
+        <rect x="3" y="6" width="14" height="12" rx="2" />
+      </svg>
+    ),
+  },
+  {
+    label: "Placement",
+    value: "Job assistance",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M12 12l8-4-8-4-8 4 8 4z" />
+        <path d="M4 10v6c2.5 2 13.5 2 16 0v-6" />
+      </svg>
+    ),
+  },
+  {
+    label: "Support",
+    value: "24×7 mentorship",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+        <path d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4-.9L2 17l1.5-3.5A6.978 6.978 0 012 10c0-3.866 3.582-7 8-7s8 3.134 8 7z" />
+      </svg>
+    ),
+  },
+];
 
   const socialLinks = [
     {

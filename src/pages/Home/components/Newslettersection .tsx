@@ -37,7 +37,7 @@ const NewsletterSection = () => {
 
       {/* Man image — sits on top of yellow circle, bottom-anchored, slightly left */}
       <img
-        src="/images/home/news-letter-2.png"
+        src="/images/home/newsletter-v2.png"
         alt="Student"
         className="absolute bottom-0 hidden md:block"
         style={{
