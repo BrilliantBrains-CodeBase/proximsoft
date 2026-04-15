@@ -22455,7 +22455,7 @@ export const courses: CourseData[] =[
     "course_title": "SAP Service Cloud (C4C) – Customer Service & Support Automation",
     "course_subtitle": "Comprehensive SAP Service Cloud Strategy, Case Management, and Omnichannel Customer Support",
     "course_slug": "sap-service-cloud-c4c-course",
-    "course_thumbnail": "/images/courses/SAP/SAPServiceCloudC4C.png",
+    "course_thumbnail": "/images/courses/SAP/SAP C4C.png",
     "course_short_description": "Master enterprise service automation. Learn to manage support cases, SLA compliance, and omnichannel customer interactions integrated with S/4HANA and SAP CX.",
     "course_long_description": "This SAP Service Cloud (C4C) course is designed to help professionals automate customer service operations and deliver seamless omnichannel support. You will learn to manage service tickets, design automated routing workflows, monitor SLA compliance, and integrate support processes with SAP S/4HANA to drive superior customer satisfaction.",
     "about_course": [
