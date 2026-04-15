@@ -233,7 +233,7 @@ const TopCourses = () => {
             Explore Our World's Best Courses
           </h2>
           <p className="text-gray-400 text-[14px] max-w-[400px] leading-relaxed">
-            When known printer took a galley of type scrambl edmake
+            Explore our most in-demand courses designed to accelerate your tech career.
           </p>
         </div>
 
