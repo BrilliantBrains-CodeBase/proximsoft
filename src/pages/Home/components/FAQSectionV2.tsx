@@ -5,20 +5,28 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "What are the best online courses for career growth?",
-    a: "Courses in web development, digital marketing, data analytics, AI, and business management offer strong career outcomes.",
+    q: "What are the best IT courses for career growth?",
+    a: "Courses in Full Stack, Data Analytics, AI, Cloud, and DevOps with hands-on projects offer the best career growth.",
   },
   {
-    q: "Do online courses really help in getting a job?",
-    a: "Yes. Skill based online training programs with projects and certifications improve employability and interview readiness.",
+    q: "Do online courses help in getting a job?",
+    a: "Yes, job-oriented training with real projects and interview preparation significantly improves hiring chances.",
   },
   {
-    q: "Are online course certificates valid for jobs?",
-    a: "Industry relevant online courses with certificates are widely accepted by employers when backed by practical skills.",
+    q: "Are online certificates valid?",
+    a: "Yes, but practical skills and project experience matter more than certificates when it comes to getting hired.",
   },
   {
-    q: "Can I learn online while working full time?",
-    a: "Yes. All courses are designed for flexible, self paced learning so you can study online at your convenience.",
+    q: "Can I learn while working full-time?",
+    a: "Yes, online courses provide flexible schedules and recorded sessions, making it easy to learn alongside a full-time job.",
+  },
+  {
+    q: "How long does it take to become job-ready?",
+    a: "Typically, it takes around 2–4 months to become job-ready with consistent practice and dedication.",
+  },
+  {
+    q: "Do you provide placement support?",
+    a: "Yes, we offer placement support including resume building, mock interviews, and job assistance.",
   },
 ];
 
@@ -32,7 +40,7 @@ export default function FAQSectionV2() {
         {/* LEFT IMAGE */}
         <div className="flex justify-center">
           <img
-            src="/images/home/FAQ-img.png" // replace with your final asset
+            src="/images/home/faq-img-3.webp" // replace with your final asset
             alt="faq visual"
             className="w-[500px] max-w-full object-contain"
           />
@@ -48,14 +56,20 @@ export default function FAQSectionV2() {
 
           {/* Heading */}
           <h2 className="text-[34px] font-semibold text-[#0f172a] leading-[1.5] tracking-tight">
-            Land Your Dream Job with Expert-Led Training
+           Launch Your IT Career with Expert-Led Training
           </h2>
 
           {/* Description */}
           <p className="text-[#64748b] mt-4 text-md leading-[1.7]">
-            Get answers to everything you need to know before starting your IT
-            career journey with Proximsoft.
+            Gain practical skills, work on real-time projects, and prepare for high-demand IT roles with
+guided training.
           </p>
+
+   {/* Description */}
+          <p className="text-[#64748b] mt-4 text-sm ">
+            Everything you need to know before starting your IT career journey.
+          </p>
+          
 
           {/* FAQ LIST */}
           <div className="mt-8">
