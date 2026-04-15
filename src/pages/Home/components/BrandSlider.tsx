@@ -1,7 +1,7 @@
 const logos = [
   "/images/brands/Proximsoft/accenture@3x.png",
   "/images/brands/Proximsoft/amazon@3x.png",
-  "public/images/brands/Proximsoft/AT &T@3x.png",
+  "/images/brands/Proximsoft/AT &T@3x.png",
   "/images/brands/Proximsoft/CAPITAL ONE@3x.png",
   "/images/brands/Proximsoft/COMCAST@3x.png",
   "/images/brands/Proximsoft/cvs health@3x.png",
@@ -12,7 +12,7 @@ const logos = [
   "/images/brands/Proximsoft/Microsoft@3x.png",
   "/images/brands/Proximsoft/T MOBILE@3x.png",
   "/images/brands/Proximsoft/UNITED HEALTHCARE@3x.png",
-  "public/images/brands/Proximsoft/WELLS FARGO@3x.png"
+  "/images/brands/Proximsoft/WELLS FARGO@3x.png"
 ];
 
 const star = "/images/home/brand_star.svg";
