@@ -80,7 +80,7 @@ const NavbarV2 = () => {
 
         {/* LOGO */}
         <NavLink to="/" className="flex items-center">
-          <img src="/proximsoft-logo-new.webp" className="h-8  mr-4" />
+          <img src="/proximsoft-logo-new-5.webp" className="h-12  mr-4" />
         </NavLink>
 
         {/* NAV LINKS */}

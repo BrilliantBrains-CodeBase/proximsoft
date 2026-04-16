@@ -27,7 +27,7 @@ const FooterV2 = () => {
             {/* Logo */}
             <NavLink to="/" className="inline-flex items-center mb-6">
               <img
-                src="/proximsoft-logo-new-3.png "
+                src="/proximlogo.png"
                 alt="Proximsoft"
                 className="h-36 w-36"
               />
@@ -89,7 +89,7 @@ const FooterV2 = () => {
             <ul className="flex flex-col gap-[14px]">
               <FLink to="/contact">Contact Us</FLink>
               {popularCategories.map((cat) => (
-                <FLink key={cat.uid} to={`/courses/${cat.slug}`}>
+                <FLink key={cat.uid} to={`/courses?category=${cat.categoryId}`}>
                   {cat.title}
                 </FLink>
               ))}
