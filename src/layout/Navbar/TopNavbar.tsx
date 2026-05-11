@@ -8,7 +8,7 @@ import {
 const TopNavbar = () => {
   return (
     <div className="w-full bg-[#1d2f58] text-white text-sm">
-      <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+      <div className="max-w-7xl font-bold mx-auto px-4 py-2 flex items-center justify-between">
         
         {/* LEFT - Address */}
         <div className="flex items-center gap-2">

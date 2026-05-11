@@ -27,9 +27,9 @@ const FooterV2 = () => {
             {/* Logo */}
             <NavLink to="/" className="inline-flex items-center mb-6">
               <img
-                src="/proximsoft-new-logo-footer-v2.png"
+                src="/proximsoft-logo-footer-finalll.webp"
                 alt="Proximsoft"
-                className="h-36 w-36"
+                className="h-32 w-42"
               />
             </NavLink>
 
