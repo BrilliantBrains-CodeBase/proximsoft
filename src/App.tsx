@@ -40,7 +40,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/privacy" element={<PrivacyAndPolicy />} />
-        <Route path="/refund-policy" element={<RefundPolicy />} />  
+        <Route path="/refund" element={<RefundPolicy />} />  
       </Route>
 
       <Route path='thank-you' element={<ThankYou />} />
