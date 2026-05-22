@@ -18,6 +18,7 @@ import FloatingWhatsapp from './layout/Whatsapp/FloatingWhatsapp'
 import ThankYou from './pages/Thankyou/ThankYou'
 import EnrollThankYou from './pages/Thankyou/EnrollSuccess'
 import AllCoursesV2 from './pages/Courses/AllCoursesV2/AllCoursesV2'
+import RefundPolicy from './pages/Legal/RefundPolicy';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/privacy" element={<PrivacyAndPolicy />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />  
       </Route>
 
       <Route path='thank-you' element={<ThankYou />} />

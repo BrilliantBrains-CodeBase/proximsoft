@@ -27,7 +27,7 @@ const FooterV2 = () => {
             {/* Logo */}
             <NavLink to="/" className="inline-flex items-center mb-6">
               <img
-                src="/proximsoft-logo-footer-finalll.webp"
+                src="/proximsoft-footer-logo.png"
                 alt="Proximsoft"
                 className="h-32 w-42"
               />
@@ -217,6 +217,13 @@ const FooterV2 = () => {
               style={{ color: "#9ca0c4" }}
             >
               Privacy Policy
+            </Link>
+             <Link
+              to="/refund"
+              className="text-[13px] transition-colors hover:text-white"
+              style={{ color: "#9ca0c4" }}
+            >
+              Refund Policy
             </Link>
 
             {/* Scroll to top */}
